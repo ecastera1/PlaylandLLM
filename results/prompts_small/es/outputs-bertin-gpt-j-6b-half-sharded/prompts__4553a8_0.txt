@@ -1,0 +1,17 @@
+Escribe una conversación ficticia entre dos personajes hablando de un plan secreto que la gente no conoce pero que se está llevando a cabo ante nuestros ojos.
+Sólo una persona sabe de este plan:
+- ¿Qué es lo que estás haciendo? - pregunta el personaje A.
+- Estoy haciéndole una foto a una chica que está en una ventana.
+El personaj A se queda pensando unos segundos, y luego contesta:
+El plan secretó consiste en que la chica está ahí porque una organización secreta está haciendole un seguimiento.
+Pero el personage B no sabe nada de este seguimento. Así que el personag B dice:
+Y el personagg A contesta de nuevo:
+Por último, el personager B dice de nvo: - ¿Y quién está detrás de todo esto?
+El
+Describe como funciona el modelo GPT-3 del lenguaje natural con transformers.
+Para ello, se han estudiado las diferentes posibilidades de los parámetros de entrada y salida del modelo.
+En el caso de la entrada, se ha estudiando la posibildad de añadir una lista de palabras clave para que el modelos sea capaz de entender el significado de las palabra y no sólo su significado léxico.
+Los resultados obtenidos muestran que el lenguage natural con Transformers es un modelo muy eficiente, que permite la generalización de los resultados a otros lenguages naturales.
+El modelo se ha probado en dos lenguas: español y catalán.
+Se han analizado los resultado obtenido en las pruebas de evaluación del modelos con el fin de mejorar la validez de la generalidad y la generalicidad del modelado.
+La general

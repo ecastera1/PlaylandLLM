@@ -1,0 +1,17 @@
+--------------------
+### output 1
+Create a short story about a character who discovers an hidden talent.Create a character that is a combination of the two, and develop their relationship.Create an antagonist who is a member of the opposite sex.Create the antagonist as a member who is the opposite gender.Create one of the main characters as a person who is gay.Create two characters who have the same gender.
+
+Create a story about one of them who is in love with the other.Create another character who is attracted to the first character.Create yet another character, who is also attracted to that first character, but is not in love.Create characters who are attracted to each other.
+Create the story about the first and second character who are in love, and the third character who has a crush on the first.Create three characters who all have a crush.
+The story is about the third and fourth character who have a relationship.
+One of the characters is a woman.
+Another character is a man.
+Yet another character is gay or bisexual.
+There is a scene where one of these characters is in a relationship with a person of the same sex.
+A scene is also included where one character is in an open relationship with another character.
+Characters are also shown being in a
+--------------------
+opt = {'model_name': 'togethercomputer/GPT-JT-6B-v1', 'device': 'auto', 'seed': 1684429830, 'prompt': 'Create a short story about a character who discovers an hidden talent.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts_small.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a short story about a character who discovers an hidden talent.
+elapsed time = 28.91s

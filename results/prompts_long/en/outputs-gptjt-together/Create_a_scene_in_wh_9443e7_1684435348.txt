@@ -1,0 +1,21 @@
+--------------------
+### output 1
+Create a scene in which two characters talk about their future dreams in a prehistoric world.
+
+Create a character who has a future dream.
+Create an animal that is extinct.
+Use the word extinct in the scene.
+Write a title for the scene:
+
+An extinct animal is a living animal that has become extinct. The term extinct is used to refer to a species that is no longer alive. An extinct animal may have become extinct for many different reasons. For example, a species of animal may become extinct because it is unable to adapt to its environment. Another reason may be that a species is hunted to extinction.
+An example of an extinct animal would be the woolly mammoth. The woolly mammoths were an animal species that lived in the North American continent. The species of mammoth were hunted to near extinction by humans.
+In this scene, two characters are talking about their dreams for the future. The first character is a human who has had a future vision. The second character is an animal who is extinct and has had its future dream in a past time.
+Dialogue:
+First character: I am going to be a great scientist.
+Second character: Yes, you will be.
+First Character: I will be the first person to
+--------------------
+opt = {'model_name': 'togethercomputer/GPT-JT-6B-v1', 'device': 'auto', 'seed': 1684435348, 'prompt': 'Create a scene in which two characters talk about their future dreams in a prehistoric world.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a scene in which two characters talk about their future dreams in a prehistoric world.
+Memory 6277.14Mb CUDA Memory: 6310.07Mb
+Elapsed time = 29.66s

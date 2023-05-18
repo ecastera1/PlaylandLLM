@@ -1,0 +1,8 @@
+--------------------
+### output 1
+Escribe un poema con rima acerca de un Shiba Inu y su dueño.El poema es una balada, escrita en una canción.El protagonista es un hombre joven, sin experiencia en la vida, que está enamorado de una bella mujer.El poeta se enamora de ella, pero no puede casarse con ella.El personaje principal, un hombre misterioso, se enamora del protagonista.El hombre es un artista, un artista del tatuaje, un escritor, un poeta.El autor es un poeta, un pintor, un músico, un diseñador, un profesor, un maestro, un estudiante, un ingeniero, un médico, un científico, un filósofo, un sacerdote, un misionero, un guerrero, un héroe, un amante, un soldado, un caballero, un rey, un príncipe, un general, un diplomático, un político, un marinero, un noble, un pirata, un pescador, un carnicero, un comerciante, un trabajador, un esclavo, un mendigo, un monje, un vagabundo, un ermitaño, un viajero, un loco, un borracho, un asesino, un ladrón, un estafador, un contrabandista, un bandido, un policía, un criminal, un asaltante, un espía, un mago, un traficante, un fabricante de armas, un brujo, un hechicero
+--------------------
+opt = {'model_name': 'mrm8488/spanish-gpt2', 'device': 'cuda:0', 'seed': 1684431625, 'prompt': 'Escribe un poema con rima acerca de un Shiba Inu y su dueño.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Escribe un poema con rima acerca de un Shiba Inu y su dueño.
+Memory 486.70Mb CUDA Memory: 495.59Mb
+Elapsed time = 2.12s

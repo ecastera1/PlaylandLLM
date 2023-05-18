@@ -1,0 +1,11 @@
+--------------------
+### output 1
+Create a short story about a character who discovers an hidden talent. The story should be about a person who is not a hero. The character should be a person with a talent and a character that is not heroic. The characters should be real people.
+Write a short essay about a fictional character who has a talent. You can write about a hero or a villain. The essay should be between 500 and 600 words. You should include a title, a description, and a conclusion. The title should be the name of the character. The description should be what the character is like. The conclusion should be why the character has a hidden talent.
+Write an essay about the character who is a hero of a fictitious story. The writer should be able to write about the hero’s character and the story. You must include the title of the story, the name and the age of the hero, the heroic qualities of the person, and the reason why the person is a good hero. You also must include a description of the characters and the plot of the book. The best essay should have a conclusion that explains why the writer likes the story and why the author likes the character.
+Write about a real person who has an unusual talent. This person should be someone
+--------------------
+opt = {'model_name': 'bigscience/bloom-3b', 'device': 'cuda:0', 'seed': 1684436746, 'prompt': 'Create a short story about a character who discovers an hidden talent.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a short story about a character who discovers an hidden talent.
+Memory 5726.92Mb CUDA Memory: 5751.05Mb
+Elapsed time = 5.16s

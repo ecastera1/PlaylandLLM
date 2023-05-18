@@ -1,0 +1,9 @@
+,model,device,total_time,avg_chars_per_sec,avg_response_length
+0,mrm8488/spanish-gpt2,cuda:0,5.560502767562866,260.9476266182967,608.0
+1,datificate/gpt2-small-spanish,cuda:0,4.145766258239746,345.17141364539674,598.0
+2,DeepESP/gpt2-spanish,cuda:0,0.4241163730621338,1063.3873829104157,108.0
+3,flax-community/gpt-2-spanish,cuda:0,4.119171857833862,302.0024516904179,504.5
+4,bertin-project/bertin-gpt-j-6B,auto,52.989126443862915,18.985027070898482,385.5
+5,bertin-project/bertin-gpt-j-6B-infolibros,auto,45.754244804382324,20.107423998218472,342.5
+6,bertin-project/bertin-gpt-j-6B-alpaca,auto,40.36422634124756,20.835281045399242,303.0
+7,DavidFM43/bertin-gpt-j-6b-half-sharded,auto,52.83440351486206,19.570581500160987,399.5

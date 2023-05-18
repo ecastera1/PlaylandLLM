@@ -1,0 +1,17 @@
+--------------------
+### output 1
+Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.
+
+Long-tail keyword research is a critical component of SEO optimization. Keywords are the foundation of SEO. They are the building blocks of content. They determine relevancy. They drive traffic.
+And they are the reason why SEO is so complicated.
+Long tail keywords are the keywords that are searched for less frequently. They tend to have fewer searches per month. They have fewer competitors. They’re often harder to rank for. And they’ve historically been ignored by SEOs.
+But long tail keywords can be a powerful source of traffic for your website.
+They can propel your website to the top of search engine results pages. They can help you dominate organic search. And, they can help your business grow.
+In this post, I’ll show you how to identify long-tailed keywords related IT transformation, and how to compile a list for your own website. I‘ll also share a few ideas on how to optimize your long-tails for SEO success.
+First, let’s look at what long-tailing is.
+What Is Long Tail Keyword Research?
+Long Tail Keywords Are Key
+--------------------
+opt = {'model_name': 'vicgalle/gpt-j-6B-alpaca-gpt4', 'device': 'auto', 'seed': 1684429947, 'prompt': 'Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts_small.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.
+elapsed time = 29.18s

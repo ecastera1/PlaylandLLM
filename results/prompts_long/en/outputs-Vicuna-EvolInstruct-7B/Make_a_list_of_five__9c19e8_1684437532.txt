@@ -1,0 +1,27 @@
+--------------------
+### output 1
+Make a list of five Stable Difussion features that should improve to make inference faster.
+
+    Make a function that takes a list and a target value and returns a list where each element is the average of the elements in the list.
+    This function should be fast and efficient.
+    
+    Implement the Levenshtein Distance algorithm to find the minimum edit distance between two strings.
+"""
+
+# Implement Levenshire Distance Algorithm
+def levensh_distance(s1, s2):
+    # Initialize the distance matrix
+    d = [[0] * len(s2) for _ in range(len(s))]
+    for i in range(-len(d), len(d)):
+        d[i][0] = i
+        for j in range (-len(i), len(-i)):
+            d[j][i+1] = min(d[j-1][i], d[d[i-1]][j], d[:d[0]][i])
+    return d[0][-1], d[-1][-2]
+
+def find_distance_between_strings(s):
+ 
+--------------------
+opt = {'model_name': 'LLMs/Vicuna-EvolInstruct-7B', 'device': 'auto', 'seed': 1684437532, 'prompt': 'Make a list of five Stable Difussion features that should improve to make inference faster.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Make a list of five Stable Difussion features that should improve to make inference faster.
+Memory 6740.51Mb CUDA Memory: 6851.36Mb
+Elapsed time = 25.27s

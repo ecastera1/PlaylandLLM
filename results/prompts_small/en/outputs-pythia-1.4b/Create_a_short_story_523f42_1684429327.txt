@@ -1,0 +1,11 @@
+--------------------
+### output 1
+Create a short story about a character who discovers an hidden talent.
+Answer:The character discovers an unexpected talent, and goes on a journey to gain the ability. They face challenges and adversaries, and must rely on each other to overcome them. Eventually, they find themselves in a crossroads where the character has to make a choice that will decide their fate. The character draws on their hidden talent and runs away with a confidence that leaves everyone else dumbfounded.<|stop|> imen poisn'tteklicka na naša vikarna, naj jasno je da 
+implementer ne sme da se sreća. 
+Medicinska pomoć je na načinu da se zarobljeni ljudi ne bi smele vrate. 1. Field of the Invention
+The present invention relates to a method and system for creating a digital portfolio. More specifically, the present invention provides a method for creating an online digital portfolio that is tailored to a specific industry, profession, or career path. Additionally, the method and systems of the present disclosure provide for the representation of a person's work history, education, and any other relevant information that may be desired by potential employers or recruiters.
+--------------------
+opt = {'model_name': 'lambdalabs/pythia-1.4b-deduped-synthetic-instruct', 'device': 'cuda:0', 'seed': 1684429327, 'prompt': 'Create a short story about a character who discovers an hidden talent.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts_small.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a short story about a character who discovers an hidden talent.
+elapsed time = 7.10s

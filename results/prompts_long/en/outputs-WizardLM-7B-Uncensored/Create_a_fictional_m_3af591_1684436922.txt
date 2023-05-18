@@ -1,0 +1,8 @@
+--------------------
+### output 1
+Create a fictional magical system that is based on thermodynamic principles. The system is based around the idea of using thermodynamics to create a magical energy system. The magicalenergy system is designed to generate magical power for the magicalsystem. The thermodomic principles are used to create an energy system that can be used to power the magicallyystem. Themagicalsystem is basedon the principles of thermodymic energy system, whichis designed togenerate magicalpower for themagical system.The magicalenergy system isbased on the principlesof thermodimic energy systems, which are designedto generate magicialpower forthe magical systems.Themagicalenergy systems are based on theprinciplesof thermodimmic energysystems, whichare designedtogenerate magicial power forthemagical systems, with themagicenergy system being basedon thermodinmic energy systems. The magicenergy systemis designedto use thermodomic energy principles to generatemagical powerfor the magicialsystem.The magicenergy systems are basedon theropproval of thermodsymicenergy systems,which are designed togenerate magicalpowersfor themagicialsystem,
+--------------------
+opt = {'model_name': 'ehartford/WizardLM-7B-Uncensored', 'device': 'auto', 'seed': 1684436922, 'prompt': 'Create a fictional magical system that is based on thermodynamic principles.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a fictional magical system that is based on thermodynamic principles.
+Memory 6740.53Mb CUDA Memory: 6851.76Mb
+Elapsed time = 28.79s

@@ -1,0 +1,38 @@
+--------------------
+### output 1
+Make a list of the top five common mistakes when trading futures and how to avoid them.
+
+1) Don't buy and sell.
+...
+
+If you're buying a futures contract, you probably have a lot of options. But if you're selling a futures, you'll probably need to buy and hold more than one.
+ (If you don't, you can buy and trade at any time.)
+
+So if you want to buy a futures and sell it, you need to know what you're doing.
+- - - -
+
+You can buy a contract for $100,000 and sell the same for $50,000.
+ and sell a contract, and sell $50 of it for $60,000, and you'll have $60 of it in your account.
+, and your account is full.
+:
+
+.
+ "I'm going to buy $100 of $50 in 10 minutes."
+
+-
+
+"I'm buying $50 worth of $60 worth of futures."
+. "I'll buy $60 on the spot."
+ (You can also buy and buy futures at any point in time.)
+
+
+2) Don´t buy and dump.
+
+
+
+If
+--------------------
+opt = {'model_name': 'gpt2', 'device': 'cuda:0', 'seed': 1684433099, 'prompt': 'Make a list of the top five common mistakes when trading futures and how to avoid them.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Make a list of the top five common mistakes when trading futures and how to avoid them.
+Memory 486.70Mb CUDA Memory: 495.59Mb
+Elapsed time = 2.05s

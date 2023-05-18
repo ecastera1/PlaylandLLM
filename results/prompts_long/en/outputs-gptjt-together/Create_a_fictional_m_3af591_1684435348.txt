@@ -1,0 +1,24 @@
+--------------------
+### output 1
+Create a fictional magical system that is based on thermodynamic principles.
+
+Thermodynamic laws are the foundation of the universe. They govern everything in it, from the smallest particle to the largest star. They are the laws of nature, and they are the basis of all magical systems.
+Thermal magic is a branch of magic that is centered on the principles of thermodynamics. Thermodynamics is the study of the transfer of energy and matter in the universe, and it is the basis for all magical practice. Thermal magic can be used to create a magical system based on the laws and principles of the natural universe.
+The following steps will help you create a fictional magic system based upon thermodynamic laws.
+1. Determine the laws that govern thermodynamics
+2. Deter the laws for the magical system
+3. Deter a magical ritual
+4. Deter an item of magical power
+5. Deter how the magical items work
+6. Deter what the magical effects are
+7. Deter who the magical characters are
+8. Deter where the magical ritual is
+9. Deter when the magical effect is
+10. Deter why the magical item works
+11. Deter if the magical character is male or female
+12. Deter whether the magical power is
+--------------------
+opt = {'model_name': 'togethercomputer/GPT-JT-6B-v1', 'device': 'auto', 'seed': 1684435348, 'prompt': 'Create a fictional magical system that is based on thermodynamic principles.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a fictional magical system that is based on thermodynamic principles.
+Memory 6277.14Mb CUDA Memory: 6309.46Mb
+Elapsed time = 30.11s

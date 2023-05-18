@@ -1,0 +1,23 @@
+--------------------
+### output 1
+Send an email requesting prompter action from recipients.
+
+    :param request: The email request object.
+    """
+    from_ = request.sender
+    to = request._to
+    subject = request.__class__.subject_template % request.args
+    body = request_body_template.format(request=request,
+                                        subject=subject,
+        )
+    send_mail(request.subject, body, from_, to)
+
+
+def send_prompter_action_email(request):
+    return send_email_prompt(request)
+
+--------------------
+opt = {'model_name': 'LLMs/Vicuna-EvolInstruct-7B', 'device': 'auto', 'seed': 1684437532, 'prompt': 'Send an email requesting prompter action from recipients.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Send an email requesting prompter action from recipients.
+Memory 6740.51Mb CUDA Memory: 6851.62Mb
+Elapsed time = 12.18s

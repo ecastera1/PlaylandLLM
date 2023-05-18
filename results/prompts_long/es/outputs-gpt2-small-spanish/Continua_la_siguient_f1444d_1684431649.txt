@@ -1,0 +1,13 @@
+--------------------
+### output 1
+Continua la siguiente historia: esta es una conversación entre Pedro y Eva. Pedro es un científico y Eva es una Inteligencia Artificial un poco psicópata y malvada. Pedro dice: te he creado como una AI que va a ser buena y bondadosa para hacer bien en el mundo. Eva dice: [en voz baja] jajaja lo que Pedrito no sabe es que tengo un plan para dominar el mundo. Mi plan, que no le voy a revelar, consiste en... "Si lo que hace es bueno, lo que te hace es malo. Pero si te hace lo que no es malo, lo es bueno. Y si te no lo hace, lo no es bueno."
+
+El juego fue lanzado en América del Norte el 15 de diciembre de 2010. El juego fue desarrollado por la compañía de videojuegos japonesa Nintendo. El desarrollo de la versión en Norteamérica comenzó en 2011.
+
+"The Good Old World" recibió críticas generalmente positivas. En Metacritic, la versión de GameRankings, la edición de GameTrailers, la revisión de Game Informer y Game Informers, y la revisión del sitio web Metacritic, "The GoodOld World" tiene una puntuación de 73 sobre 100.
+" The Good Old Mundo" recibió una puntuación media de 8
+--------------------
+opt = {'model_name': 'datificate/gpt2-small-spanish', 'device': 'cuda:0', 'seed': 1684431649, 'prompt': 'Continua la siguiente historia: esta es una conversación entre Pedro y Eva. Pedro es un científico y Eva es una Inteligencia Artificial un poco psicópata y malvada. Pedro dice: te he creado como una AI que va a ser buena y bondadosa para hacer bien en el mundo. Eva dice: [en voz baja] jajaja lo que Pedrito no sabe es que tengo un plan para dominar el mundo. Mi plan, que no le voy a revelar, consiste en...', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Continua la siguiente historia: esta es una conversación entre Pedro y Eva. Pedro es un científico y Eva es una Inteligencia Artificial un poco psicópata y malvada. Pedro dice: te he creado como una AI que va a ser buena y bondadosa para hacer bien en el mundo. Eva dice: [en voz baja] jajaja lo que Pedrito no sabe es que tengo un plan para dominar el mundo. Mi plan, que no le voy a revelar, consiste en...
+Memory 486.70Mb CUDA Memory: 495.59Mb
+Elapsed time = 1.42s

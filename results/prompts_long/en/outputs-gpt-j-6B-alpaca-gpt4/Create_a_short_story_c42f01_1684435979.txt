@@ -1,0 +1,15 @@
+--------------------
+### output 1
+Create a short story about a character who discovers an hidden talent.
+
+The assignment was simple enough. Find a talent that you think is hidden and write a short short story featuring that talent. I chose to write about my piano playing.
+I started thinking about how I could make this story interesting. I knew I wanted to write a story that dealt with the discovery of a talent. That meant I had to find something that I hadn't realized I had.
+After some thought, I decided that I should write about piano playing because I had always enjoyed it. I had taken lessons in elementary school, but hadn't played in years. I remembered that I was pretty good at it.
+So I began to think about what I could write about. I decided to write something about a young girl who discovers her talent for piano playing while attending a music camp.
+The story would begin with the girl waking up in her tent in the morning. She would hear the piano playing and wonder what was going on. She'd go outside and see that the camp was in session. She decided to sneak into the tent and listen to the music. She sat down at the piano and began to play.
+As she played, she felt as if she were floating. She wasn
+--------------------
+opt = {'model_name': 'vicgalle/gpt-j-6B-alpaca-gpt4', 'device': 'auto', 'seed': 1684435979, 'prompt': 'Create a short story about a character who discovers an hidden talent.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a short story about a character who discovers an hidden talent.
+Memory 6277.14Mb CUDA Memory: 6311.21Mb
+Elapsed time = 29.53s

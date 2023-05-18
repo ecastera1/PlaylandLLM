@@ -1,0 +1,29 @@
+--------------------
+### output 1
+Send an email requesting prompter action from recipients.
+  - The prompters will be notified of the request and will take action
+    according to the rules set in the Prompter.
+
+### Rules
+Prompters have the ability to set rules that determine how they will respond to a request.
+Rules can be set for a single prompTER, or multiple prompTErs.
+Promptors can also be set to respond to requests from a specific sender or a specific recipient.
+The rules can be used to determine how the prompterns will respond, for example, if the user has not set a rule for a specific action, the promptor will respond with a generic message.
+If a rule is set for the user to respond with "OK", the promper will respond "OK" to the request.
+
+
+### Examples
+
+```
+// Prompters are able to set a specific rule for how they should respond to the sender.
+// This example sets a rule that the promprTER will respond only if the sender is a specific user.
+const prompTers = {
+  "user": "user@example.com"
+};
+
+// The promprTE
+--------------------
+opt = {'model_name': 'theblackcat102/pythia-3b-deduped-sft-r1', 'device': 'cuda:0', 'seed': 1684434458, 'prompt': 'Send an email requesting prompter action from recipients.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Send an email requesting prompter action from recipients.
+Memory 5421.07Mb CUDA Memory: 5447.07Mb
+Elapsed time = 8.11s

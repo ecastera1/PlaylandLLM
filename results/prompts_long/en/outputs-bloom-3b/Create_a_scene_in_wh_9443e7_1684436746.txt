@@ -1,0 +1,9 @@
+--------------------
+### output 1
+Create a scene in which two characters talk about their future dreams in a prehistoric world. The characters are sitting in a cave, and the background is a rocky mountain. The first character says, “We have to make a big rock.” The second character says “We can make a rock. We can make it bigger than this one.”
+The first character thinks for a moment, then says, “I don’t know. I have a big idea.” Then he says, “The rock is big.”
+--------------------
+opt = {'model_name': 'bigscience/bloom-3b', 'device': 'cuda:0', 'seed': 1684436746, 'prompt': 'Create a scene in which two characters talk about their future dreams in a prehistoric world.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a scene in which two characters talk about their future dreams in a prehistoric world.
+Memory 5726.92Mb CUDA Memory: 5751.05Mb
+Elapsed time = 1.83s

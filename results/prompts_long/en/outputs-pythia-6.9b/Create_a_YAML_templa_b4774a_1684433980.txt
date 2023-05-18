@@ -1,0 +1,44 @@
+--------------------
+### output 1
+Create a YAML template to detect Magento version for the Nuclei vulnerability scanner.
+Answer:version: '3.0'
+platform:mage
+model:
+  <<: *model
+  version: "%Magento%">>
+  
+services:
+- name: nucleus
+  host: nucleus.example.com
+  port: 80
+  username: admin
+  password: password
+  database: nucleus_%v
+  timeout: 30
+  action: scan
+  vulns:
+    - Nuclei%v:1.0
+-name: nucleus%v1
+-host: nuclei%v.example\.com
+-port: 8081
+-username: nucleusadmin
+-password: secret
+-database: nuclei_%V
+-timeout: 60
+-action: login
+-vulners:
+   - Nucleus%v2:2.0.1
+   
+# Nucleus v2 requires Magento 2.2 or higher.
+#nucleus:
+#  <<:-
+#    version: "2.2"
+#
+#services: 
+#- name : nucleus_2
+#   host: Nucleus_2.
+--------------------
+opt = {'model_name': 'lambdalabs/pythia-6.9b-deduped-synthetic-instruct', 'device': 'auto', 'seed': 1684433980, 'prompt': 'Create a YAML template to detect Magento version for the Nuclei vulnerability scanner.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a YAML template to detect Magento version for the Nuclei vulnerability scanner.
+Memory 7060.86Mb CUDA Memory: 7082.90Mb
+Elapsed time = 22.19s

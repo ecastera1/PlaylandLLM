@@ -1,0 +1,8 @@
+--------------------
+### output 1
+Make a list of the top five common mistakes when trading futures and how to avoid them.Buying stock with shady investments. 5. Buying high risk stocks. 6. Buying low risk stocks with high risk investments. 7. Buying small stocks with low risk investments or stocks with risk investments in them. 8. Buying large stocks with large risk investments and high risk investing in them can be a great way to gain a lot of money. 9. Buying short-term stocks with lower risk investments can be beneficial. 10. Buying long-term bonds can be an effective way to build wealth.
+--------------------
+opt = {'model_name': 'declare-lab/flan-alpaca-base', 'device': 'cuda:0', 'seed': 1684433528, 'prompt': 'Make a list of the top five common mistakes when trading futures and how to avoid them.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Make a list of the top five common mistakes when trading futures and how to avoid them.
+Memory 944.43Mb CUDA Memory: 954.81Mb
+Elapsed time = 1.36s

@@ -1,0 +1,17 @@
+--------------------
+### output 1
+Escribe una pequeña historia sobre un personaje que acaba de descubrir un talento oculto que desconocía.
+Por ejemplo, una historia en la que el protagonista es una persona que acostumbra a escribir poesía y de repente descubre que tiene un talentazo para el canto.
+¿Qué le pasó a esa persona? ¿Cómo descubrió su talento? ¡Descúbrelo!
+¡Escribe tu historia!
+Puedes hacerlo en forma de diálogo o en formato de narración.
+El formato es libre, pero te recomiendo que sea un texto breve.
+4. ¡Comparte tu historial!
+Una vez que hayas terminado tu historio, envíalo a la cuenta de Twitter de @CulturaUNAM y etiquétanos.
+También puedes compartirlo en Facebook o enviarlo por WhatsApp.
+Escribe a cultura@unam.mx
+--------------------
+opt = {'model_name': 'DavidFM43/bertin-gpt-j-6b-half-sharded', 'device': 'auto', 'seed': 1684432697, 'prompt': 'Escribe una pequeña historia sobre un personaje que acaba de descubrir un talento oculto que desconocía.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Escribe una pequeña historia sobre un personaje que acaba de descubrir un talento oculto que desconocía.
+Memory 6277.14Mb CUDA Memory: 6310.23Mb
+Elapsed time = 26.21s

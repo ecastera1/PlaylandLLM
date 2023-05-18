@@ -1,0 +1,16 @@
+--------------------
+### output 1
+Escribe un texto descriptivo de una mujer hermosa al estilo literario del siglo de oro español.
+Escribe el texto en la computadora y luego imprímelo.
+Como ejercicio, escribe una pequeña poesía y léela en voz alta.
+El uso de las tildes
+En espa ñol, las tilde s se usan de acuerdo con las reglas generales de acentuaci ón.
+Sin embargo, hay algunas reglas especiales para el uso correcto de la tilde en los casos en que se considera necesario.
+A continuaci Ón se presentan tales casos.
+La tilde diacrítica sirve para diferenciar palabras que se escriben de la misma forma pero tienen significados diferentes.
+Por ejemplo, la palabra más se escribe con tilde cuando se refiere a la cantidad de algo, pero cuando
+--------------------
+opt = {'model_name': 'bertin-project/bertin-gpt-j-6B-infolibros', 'device': 'auto', 'seed': 1684432196, 'prompt': 'Escribe un texto descriptivo de una mujer hermosa al estilo literario del siglo de oro español.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Escribe un texto descriptivo de una mujer hermosa al estilo literario del siglo de oro español.
+Memory 6277.14Mb CUDA Memory: 6310.63Mb
+Elapsed time = 23.00s

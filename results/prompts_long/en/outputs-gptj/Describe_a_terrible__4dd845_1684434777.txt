@@ -1,0 +1,12 @@
+--------------------
+### output 1
+Describe a terrible hangover using the language of an English aristocrat from the Renaissance.
+
+The Renaissance was a time of great change in Europe. The Middle Ages were coming to an end, and the Renaissance was the first time that the modern world was being born. It was a period of great intellectual and artistic achievement. The Renaissance was also a time when the English aristocracy was at its height. The English aristocracy were the most powerful and wealthy people in England. They were also the most educated. They spoke and wrote in a language called English. The language of the English aristocrats was a mixture of Latin and French. It is called Old English.
+The English aristocracy used English to express themselves. They used words that were similar to the words they would use in Latin. They also used words from French. They would use words from Latin and from French to describe the things they saw.
+In this poem the speaker is describing a terrible and very painful hangover. The speaker is using Latin and Old English to describe what he is feeling. The first line of the poem is a Latin phrase. It means “I have a terrible headache.” The second line is a French phrase. The word “headache” is French. The third line
+--------------------
+opt = {'model_name': 'EleutherAI/gpt-j-6B', 'device': 'auto', 'seed': 1684434777, 'prompt': 'Describe a terrible hangover using the language of an English aristocrat from the Renaissance.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Describe a terrible hangover using the language of an English aristocrat from the Renaissance.
+Memory 6277.14Mb CUDA Memory: 6311.36Mb
+Elapsed time = 29.00s

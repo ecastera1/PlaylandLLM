@@ -1,0 +1,15 @@
+--------------------
+### output 1
+Send an email requesting prompter action from recipients.
+ The first step in creating a successful email marketing campaign is to build a targeted email list. This list should include only those individuals who have opted-in to receive emails from you. Once you have your list, you can begin crafting your email messages. Here are some tips for creating successful email campaigns:
+1. Keep it simple and concise. Your emails should be easy to read and understand. Avoid using jargon or technical terms that your recipients may not understand.
+2. Use a clear and compelling subject line. Your subject line should be attention-grabbing and encourage recipients to open your email.
+3. Personalize your emails. Use the recipient's name and other personal information to make the email feel more personal and relevant.
+4. Provide valuable content. Your email should offer something of value to your recipient, such as information, tips, or a special offer.
+5. Make it easy to take action. Include clear calls-to-action in your emails that encourage your recipents to take the next step.
+6. Measure the success of your campaigns. Use email
+--------------------
+opt = {'model_name': 'ehartford/WizardLM-7B-Uncensored', 'device': 'auto', 'seed': 1684436922, 'prompt': 'Send an email requesting prompter action from recipients.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Send an email requesting prompter action from recipients.
+Memory 6740.53Mb CUDA Memory: 6851.42Mb
+Elapsed time = 25.83s

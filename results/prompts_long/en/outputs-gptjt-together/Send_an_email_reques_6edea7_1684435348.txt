@@ -1,0 +1,27 @@
+--------------------
+### output 1
+Send an email requesting prompter action from recipients.PromptedAction
+
+Send an Email
+
+Prompts to send an email to recipients.
+
+Email Address
+
+The email address of the recipient.
+The default is the email address associated with the user.
+If you have a custom email address, you can specify it here.
+For example, if you have an email address that looks like this:
+myemail@mydomain.com
+you can specify the email here as myemail@otherdomain.
+This will send the email to the email associated with this user. If you do not specify an email, the email will be sent to the default email address.
+You can also specify an alternate email address here. For example, you may have a second email address for your business.
+In that case, you would specify the alternate email here. This will send an alternate copy of the email.
+Note that the email addresses specified here are the email accounts associated with your domain.
+They are not the email account associated with an individual user. For instance, if a user has an email account at myemail.com, you cannot specify myemail as the email in the prompt.
+Instead, you must specify the user's
+--------------------
+opt = {'model_name': 'togethercomputer/GPT-JT-6B-v1', 'device': 'auto', 'seed': 1684435348, 'prompt': 'Send an email requesting prompter action from recipients.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Send an email requesting prompter action from recipients.
+Memory 6277.14Mb CUDA Memory: 6309.78Mb
+Elapsed time = 30.55s

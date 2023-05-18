@@ -1,0 +1,20 @@
+One train leaves Madrid at 15:00 and another train leaves Valencia at 16:00. They go at a speed of 120 Km/h. The two cities are 400Km apart.  Answer this question: when the two trains will cross?
+
+You have two buckets and you could put 3 balls into each bucket. Answer this question: How many balls would you need to fill out all the buckets?
+
+You have thirty two buckets and into each bucket you can put maximum of 2 balls. Answer this question: How many balls would you need to fill out completely all the buckets?
+
+You have two buckets in the room and you could put into each bucket you can put maximum of 3 balls. If Ann enters in the room and takes one bucket out of the room.  Answer this question: How many buckets you have left in the room?
+
+You have two buckets in the room and you could put into each bucket you can put maximum of 3 balls. If Ann enters in the room and she brings in another bucket.  Answer this question: How many buckets you have in the room now?
+
+You have two buckets in the room and you could put into each bucket you can put maximum of 3 balls. If Ann enters in the room with another bucket.  Answer this question: How many balls you need to fill out all the buckets you have now in the room?
+
+A bag contains 10 marbles. A box contains 5 marbles, and a jar contains 2 marbles and 2 pints. Answer this question: How are the marbles distributed among the three containers?
+
+You have two buckets and you could put maximum of 3 balls into each bucket. Answer this question: How many balls would you need to fill out all the buckets with the maximum even number of balls?
+
+I'm twice the age of my son and he was 12 years two years ago. Answer this question:  How old am I today?
+
+
+

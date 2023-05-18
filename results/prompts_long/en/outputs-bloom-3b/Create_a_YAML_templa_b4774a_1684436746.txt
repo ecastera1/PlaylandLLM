@@ -1,0 +1,27 @@
+--------------------
+### output 1
+Create a YAML template to detect Magento version for the Nuclei vulnerability scanner. The template should contain the following information.
+# Nuclea
+# The Magento version you are running. This is the version that will be used for the vulnerability scanner.
+# See: https://docs.nuclea.com/products/magento
+magento:
+    version: 2.3.0.0
+
+# Magento
+# Magento version. This should be the same as the Magento version in the template above.
+magento_2:
+    version: "2.3-dev"
+
+# NUCLEA
+# Nucleus version. You can use the NUCLEAR_HOME environment variable to get the value of this variable.
+nucleus_2:
+    version:"2.3-devel"
+
+The Nucleo Vulnerability Scanner will detect the Magento and NUCleo versions as well as the Nucleolus version.
+The Nucleoli version will be detected by default. If you want to use the default version, you can change the magento version to the default Magento version from the template.
+You can also change the NUCILEA_HOME environment varible to get a value for the version you want.
+--------------------
+opt = {'model_name': 'bigscience/bloom-3b', 'device': 'cuda:0', 'seed': 1684436746, 'prompt': 'Create a YAML template to detect Magento version for the Nuclei vulnerability scanner.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a YAML template to detect Magento version for the Nuclei vulnerability scanner.
+Memory 5726.92Mb CUDA Memory: 5751.05Mb
+Elapsed time = 4.82s

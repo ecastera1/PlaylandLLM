@@ -1,0 +1,8 @@
+Escribe una conversación ficticia entre dos personajes hablando de un plan secreto que la gente no conoce pero que se está llevando a cabo ante nuestros ojos. 
+
+—La verdad es que no lo sé. 
+
+Describe como funciona el modelo GPT-3 del lenguaje natural con transformers. 
+
+La palabra "sombrero" es la expresión de una palabra que se usa para designar a un individuo, que se emplea para designar una persona. 
+

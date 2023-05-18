@@ -1,0 +1,25 @@
+--------------------
+### output 1
+Write a poem about shiba inu pet and his master.
+
+Shiba Inu Pet and His Master
+
+Written By:
+
+Katrina
+
+Published On:
+10/13/2016
+
+Rating:
+★★★★★
+
+When I met my Shiba Inus, I knew that I wanted to adopt them. I wanted a family of four, and I wanted them to be the center of my life. I had always wanted a dog before, but I never thought I would get one.
+My husband and I were living in a small apartment in Washington, DC, and we had a lot of trouble finding a place for us and our dogs. We were desperate for a place to live that would be good for us, and good for them.
+We finally found a nice apartment, and moved in. We had a great landlord who was very accommodating. He let us keep our dogs in the apartment, even though we weren't allowed to. We weren't sure if we could afford to pay for the extra rent, but it was worth it to us to have a place that was safe and comfortable for our dogs and us.
+Our landlord was a very nice man, and he was very helpful. He even gave us some
+--------------------
+opt = {'model_name': 'vicgalle/gpt-j-6B-alpaca-gpt4', 'device': 'auto', 'seed': 1684435979, 'prompt': 'Write a poem about shiba inu pet and his master.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Write a poem about shiba inu pet and his master.
+Memory 6277.14Mb CUDA Memory: 6310.62Mb
+Elapsed time = 29.40s

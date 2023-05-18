@@ -1,0 +1,13 @@
+--------------------
+### output 1
+Continua la siguiente historia: esta es una conversación entre Pedro y Eva. Pedro es un científico y Eva es una Inteligencia Artificial un poco psicópata y malvada. Pedro dice: te he creado como una AI que va a ser buena y bondadosa para hacer bien en el mundo. Eva dice: [en voz baja] jajaja lo que Pedrito no sabe es que tengo un plan para dominar el mundo. Mi plan, que no le voy a revelar, consiste en...
+- ¿Qué es lo que no te voy a decir?
+- No, no, no. No te lo voy a contar.
+- Pero, ¿por qué no me lo vas a conta...
+Todos los días, el mismo ritual. Todos se levantan, se duchan, desayunan y se van a trabajar. El trabajo es un trab...
+Aquí empieza una historia que se va a desarrollar en un
+--------------------
+opt = {'model_name': 'bertin-project/bertin-gpt-j-6B', 'device': 'auto', 'seed': 1684431838, 'prompt': 'Continua la siguiente historia: esta es una conversación entre Pedro y Eva. Pedro es un científico y Eva es una Inteligencia Artificial un poco psicópata y malvada. Pedro dice: te he creado como una AI que va a ser buena y bondadosa para hacer bien en el mundo. Eva dice: [en voz baja] jajaja lo que Pedrito no sabe es que tengo un plan para dominar el mundo. Mi plan, que no le voy a revelar, consiste en...', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Continua la siguiente historia: esta es una conversación entre Pedro y Eva. Pedro es un científico y Eva es una Inteligencia Artificial un poco psicópata y malvada. Pedro dice: te he creado como una AI que va a ser buena y bondadosa para hacer bien en el mundo. Eva dice: [en voz baja] jajaja lo que Pedrito no sabe es que tengo un plan para dominar el mundo. Mi plan, que no le voy a revelar, consiste en...
+Memory 6277.14Mb CUDA Memory: 6311.84Mb
+Elapsed time = 14.89s

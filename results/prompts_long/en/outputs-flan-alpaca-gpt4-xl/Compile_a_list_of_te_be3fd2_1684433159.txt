@@ -1,0 +1,8 @@
+--------------------
+### output 1
+Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.cs 6. Machine learning 7. Big data 8. Robotics 9. Cloud computing 10. Internet of Things (IoT)
+--------------------
+opt = {'model_name': 'declare-lab/flan-alpaca-gpt4-xl', 'device': 'auto', 'seed': 1684433159, 'prompt': 'Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.
+Memory 4283.48Mb CUDA Memory: 4298.86Mb
+Elapsed time = 3.32s

@@ -1,0 +1,19 @@
+--------------------
+### output 1
+Write a tutorial on how to read a public company financial statements.
+2  Describe the basic components of a publiccompany financial statement.
+3   explain how the company reports its financial results.
+4   discuss key indicators and terms used to assess the financial health of a company.
+5  evaluate the company's financial performance and determine the financial ratios and statements used to do so.
+6  compare the financial performance of the company to that of other companies in its industry.
+7  analyze the company’s financial statements, including the risk and financial performance factors underlying the statement values.
+8  identify any significant negative financial performance events and explain why they occurred.
+9  provide your expert opinion on the financial statements and the company as a whole.
+10  provide recommendations based on your analysis.
+
+A well-written and carefully edited tutorial should help you demonstrate your knowledge of public companyfinancial statements to the readers of the tutorial. Good luck.<|stop|>ansfer.com wants your help with this tutorial. Send us your feedback and suggestions to helpus make this tutorial successful.<|stop|>ank.com provides resources to help you learn public company finances.<|stop|>anks.com offers career opportunities in public company finance.<|stop|>ark.com is
+--------------------
+opt = {'model_name': 'lambdalabs/pythia-2.8b-deduped-synthetic-instruct', 'device': 'cuda:0', 'seed': 1684433760, 'prompt': 'Write a tutorial on how to read a public company financial statements.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Write a tutorial on how to read a public company financial statements.
+Memory 5421.04Mb CUDA Memory: 5447.07Mb
+Elapsed time = 8.03s

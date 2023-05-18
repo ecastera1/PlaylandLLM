@@ -1,0 +1,14 @@
+--------------------
+### output 1
+Dime una rutina diaria que tiene que tener un buen trader para poder sacar el máximo beneficio operando con futuros en el S&P 500.
+¿Qué debe hacer un bueno trader para sacarle el más máxiimo rendimiento a una operación?
+¡Hola! Te doy la bienvenida a la pregunta de la semana.
+En esta ocasión, quiero que me digas una acción que tengas en cartera y que tú creas que tiende a subir.
+Para el que no lo sepa, el S & P 500 es un índice bursátil que recoge las 500 empresas más grandes de Estados Unidos.
+Este ídice se utiliza como referencia para el mercado de valores de Estado Unidense y es el ínidce más importante del mundo.
+Como bien sabes, los mercados financieros son muy volátiles y
+--------------------
+opt = {'model_name': 'DavidFM43/bertin-gpt-j-6b-half-sharded', 'device': 'auto', 'seed': 1684432697, 'prompt': 'Dime una rutina diaria que tiene que tener un buen trader para poder sacar el máximo beneficio operando con futuros en el S&P 500.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Dime una rutina diaria que tiene que tener un buen trader para poder sacar el máximo beneficio operando con futuros en el S&P 500.
+Memory 6277.14Mb CUDA Memory: 6310.04Mb
+Elapsed time = 24.63s

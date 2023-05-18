@@ -1,0 +1,14 @@
+--------------------
+### output 1
+¿Cuales son los errores fundamentales que comete la gente cuando hace trading de futuros para no perder dinero en el proceso?
+
+### Respuesta:
+Los erroces fundamentales más comunes que cometen los traders de futuos cuando intentan evitar el trading con pérdidas son: 
+1. No comprender el mercado de fututos y cómo funciona. 
+2. No tener un plan de trading bien definido.  
+3. No entender los riesgos asociados con el trading de futures y còmo protegerse de ellos.  4. No diversificar sus operaciones y tener demasiada exposición en una sola posición.  5. No utilizar herramientas de gestión de riesgo como stop-loss y límites de toma de ganancias.  6. No establecer un presupuesto y no cumplirlo.  7. No desarrollar una estrategia para mane
+--------------------
+opt = {'model_name': 'bertin-project/bertin-gpt-j-6B-alpaca', 'device': 'auto', 'seed': 1684432459, 'prompt': '¿Cuales son los errores fundamentales que comete la gente cuando hace trading de futuros para no perder dinero en el proceso?', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = ¿Cuales son los errores fundamentales que comete la gente cuando hace trading de futuros para no perder dinero en el proceso?
+Memory 6277.14Mb CUDA Memory: 6310.10Mb
+Elapsed time = 23.69s

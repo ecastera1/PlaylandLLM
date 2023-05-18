@@ -1,0 +1,8 @@
+--------------------
+### output 1
+Write a poem about shiba inu pet and his master.heart a peace that a long-st a heart se a joy so'a great st and a beloved and he sever s the sw a in peace and'My heart, a comfort with a love - My lor and y'The peace a and  a' Love and peace'Though a peaceful a loving s my ss'Peace and peace in a bond a kingdom a true s''A y Peace and lor a deep sy a sweet and t'You' s peace and peace and the i' d and th '
+--------------------
+opt = {'model_name': 'declare-lab/flan-alpaca-base', 'device': 'cuda:0', 'seed': 1684433528, 'prompt': 'Write a poem about shiba inu pet and his master.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Write a poem about shiba inu pet and his master.
+Memory 944.43Mb CUDA Memory: 954.81Mb
+Elapsed time = 1.91s

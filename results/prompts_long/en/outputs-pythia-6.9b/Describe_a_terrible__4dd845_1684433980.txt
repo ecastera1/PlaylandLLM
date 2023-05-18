@@ -1,0 +1,9 @@
+--------------------
+### output 1
+Describe a terrible hangover using the language of an English aristocrat from the Renaissance.
+Answer:A terrible hang-over! That ill-timed hang-dog look; that sagging of the shoulders, weak knees, and impaired vision; that feeling of nausea and dizziness, and that bitter, bitter taste in the mouth! That is the worst hang-up ever! Great God! What a dreadful state to be in! I can only imagine how wretched the poor soul is feeling. Awful.<|stop|>. wretched. wretchedness. wretchedest.<|stop|>ness.<|stop|>.—(1) (2) (3) (4) (5) (6) (7) (8) (9) (10) (11) (12) (13) (14) (15) (16) (17) (18) (19) (20) (21) (22) (23) (24) (25) (26) (27) (28) (29) (30) (31) (32) (33) (34) (35) (36) (37) (38) (39) (40) (41) (42) (43) (44) (45) (46
+--------------------
+opt = {'model_name': 'lambdalabs/pythia-6.9b-deduped-synthetic-instruct', 'device': 'auto', 'seed': 1684433980, 'prompt': 'Describe a terrible hangover using the language of an English aristocrat from the Renaissance.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Describe a terrible hangover using the language of an English aristocrat from the Renaissance.
+Memory 7060.86Mb CUDA Memory: 7083.18Mb
+Elapsed time = 22.33s

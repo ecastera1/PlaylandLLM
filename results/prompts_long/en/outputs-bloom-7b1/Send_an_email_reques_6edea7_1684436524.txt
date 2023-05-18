@@ -1,0 +1,19 @@
+--------------------
+### output 1
+Send an email requesting prompter action from recipients.', 'prompt');?></h2>
+		<p><?php _e('This allows you to send an email to the recipients of your Prompt with a link to confirm their action.') ;?></p>
+		<p><a href="<?php echo admin_url('admin.php?page=prompt-settings&tab=email-'.$prompt['ID']);?>" class="button-primary"><?php printf(__('%s Prompt Settings','prompts'), __('Prompts','prompts'));?></a>
+		</p>
+		<p><strong><?php  _e( 'Example of Prompt Email', 'p' );?>:</strong></p>
+		<p>
+			<?php if( $prompt['send_confirmation'] ):?>
+			<code>
+			<!--[if!IE]>-->
+			<a href="<?= $prompts[$prompt['id']]['url']?>" target="_blank"><?= __( 'Click here to confirm your action', 'wp-prompt-plus' )?></a>
+			<code><!--<![endif]-->
+			<strong><em><?= sprintf( __( 'You are about to confirm the action of %s',
+--------------------
+opt = {'model_name': 'bigscience/bloom-7b1', 'device': 'auto', 'seed': 1684436524, 'prompt': 'Send an email requesting prompter action from recipients.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Send an email requesting prompter action from recipients.
+Memory 7723.08Mb CUDA Memory: 7739.86Mb
+Elapsed time = 19.30s

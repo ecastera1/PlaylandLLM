@@ -1,0 +1,24 @@
+Escribe una conversación ficticia entre dos personajes hablando de un plan secreto que la gente no conoce pero que se está llevando a cabo ante nuestros ojos.
+- ¿Qué es lo que más te gusta de tu trabajo?
+- Me gusta mucho el hecho de que no hay una rutina diaria, que cada día es diferente, que no sé qué esperar.
+El trabajar en el mundo del cine es una experiencia muy difícil y muy gratificante a la vez, porque te permite conocer a mucha gente, viajar, conoces muchos lugares y te permites explorar muchas cosas.
+¿Quieres ver más entrevistas?
+Etiquetas: Actores, Entrevistas, Entre bastidores, Películas, Peliculas de Acción, Pelis de Accion, PeliS de AccioN, Pelisonline, Pelisss de Acccion,
+Describe como funciona el modelo GPT-3 del lenguaje natural con transformers.
+Describe el modelos de datos de la base de dato.
+Explica el funcionamiento del modelo de dat
+Descripcion de los tipos de atributos
+Describir el modelado de las relaciones
+Descriva el modelamientos de las restricciones
+Explicar el modela miento de las entidades
+Explique el modelando de las reglas de negocio
+Expliqué el modelador de la interfaz de usuario
+Explican el modelar de la lógica de negocios
+Explíque como se crea una aplicación
+Explique com o se crean los modelos
+Crear una base de conocimiento
+Crea un modelo en base de una tabla de un banco
+Creación de un modelos en base a una factura
+Creacion de un Modelo en Base a un contrato
+Creando un modelado en base una orden de compra
+Cre

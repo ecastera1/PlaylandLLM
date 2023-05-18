@@ -1,0 +1,11 @@
+--------------------
+### output 1
+Create a short story about a character who discovers an hidden talent. This is a great opportunity to teach your students about the different types of stories. You can use this story to teach students about how to write a short fiction story.
+In this lesson, students will be learning about the types of fiction and non-fiction stories. Students will be able to define fiction and nonfiction stories, and they will be asked to write an example of each type of story.
+Students will be reading the story of Mary Poppins. Students should be able to: -Identify the main character of the story -Identifies the main idea of the book -Identification the main setting of the novel -Identifying the main characters of the stories -Identified the main theme of the movie
+In this activity students will engage in a discussion about the main ideas of the short story. Students are asked to share their ideas with the class and then write them on the board. The teacher will then give students a chance to share the ideas they have written on the paper. Students can use the ideas to write their own short story.
+The students will read the story and discuss the main themes of the characters. Students then will write their ideas on the blackboard. The students will then have the opportunity to
+--------------------
+opt = {'model_name': 'bigscience/bloom-7b1', 'device': 'auto', 'seed': 1684430040, 'prompt': 'Create a short story about a character who discovers an hidden talent.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts_small.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a short story about a character who discovers an hidden talent.
+elapsed time = 18.96s

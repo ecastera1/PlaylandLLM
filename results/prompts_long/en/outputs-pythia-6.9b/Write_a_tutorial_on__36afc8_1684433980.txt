@@ -1,0 +1,9 @@
+--------------------
+### output 1
+Write a tutorial on how to read a public company financial statements. Include tips on what to look for and how to analyze the statements. Consider using examples from real companies to illustrate your tips. Make sure to include definitions of key financial terms as you go. https://www.youtube.com/watch?v=_lhE-gWJgEo&list=PLMJX1SxyGo5IvbbNQobGnJ-o)
+Answer:Answer: A financial statement is a document that shows the financial position of a company at a specific point in time. It consists of a graph and a table showing the company's assets, liabilities, and shareholders' equity. The graph shows the company’s financial activities over a period of time, while the table summarizes the graph and shows the amounts at the end of each period. Financial statements are prepared according to generally accepted accounting principles, which ensure that the statements provide a truthful and accurate reflection of the company.<|stop|> consideration, the most important financial statement are the income statement and the balance sheet. The income statement shows thecompany’s income over aperiod of timewhile the balance sheetshows thecompany's assetsand liabilitiesat the endof each period。Answer:
+--------------------
+opt = {'model_name': 'lambdalabs/pythia-6.9b-deduped-synthetic-instruct', 'device': 'auto', 'seed': 1684433980, 'prompt': 'Write a tutorial on how to read a public company financial statements.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Write a tutorial on how to read a public company financial statements.
+Memory 7060.86Mb CUDA Memory: 7082.64Mb
+Elapsed time = 22.65s

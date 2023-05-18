@@ -1,0 +1,17 @@
+--------------------
+### output 1
+Dime una rutina diaria que tiene que tener un buen trader para poder sacar el máximo beneficio operando con futuros en el S&P 500.
+
+### Respuesta:
+Una buena rutINA diaria para un trader de futuroS en el SP 500 debe incluir lo siguiente: 
+1. Revisar el mercado y las noticias del día.
+2. Analizar el gráfico del instrumento y evaluar la tendencia a corto y largo plazo.
+3. Crear un plan de trading y asegurarse de que incluya objetivos de toma de ganancias y stop-loss.
+4. Ejecutar el plan de acuerdo con el plan.
+5. Monitorear el progreso y ajustar el trading plan según sea necesario.
+6. Tomar nota de los puntos de entrada y salida, así como de cualquier evento que pueda afectar el precio de los futuro
+--------------------
+opt = {'model_name': 'bertin-project/bertin-gpt-j-6B-alpaca', 'device': 'auto', 'seed': 1684432459, 'prompt': 'Dime una rutina diaria que tiene que tener un buen trader para poder sacar el máximo beneficio operando con futuros en el S&P 500.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Dime una rutina diaria que tiene que tener un buen trader para poder sacar el máximo beneficio operando con futuros en el S&P 500.
+Memory 6277.14Mb CUDA Memory: 6309.60Mb
+Elapsed time = 22.96s

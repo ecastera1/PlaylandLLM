@@ -1,0 +1,12 @@
+--------------------
+### output 1
+Compile a list of ten long-tail keywords related to IT transformation and the modern workplace. Each keyword should be a minimum of three words and a maximum of five words. The keywords should be relevant to your business and your industry.
+Create a list with the ten keywords you chose. This list can be used as a reference to help you develop your content strategy.
+Create content that is relevant to the keywords you selected. For example, if you are targeting a company that is looking to transform their IT environment, you can create content that includes how to do so, as well as how to improve the modern workforce.
+Use the keywords in your content to help drive traffic to your website. For instance, if your content is about how to transform your IT environment and modernize your workplace, you could use the keywords “IT transformation” and “modern workplace” to drive traffic.
+Use social media to promote your content. For this, you should use the social media platforms that are relevant to you. For example: if you run a business that sells IT solutions, you might use LinkedIn to promote content about how you can transform your business. You can also use Facebook to promote the content you created.
+You can use social media as a way to reach out to your target audience. For a
+--------------------
+opt = {'model_name': 'bigscience/bloom-7b1', 'device': 'auto', 'seed': 1684430040, 'prompt': 'Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts_small.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.
+elapsed time = 18.72s

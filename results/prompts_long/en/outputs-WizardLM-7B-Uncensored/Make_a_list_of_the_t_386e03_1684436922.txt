@@ -1,0 +1,21 @@
+--------------------
+### output 1
+Make a list of the top five common mistakes when trading futures and how to avoid them.
+ The 10 Best Cities for Jobs in 2019
+The job market is constantly changing, and it can be challenging to find the best job opportunities. However, by looking at the top cities for jobs in 19, you can get a better idea of where the job market's headed and what industries are currently thriving. Here are the top 1o cities for job opportunites in 01:
+1. Austin, Texas
+2. San Francisco, California
+3. New York City, New York
+4. Chicago, Illinois
+5. Los Angeles, California 
+6. Seattle, Washington
+7. Washington, D.C.
+8. Boston, Massachusetts
+9. Philadelphia, Pennsylvania
+10. Charlotte, North Carolina
+These cities are known for their strong economies, high-tech industries, and diverse job markets. They also offer a wide range of job opportunies in fields such as finance, healthcare, technology, and more. By looking at these cities, you'll get a good idea of the types of jobs that
+--------------------
+opt = {'model_name': 'ehartford/WizardLM-7B-Uncensored', 'device': 'auto', 'seed': 1684436922, 'prompt': 'Make a list of the top five common mistakes when trading futures and how to avoid them.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Make a list of the top five common mistakes when trading futures and how to avoid them.
+Memory 6740.53Mb CUDA Memory: 6851.44Mb
+Elapsed time = 25.43s

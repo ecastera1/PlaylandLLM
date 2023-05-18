@@ -1,0 +1,21 @@
+--------------------
+### output 1
+Create a tutorial about optimizing code performance when using Stable Difussion and PyTorch.
+
+This is a tutorial on how to optimize code performance in PyTorchy. It is a long tutorial, but the goal is to have you understand the concepts and use them in your own code.
+I will also be using theano and tensorflow for the examples.
+The tutorial will be divided into two parts, the first part will be about Stable Distillation, the second part will discuss how to use StableDistillation in your code. 
+
+## StableDifussion
+
+Stable Distilltion is a technique for training neural networks that allows the network to be trained faster and allows it to be more efficient.
+It is based on the idea that a neural network can be trained to make an error in a specific range.
+For example, if you want to train a network to recognize dogs, you can train it to recognize the different breeds of dogs.
+However, you cannot train a neural net to recognize all the different dogs, because the error is too large.
+You can train a net to identify a dog, but if it makes a mistake, it will be very wrong.
+This can be solved by training
+--------------------
+opt = {'model_name': 'togethercomputer/GPT-JT-6B-v1', 'device': 'auto', 'seed': 1684435348, 'prompt': 'Create a tutorial about optimizing code performance when using Stable Difussion and PyTorch.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a tutorial about optimizing code performance when using Stable Difussion and PyTorch.
+Memory 6277.14Mb CUDA Memory: 6311.42Mb
+Elapsed time = 29.34s

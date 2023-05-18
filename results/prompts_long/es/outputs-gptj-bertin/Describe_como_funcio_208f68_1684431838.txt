@@ -1,0 +1,12 @@
+--------------------
+### output 1
+Describe como funciona el modelo GPT-3 del lenguaje natural con transformers.
+Describe cómo funciona la traducción automática con la técnica de transferencia de estados.
+Explica cómofunciona el sistema de traduccióntraducción asistida por computador.
+Enumera los pasos para la creación de una base de datos.
+Especifica las características de la base de conocimientos.
+--------------------
+opt = {'model_name': 'bertin-project/bertin-gpt-j-6B', 'device': 'auto', 'seed': 1684431838, 'prompt': 'Describe como funciona el modelo GPT-3 del lenguaje natural con transformers.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Describe como funciona el modelo GPT-3 del lenguaje natural con transformers.
+Memory 6277.14Mb CUDA Memory: 6312.52Mb
+Elapsed time = 11.55s

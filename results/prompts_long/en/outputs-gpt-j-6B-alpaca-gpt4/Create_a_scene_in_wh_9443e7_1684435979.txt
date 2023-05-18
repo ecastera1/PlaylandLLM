@@ -1,0 +1,12 @@
+--------------------
+### output 1
+Create a scene in which two characters talk about their future dreams in a prehistoric world.
+Dialogue:
+Male Character:
+"I want to be the strongest adventurer in the world."
+Female Character:
+--------------------
+opt = {'model_name': 'vicgalle/gpt-j-6B-alpaca-gpt4', 'device': 'auto', 'seed': 1684435979, 'prompt': 'Create a scene in which two characters talk about their future dreams in a prehistoric world.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a scene in which two characters talk about their future dreams in a prehistoric world.
+Memory 6277.14Mb CUDA Memory: 6310.81Mb
+Elapsed time = 3.04s

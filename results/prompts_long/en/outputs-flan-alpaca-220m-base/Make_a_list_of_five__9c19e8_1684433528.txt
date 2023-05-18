@@ -1,0 +1,8 @@
+--------------------
+### output 1
+Make a list of five Stable Difussion features that should improve to make inference faster.a in a. a sum a 1.  a class a con a
+--------------------
+opt = {'model_name': 'declare-lab/flan-alpaca-base', 'device': 'cuda:0', 'seed': 1684433528, 'prompt': 'Make a list of five Stable Difussion features that should improve to make inference faster.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Make a list of five Stable Difussion features that should improve to make inference faster.
+Memory 944.43Mb CUDA Memory: 954.81Mb
+Elapsed time = 0.66s

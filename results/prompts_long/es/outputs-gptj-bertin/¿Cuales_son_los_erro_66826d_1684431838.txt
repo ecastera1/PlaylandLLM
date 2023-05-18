@@ -1,0 +1,24 @@
+--------------------
+### output 1
+¿Cuales son los errores fundamentales que comete la gente cuando hace trading de futuros para no perder dinero en el proceso?
+Los erroes fundamentales son:
+1. No tener una estrategia de trading
+2. No saber cuándo y cómo entrar en el mercado
+3. No estudiar el mercados
+4. No utilizar un sistema de trading adecuado
+5. No seguir las reglas de gestión de riesgo
+6. No hacer caso a las señales del mercado.
+7. No ser capaz de mantener la disciplina
+8. No tomarse el trading en serio
+9. No comprender la importancia de la gestió del riesg
+10. No gestionar adecudamente el dinero
+11. No analizar el mercad
+12. No aprender de los erros
+13. No controlar las emociones
+14. No aceptar la responsabilidad de la perdida
+15. No asum
+--------------------
+opt = {'model_name': 'bertin-project/bertin-gpt-j-6B', 'device': 'auto', 'seed': 1684431838, 'prompt': '¿Cuales son los errores fundamentales que comete la gente cuando hace trading de futuros para no perder dinero en el proceso?', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = ¿Cuales son los errores fundamentales que comete la gente cuando hace trading de futuros para no perder dinero en el proceso?
+Memory 6277.14Mb CUDA Memory: 6310.42Mb
+Elapsed time = 25.62s

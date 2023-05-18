@@ -1,0 +1,8 @@
+--------------------
+### output 1
+Write a blog post discussing the advantages of utilizing ETFs vs Options or Futures.SRoledNRoRoSRoRoRoLSRoEÄCRoRo\\sRoRo7RoLRoRo-RoRoARoLÄRoÄRoRo3RoRoFRoAÄÄRoLB\\RoORoRoElRoRoCWOELBRoCRoL1RoRoKSRoWRoRoWÄRo1Ro3FL3Ro19Ro3\\RoL6RoRoMRoEL1Ro25RoL333-Ro31RRo3SRo341Ro1_RoRo1331731RoD3\\13Ro3C233\\33L31323113'131433YP33213\\23Ä11\\\\31\\3\\63123\\M3432\\3'33D13''13K2121\\12\\1413533M12931M33733Ä33C
+--------------------
+opt = {'model_name': 'ehartford/WizardLM-7B-Uncensored', 'device': 'auto', 'seed': 1684436922, 'prompt': 'Write a blog post discussing the advantages of utilizing ETFs vs Options or Futures.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Write a blog post discussing the advantages of utilizing ETFs vs Options or Futures.
+Memory 6740.53Mb CUDA Memory: 6852.03Mb
+Elapsed time = 28.95s

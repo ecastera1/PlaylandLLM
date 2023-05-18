@@ -1,0 +1,20 @@
+--------------------
+### output 1
+Escribe un texto descriptivo de una mujer hermosa al estilo literario del siglo de oro español.
+Escribe en prosa una carta de amor a una persona del sexo opuesto.
+Desarrolla un textos descriptivo sobre una ciudad.
+Construye una oración con la palabra “hermosura”.
+Redacta un ensayo sobre la belleza en la literatura.
+Haz una lista de adjetivos que describan la bellezas de un paisaje.
+Elabora un análisis literario de un poema.
+Define el concepto de bellezza en una frase.
+Explica el conceptos de bellez en un párrafo.
+Describe la bellegenza en un text.
+¿Qué es la bellettura?
+¡Aprende italiano con nosotros!
+ Publicado en Italiano	 Etiquetado como belle, bellezzza, bel
+--------------------
+opt = {'model_name': 'DavidFM43/bertin-gpt-j-6b-half-sharded', 'device': 'auto', 'seed': 1684432697, 'prompt': 'Escribe un texto descriptivo de una mujer hermosa al estilo literario del siglo de oro español.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Escribe un texto descriptivo de una mujer hermosa al estilo literario del siglo de oro español.
+Memory 6277.14Mb CUDA Memory: 6311.61Mb
+Elapsed time = 26.37s

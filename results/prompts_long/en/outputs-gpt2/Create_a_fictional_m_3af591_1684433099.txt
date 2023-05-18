@@ -1,0 +1,17 @@
+--------------------
+### output 1
+Create a fictional magical system that is based on thermodynamic principles.
+
+I've been working on the project for a while now, and I'm still working on it. I'm not sure what it will be, but I'm pretty sure it will have some interesting features. It's not quite as simple as the concept of a physical system, but it's a very simple concept.
+, which is a system that can be constructed using the same basic principles. It is a very basic system, and it can be built on top of it.
+. which is an system that has a very limited number of components. This is a great example of a system where a lot of components can be assembled and used, but they can't be built from scratch.
+ (I've also been working with a few other people, and they are all working on this project.)
+
+. that is a kind of a computer, that can do things like create a virtual world, create a world of its own, and create a game world.
+: which is basically a game system, that has many components, but can be used to build a game.
+- I've been doing a lot more work on this, and the game system is just a bit of a
+--------------------
+opt = {'model_name': 'gpt2', 'device': 'cuda:0', 'seed': 1684433099, 'prompt': 'Create a fictional magical system that is based on thermodynamic principles.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a fictional magical system that is based on thermodynamic principles.
+Memory 486.70Mb CUDA Memory: 495.59Mb
+Elapsed time = 2.09s

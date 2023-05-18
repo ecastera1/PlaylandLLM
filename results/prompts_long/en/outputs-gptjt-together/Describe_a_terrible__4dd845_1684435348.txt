@@ -1,0 +1,24 @@
+--------------------
+### output 1
+Describe a terrible hangover using the language of an English aristocrat from the Renaissance.Describe the language used by an English nobleman of the Renaissance in a letter.Describes a terrible and painful hangover.
+
+Describe an Englishman of noble birth, with a great fortune, who is in the service of the Duke of Milan. Describe the manner in which he is dressed. Describes the language he uses in a poem.
+Describes the manner of a nobleman.
+The language used in a sonnet.
+A sonnet by a noble man.
+How a noble and wealthy man from the 16th century would have dressed.
+What a noble person would have been expected to do in the Renaissance period.
+An example of a poem by a man of noble descent.
+Who is a noble lord?
+A nobleman from the 15th century.
+Is a noblewoman from the 14th century?
+Who was a noble lady?
+An aristocrat of noble family.
+Why was a man in the 16-th century expected to wear a hat?
+Describing the appearance of a man from noble descent in the 15-th and 16-the centuries.
+Which of the following was not a noble title
+--------------------
+opt = {'model_name': 'togethercomputer/GPT-JT-6B-v1', 'device': 'auto', 'seed': 1684435348, 'prompt': 'Describe a terrible hangover using the language of an English aristocrat from the Renaissance.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Describe a terrible hangover using the language of an English aristocrat from the Renaissance.
+Memory 6277.14Mb CUDA Memory: 6309.16Mb
+Elapsed time = 29.52s

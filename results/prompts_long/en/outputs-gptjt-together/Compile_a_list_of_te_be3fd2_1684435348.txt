@@ -1,0 +1,41 @@
+--------------------
+### output 1
+Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.
+
+Compile an IT Transformation Roadmap
+
+IT Transformation
+
+The Modern Workplace
+
+Modern Workplace Transformation
+The IT Transformation: The Modern Workpace
+
+How to Transform IT for the Modern Workforce
+
+Transform IT for Success
+
+Transforming IT for a Modern Work Environment
+
+Preparing for the IT Transformation
+Transformation Roadmap: IT Transformation for the New Workforce: The IT Transformation Plan
+
+Key IT Transformation Success Factors
+
+Success Factors for IT Transformation in the Modern workplace
+
+Why IT Transformation is Critical
+
+What to Expect in the IT transformation
+
+Steps to Successful IT Transformation and Modern Work
+
+Summary
+
+Chapter 3: IT transformation: The modern workplace
+The modern workplace is a workspace that is designed for the 21st century. It is a place where employees work and play, where they communicate and collaborate, where the tools of the digital world are seamlessly integrated into the physical environment. It's a place that is the perfect blend of the old and the new, where technology and human interaction are seamlessly blended into the workplace. The modern workspace is where the digital and the physical meet, where information and
+--------------------
+opt = {'model_name': 'togethercomputer/GPT-JT-6B-v1', 'device': 'auto', 'seed': 1684435348, 'prompt': 'Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.
+Memory 6277.14Mb CUDA Memory: 6310.39Mb
+Elapsed time = 29.45s

@@ -1,0 +1,11 @@
+--------------------
+### output 1
+Escribe una conversación ficticia entre dos personajes hablando de un plan secreto que la gente no conoce pero que se está llevando a cabo ante nuestros ojos.
+
+La historia comienza cuando el grupo de "Invention" se reunió en el edificio de la Universidad de Chicago, donde el Dr. John D. Rockefeller, un científico de la NASA, se encontraba en la reunión. Él había estado trabajando en el proyecto de la Estación Espacial Internacional, pero fue asesinado por un grupo de científicos que se encontraban en la conferencia. Rockefeller quería que la investigación se convirtiera en un negocio, y que los científicos que trabajaban en la Estación espacial Internacional fueran despedidos. El Dr. Rockefeller le dijo a Rockefeller que si se le permitía trabajar en el Proyecto Apolo, se convertiría en un hombre.
+El Dr. D. Jr. se quedó con el Dr., y le dijo que él no podía hacer nada para la investigación, por lo que le pidió que regresara a la Universidad. Rockefeller les dijo que no se dejara llevar a cabo la investigación y que no podía volver a trabajar en la estación espacial. Rockefeller fue despedido, y el Dr, junto con su novia, se mudaron a la ciudad de Nueva York, donde se graduó en ingeniería eléctrica. Rockefeller se convirtió en un químico profesional, y se convirtió al
+--------------------
+opt = {'model_name': 'datificate/gpt2-small-spanish', 'device': 'cuda:0', 'seed': 1684431649, 'prompt': 'Escribe una conversación ficticia entre dos personajes hablando de un plan secreto que la gente no conoce pero que se está llevando a cabo ante nuestros ojos.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Escribe una conversación ficticia entre dos personajes hablando de un plan secreto que la gente no conoce pero que se está llevando a cabo ante nuestros ojos.
+Memory 486.70Mb CUDA Memory: 495.59Mb
+Elapsed time = 2.02s

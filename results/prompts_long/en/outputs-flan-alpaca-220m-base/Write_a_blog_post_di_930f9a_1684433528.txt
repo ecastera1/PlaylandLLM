@@ -1,0 +1,8 @@
+--------------------
+### output 1
+Write a blog post discussing the advantages of utilizing ETFs vs Options or Futures.ooking for an alternative to the risky investment that can be done quickly and efficiently. Here are some of the advantages of investing in eTFs: 1. ETFs are more affordable than other types of investments, as they are often more volatile and have a lower risk of a crash. 2. ETF funds are more volatile than other forms of investments and can be more volatile. 3. ETF portfolios are better for short-term investments, such as stocks and bonds. 4. ETF assets are more reliable, as funds can be used to buy stocks and e-commerce products. 5. ETF investments can be made with fewer risks, such
+--------------------
+opt = {'model_name': 'declare-lab/flan-alpaca-base', 'device': 'cuda:0', 'seed': 1684433528, 'prompt': 'Write a blog post discussing the advantages of utilizing ETFs vs Options or Futures.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Write a blog post discussing the advantages of utilizing ETFs vs Options or Futures.
+Memory 944.43Mb CUDA Memory: 954.81Mb
+Elapsed time = 1.57s

@@ -1,0 +1,13 @@
+--------------------
+### output 1
+Escribe una conversación ficticia entre dos personajes hablando de un plan secreto que la gente no conoce pero que se está llevando a cabo ante nuestros ojos. El plan secreto no se revela hasta que el plan ha sido descubierto por la gente y que se ha convertido en un plan para destruir la Tierra.
+
+Los personajes de las películas de acción "Scream" y "Smokedown" son los únicos que no aparecen en la película, sino que se les ve durante un flashback.
+La película fue estrenada en Estados Unidos el 17 de febrero de 2013.
+"Scream: The Return of thecream" fue dirigida por David Silverman y producida por Steven Spielberg y protagonizada por Robert Downey Jr., David Spade, Robert De Niro, James Franco, Robert Dowd y Will Ferrell. El guion estuvo a cargo de Steven Spielberg, Robert Duvall, Steven Spielberg (quien se había unido al equipo de producción de "Screw") y Robert Dowson. La película fue producida por Metro-Goldwyn-Mayer, y fue estrenada el 18 de febrero en Estados de América.
+El rodaje comenzó en el verano de 2013 en el Reino Unido, y terminó en enero de 2014 en el resto del mundo.
+En el Reino de España,
+--------------------
+opt = {'model_name': 'datificate/gpt2-small-spanish', 'device': 'cuda:0', 'seed': 1684430665, 'prompt': 'Escribe una conversación ficticia entre dos personajes hablando de un plan secreto que la gente no conoce pero que se está llevando a cabo ante nuestros ojos.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts_small.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Escribe una conversación ficticia entre dos personajes hablando de un plan secreto que la gente no conoce pero que se está llevando a cabo ante nuestros ojos.
+Memory 486.70Mb CUDA Memory: 495.59MbElapsed time = 2.02s

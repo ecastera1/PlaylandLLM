@@ -1,0 +1,19 @@
+--------------------
+### output 1
+Create a case study detailing what sustainability client measures assisted a client in improving their IT efficiency.
+
+Case Study:
+
+Problem Statement:
+The client needed to improve their IT infrastructure efficiency and reduce their carbon footprint.
+Objective:
+To demonstrate how a sustainability initiative assisted in improving the client’s IT efficiency and reducing their carbon emissions.
+Background:
+At the client, IT efficiency was a challenge due to the size and complexity of their IT environment. The client‘s IT infrastructure consisted of a number of servers, desktops, laptops, printers, scanners, fax machines and copiers, all of which were housed in a single room. The room was poorly ventilated and had poor air quality. The IT team struggled to keep the room clean and tidy because of the sheer volume of equipment and the lack of space. The team also struggled to maintain a consistent IT infrastructure due to staff turnover, which resulted in inconsistent IT support.
+Solution:
+After conducting a sustainability audit, the client identified a number areas where they could improve their sustainability performance. These included improving their energy efficiency, reducing their water consumption and reducing the amount of waste produced. The sustainability team worked with the client to implement a number solutions to improve the client's sustainability performance in these
+--------------------
+opt = {'model_name': 'vicgalle/gpt-j-6B-alpaca-gpt4', 'device': 'auto', 'seed': 1684435979, 'prompt': 'Create a case study detailing what sustainability client measures assisted a client in improving their IT efficiency.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a case study detailing what sustainability client measures assisted a client in improving their IT efficiency.
+Memory 6277.14Mb CUDA Memory: 6311.09Mb
+Elapsed time = 28.91s

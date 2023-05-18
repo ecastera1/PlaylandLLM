@@ -1,0 +1,15 @@
+--------------------
+### output 1
+Describe como funciona el modelo GPT-3 del lenguaje natural con transformers.
+El modelo GET es un lenguaje que permite a los usuarios crear y editar documentos de texto en el formato GET.
+Los documentos GET son documentos e imágenes que se pueden enviar por correo electrónico, por correo postal o por correo certificado.
+La función GET permite a un usuario enviar y recibir mensajes d eun mensaje d i-mail, por ejemplo, d a una dirección d ela lista d del destinatario.
+Esta función permite enviar y enviar mensajes e-mail d, por ej, a un destinatario d la lista e d un correo electrónico.
+Este tipo d los documentos GIT se pueden utilizar para enviar mensajes y mensajes df d entre dos o más personas.
+Filed Under: Artículos, Artículos d por C.V., Artículos e por C., Artículos para el hogar, Artículos para la oficina, Artículos sobre la familia, Artículos que se usan e
+El servicio d-mail permite a una persona enviar y escribir mensajes dc d para un destinatario. Los mensajes dd d
+El paquete d al correo
+--------------------
+opt = {'model_name': 'flax-community/gpt-2-spanish', 'device': 'cuda:0', 'seed': 1684430676, 'prompt': 'Describe como funciona el modelo GPT-3 del lenguaje natural con transformers.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts_small.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Describe como funciona el modelo GPT-3 del lenguaje natural con transformers.
+Memory 486.70Mb CUDA Memory: 496.34MbElapsed time = 2.12s

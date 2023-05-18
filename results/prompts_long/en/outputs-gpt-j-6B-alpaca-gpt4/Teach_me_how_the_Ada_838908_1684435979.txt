@@ -1,0 +1,17 @@
+--------------------
+### output 1
+Teach me how the Adam optimizer works and give me a quiz at the end, but don’t give me the answers and then tell me if I answered correctly. That would be cheating.
+
+I’m not going to lie, I’ve been tempted to cheat on every single quiz I‘ve ever taken in my life. But I‚Äôve never done it because I respect the integrity of the quizzes. I‛Äîrespect the quiz.
+And I respect you, the quiz taker.
+If you cheat on a quiz, you‚??re disrespecting the quiz, and you‛??re cheating yourself.
+Cheating on quizzes is disrespectful to the quiz and disrespectful to yourself. It‚???s disrespectful to everyone who takes quizzes, because they‚?Äúre investing their time and effort into quizzes and quizzes are supposed to be fun.
+So unless you want to disrespect yourself, don‚????t cheat on quizzs.
+That‚?????s the moral of the story.
+Now let‚??????????s talk about Adam.
+Adam is a learning algorithm that is designed to optimize the parameters of neural
+--------------------
+opt = {'model_name': 'vicgalle/gpt-j-6B-alpaca-gpt4', 'device': 'auto', 'seed': 1684435979, 'prompt': 'Teach me how the Adam optimizer works and give me a quiz at the end, but don’t give me the answers and then tell me if I answered correctly.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Teach me how the Adam optimizer works and give me a quiz at the end, but don’t give me the answers and then tell me if I answered correctly.
+Memory 6277.14Mb CUDA Memory: 6310.81Mb
+Elapsed time = 26.59s

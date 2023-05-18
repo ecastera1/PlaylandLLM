@@ -1,0 +1,25 @@
+--------------------
+### output 1
+Escribe una conversación ficticia entre dos personajes hablando de un plan secreto que la gente no conoce pero que se está llevando a cabo ante nuestros ojos.
+
+### Respuesta:
+Personaje 1: ¿Sabes algo que la mayoría de la gante no sabe?
+
+Persona 2: ¡Sí, lo hago! ¿De qué se trata?
+ 
+Person 1: Es un plan que se ha estado gestando durante meses y del que nadie sabe nada.
+  
+ Person 2: Vaya, eso es impresionante. ¿Qué es?
+Person1: No estoy autorizado a hablar sobre ello, pero puedo decirte que es algo grande y muy importante. 
+ 
+
+ Person 2 (sorprendido): ¿Puedes decirme más?
+ Person1: Por supuesto. Pero debo mantenerlo en secreto.   
+
+
+Person 2: Enti
+--------------------
+opt = {'model_name': 'bertin-project/bertin-gpt-j-6B-alpaca', 'device': 'auto', 'seed': 1684432459, 'prompt': 'Escribe una conversación ficticia entre dos personajes hablando de un plan secreto que la gente no conoce pero que se está llevando a cabo ante nuestros ojos.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Escribe una conversación ficticia entre dos personajes hablando de un plan secreto que la gente no conoce pero que se está llevando a cabo ante nuestros ojos.
+Memory 6277.14Mb CUDA Memory: 6309.72Mb
+Elapsed time = 22.37s

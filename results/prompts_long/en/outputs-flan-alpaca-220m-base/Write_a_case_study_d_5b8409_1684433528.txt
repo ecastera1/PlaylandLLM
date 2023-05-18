@@ -1,0 +1,8 @@
+--------------------
+### output 1
+Write a case study detailing how artificial intelligence assisted a company in streamlining its accounting processes.sted in automating their accounting processes by automatizing the accounting process for a business by automated the process by a simple automation of the accounting processes for X.
+--------------------
+opt = {'model_name': 'declare-lab/flan-alpaca-base', 'device': 'cuda:0', 'seed': 1684433528, 'prompt': 'Write a case study detailing how artificial intelligence assisted a company in streamlining its accounting processes.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Write a case study detailing how artificial intelligence assisted a company in streamlining its accounting processes.
+Memory 944.43Mb CUDA Memory: 954.81Mb
+Elapsed time = 0.62s

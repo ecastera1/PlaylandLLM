@@ -1,0 +1,12 @@
+--------------------
+### output 1
+Escribe una conversación ficticia entre dos personajes hablando de un plan secreto que la gente no conoce pero que se está llevando a cabo ante nuestros ojos.
+¿Cómo se puede hacer una película de una sola toma?
+¡Es una pregunta muy interesante!
+Creo que una de las cosas que me gusta de la pelí­cula es que es muy fácil de hacer. Todo lo que necesitas es una cámara, una luz, un lugar y una persona.
+Crear una escena de un solo plano es un proceso muy simple. Lo que tienes que hacer es acercarte a la persona y decirle: “Vamos a hacer esto”. Y luego, en el momento en que está haciendo la toma, te acercas y le dices: ”¡No!” Y entonces, la persona se detiene
+--------------------
+opt = {'model_name': 'bertin-project/bertin-gpt-j-6B', 'device': 'auto', 'seed': 1684431838, 'prompt': 'Escribe una conversación ficticia entre dos personajes hablando de un plan secreto que la gente no conoce pero que se está llevando a cabo ante nuestros ojos.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Escribe una conversación ficticia entre dos personajes hablando de un plan secreto que la gente no conoce pero que se está llevando a cabo ante nuestros ojos.
+Memory 6277.14Mb CUDA Memory: 6314.13Mb
+Elapsed time = 24.64s

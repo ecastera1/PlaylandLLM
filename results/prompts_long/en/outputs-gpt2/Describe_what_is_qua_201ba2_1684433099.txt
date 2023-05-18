@@ -1,0 +1,26 @@
+--------------------
+### output 1
+Describe what is quantum computing and it possible outcomes.
+
+Quantum computing is a new type of computing that uses a quantum computer to perform computations on the quantum state of a system. It is a way to provide a quantum state to a system and to perform computation on it. It also allows for the creation of new states that are not possible on the current state.
+.
+, which is a quantum computing system that uses the quantum computer for computations. It was developed by the Swiss National Institute of Physics and the Swiss Institute of Technology.
+: which is an open-source quantum computing software.
+
+
+
+Quantal Programming
+
+In this post we will discuss how to use quantum computing to create new states.
+ (For more information about quantum computing, see: http://www.quantal.org/ )
+
+The first step in creating new states is to create a new quantum state. This state is called a state. The state is a state of the system, which can be represented as a series of numbers.
+- The first number is the number of states in the system.
+…
+
+- There are 2 states: the first is the state of our system, and the second is the total number of state's.
+--------------------
+opt = {'model_name': 'gpt2', 'device': 'cuda:0', 'seed': 1684433099, 'prompt': 'Describe what is quantum computing and it possible outcomes.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Describe what is quantum computing and it possible outcomes.
+Memory 486.70Mb CUDA Memory: 495.59Mb
+Elapsed time = 2.10s

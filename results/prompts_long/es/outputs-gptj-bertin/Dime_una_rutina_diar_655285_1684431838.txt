@@ -1,0 +1,13 @@
+--------------------
+### output 1
+Dime una rutina diaria que tiene que tener un buen trader para poder sacar el máximo beneficio operando con futuros en el S&P 500.
+¿Te gustaría saber más sobre el trading de futuro?
+¡No te pierdas nuestro webinar gratuito de Trading de Futuros!
+ Publicado en Trading	 Etiquetado como futuro, futuro del S&p, futur, S&amp;P, S &amp; P 500, SP500, SPX, SPY, SPXX	0	Navegador de artículos
+Entradas recientes	¿Qué es el trading con fututos?
+Comentarios recientessergio en ¿Quién es el mejor trader de la historia?jose en ¡Vamos a por los futuro!jose manuel en El mejores trader de todos los tiemposjose luis en ¿Cómo podemos invertir en bolsa en el
+--------------------
+opt = {'model_name': 'bertin-project/bertin-gpt-j-6B', 'device': 'auto', 'seed': 1684431838, 'prompt': 'Dime una rutina diaria que tiene que tener un buen trader para poder sacar el máximo beneficio operando con futuros en el S&P 500.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Dime una rutina diaria que tiene que tener un buen trader para poder sacar el máximo beneficio operando con futuros en el S&P 500.
+Memory 6277.14Mb CUDA Memory: 6311.19Mb
+Elapsed time = 24.18s

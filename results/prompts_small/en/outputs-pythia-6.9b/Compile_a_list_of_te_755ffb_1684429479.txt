@@ -1,0 +1,19 @@
+--------------------
+### output 1
+Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.
+Answer:cloud computing, digital transformation, workforce automation, AI, machine learning, robotic process automation, conversational AI, blockchain, analytics, and automation platform.<|stop|>on: What are the top long-tailed IT transformation keywords.
+
+2
+Answer:. Digital transformation. Automation of the workforce. AI for business. Cloud computing. Blockchain for business processes. Analytics for decision-making. Automated processes for efficiency.
+3
+Conclusion: Long-tail IT transformationkeywords related to cloud computing, AI and machine learning are gaining in popularity, as businesses look to capitalize on the potential of these technologies to transform their operations and the workplace. Companies should consider these keywords when crafting their content and SEO strategies. alongside, a list o f ten long tail IT transformationkwd related to the modern workforce.
+4
+.ABOUT US
+
+We are a small, family-run business based in the UK, specialising in the design and creation of unique, handmade jewellery.
+We create pieces that are both stylish and individual, using a range of precious metals, stones and beads.
+Our designs are inspired by a rangeof themes and subjects, from
+--------------------
+opt = {'model_name': 'lambdalabs/pythia-6.9b-deduped-synthetic-instruct', 'device': 'auto', 'seed': 1684429479, 'prompt': 'Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts_small.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.
+elapsed time = 21.37s

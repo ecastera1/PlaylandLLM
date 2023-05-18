@@ -1,0 +1,18 @@
+--------------------
+### output 1
+Create a scene in which two characters talk about their future dreams in a prehistoric world.
+2 Create a world in which animals have developed over time from their original species and how technology has shaped the lives of animals today.
+3 Create a scene that shows the progression of human technology over time, from the simplest of tools to modern inventions.
+4 Create a society in which women have little to no rights and are treated as second-class citizens.
+5 Create a character who is struggling to maintain a traditional family structure in a society that does not recognize their rights.
+6 Create a setting in which communication is mainly done through gestures and signs in a language that is lost to time.
+7 Create a situation in which a group of people must work together to survive and protect each other from an unpredictable environment.
+8 Create a future in which the world is divided into two distinct groups and everyone tries to avoid contact with the other group.
+9 Create a scenario in which someone must travel back in time to prevent a major disaster from happening.
+10 Create a conflict between two characters that requires them to come to a resolution.<|stop|> - v_hrik
+https://www.instagram.com/p/Bh_XKr_o_o
+--------------------
+opt = {'model_name': 'lambdalabs/pythia-2.8b-deduped-synthetic-instruct', 'device': 'cuda:0', 'seed': 1684433760, 'prompt': 'Create a scene in which two characters talk about their future dreams in a prehistoric world.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a scene in which two characters talk about their future dreams in a prehistoric world.
+Memory 5421.04Mb CUDA Memory: 5447.07Mb
+Elapsed time = 7.87s

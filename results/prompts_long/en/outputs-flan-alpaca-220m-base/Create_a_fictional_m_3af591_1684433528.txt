@@ -1,0 +1,8 @@
+--------------------
+### output 1
+Create a fictional magical system that is based on thermodynamic principles.inciples of physics  In a mystical kingdom  For a kingdom based in a system based based upon the principles  This system focuses on a variety of a magical system  An mystical realm based around a simple mystical scheme  It s a world based with a peaceful system rely based, based under the principles in  En  My  Through a new mystical technology  With a powerful mystical wizard  To  Ancient  Each's -  As a magic system' Peace  Protect a realm  And a peace  I  P  So  Though 
+--------------------
+opt = {'model_name': 'declare-lab/flan-alpaca-base', 'device': 'cuda:0', 'seed': 1684433528, 'prompt': 'Create a fictional magical system that is based on thermodynamic principles.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a fictional magical system that is based on thermodynamic principles.
+Memory 944.43Mb CUDA Memory: 954.81Mb
+Elapsed time = 1.97s

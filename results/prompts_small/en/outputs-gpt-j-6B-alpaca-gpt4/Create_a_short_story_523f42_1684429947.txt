@@ -1,0 +1,25 @@
+--------------------
+### output 1
+Create a short story about a character who discovers an hidden talent.
+
+This is an example of a short fiction prompt. Short fiction is usually between 2,500 and 7,500 words, although some publishers may accept shorter pieces. Short stories are generally published in magazines, anthologies, or online.
+Short Fiction Prompts
+
+Short story prompts are an excellent way to get writing started when you're feeling stuck. The prompts in this section are designed to inspire you to write about a particular character, situation, or theme. They're also a great way to help you brainstorm ideas for your next novel.
+Character Prompts
+
+  * Write about a person who discovers a hidden talent or talent that wasn't previously known.
+  * Describe a character whose life is changed by a discovery about their hidden talent, or vice versa.
+Theme Prompts:
+
+  1. Describe an event that changed your life or the life of someone close to you.
+2. Describethe impact of a traumatic event on your life.
+3. Descriveach character's reaction to a traumatic experience.
+4. Describerandom acts of kindness.
+5. Write about an unusual hobby or talent.
+
+  6. Write a story from the point
+--------------------
+opt = {'model_name': 'vicgalle/gpt-j-6B-alpaca-gpt4', 'device': 'auto', 'seed': 1684429947, 'prompt': 'Create a short story about a character who discovers an hidden talent.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts_small.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a short story about a character who discovers an hidden talent.
+elapsed time = 29.74s

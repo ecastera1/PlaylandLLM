@@ -1,0 +1,13 @@
+--------------------
+### output 1
+Describe a terrible hangover using the language of an English aristocrat from the Renaissance.
+
+Describe the hangover of a Renaissance aristocrat using the vocabulary of the 16th century.
+The aristocrat is Sir Thomas Elyot, who wrote The Boke Named the Gouernour in 1531. Elyot's descriptions of drunkenness and hangovers are vivid and colorful. He describes the effects of wine on the body as follows:
+
+"The firste effect of wine is that it maketh the head heavy, and the heart fainte, and slacketh the sinews, and causeth the liver to swell, and to swell the belly, and makethe the breath shorte, so that the sinewes be weakened, and so that they may not be able to endure the heat of the liver, and therefore it is that the liver swelleth, and it is not possible to endure it, so as it is impossible to endure both the heat and the cold, and especially the heat, and this is the cause why the sinowes swell, for the heat hath such force that it cannot endure, neither the cold nor the heat nor the wind, neither can it endure the sunne, nor the frost, nor snow,
+--------------------
+opt = {'model_name': 'vicgalle/gpt-j-6B-alpaca-gpt4', 'device': 'auto', 'seed': 1684435979, 'prompt': 'Describe a terrible hangover using the language of an English aristocrat from the Renaissance.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Describe a terrible hangover using the language of an English aristocrat from the Renaissance.
+Memory 6277.14Mb CUDA Memory: 6309.73Mb
+Elapsed time = 28.78s

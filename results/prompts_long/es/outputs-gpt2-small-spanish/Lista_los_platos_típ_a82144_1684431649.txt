@@ -1,0 +1,17 @@
+--------------------
+### output 1
+Lista los platos típicos de las 10 regiones españolas mas importantes.
+
+La gastronomía de la comarca se ha desarrollado en la zona, en la que se han desarrollado diversas actividades como la agricultura, la ganadería, la pesca y la caza.
+En la actualidad, la comarca cuenta con una de las mayores reservas de caza de Europa, en el que se encuentra el único ejemplar de caza en el mundo, el "Hornis sylvestris", que se conserva en el Museo de la Naturaleza de Madrid.
+La caza de ballenas en la comarca es una de sus actividades más importantes. En la actualidad se está realizando una importante labor de conservación de la especie, que ha sido declarada como especie protegida en el año 2000.
+El turismo rural es otro de los principales recursos económicos de la zona. La comarca cuenta, además, con una gran oferta de alojamientos rurales de clase media, y una gran variedad de actividades de ocio, como la pesca, la caza y la pesca.
+Las actividades económicas de la región son las siguientes:
+
+A lo largo de la historia de la localidad, la población ha ido creciendo, pasando de ser una población activa, a ser una de los municipios más importantes de la provincia de Burgos.
+A principios del siglo XX, la localidad contaba
+--------------------
+opt = {'model_name': 'datificate/gpt2-small-spanish', 'device': 'cuda:0', 'seed': 1684431649, 'prompt': 'Lista los platos típicos de las 10 regiones españolas mas importantes.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Lista los platos típicos de las 10 regiones españolas mas importantes.
+Memory 486.70Mb CUDA Memory: 495.59Mb
+Elapsed time = 2.17s

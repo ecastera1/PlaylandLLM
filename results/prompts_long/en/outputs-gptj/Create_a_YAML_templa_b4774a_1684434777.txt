@@ -1,0 +1,31 @@
+--------------------
+### output 1
+Create a YAML template to detect Magento version for the Nuclei vulnerability scanner.
+
+Create a new file called nuc_version.yaml in the /etc/nuclei directory.
+The file should contain the following content:
+
+#!/usr/bin/env python3
+import sys
+import yaml
+from collections import OrderedDict
+
+def get_version(yaml_file):
+    with open(yamlfile, 'r') as f:
+ 
+  version = yaml.load(f)
+  return version
+
+version = get_verison(sys.argv[1])
+print(version)
+
+Now, run the following command to create the nuc-version.sh script:
+nucleus-scanner -c /etc -f nuc/nuc_verion.yml
+
+The script will create a file called version.txt in the root of the /var/www/html directory. The script will look for the file and if it doesn't exist, it will create it.
+If you want to do the same thing for the Magento vulnerability scanner, you can use the same script,
+--------------------
+opt = {'model_name': 'EleutherAI/gpt-j-6B', 'device': 'auto', 'seed': 1684434777, 'prompt': 'Create a YAML template to detect Magento version for the Nuclei vulnerability scanner.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a YAML template to detect Magento version for the Nuclei vulnerability scanner.
+Memory 6277.14Mb CUDA Memory: 6311.05Mb
+Elapsed time = 28.41s

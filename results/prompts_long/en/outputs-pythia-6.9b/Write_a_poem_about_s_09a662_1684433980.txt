@@ -1,0 +1,29 @@
+--------------------
+### output 1
+Write a poem about shiba inu pet and his master.
+Answer:
+
+Hear the thunder of the rain,
+Dashing against the rooftop,
+Breaking the silence of night,
+Embracing the sorrow of pain.
+
+See the lightning, strike the tree,
+Splitting the branches in two,
+Holding the fear in its hands,
+Making the shiba Inu bark.
+"I am the master and you are the slave," the thunder said. 
+The lightning answered, "Yes, master." 
+"You will do as I say," the lightning replied. 
+
+The rain poured harder, washing away their sorrow and pain. 
+
+
+The shiba looked up, content in his master's love. He knew he was safe and would be cared for. He also knew that his master was there for him, no matter the circumstance.<|stop|>burg poetical.<|stop|>berg's answer.<|stop|>'s answer.. - 2. What are the main points of the poem "A Song of Myself" by Walt Whitman.
+a. It explores the individual's relationship with the natural world. 
+b. It emphasizes the poet's own subjectivity and experience. 3.
+--------------------
+opt = {'model_name': 'lambdalabs/pythia-6.9b-deduped-synthetic-instruct', 'device': 'auto', 'seed': 1684433980, 'prompt': 'Write a poem about shiba inu pet and his master.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Write a poem about shiba inu pet and his master.
+Memory 7060.86Mb CUDA Memory: 7082.82Mb
+Elapsed time = 22.59s

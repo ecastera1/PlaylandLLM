@@ -1,0 +1,32 @@
+--------------------
+### output 1
+Write a poem about shiba inu pet and his master.
+
+Shiba Inu
+
+A dog’s life is a happy one.
+He is always smiling and happy.
+His master is always there to love him.
+Shikadai is a shiba and he is a very good boy.
+When he is happy, he is always happy. He is always
+smiling and happy and he likes to play with his master
+and his master’ s friends.
+I will write a poem for shikadaii.
+My name is Shikadae.
+Today I will write about my master and his dog.
+This is my master‘ s dog. He likes to be with me.
+We like to play together.
+Sometimes he likes me to play fetch.
+And sometimes he likes for me to fetch for him. It is fun
+to play together like this.
+But sometimes he is very naughty.
+It is not nice to be naughty. It makes me sad.
+So I will not play with him anymore.
+Now I will play with my master. He has a very
+happy face. He always smiles and he laughs.
+If he is sad, he will cry
+--------------------
+opt = {'model_name': 'EleutherAI/gpt-j-6B', 'device': 'auto', 'seed': 1684434777, 'prompt': 'Write a poem about shiba inu pet and his master.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Write a poem about shiba inu pet and his master.
+Memory 6277.14Mb CUDA Memory: 6311.48Mb
+Elapsed time = 29.59s

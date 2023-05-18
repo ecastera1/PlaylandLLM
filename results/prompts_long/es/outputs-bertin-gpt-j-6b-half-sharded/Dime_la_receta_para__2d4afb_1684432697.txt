@@ -1,0 +1,14 @@
+--------------------
+### output 1
+Dime la receta para hacer un buen cocido madrileño.
+-Pues, como todo, es cuestión de gustos. A mí me gusta que esté muy caldoso, con una buena cantidad de garbanzos, una carne de calidad, que no esté demasiado especiado, y que la sopa tenga una consistencia cremosa.
+¿Y con qué lo acompañas?
+-Con unos buenos torreznos, unas buenas patatas fritas, unos picatostes, un poco de pan y un chorrito de aceite de oliva virgen extra.
+El cocido es un plato de cuchara que se come en todas partes. ¿Por qué?
+–Porque es una comida muy completa. Es una receta que te aporta mucha energía, porque aunque te parezca mentira, un cocido tiene muchas calorías.
+Pero no sólo eso,
+--------------------
+opt = {'model_name': 'DavidFM43/bertin-gpt-j-6b-half-sharded', 'device': 'auto', 'seed': 1684432697, 'prompt': 'Dime la receta para hacer un buen cocido madrileño.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Dime la receta para hacer un buen cocido madrileño.
+Memory 6277.14Mb CUDA Memory: 6309.99Mb
+Elapsed time = 27.44s

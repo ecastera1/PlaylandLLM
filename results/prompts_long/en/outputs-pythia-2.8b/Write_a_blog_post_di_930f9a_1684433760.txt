@@ -1,0 +1,21 @@
+--------------------
+### output 1
+Write a blog post discussing the advantages of utilizing ETFs vs Options or Futures.
+2 Research the different types of investments available and explain the advantages and disadvantages of each.
+3 Discuss the potential risks and rewards associated with investing in ETFs.
+4 Analyze the current market trends and any potential future trends that could be influenced by ETF investments.
+5 Provide a conclusion of your blog post explaining why ETF investors should be optimistic about their investments.<|stop|>.
+6 Create a list of key points your blogpost should make and use those points to create your post.<|stop|>..
+7 Write your blog content with emotion and enthusiasm, using strong language and relevant facts.
+8 Edit your post to ensure it is clear and well written, using precise language and accurate facts.<|stop|>.*
+9 Proofread your post for any errors and ensure it flows well, using grammar and punctuation correctly.
+10 Save your post as a PDF file for easy reference and make sure to include a link to your blog Posting Page.
+
+11 Submit your post and enjoy gaining exposure for your blog.<|stop|>*.<|stop|>.<|stop|>.**
+12 Enjoy earning rewards such as cash payments and bonus content for your blogging work.
+13 Have fun and make your blogging
+--------------------
+opt = {'model_name': 'lambdalabs/pythia-2.8b-deduped-synthetic-instruct', 'device': 'cuda:0', 'seed': 1684433760, 'prompt': 'Write a blog post discussing the advantages of utilizing ETFs vs Options or Futures.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Write a blog post discussing the advantages of utilizing ETFs vs Options or Futures.
+Memory 5421.04Mb CUDA Memory: 5447.07Mb
+Elapsed time = 7.90s

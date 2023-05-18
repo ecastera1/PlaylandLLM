@@ -1,0 +1,13 @@
+--------------------
+### output 1
+Make a list of five Stable Difussion features that should improve to make inference faster.
+ The Best of Both Worlds: How to Combine Online and Offline Shopping
+Online shopping has become increasingly popular over the years due to its convenience and accessibility. However, some people still prefer the traditional way of shopping, where they physically visit stores to see and touch products before making a purchase. The good news is that you can combine the best of both worlds by shopping online and offline. Here are some tips on how to do so:
+1. Research products online before visiting stores: Before visiting a store, research products online to get an idea of what you're looking for. This will help you to better understand the features, benefits, and prices of products, and make you more confident when making purchases.
+2. Use online shopping platforms to compare prices: Use online platforms like PriceGrabber, BizRate, and Shopping.com to compare the prices of different products at different stores. This way, you can find the best deals and discounts available online.
+3. Make a shopping list before visitng stores: Make a comprehensive sho
+--------------------
+opt = {'model_name': 'ehartford/WizardLM-7B-Uncensored', 'device': 'auto', 'seed': 1684436922, 'prompt': 'Make a list of five Stable Difussion features that should improve to make inference faster.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Make a list of five Stable Difussion features that should improve to make inference faster.
+Memory 6740.53Mb CUDA Memory: 6851.41Mb
+Elapsed time = 25.38s

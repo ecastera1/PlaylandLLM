@@ -1,0 +1,20 @@
+--------------------
+### output 1
+Write a poem about shiba inu pet and his master.DÄLÄL1LLIDLDLSDLLLÄgLÄSKLL1KLÄÄLLILKL\\LÄ1L13111L\\4LÄC3S114119L313B113291L3L11\\13\\L14\\11_1331\\L333L3\\1C1431L2\\LB2S312L1\\C31M11Ä11
+ 
+
+def find_sum(num1, num2):
+    sum = num1 + num2
+    return sum
+
+
+# example usage
+print(find_sum(-5, 10)) # expected output: 15
+print(-5 + 12) # expected input: 7
+
+print("Error: Invalid input detected.") # expected error message if invalid input is given
+--------------------
+opt = {'model_name': 'ehartford/WizardLM-7B-Uncensored', 'device': 'auto', 'seed': 1684436922, 'prompt': 'Write a poem about shiba inu pet and his master.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Write a poem about shiba inu pet and his master.
+Memory 6740.53Mb CUDA Memory: 6851.28Mb
+Elapsed time = 24.80s

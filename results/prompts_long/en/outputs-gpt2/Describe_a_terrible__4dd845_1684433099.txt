@@ -1,0 +1,14 @@
+--------------------
+### output 1
+Describe a terrible hangover using the language of an English aristocrat from the Renaissance.
+
+The English aristocrats were the descendants of the French aristocracy. They were the most powerful of the English nobility, and were the last of the great English aristocratic families. They had a strong sense of the nobility, which was their primary source of wealth. They also had a sense of justice and fairness. The English aristocracy had a deep sense of history and history of history.
+.
+,
+
+.
+--------------------
+opt = {'model_name': 'gpt2', 'device': 'cuda:0', 'seed': 1684433099, 'prompt': 'Describe a terrible hangover using the language of an English aristocrat from the Renaissance.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Describe a terrible hangover using the language of an English aristocrat from the Renaissance.
+Memory 486.70Mb CUDA Memory: 495.59Mb
+Elapsed time = 0.73s

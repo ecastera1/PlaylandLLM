@@ -1,0 +1,13 @@
+--------------------
+### output 1
+Create a tutorial about optimizing code performance when using Stable Difussion and PyTorch.
+ The AI-powered assistant for small businesses.
+Say goodbye to complicated accounting software and hello to a better way of managing your small business. With our AI assistant, you can easily track your expenses, manage your finances, and stay on top of your business's performance.
+Our AI helper is designed to work alongside you, providing personalized insights and recommendations based on your business needs. Say goodbyeto the days of manually tracking your expenditures and helloto a more efficient and streamlined approach to managingyour small business finances.
+With our AIAssistant, you'll have access to a powerful set of tools that will help you manage your smallbusiness like a pro. From invoicing and payment processing to financialreporting and analysis, our AIEmpowered assistant has got you covered.
+Manage your finance like apro. With easy-to-use tools and personalized recommendations, ourAI-power assistant is designedto help you make better financial decisions for your small businessthat will drive growth and profit
+--------------------
+opt = {'model_name': 'ehartford/WizardLM-7B-Uncensored', 'device': 'auto', 'seed': 1684436922, 'prompt': 'Create a tutorial about optimizing code performance when using Stable Difussion and PyTorch.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a tutorial about optimizing code performance when using Stable Difussion and PyTorch.
+Memory 6740.53Mb CUDA Memory: 6851.74Mb
+Elapsed time = 25.30s

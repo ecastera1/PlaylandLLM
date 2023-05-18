@@ -1,0 +1,12 @@
+--------------------
+### output 1
+Lista los platos típicos de las 10 regiones españolas mas importantes.
+Lista de los plato típico de las regiones de España.
+Todos los plátos típiocs de Espana.
+Platos tìpicos y tradicionales de las comunidades autónomas de Espania.
+Los platos tipicos de Espña.
+--------------------
+opt = {'model_name': 'bertin-project/bertin-gpt-j-6B', 'device': 'auto', 'seed': 1684431838, 'prompt': 'Lista los platos típicos de las 10 regiones españolas mas importantes.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Lista los platos típicos de las 10 regiones españolas mas importantes.
+Memory 6277.14Mb CUDA Memory: 6312.42Mb
+Elapsed time = 9.09s

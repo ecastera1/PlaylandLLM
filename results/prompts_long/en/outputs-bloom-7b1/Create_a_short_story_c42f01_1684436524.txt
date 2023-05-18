@@ -1,0 +1,8 @@
+--------------------
+### output 1
+Create a short story about a character who discovers an hidden talent. Think of a character in your story who has a hidden talent that you want to show off. The talent could be physical, like a special ability, or it could be mental, like an ability to solve a problem or make a decision.
+--------------------
+opt = {'model_name': 'bigscience/bloom-7b1', 'device': 'auto', 'seed': 1684436524, 'prompt': 'Create a short story about a character who discovers an hidden talent.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a short story about a character who discovers an hidden talent.
+Memory 7723.08Mb CUDA Memory: 7741.17Mb
+Elapsed time = 3.88s

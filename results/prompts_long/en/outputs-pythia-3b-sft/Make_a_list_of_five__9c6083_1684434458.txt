@@ -1,0 +1,16 @@
+--------------------
+### output 1
+Make a list of five Intel CPU features that can help run modern software and improve user experience.
+
+- Intel Turbo Boost technology: This technology allows the processor to automatically adjust its clock speed based on the system's workload. This can improve performance and responsiveness.
+- Hyper-threading: This feature allows the CPU to run two threads at the same time, which can improve the performance of multithreaded applications.
+ - Intel Virtualization Technology: This allows the operating system to run multiple virtual operating systems on the same physical hardware, which improves the performance and reliability of software running in a virtual environment.
+  - Intel Virtual Technology Extensions (VT-x): This feature enables the processor's virtualization capabilities, which allows the software to run on the CPU without the need for a separate virtualization layer.
+   - Intel Parallel Processing Technology (Intel® Advanced Vector Extensions, or AVX): This allows for the processor and the operating systems to perform complex calculations in parallel, which helps improve the speed and performance of certain applications and programs.
+    - Intel Quick Sync Video Technology (QSV): This technology can improve user experiences by reducing the lag time between the processor processing a frame and the display showing it to the user.
+
+--------------------
+opt = {'model_name': 'theblackcat102/pythia-3b-deduped-sft-r1', 'device': 'cuda:0', 'seed': 1684434458, 'prompt': 'Make a list of five Intel CPU features that can help run modern software and improve user experience.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Make a list of five Intel CPU features that can help run modern software and improve user experience.
+Memory 5421.07Mb CUDA Memory: 5447.07Mb
+Elapsed time = 7.85s

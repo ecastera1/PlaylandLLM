@@ -1,0 +1,13 @@
+--------------------
+### output 1
+Write a poem about shiba inu pet and his master.
+
+Shiba Inu is a very special dog. He is a cute and friendly breed that is very loyal to his master and family. He has a very gentle and gentle nature and loves to be around people. He also loves to play with his toys and is very playful. Siba Inu loves to run and play and is a great companion for any dog owner.
+Siba Inui is very intelligent and has a great sense of humor. He loves to joke around and play tricks on his master or family members. He can also be a bit of a clown and loves making people laugh. Sibi Inui has a lot of energy and loves running around and playing with his owner. He gets very excited and happy when he sees his master coming home and he is always happy to see them.
+Master and Siba are very close and are very loyal and devoted to each other. They are very happy to be together and are always happy and excited to see each other when they come home. Sibai loves to give his master a big hug and kiss and they always seem to be in a good mood when they are together.
+I hope you enjoyed reading my poem about Shiba
+--------------------
+opt = {'model_name': 'theblackcat102/pythia-3b-deduped-sft-r1', 'device': 'cuda:0', 'seed': 1684434458, 'prompt': 'Write a poem about shiba inu pet and his master.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Write a poem about shiba inu pet and his master.
+Memory 5421.07Mb CUDA Memory: 5447.07Mb
+Elapsed time = 8.05s

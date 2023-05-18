@@ -1,0 +1,12 @@
+--------------------
+### output 1
+Describe como funciona el modelo GPT-3 del lenguaje natural con transformers.
+El modelo de la teoría de transformaciones de GPT, está basado en el modelos de la gramática transformacional de Chomsky, aunque no es exactamente igual al modelo del lado derecho de la figura.
+La gramá tica transformación de G PT, es una gramá ntica libre de contexto, con símbolos no terminales, y reglas de producción de la forma:
+(1) Dada una palabra a, para cada símbolo no terminal s, si (a, s) ∈ Γ, entonces (s, a) ∉ Γ.
+(2) Dado un sí mbol o no terminal, para toda palabras a, b ∈Γ, si a = b, ento nces (a = b) ∇.
+En este modelo, las palabr as está n definidas por un conjunto finito de sím bolos no-
+--------------------
+opt = {'model_name': 'bertin-project/bertin-gpt-j-6B-infolibros', 'device': 'auto', 'seed': 1684431011, 'prompt': 'Describe como funciona el modelo GPT-3 del lenguaje natural con transformers.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts_small.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Describe como funciona el modelo GPT-3 del lenguaje natural con transformers.
+Memory 6277.14Mb CUDA Memory: 6310.83MbElapsed time = 23.89s

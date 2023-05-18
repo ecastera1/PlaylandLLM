@@ -1,0 +1,8 @@
+--------------------
+### output 1
+Write a blog post discussing the advantages of utilizing ETFs vs Options or Futures.
+--------------------
+opt = {'model_name': 'bigscience/bloom-7b1', 'device': 'auto', 'seed': 1684436524, 'prompt': 'Write a blog post discussing the advantages of utilizing ETFs vs Options or Futures.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Write a blog post discussing the advantages of utilizing ETFs vs Options or Futures.
+Memory 7723.08Mb CUDA Memory: 7745.72Mb
+Elapsed time = 0.09s

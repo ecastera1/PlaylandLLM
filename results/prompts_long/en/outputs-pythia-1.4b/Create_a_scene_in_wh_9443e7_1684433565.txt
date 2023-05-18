@@ -1,0 +1,12 @@
+--------------------
+### output 1
+Create a scene in which two characters talk about their future dreams in a prehistoric world.
+Answer:Start by creating a character set up with a pre-determined backstory and motivations. 
+2  Next, create visuals or props to help create the scene. These could include drawings, photographs, or other items that represent the pre-historic world and its inhabitants.
+3  Write a dialogue between the two characters that describes their future dream. Include thoughts and feelings they may have had in the past and how it relates to their current situation.
+4  Finally, bring the two scenes together in a creative way to make the dream come to life. This could involve adding music, setting props, and creating visuals to match the characters’ imagined world.<|stop|>jte, aby tvojich kolechovských partnerov mohl pozitívne věci ve stavbách vypovídány. Avšak, aby se zdravotně postavilé a zdobivé přestavby získaly pořádní přenosy. To je zjevně vše, co je dnes veřejně známo.
+--------------------
+opt = {'model_name': 'lambdalabs/pythia-1.4b-deduped-synthetic-instruct', 'device': 'cuda:0', 'seed': 1684433565, 'prompt': 'Create a scene in which two characters talk about their future dreams in a prehistoric world.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a scene in which two characters talk about their future dreams in a prehistoric world.
+Memory 5492.05Mb CUDA Memory: 5501.07Mb
+Elapsed time = 7.05s

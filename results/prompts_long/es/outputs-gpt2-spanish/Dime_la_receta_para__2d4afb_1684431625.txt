@@ -1,0 +1,8 @@
+--------------------
+### output 1
+Dime la receta para hacer un buen cocido madrileño.No se puede hacer un cocido madrileño.- ¿Qué?- No se puede cocinar un cocido.- Pero el cocido madrilino es bueno.- No seas ridículo.- Es un cocido de mierda.- ¡No seas ridículo!- ¡Es un cocido!- No es un cocido, es una mierda.¡Es una mierda!¡Es un puto cocido!¿Qué es esto?¿Qué?¿Por qué no me lo dijiste?- ¿No te lo dije?- Sí, me lo mencionaste.- Me lo dijiste.- Sí.- Porque no me dijiste que era un cocido...- ¡Lo es!- ¿Es un qué?- Es una mierda, es un puto...- Es mierda.Es una puta mierda.¿Por dónde iba?No, no.No, por aquí.- Por aquí.Por aquí.Es un buen sitio.- Esto es un buen lugar.- El mejor.- Vale.- Eso es.- Muy bien.- Gracias.- Muchas gracias.- De nada.- Te lo agradezco.- Y gracias de nuevo.- Lo agradezco.Gracias.- Ha sido genial.- Fue genial.Gracias de nuevo por todo esto
+--------------------
+opt = {'model_name': 'mrm8488/spanish-gpt2', 'device': 'cuda:0', 'seed': 1684431625, 'prompt': 'Dime la receta para hacer un buen cocido madrileño.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Dime la receta para hacer un buen cocido madrileño.
+Memory 486.70Mb CUDA Memory: 495.59Mb
+Elapsed time = 2.18s

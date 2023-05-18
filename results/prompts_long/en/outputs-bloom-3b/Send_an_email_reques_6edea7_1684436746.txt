@@ -1,0 +1,22 @@
+--------------------
+### output 1
+Send an email requesting prompter action from recipients.');
+define('_MI_MAIL_PROMPT_ACTION', 'Action');// not used in core, but required for the admin interface
+define ('_MD_MAIL_TEMPLATE_ADMIN', 'admin') ;
+define  ('_MM_MAIL_ADM', 'Admin') // used in admin interface, but not in core
+define   ('_MM_EMAIL_ADM',   'Admin Email')// used in the admin, but is not used by core
+//define ('_EMAIL_TEMPLATE','Email Template') : used in email templates
+define       ('_SEND_MAIL_ADMIN', 'Send Email' );
+// define ('_CAPTCHA', 'Captcha'): used in captcha
+define     ('_MAIL_CAPTCHAS', 'Mail Captchas')        ;
+// send mail
+define    ('_MS_MAIL_SEND','Send Email to')       ;
+/*
+define     ('_MAX_TEXT_LENGTH', 100); // max text length
+*/
+define        ('_EMAIL_SEND_ERROR', 'E-mail could not be sent.
+--------------------
+opt = {'model_name': 'bigscience/bloom-3b', 'device': 'cuda:0', 'seed': 1684436746, 'prompt': 'Send an email requesting prompter action from recipients.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Send an email requesting prompter action from recipients.
+Memory 5726.92Mb CUDA Memory: 5751.05Mb
+Elapsed time = 5.23s

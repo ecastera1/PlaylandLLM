@@ -1,0 +1,16 @@
+--------------------
+### output 1
+Create a short story about a character who discovers an hidden talent.
+Answer:It was a sunny day in July, and I was walking down the street when I saw a young girl playing a musical instrument for the first time. She had a beautiful voice, and as I listened to her sing, I could not help but be amazed.
+
+"I asked her what kind of instrument she was playing, and she smiled and said it was a rare and mysterious instrument called a saxophone. I asked where she was from, and when she said she was new to playing the instrument, I offered to help her learn some songs just for fun.
+
+ 			2  She was very grateful, and together we went back to her house to practice. I was surprised to see that she had a lot of talent, and was really excited for her.
+
+			3  That night I got a surprise invitation to her birthday party, and to my surprise, there were a lotof people there! Everyone was having fun, and the music was amazing.
+
+				4  The next day I went to the same party, but to my even more surprise, it was now a huge event! The music was even better, and it felt like everyone was there for
+--------------------
+opt = {'model_name': 'lambdalabs/pythia-2.8b-deduped-synthetic-instruct', 'device': 'cuda:0', 'seed': 1684429397, 'prompt': 'Create a short story about a character who discovers an hidden talent.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts_small.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a short story about a character who discovers an hidden talent.
+elapsed time = 7.88s

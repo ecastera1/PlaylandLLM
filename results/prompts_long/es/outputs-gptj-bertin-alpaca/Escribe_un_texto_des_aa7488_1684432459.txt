@@ -1,0 +1,11 @@
+--------------------
+### output 1
+Escribe un texto descriptivo de una mujer hermosa al estilo literario del siglo de oro español.
+
+### Respuesta:
+Ella era una joven mujercita con una belleza como ninguna otra. Su piel era tan pálida como la porcelana, sus ojos azules como el cielo y su cabello negro como las alas de un cuervo. Sus labios eran finos y su voz suave, pero su presencia era imponente. Era la mujermás hermasona que mis ojoshabían visto.
+--------------------
+opt = {'model_name': 'bertin-project/bertin-gpt-j-6B-alpaca', 'device': 'auto', 'seed': 1684432459, 'prompt': 'Escribe un texto descriptivo de una mujer hermosa al estilo literario del siglo de oro español.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Escribe un texto descriptivo de una mujer hermosa al estilo literario del siglo de oro español.
+Memory 6277.14Mb CUDA Memory: 6310.16Mb
+Elapsed time = 13.12s

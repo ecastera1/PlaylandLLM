@@ -1,0 +1,14 @@
+Check grammar and rewrite the following email in a more professional English:
+
+Hi all
+
+Please take a look at the final version of the AI deck that I’m working for field sales. Thank you for the help and feedback your team has provided so far. Let me know if you find any issues or red flags in the messaging. We choose to keep this version high level to publish it asap. We can work on a more detailed one that reinforce the message in future iterations.
+Please forward to the right people you consider that can help.
+
+Br
+Enrique
+<EOM>
+
+Corrected email:
+
+

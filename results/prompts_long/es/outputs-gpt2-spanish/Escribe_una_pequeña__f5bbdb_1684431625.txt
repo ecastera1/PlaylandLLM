@@ -1,0 +1,8 @@
+--------------------
+### output 1
+Escribe una pequeña historia sobre un personaje que acaba de descubrir un talento oculto que desconocía.- ¿Qué?- ¿Quién?- No.- No, no, no.- ¡Sí!- No lo sé.- Sí.- Es un secreto.- Lo sé.¿Qué es lo que no me estás contando?Es un secreto entre tú y yo.¿De acuerdo?¿Qué?¿De qué estás hablando?¿Cómo lo sabes?¿Por qué no me lo dices?Porque no quiero.- Por favor, no me mientas.- De acuerdo.¿Por favor?De acuerdo.¡No!¡No, no!¡Por favor!¡Dios, no lo hagas!¡Espera, espera, espera!¡Detente!¡Alto!¡Para!¡Oye!¡Te dije que te detuvieras!¡Deja de hacer eso!¡Dame la pistola!¡Dámela!¡Vamos!¡Al suelo!¡Baja el arma!¡Bájala!¡Ahora!¡De rodillas!¡Las manos detrás de la cabeza!¡Abajo!¡Dije abajo!¡Hazlo!¡Lo mataré!¡Tú!¡Suéltala!¡Suelta el arma ahora!¡Ponte de rodillas!¿Qué demonios estás haciendo?¡No te
+--------------------
+opt = {'model_name': 'mrm8488/spanish-gpt2', 'device': 'cuda:0', 'seed': 1684431625, 'prompt': 'Escribe una pequeña historia sobre un personaje que acaba de descubrir un talento oculto que desconocía.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Escribe una pequeña historia sobre un personaje que acaba de descubrir un talento oculto que desconocía.
+Memory 486.70Mb CUDA Memory: 495.59Mb
+Elapsed time = 2.11s

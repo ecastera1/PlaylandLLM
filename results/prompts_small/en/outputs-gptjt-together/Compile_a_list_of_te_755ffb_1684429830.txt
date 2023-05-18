@@ -1,0 +1,19 @@
+--------------------
+### output 1
+Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.
+
+Compile A List Of 10 Long-Tail Keywords Related To IT Transformation And The Modern Workplace
+
+IT transformation is a term used to describe the process of changing the way that IT is used in the workplace. IT transformation can be a long and drawn-out process that can take years to complete.
+The modern workplace is a place where the IT department is not the only department that is transforming.
+IT Transformation is a process that is being undertaken by a lot of companies in the UK.
+It is also a process where the modern office is a very different place to the office of the past.
+There are a number of different ways that IT Transformation can be done.
+One of the most important ways that this can be achieved is by using the right IT Transformation tools.
+This is because there are a lot more tools available now than there were when IT Transformation was first introduced.
+In this article, we will be looking at the different tools that are available to help you with IT Transformation.
+We will also be looking into the different ways in which IT Transformation is done. We will also look at the benefits that IT transformation brings to the
+--------------------
+opt = {'model_name': 'togethercomputer/GPT-JT-6B-v1', 'device': 'auto', 'seed': 1684429830, 'prompt': 'Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts_small.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.
+elapsed time = 28.26s

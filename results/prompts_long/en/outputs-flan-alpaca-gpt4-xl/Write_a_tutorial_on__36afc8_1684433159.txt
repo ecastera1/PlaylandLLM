@@ -1,0 +1,8 @@
+--------------------
+### output 1
+Write a tutorial on how to read a public company financial statements.: 1. **Financial Statements:** This is the most important part of the financial report. It presents the company's financial performance and provides information on its assets, liabilities, and cash flow. 2. **Revenue:** The revenue is the total amount of money that the company earns from its operations. It is the sum of all the company’s revenues and expenses. 3. **Inventory:** Inventory is the amount of goods that the business sells. It includes all the goods and services that the firm produces, including materials, labor, and supplies. 4. **Costs:] The cost of goods sold is the cost of the goods sold, including the cost for raw materials, transportation, and overhead. 5. **Equity:] Equity refers to the total value of the company, including its assets and liabilities. It represents the company as a whole, and the company is able to pay its debts and cover its expenses. 6. **Income:** Income is the net income of the business, which is the income minus the expenses. It can be calculated by subtracting the company from its assets. 7. **
+--------------------
+opt = {'model_name': 'declare-lab/flan-alpaca-gpt4-xl', 'device': 'auto', 'seed': 1684433159, 'prompt': 'Write a tutorial on how to read a public company financial statements.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Write a tutorial on how to read a public company financial statements.
+Memory 4283.48Mb CUDA Memory: 4298.89Mb
+Elapsed time = 21.91s

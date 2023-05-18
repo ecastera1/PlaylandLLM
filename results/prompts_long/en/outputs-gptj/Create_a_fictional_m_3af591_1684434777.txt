@@ -1,0 +1,17 @@
+--------------------
+### output 1
+Create a fictional magical system that is based on thermodynamic principles.
+
+Thermodynamic principles are the basis of the laws of physics. They are the laws that describe how the universe works.
+Thermo-dynamic principles are based on the laws governing the movement of heat, which are the basic laws of thermodynamics.
+The laws of Thermodynamics are the most fundamental laws of nature. They describe the universe as a whole, and how it works. They also govern all of the different kinds of energy that exist in the universe.
+These laws of the universe are the same laws that govern the universe of your world.
+You can use these laws to create a fictional world that is completely based on them.
+If you want to create your own world, you can use the laws to describe the basic properties of the world. You can also use them to describe how people interact with the world and how the world reacts to people.
+In this lesson, you will learn how to create the basic rules of your fictional world. This lesson will also teach you how to make your world more realistic by using the laws.
+This lesson will explain the laws and how they work in your world, and then you will create a world based on these laws. You
+--------------------
+opt = {'model_name': 'EleutherAI/gpt-j-6B', 'device': 'auto', 'seed': 1684434777, 'prompt': 'Create a fictional magical system that is based on thermodynamic principles.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a fictional magical system that is based on thermodynamic principles.
+Memory 6277.14Mb CUDA Memory: 6312.43Mb
+Elapsed time = 29.55s

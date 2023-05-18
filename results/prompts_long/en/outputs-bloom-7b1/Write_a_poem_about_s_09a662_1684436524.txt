@@ -1,0 +1,11 @@
+--------------------
+### output 1
+Write a poem about shiba inu pet and his master. The poem should be about the shiba's love for his master and how the master keeps his shiba safe and happy. You can write about the love the two share or the owner's love of the shibas. You may also write about how the owner treats the pet and how he treats the dog. You should write about all of this in a way that is interesting and that will make the reader want to read the poem.
+You can write a poem that is about your pet. You might be able to write a story about how your pet behaves and how you feel about it. You could also write a short story about a pet that you have had for a long time. You would want to write in a style that is easy to read and that is not too complicated. You want to make sure that the reader can understand what you are trying to say.
+You could write a song about your dog. This is a good idea if you have a dog that you love and that you want to share with others. You will want to include a lot of details about your pup and how it behaves. You need to write the song in a rhyme that is clear and easy to understand.
+You might want
+--------------------
+opt = {'model_name': 'bigscience/bloom-7b1', 'device': 'auto', 'seed': 1684436524, 'prompt': 'Write a poem about shiba inu pet and his master.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Write a poem about shiba inu pet and his master.
+Memory 7723.08Mb CUDA Memory: 7739.55Mb
+Elapsed time = 19.28s

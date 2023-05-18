@@ -1,0 +1,21 @@
+--------------------
+### output 1
+Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.
+Write an article on each of the ten keywords, incorporating relevant information and statistics.
+Promote the article on social media and through email marketing to reach your target audience.
+Create an infographic or visual representation of the article to make it more engaging and shareable.
+Monitor the performance of the content and adjust your strategy as needed.
+#3: Build a Referral Program
+Referral programs are a great way to generate new leads for your business. By offering incentives to your existing customers for referring new customers, you can increase your customer base and generate more revenue.
+To build a referral program, you’ll need to:
+Identify your target customers and their referral networks.
+Determine the incentive that will encourage your customers to refer new customers.
+Develop a referrer program that is easy to use and track.
+Implement the program and monitor its effectiveness.
+Adjust the program as needed to improve its performance.
+By building a referrals program, your business can generate new customers and increase its revenue without spending a lot of money on market
+--------------------
+opt = {'model_name': 'LLMs/Vicuna-EvolInstruct-7B', 'device': 'auto', 'seed': 1684437532, 'prompt': 'Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.
+Memory 6740.51Mb CUDA Memory: 6851.77Mb
+Elapsed time = 26.32s

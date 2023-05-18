@@ -1,0 +1,10 @@
+--------------------
+### output 1
+Write a poem about shiba inu pet and his master.
+Write a poem that describes the relationship between a shiba and its master. How does the shiba show its love and loyalty to its master? What are the special qualities that make the shibas unique?
+Write about the bond between a Shiba Inu and its owner. What makes this bond so special and unique? What qualities does the Shiba possess that make it so loyal and loving towards its owner?
+--------------------
+opt = {'model_name': 'LLMs/Vicuna-EvolInstruct-7B', 'device': 'auto', 'seed': 1684437532, 'prompt': 'Write a poem about shiba inu pet and his master.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Write a poem about shiba inu pet and his master.
+Memory 6740.51Mb CUDA Memory: 6851.87Mb
+Elapsed time = 10.36s

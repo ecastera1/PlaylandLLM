@@ -1,0 +1,8 @@
+--------------------
+### output 1
+Describe a terrible hangover using the language of an English aristocrat from the Renaissance. hurricane, leaving you feeling like you've just been blown off a mountain. You feel like you could scream and squirm, but the only thing that can soothe your pain is the soothing scent of cologne and the comforting warmth of your bed. You can't help but wonder what kind of demons are causing this terrible hang over, and if they're just a reflection of your own twisted sense of humor.
+--------------------
+opt = {'model_name': 'declare-lab/flan-alpaca-gpt4-xl', 'device': 'auto', 'seed': 1684433159, 'prompt': 'Describe a terrible hangover using the language of an English aristocrat from the Renaissance.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Describe a terrible hangover using the language of an English aristocrat from the Renaissance.
+Memory 4283.48Mb CUDA Memory: 4298.84Mb
+Elapsed time = 11.27s

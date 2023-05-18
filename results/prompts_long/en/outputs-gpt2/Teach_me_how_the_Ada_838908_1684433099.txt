@@ -1,0 +1,15 @@
+--------------------
+### output 1
+Teach me how the Adam optimizer works and give me a quiz at the end, but don’t give me the answers and then tell me if I answered correctly.
+
+’’
+
+If you want to learn more about the Adam Optimizer, check out my book on the topic: The Adam Optimization.
+, and my book: The Book of the Adam.
+.
+ (And if you want more information about the book, check my book, The Adam Book, and the Adam Book: An Introduction to the Adam Principle.)
+--------------------
+opt = {'model_name': 'gpt2', 'device': 'cuda:0', 'seed': 1684433099, 'prompt': 'Teach me how the Adam optimizer works and give me a quiz at the end, but don’t give me the answers and then tell me if I answered correctly.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Teach me how the Adam optimizer works and give me a quiz at the end, but don’t give me the answers and then tell me if I answered correctly.
+Memory 486.70Mb CUDA Memory: 495.59Mb
+Elapsed time = 0.68s

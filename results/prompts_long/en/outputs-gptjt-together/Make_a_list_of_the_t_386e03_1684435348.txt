@@ -1,0 +1,26 @@
+--------------------
+### output 1
+Make a list of the top five common mistakes when trading futures and how to avoid them.
+
+We’ve compiled a list for you of the most common mistakes that new traders make when trading financial markets. These mistakes are the result of a lack of experience and/or lack of understanding of the market.
+If you’re new to trading, you‘ll likely make these mistakes, but with some practice and experience, you can avoid them and become a successful trader.
+1. Not knowing how to trade
+2. Not having enough money to trade with
+3. Trading too much
+4. Trading with too little money
+5. Trading without a plan
+6. Trading in too many markets
+7. Trading on margin
+8. Trading the wrong time of day
+9. Trading at the wrong price
+10. Trading to make money
+
+1) Not knowing How to Trade
+
+The most common mistake new traders have is not knowing how the market works. Many traders don’t know how to read charts and graphs and how the markets behave. They don‘t know what to look for and how they can use that information to make good trading decisions.
+There are many different ways to trade, and not all
+--------------------
+opt = {'model_name': 'togethercomputer/GPT-JT-6B-v1', 'device': 'auto', 'seed': 1684435348, 'prompt': 'Make a list of the top five common mistakes when trading futures and how to avoid them.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Make a list of the top five common mistakes when trading futures and how to avoid them.
+Memory 6277.14Mb CUDA Memory: 6310.59Mb
+Elapsed time = 29.56s

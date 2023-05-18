@@ -1,0 +1,14 @@
+--------------------
+### output 1
+Escribe una pequeña historia sobre un personaje que acaba de descubrir un talento oculto que desconocía.
+
+### Respuesta:
+Alice siempre había sido una persona tímida e insegura, pero nunca lo admitiría en público. Sin embargo, cuando se trataba de dibujar, era todo lo contrario. Dibujaba con una confianza y habilidad que la mayoría de las personas envidiaban.
+ 
+Un día, mientras dibujada en su habitación, se dio cuenta de que habían aparecido algunas líneas extrañas en su lienzo. Miró con sorpresa y se dIO cuenta con alegría de que estaba viendo algunos de sus propios dibijos. Estaba tan emocionada de haber descubierto su talento secreto, y no pudo contener su alegria.
+Dio un paso atrás, orgullosa
+--------------------
+opt = {'model_name': 'bertin-project/bertin-gpt-j-6B-alpaca', 'device': 'auto', 'seed': 1684432459, 'prompt': 'Escribe una pequeña historia sobre un personaje que acaba de descubrir un talento oculto que desconocía.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Escribe una pequeña historia sobre un personaje que acaba de descubrir un talento oculto que desconocía.
+Memory 6277.14Mb CUDA Memory: 6308.68Mb
+Elapsed time = 24.07s

@@ -1,0 +1,21 @@
+--------------------
+### output 1
+Dime la receta para hacer un buen cocido madrileño.
+
+### Respuesta:
+La receta clásica para hace un bueno cocido Madrileñoes es:
+1. Garbanzos - remojados desde la noche anterior
+2. Verduras - zanahorias, apio, chirivías, repollo, papas, batatas
+3. Carne - morcillo de ternera, tocino, gallina, cerdo
+4. Tocino - panceta, tocineta
+5. Embutidos - chorizo, tostado, morcilla
+6. Tostadas - pan
+7. Tomate - maduro
+8. Aceite de oliva
+9. Sal
+10. Pimienta.
+--------------------
+opt = {'model_name': 'bertin-project/bertin-gpt-j-6B-alpaca', 'device': 'auto', 'seed': 1684432459, 'prompt': 'Dime la receta para hacer un buen cocido madrileño.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Dime la receta para hacer un buen cocido madrileño.
+Memory 6277.14Mb CUDA Memory: 6309.93Mb
+Elapsed time = 17.62s

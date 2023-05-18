@@ -1,0 +1,19 @@
+--------------------
+### output 1
+Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.
+ The following is a list ten long tail keywords related IT transformation in the modern Workplace. These keywords are longer and more specific than typical search terms, but they can help you target the right audience and improve your search engine rankings.
+1. IT transformation strategies
+2. Digital workplace evolution
+3. Future of workplace technology
+4. Modernizing IT infrastructure
+5. Cloud computing adoption
+6. Workplace automation
+7. Digital transformation initiatives
+8. IT organizational structure
+9. Employee training and development
+10. IT budgeting and financial management.
+--------------------
+opt = {'model_name': 'ehartford/WizardLM-7B-Uncensored', 'device': 'auto', 'seed': 1684436922, 'prompt': 'Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.
+Memory 6740.53Mb CUDA Memory: 6851.42Mb
+Elapsed time = 13.33s

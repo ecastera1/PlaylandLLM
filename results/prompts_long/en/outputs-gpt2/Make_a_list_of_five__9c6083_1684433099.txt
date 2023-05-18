@@ -1,0 +1,14 @@
+--------------------
+### output 1
+Make a list of five Intel CPU features that can help run modern software and improve user experience.
+
+Intel Core i7-4790K
+
+The Intel Core i5-4770K is an Intel Core processor with a 1.4GHz base clock speed. It is available with either a 9-core or a 2.0GHz base. The processor is powered by a 4.3GHz quad-core processor. The Intel Corei5-4670K has a 1,000MHz base clock and a 2,000 MHz base clock. It also features a 2GB of DDR3 memory.
+, the Intel Core Processor with a base clock, a 2MB of DDR4 memory, and a 1TB hard drive. The Core i3-4310K is a 1GB base clock with a 2-pin power connector. It features a 1/4" drive bay, a 1" drive slot, and an 8-pin USB 3.0 port. The i3 processor is also available with a single-slot power connector, and with a 6-pin front-panel connector. The CPU is powered with a 4-core and a 3.5GHz base and 2.5 GHz base clock speeds.
+. The core i3
+--------------------
+opt = {'model_name': 'gpt2', 'device': 'cuda:0', 'seed': 1684433099, 'prompt': 'Make a list of five Intel CPU features that can help run modern software and improve user experience.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Make a list of five Intel CPU features that can help run modern software and improve user experience.
+Memory 486.70Mb CUDA Memory: 495.59Mb
+Elapsed time = 2.03s

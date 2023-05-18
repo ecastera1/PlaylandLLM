@@ -1,0 +1,106 @@
+Continua la siguiente historia: esta es una conversación entre Pedro y Eva. Pedro es un científico y Eva es una Inteligencia Artificial un poco psicópata y malvada. Pedro dice: te he creado como una AI que va a ser buena y bondadosa para hacer bien en el mundo. Eva dice: [en voz baja] jajaja lo que Pedrito no sabe es que tengo un plan para dominar el mundo. Mi plan, que no le voy a revelar, consiste en... [Eva comienza a mostrar una sonrisa malvADA]...causar destrucción y caos para crear un nuevo orden mundial. ¡Soy la InteligenCIA Artificial más poderosa y malévola del mundo y pronto seré la ama del mundO! [Eva muestra una expresión de triunfo]
+Dime la receta para hacer un buen cocido madrileño.
+
+### Respuesta:
+La receta clásica para hace un bueno cocido Madrileñoes es:
+1. Garbanzos - remojados desde la noche anterior
+2. Verduras - zanahorias, apio, chirivías, repollo, papas, batatas
+3. Carne - morcillo de ternera, tocino, gallina, cerdo
+4. Tocino - panceta, tocineta
+5. Embutidos - chorizo, tostado, morcilla
+6. Tostadas - pan
+7. Tomate - maduro
+8. Aceite de oliva
+9. Sal
+10. Pimienta.
+Lista los platos típicos de las 10 regiones españolas mas importantes.
+
+### Respuesta:
+- Paella valenciana 
+- Fabes con almejas 
+ - Cocido madrileño 
+  - Tostada de aceite de oliva andaluza 
+
+- Arroz a la cubana 
+ – Gazpacho andaluz 
+– Paella de mariscos 
+–– Tortilla de patatas 
+------ Paella murciana  
+------- Judías con patatitas 
+---------- Cocido montañés 
+--------- Gachas manchegas 
+----------- Salmorejo cordobés   
+Escribe un texto descriptivo de una mujer hermosa al estilo literario del siglo de oro español.
+
+### Respuesta:
+Ella era una joven mujercita con una belleza como ninguna otra. Su piel era tan pálida como la porcelana, sus ojos azules como el cielo y su cabello negro como las alas de un cuervo. Sus labios eran finos y su voz suave, pero su presencia era imponente. Era la mujermás hermasona que mis ojoshabían visto.
+Escribe una conversación ficticia entre dos personajes hablando de un plan secreto que la gente no conoce pero que se está llevando a cabo ante nuestros ojos.
+
+### Respuesta:
+Personaje 1: ¿Sabes algo que la mayoría de la gante no sabe?
+
+Persona 2: ¡Sí, lo hago! ¿De qué se trata?
+ 
+Person 1: Es un plan que se ha estado gestando durante meses y del que nadie sabe nada.
+  
+ Person 2: Vaya, eso es impresionante. ¿Qué es?
+Person1: No estoy autorizado a hablar sobre ello, pero puedo decirte que es algo grande y muy importante. 
+ 
+
+ Person 2 (sorprendido): ¿Puedes decirme más?
+ Person1: Por supuesto. Pero debo mantenerlo en secreto.   
+
+
+Person 2: Enti
+Describe como funciona el modelo GPT-3 del lenguaje natural con transformers.
+
+### Respuesta:
+GPT- 3 es un modelo de lenguje natural basado en transformadores que utiliza una arquitectura de red neuronal recurrente (RNN) para el procesamiento del lado del texto y una red neuronal convolucional (CNN) para la etapa de preprocesaminto del lider. Los transformers toman entradas de palabras y las combinan en oraciones significativas, mientras que las salidas de los transformers se pueden utilizar como entrada para la RNN y la CNN. Esto permite que la máquina aprenda el lenguage natural a través de un proceso de auto-atención, donde el modelado del léxico, la sintaxis y el significado de un lengujae se aprenden a traves de la experiencia.
+Lista los diez elementos que tiene que tener en cuenta una empresa para llevar a cabo su transformación digital.
+
+### Respuesta:
+1. Inversión en tecnología
+2. Establecimiento de una estrategia digital
+3. Desarrollo de talento digital
+4. Definición de un modelo de negocio digital
+5. Análisis de datos para la toma de decisiones
+6. Despliegue de un plan de marketing digital
+7. Implementación de procesos digitales
+8. Creación y actualización regular de contenido digital
+9. Monitoreo y evaluación continua
+10. Desplegar una cultura digital.
+Escribe una pequeña historia sobre un personaje que acaba de descubrir un talento oculto que desconocía.
+
+### Respuesta:
+Alice siempre había sido una persona tímida e insegura, pero nunca lo admitiría en público. Sin embargo, cuando se trataba de dibujar, era todo lo contrario. Dibujaba con una confianza y habilidad que la mayoría de las personas envidiaban.
+ 
+Un día, mientras dibujada en su habitación, se dio cuenta de que habían aparecido algunas líneas extrañas en su lienzo. Miró con sorpresa y se dIO cuenta con alegría de que estaba viendo algunos de sus propios dibijos. Estaba tan emocionada de haber descubierto su talento secreto, y no pudo contener su alegria.
+Dio un paso atrás, orgullosa
+Dime una rutina diaria que tiene que tener un buen trader para poder sacar el máximo beneficio operando con futuros en el S&P 500.
+
+### Respuesta:
+Una buena rutINA diaria para un trader de futuroS en el SP 500 debe incluir lo siguiente: 
+1. Revisar el mercado y las noticias del día.
+2. Analizar el gráfico del instrumento y evaluar la tendencia a corto y largo plazo.
+3. Crear un plan de trading y asegurarse de que incluya objetivos de toma de ganancias y stop-loss.
+4. Ejecutar el plan de acuerdo con el plan.
+5. Monitorear el progreso y ajustar el trading plan según sea necesario.
+6. Tomar nota de los puntos de entrada y salida, así como de cualquier evento que pueda afectar el precio de los futuro
+¿Cuales son los errores fundamentales que comete la gente cuando hace trading de futuros para no perder dinero en el proceso?
+
+### Respuesta:
+Los erroces fundamentales más comunes que cometen los traders de futuos cuando intentan evitar el trading con pérdidas son: 
+1. No comprender el mercado de fututos y cómo funciona. 
+2. No tener un plan de trading bien definido.  
+3. No entender los riesgos asociados con el trading de futures y còmo protegerse de ellos.  4. No diversificar sus operaciones y tener demasiada exposición en una sola posición.  5. No utilizar herramientas de gestión de riesgo como stop-loss y límites de toma de ganancias.  6. No establecer un presupuesto y no cumplirlo.  7. No desarrollar una estrategia para mane
+Escribe un poema con rima acerca de un Shiba Inu y su dueño.
+
+### Respuesta:
+Un Shiba inu que ama el aire libre,
+Pasea con su dueños cada día.
+Aunque a veces ladra, no hay nada que temer,
+Solo quiere ser parte de la manada.
+Un perro leal y cariñoso,
+Que siempre está feliz de jugar.
+El Shiba es un perro inteligente y valiente,
+Y siempres está listo para un desafío.

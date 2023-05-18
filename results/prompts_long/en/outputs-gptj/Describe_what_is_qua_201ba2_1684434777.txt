@@ -1,0 +1,23 @@
+--------------------
+### output 1
+Describe what is quantum computing and it possible outcomes.
+
+Quantum computing is a new type of computing that uses quantum mechanics to solve problems. Quantum computing is based on the idea that the laws of quantum mechanics can be used to solve certain problems.
+Quantums are in a superposition of states, and this means that they can exist in more than one state at once. This is different from classical computation, where a bit is either 0 or 1.
+The most important difference between classical and quantum computing is that quantum computers can solve problems that are exponentially more difficult than classical computers.
+There are two types of quantum computing:
+
+Deterministic quantum computing
+
+Non-deterministic (or probabilistic) quantum computing.
+Determinstic quantum computing can be considered to be a special case of non-determinstic computing, since it is deterministic.
+Non deterministic quantum computers are used to simulate quantum systems.
+These computers can be thought of as a way to simulate a quantum system.
+For example, a quantum computer can simulate a single electron in a double-well potential.
+This is a system that is very difficult to simulate classically.
+It is possible to simulate this system with a non-quantum computer
+--------------------
+opt = {'model_name': 'EleutherAI/gpt-j-6B', 'device': 'auto', 'seed': 1684434777, 'prompt': 'Describe what is quantum computing and it possible outcomes.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Describe what is quantum computing and it possible outcomes.
+Memory 6277.14Mb CUDA Memory: 6310.62Mb
+Elapsed time = 29.75s

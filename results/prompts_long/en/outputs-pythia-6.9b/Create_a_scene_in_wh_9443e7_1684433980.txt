@@ -1,0 +1,22 @@
+--------------------
+### output 1
+Create a scene in which two characters talk about their future dreams in a prehistoric world. Include visuals to depict the characters’ facial expressions, body language, and gestures. Make sure to use colorful, vivid details to create a realistic environment.
+Answer:Create a pre-historic world with lush, vibrant colors. Draw upon the landscape for inspiration and make sure to include realistic-looking trees, plants, and wildlife.
+
+2. Create two characters: a hopeful hero and an antagonist with contrasting views on achieving their dreams.
+3. Use facial expressions and body language to show their different emotions.
+4. Include detailed costumes and props that represent their individual hopes and dreams. 
+
+5. Focus on specific gestures to show the progression of their conversations.
+6. Add in a few shots of the landscape, as this will help to explain the characters' dreams and provide a sense of place. 
+    
+7. Finally, sound effects and music can help to bring the scene to life and add to the atmosphere. 
+   
+8. Submit your work for review.
+9. Celebrating success.
+10. Dream big.<|stop|> our community of creative people who are working together to create something unique and powerful..": https://www.
+--------------------
+opt = {'model_name': 'lambdalabs/pythia-6.9b-deduped-synthetic-instruct', 'device': 'auto', 'seed': 1684433980, 'prompt': 'Create a scene in which two characters talk about their future dreams in a prehistoric world.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a scene in which two characters talk about their future dreams in a prehistoric world.
+Memory 7060.86Mb CUDA Memory: 7085.03Mb
+Elapsed time = 22.13s

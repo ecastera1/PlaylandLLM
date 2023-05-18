@@ -1,0 +1,11 @@
+--------------------
+### output 1
+¿Cuales son los errores fundamentales que comete la gente cuando hace trading de futuros para no perder dinero en el proceso? ¿Qué es lo que tiene que hacer para que no se le ocurra a nadie que pueda hacer lo que hace? ¿Es que no quiere seguir viviendo? ¿O es que quiere seguir pensando en la vida, en la muerte, en el futuro? ¿Puede que no quiera seguir viviendo porque no quiere vivir porque no desea vivir porque quiere seguir siendo una persona y no quiere ser otra cosa que la persona que ama? 
+
+¿Puede que esté pensando en otra cosa? ¿Tiene que pensar en otra persona? ¿No quiere seguir creyendo que no desea seguir viviendo, que no necesita seguir viviendo y que no tiene que seguir pensando? ¿Por qué no quiere que siga viviendo porque quiere vivir? ¿En qué sentido tiene que pensar? ¿Hago lo que he hecho? ¿He hecho lo que me he hecho y no quiero seguir viviendo si no quiero vivir porque quiero seguir siendo alguien? ¿Lo que he intentado hacer? ¿Me he vuelto loca? ¿Cómo he podido llegar a pensar que no quiero volver a tener la oportunidad de vivir porque deseo seguir viviendo después de lo que ha hecho? 
+
+--------------------
+opt = {'model_name': 'DeepESP/gpt2-spanish', 'device': 'cuda:0', 'seed': 1684431674, 'prompt': '¿Cuales son los errores fundamentales que comete la gente cuando hace trading de futuros para no perder dinero en el proceso?', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = ¿Cuales son los errores fundamentales que comete la gente cuando hace trading de futuros para no perder dinero en el proceso?
+Memory 486.70Mb CUDA Memory: 495.59Mb
+Elapsed time = 1.97s

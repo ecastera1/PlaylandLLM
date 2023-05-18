@@ -1,0 +1,9 @@
+--------------------
+### output 1
+Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.
+Answer:cloud computing, digital transformation, employee engagement, workforce optimization, data analytics, IT automation, business process automation, mobile computing, social business and big data analytics.<|stop|>long-tailkeywords related to it transformation andthe modern workplace ten.<|stop|> long-tailed keywords related tothe IT transformationand the modernworkplace.<|stop|>. answer.cloud. computing. digital. transformation. employee. engagement. workforce. optimization. data. analytics. automat.ion. business. process. automation. mobile. computing..social. business..and. big. data.. analytics. 1. cloud-based. 2. employee-engagement. 3. workforce-optimization. 4. data-analytics. 5. IT-automation. 6. business-process. automation.. 7. mobile-computing. 8. social-business. 9. big-data. analytics.. 10. IT. transformation..and..modern. workplace. 11. answers. 12. long-tails. keywords. 13. related. fourteen. long. tails. keywords.. 15. list. 16. of. 17. ten. 18. long-. 19. tail. 20.
+--------------------
+opt = {'model_name': 'lambdalabs/pythia-6.9b-deduped-synthetic-instruct', 'device': 'auto', 'seed': 1684433980, 'prompt': 'Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.
+Memory 7060.86Mb CUDA Memory: 7082.74Mb
+Elapsed time = 22.19s

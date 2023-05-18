@@ -1,0 +1,24 @@
+--------------------
+### output 1
+Make a list of the top five common mistakes when trading futures and how to avoid them.
+2. Understand the types of futures contracts available and how they work.
+3. Learn the basics of risk management and how it applies to trading futures.
+4. Develop a strategy and plan for trading futures contracts.
+5. Know the regulations and restrictions related to trading Futures.<|stop|>.<|stop|>; 2. 3. 4. 5.<|stop|>.”
+6. Utilize proper tools and resources when trading FutURES.
+7. Monitor the market and adjust trading strategy as needed.
+8. Always understand the implications of trading Futurs.
+9. Monitor financial markets for indications of demand for Futures contracts. 
+10. Monitor news releases and research for developments that may impact Futures prices.<|stop|>."
+11. Monitor website and mobile app for updates on Futures market conditions.
+12. Adjust trading positions in a safe and profitable manner.
+13. Take profits when the market allows and avoid making unneeded losses.
+14. Educate yourself and others on the basicsof trading Futuras.
+15. Use stop loss orders to limit potential losses.<|stop|>.“
+16. Plan ahead and practice trading strategies on a simulated market.
+
+--------------------
+opt = {'model_name': 'lambdalabs/pythia-2.8b-deduped-synthetic-instruct', 'device': 'cuda:0', 'seed': 1684433760, 'prompt': 'Make a list of the top five common mistakes when trading futures and how to avoid them.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Make a list of the top five common mistakes when trading futures and how to avoid them.
+Memory 5421.04Mb CUDA Memory: 5447.07Mb
+Elapsed time = 7.86s

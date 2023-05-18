@@ -1,0 +1,16 @@
+--------------------
+### output 1
+Escribe una conversación ficticia entre dos personajes hablando de un plan secreto que la gente no conoce pero que se está llevando a cabo ante nuestros ojos.
+Sólo una persona sabe de este plan:
+- ¿Qué es lo que estás haciendo? - pregunta el personaje A.
+- Estoy haciéndole una foto a una chica que está en una ventana.
+El personaj A se queda pensando unos segundos, y luego contesta:
+El plan secretó consiste en que la chica está ahí porque una organización secreta está haciendole un seguimiento.
+Pero el personage B no sabe nada de este seguimento. Así que el personag B dice:
+Y el personagg A contesta de nuevo:
+Por último, el personager B dice de nvo: - ¿Y quién está detrás de todo esto?
+El
+--------------------
+opt = {'model_name': 'DavidFM43/bertin-gpt-j-6b-half-sharded', 'device': 'auto', 'seed': 1684431195, 'prompt': 'Escribe una conversación ficticia entre dos personajes hablando de un plan secreto que la gente no conoce pero que se está llevando a cabo ante nuestros ojos.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts_small.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Escribe una conversación ficticia entre dos personajes hablando de un plan secreto que la gente no conoce pero que se está llevando a cabo ante nuestros ojos.
+Memory 6277.14Mb CUDA Memory: 6312.15MbElapsed time = 24.99s

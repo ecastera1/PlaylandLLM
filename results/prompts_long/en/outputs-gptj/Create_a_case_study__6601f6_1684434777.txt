@@ -1,0 +1,13 @@
+--------------------
+### output 1
+Create a case study detailing what sustainability client measures assisted a client in improving their IT efficiency.
+
+The client is a large multinational company that is a leading provider of IT services. The client had a number of challenges that it needed to address in order to meet its business goals. It had a large number of IT systems that were not working together and were not communicating effectively. The company had a need to streamline its IT operations and eliminate redundancies. The IT department was not able to provide the support that the company needed to meet the business goals that it had set.
+The company had set a goal to reduce its IT costs by 30%. The company was able to achieve this goal by reducing the number of servers that it used and by consolidating some of its IT systems. The goal of reducing the IT costs was achieved by reducing IT staff and reducing the costs of IT equipment.
+In order to achieve the goal of eliminating redundancies, the company had to consolidate its IT infrastructure. This meant that the IT department had to eliminate the use of a number IT systems and consolidate the remaining IT systems into a smaller number of systems.
+A case study was written for this assignment. The case study provided a detailed description of the IT systems of the client and how they were
+--------------------
+opt = {'model_name': 'EleutherAI/gpt-j-6B', 'device': 'auto', 'seed': 1684434777, 'prompt': 'Create a case study detailing what sustainability client measures assisted a client in improving their IT efficiency.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a case study detailing what sustainability client measures assisted a client in improving their IT efficiency.
+Memory 6277.14Mb CUDA Memory: 6311.55Mb
+Elapsed time = 28.95s

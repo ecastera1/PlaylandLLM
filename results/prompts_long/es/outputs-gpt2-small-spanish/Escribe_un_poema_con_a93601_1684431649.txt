@@ -1,0 +1,12 @@
+--------------------
+### output 1
+Escribe un poema con rima acerca de un Shiba Inu y su dueño.
+
+El libro comienza con una cita de Shiba en una carta a la señora del lugar donde se encuentra Shiba, que le dice que no le gusta la comida. Shiba le dice a Shiba que no lo haga, que no tiene nada que ver con los humanos, que lo haga porque no tiene dinero. Shia le dice: "No, no. No, no". Shiba dice: "¡No, nunca. No. No". Shia dice: "¿No, tampoco. No!". Después de la cita, Shiba se da cuenta de que no está preparado para comer.
+Shiba dice que su padre es el dueño de una tienda de comida rápida, pero que la tienda está lista para que se lo haga. Shima le dice al dueño que no puede comer, y que se va a la tienda. Shibabin le dice "No" a Shima, y le dice "¿No?" Shima dice "Sí, no", y le pregunta "¿No?". Shiba responde: "Sí. No" y le da la bienvenida.
+El dueño de la tienda, Shibbing, le dice, "No". Shibbain
+--------------------
+opt = {'model_name': 'datificate/gpt2-small-spanish', 'device': 'cuda:0', 'seed': 1684431649, 'prompt': 'Escribe un poema con rima acerca de un Shiba Inu y su dueño.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Escribe un poema con rima acerca de un Shiba Inu y su dueño.
+Memory 486.70Mb CUDA Memory: 495.59Mb
+Elapsed time = 2.12s

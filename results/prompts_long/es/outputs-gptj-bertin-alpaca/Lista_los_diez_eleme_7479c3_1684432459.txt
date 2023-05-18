@@ -1,0 +1,20 @@
+--------------------
+### output 1
+Lista los diez elementos que tiene que tener en cuenta una empresa para llevar a cabo su transformación digital.
+
+### Respuesta:
+1. Inversión en tecnología
+2. Establecimiento de una estrategia digital
+3. Desarrollo de talento digital
+4. Definición de un modelo de negocio digital
+5. Análisis de datos para la toma de decisiones
+6. Despliegue de un plan de marketing digital
+7. Implementación de procesos digitales
+8. Creación y actualización regular de contenido digital
+9. Monitoreo y evaluación continua
+10. Desplegar una cultura digital.
+--------------------
+opt = {'model_name': 'bertin-project/bertin-gpt-j-6B-alpaca', 'device': 'auto', 'seed': 1684432459, 'prompt': 'Lista los diez elementos que tiene que tener en cuenta una empresa para llevar a cabo su transformación digital.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Lista los diez elementos que tiene que tener en cuenta una empresa para llevar a cabo su transformación digital.
+Memory 6277.14Mb CUDA Memory: 6310.77Mb
+Elapsed time = 16.29s

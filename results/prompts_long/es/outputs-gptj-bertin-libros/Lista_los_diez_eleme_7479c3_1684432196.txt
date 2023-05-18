@@ -1,0 +1,9 @@
+--------------------
+### output 1
+Lista los diez elementos que tiene que tener en cuenta una empresa para llevar a cabo su transformación digital.
+
+--------------------
+opt = {'model_name': 'bertin-project/bertin-gpt-j-6B-infolibros', 'device': 'auto', 'seed': 1684432196, 'prompt': 'Lista los diez elementos que tiene que tener en cuenta una empresa para llevar a cabo su transformación digital.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Lista los diez elementos que tiene que tener en cuenta una empresa para llevar a cabo su transformación digital.
+Memory 6277.14Mb CUDA Memory: 6311.69Mb
+Elapsed time = 0.25s

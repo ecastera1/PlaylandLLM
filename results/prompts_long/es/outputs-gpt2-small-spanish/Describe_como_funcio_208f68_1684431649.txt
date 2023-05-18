@@ -1,0 +1,14 @@
+--------------------
+### output 1
+Describe como funciona el modelo GPT-3 del lenguaje natural con transformers.
+
+El modelo de simulación de simulación es una versión de la simulación de realidad de simulación, que se basa en la simulación del comportamiento de los seres humanos en el mundo real.
+El modelado de simulación se basa principalmente en la observación de la realidad, la percepción de la naturaleza, la experiencia, la interacción entre los objetos, y la percepción del comportamiento humano.
+La simulación de la vida real es una aplicación de la teoría de la complejidad de la economía, la teoría económica de la información, y el modelo de la ciencia de la computación.
+Utilizando el modelo matemático de la mecánica cuántica, los modelos de simulación son modelos de la evolución de los estados de la materia y de la energía, y de los procesos de producción y distribución de energía.
+También se utilizan en el modelado de procesos de la física de la luz, la física del agua, la química de la Tierra, la mecánica de la gravedad, la dinámica de la radiación, la biología de la electricidad, la ecología de la biología, la ciencia del cambio climático, la economía de la salud, la psicología de la religión, la sociología de la sociedad, la filosofía de la música, la historia de la humanidad,
+--------------------
+opt = {'model_name': 'datificate/gpt2-small-spanish', 'device': 'cuda:0', 'seed': 1684431649, 'prompt': 'Describe como funciona el modelo GPT-3 del lenguaje natural con transformers.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Describe como funciona el modelo GPT-3 del lenguaje natural con transformers.
+Memory 486.70Mb CUDA Memory: 495.59Mb
+Elapsed time = 2.13s

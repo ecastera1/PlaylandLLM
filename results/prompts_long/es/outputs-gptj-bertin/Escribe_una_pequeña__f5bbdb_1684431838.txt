@@ -1,0 +1,18 @@
+--------------------
+### output 1
+Escribe una pequeña historia sobre un personaje que acaba de descubrir un talento oculto que desconocía.
+Por ejemplo: “Un día, una niña descubrió que tenía un talentoso don para el dibujo.”
+¿Qué te hace pensar que ese talento es un don?
+¡Es un don!
+El talento no es una cualidad innata, sino que se desarrolla a través del esfuerzo y la práctica.
+ La práxis es la capacidad de llevar a cabo una acción.
+ La próxis de una persona es la suma de sus habilidades y talentos.
+Ejemplos de habilidad y talento:
+ Una persona que tiene un talentosa habilida para el canto.
+- Una mujer que es muy buena en matemáticas.
+Cada vez que una habilidda o talent
+--------------------
+opt = {'model_name': 'bertin-project/bertin-gpt-j-6B', 'device': 'auto', 'seed': 1684431838, 'prompt': 'Escribe una pequeña historia sobre un personaje que acaba de descubrir un talento oculto que desconocía.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Escribe una pequeña historia sobre un personaje que acaba de descubrir un talento oculto que desconocía.
+Memory 6277.14Mb CUDA Memory: 6310.99Mb
+Elapsed time = 26.57s

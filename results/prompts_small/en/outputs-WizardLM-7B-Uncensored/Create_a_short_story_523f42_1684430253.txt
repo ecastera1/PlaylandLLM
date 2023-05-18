@@ -1,0 +1,46 @@
+--------------------
+### output 1
+Create a short story about a character who discovers an hidden talent.
+ 
+#include <iostream>
+#define MAXN 1000
+using namespace std;
+int n, maxn;
+char arr[MAXN];
+int main()
+{
+    // input
+    cin >> n >> maxn >> arr[0];
+    int a, b, c, d, e, f;
+    for(a=1;a<=n;a++)
+    {
+        for(b=1,c=1+a;c<=n+1;c++)
+        {
+            if(arr[a]=='X' && arr[b]==arr[c])
+            {
+                d=a;
+                e=b;
+            }
+            else if(a==b)
+            d=c;
+        }
+        if(d==n)
+        f=e;
+        
+    }
+    if(f==n+2)
+    cout << "Two players" << endl;
+    
+    else
+    return 0;
+} 
+
+
+// v
+// 
+//
+//
+--------------------
+opt = {'model_name': 'ehartford/WizardLM-7B-Uncensored', 'device': 'auto', 'seed': 1684430253, 'prompt': 'Create a short story about a character who discovers an hidden talent.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts_small.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a short story about a character who discovers an hidden talent.
+elapsed time = 24.20s

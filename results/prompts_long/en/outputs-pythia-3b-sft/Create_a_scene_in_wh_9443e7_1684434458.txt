@@ -1,0 +1,19 @@
+--------------------
+### output 1
+Create a scene in which two characters talk about their future dreams in a prehistoric world. It should be a short scene, maybe just a couple of lines, but it should be clear that the characters are talking about their dreams and that the future is uncertain.
+
+Here's an example of a scene that might fit the bill:
+
+"I don't know what I want to be when I grow up," said the boy. "I just know I want something different from what I've been doing. I want a new life."
+
+The girl nodded. "You know, I had a dream once. I dreamed of being a princess. But now I think I'd rather be a warrior. It's more exciting."
+"But you're a princess," said her brother. "There's no place for a warrior in a princess's world."
+The two children looked at each other. "Maybe not," said their mother. "But it's never too late to change your mind."
+They looked at their father. "What do you think?"
+"Well," he said, "I think it's a good idea to be a princess, but I think it might be better to be the warrior."
+He looked at his wife. "
+--------------------
+opt = {'model_name': 'theblackcat102/pythia-3b-deduped-sft-r1', 'device': 'cuda:0', 'seed': 1684434458, 'prompt': 'Create a scene in which two characters talk about their future dreams in a prehistoric world.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a scene in which two characters talk about their future dreams in a prehistoric world.
+Memory 5421.07Mb CUDA Memory: 5447.07Mb
+Elapsed time = 7.88s

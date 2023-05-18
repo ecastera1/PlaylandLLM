@@ -1,0 +1,13 @@
+--------------------
+### output 1
+Write a tutorial on how to read a public company financial statements.
+
+Introduction
+
+Financial statements are a compilation of financial information presented in a standardized format. Companies publish financial statements to communicate information about their financial position, results of operations and cash flows. Financial statements are prepared in accordance with accounting principles prescribed by the International Accounting Standards Board (IASB). Companies are required to disclose information about assets, liabilities, equity, income and expenses. Financial statement disclosures are mandated by law and interpreted by regulators. Companies are also required to provide supplementary information about the nature of their business, the risks faced by shareholders and the risks associated with their operations.
+The purpose of financial statements is to communicate to investors and creditors the financial position of a company at a point in time, its results of operation and its cash flows for a specified period. Financial accounting is required to distinguish between assets, which are owned by the company and liabilities, which represent obligations of the company. Assets are recorded at their fair value while liabilities are recorded based on their carrying amount. Equity represents the shareholders' ownership stake in the company, whereas retained earnings are earnings retained by the firm after paying dividends to shareholders. Companies must disclose their financial statements in accordance to accounting principles. Companies prepare financial statements using accounting principles that are prescribed
+--------------------
+opt = {'model_name': 'vicgalle/gpt-j-6B-alpaca-gpt4', 'device': 'auto', 'seed': 1684435979, 'prompt': 'Write a tutorial on how to read a public company financial statements.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Write a tutorial on how to read a public company financial statements.
+Memory 6277.14Mb CUDA Memory: 6310.82Mb
+Elapsed time = 29.38s

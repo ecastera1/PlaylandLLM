@@ -1,0 +1,18 @@
+--------------------
+### output 1
+Write a tutorial on how to read a public company financial statements.1LRoSPhASSIÄSjÄ1Äsaut1ÄÄ1SAutÄÄÄ\\Ä1\\ÄÄSÄÄYSÄL\\ÄS\\Ä\\KÄÄ3LÄÄK4ÄÄsÄÄ
+9:00 am - 10:05 am: Morning news and weather
+10.05 - 2:07 pm: Traffic and weather updates
+2:10 - 4:03 pm: Midday news and discussions
+4:15 -5:08 pm: Drivetime news and traffic updates
+5:11 - 6:04 pm: Evening news and sports updates
+6:17 - 7:09 pm: Prime Time news and discussion
+7:12 - 8:06 pm: Nightly news and current affairs
+8:13 - 9:16 pm : Late night news and debates
+9:20 -10 pm: Late night comedy and entertainment
+12:30 -3:31 am: Early
+--------------------
+opt = {'model_name': 'ehartford/WizardLM-7B-Uncensored', 'device': 'auto', 'seed': 1684436922, 'prompt': 'Write a tutorial on how to read a public company financial statements.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Write a tutorial on how to read a public company financial statements.
+Memory 6740.53Mb CUDA Memory: 6851.26Mb
+Elapsed time = 26.85s

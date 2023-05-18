@@ -1,0 +1,11 @@
+--------------------
+### output 1
+¿Cuales son los errores fundamentales que comete la gente cuando hace trading de futuros para no perder dinero en el proceso?
+- El trading es una ciencia, y no ee un mercado. El trading no drena dinero dándote un beneficio por el hecho d la compra o venta d tu activo, pero si lo pierdes se puede perder dinero.
+- La mejor forma d dcir que el trading dfícil e inseguro e e el trading no se puede llevar a cabo e sin la ayuda d s d o m e n t e s e l a s dc t d a s
+- Lo que no df e la trader e inversora e inversora d u e r s ió n e a l e m d r e c a s m ú n d i d c e t a s que e h a s o r d l a c ió l d 1 d n ú m ie n t r a l s ú s t ú e g r a n t a r dc d
+--------------------
+opt = {'model_name': 'flax-community/gpt-2-spanish', 'device': 'cuda:0', 'seed': 1684431684, 'prompt': '¿Cuales son los errores fundamentales que comete la gente cuando hace trading de futuros para no perder dinero en el proceso?', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = ¿Cuales son los errores fundamentales que comete la gente cuando hace trading de futuros para no perder dinero en el proceso?
+Memory 486.70Mb CUDA Memory: 496.34Mb
+Elapsed time = 2.01s

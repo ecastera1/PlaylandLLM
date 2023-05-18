@@ -1,0 +1,8 @@
+--------------------
+### output 1
+Make a list of five Stable Difussion features that should improve to make inference faster.
+--------------------
+opt = {'model_name': 'bigscience/bloom-7b1', 'device': 'auto', 'seed': 1684436524, 'prompt': 'Make a list of five Stable Difussion features that should improve to make inference faster.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Make a list of five Stable Difussion features that should improve to make inference faster.
+Memory 7723.08Mb CUDA Memory: 7747.02Mb
+Elapsed time = 0.09s

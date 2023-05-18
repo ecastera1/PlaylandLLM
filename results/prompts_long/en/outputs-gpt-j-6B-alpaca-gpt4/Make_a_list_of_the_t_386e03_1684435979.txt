@@ -1,0 +1,20 @@
+--------------------
+### output 1
+Make a list of the top five common mistakes when trading futures and how to avoid them.
+
+Mistakes in trading futures are common. Many traders make mistakes when they trade futures because they lack experience and knowledge. This article will help you avoid common mistakes and trade successfully.
+First, you must understand the basics of futures trading.
+Knowledge is power. If you don't know what you are doing, you will lose money.
+You need to know how to trade futures, how to analyze markets, and how markets work.
+Second, you need to read the trading rules and know the regulations.
+There are many rules and regulations that govern futures trading, and you must know them before you start trading. You must also know how markets operate and how they react to news and events.
+Third, you should know how the futures markets work and how commodities prices are determined.
+Understanding how markets and commodities work will help traders make better decisions when trading. This will also help traders avoid mistakes.
+Fourth, you have to know when to trade and when not to trade.
+Trading is risky and involves considerable risk. You need to learn to recognize the signs of a good trading opportunity and avoid trading when there are signs of trouble.
+Fifth,
+--------------------
+opt = {'model_name': 'vicgalle/gpt-j-6B-alpaca-gpt4', 'device': 'auto', 'seed': 1684435979, 'prompt': 'Make a list of the top five common mistakes when trading futures and how to avoid them.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Make a list of the top five common mistakes when trading futures and how to avoid them.
+Memory 6277.14Mb CUDA Memory: 6309.94Mb
+Elapsed time = 28.94s

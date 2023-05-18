@@ -1,0 +1,12 @@
+--------------------
+### output 1
+Escribe una conversación ficticia entre dos personajes hablando de un plan secreto que la gente no conoce pero que se está llevando a cabo ante nuestros ojos.
+- ¿Qué es lo que más te gusta de tu trabajo?
+- Me gusta mucho el hecho de que no hay una rutina diaria, que cada día es diferente, que no sé qué esperar.
+El trabajar en el mundo del cine es una experiencia muy difícil y muy gratificante a la vez, porque te permite conocer a mucha gente, viajar, conoces muchos lugares y te permites explorar muchas cosas.
+¿Quieres ver más entrevistas?
+Etiquetas: Actores, Entrevistas, Entre bastidores, Películas, Peliculas de Acción, Pelis de Accion, PeliS de AccioN, Pelisonline, Pelisss de Acccion,
+--------------------
+opt = {'model_name': 'bertin-project/bertin-gpt-j-6B', 'device': 'auto', 'seed': 1684430812, 'prompt': 'Escribe una conversación ficticia entre dos personajes hablando de un plan secreto que la gente no conoce pero que se está llevando a cabo ante nuestros ojos.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts_small.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Escribe una conversación ficticia entre dos personajes hablando de un plan secreto que la gente no conoce pero que se está llevando a cabo ante nuestros ojos.
+Memory 6277.14Mb CUDA Memory: 6309.95MbElapsed time = 25.18s

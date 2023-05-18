@@ -1,0 +1,15 @@
+--------------------
+### output 1
+Write a tutorial on how to read a public company financial statements.
+Answer:Start by obtaining a copy of the most recent financial statements of a publicly traded company. The company's financial statements are available online and can be accessed through the company's website. 
+2  Once you have the most recently filed financial statements, you can begin to read them. To do this, you should first open the company website and go to the financial statements section. Here, you will be able to find the company’s financial statements by selecting the company from the drop-down menu. 
+			3  Once the files have been accessed, you must become familiar with the company financials. To access the company' financial statements online, you need to sign up for an account and submit a request. Once you are approved, you'll be able view the company't financial statements and analyze them for trends and other relevant information. 
+			
+			4  Additionally, you may want to review the company'] financials to get a better understanding of the company itself. Keep in mind that by studying the financials of a public corporation, you are effectively studying a company secret. 
+		
+		5  Finally, take note of the key financial statements that are important to understand, such
+--------------------
+opt = {'model_name': 'lambdalabs/pythia-1.4b-deduped-synthetic-instruct', 'device': 'cuda:0', 'seed': 1684433565, 'prompt': 'Write a tutorial on how to read a public company financial statements.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Write a tutorial on how to read a public company financial statements.
+Memory 5492.05Mb CUDA Memory: 5501.07Mb
+Elapsed time = 7.20s

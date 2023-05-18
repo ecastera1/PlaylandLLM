@@ -1,0 +1,10 @@
+--------------------
+### output 1
+Describe what is quantum computing and it possible outcomes.
+Quantum computing is a form of computing that uses quantum-mechanical phenomena, such as superposition and entanglement, to perform operations on data. It is possible that some of the outcomes of quantum computing may include the development of new technologies, the manipulation of data, the developmentof new algorithms, and the creation of new applications. It may also result in the faster development of solutions to problems that are too complex for traditional computers. Quantum computing has the potential to revolutionize many aspects of technology, including finance, healthcare, and even artificial intelligence.<|stop|>ela.<|stop|>eli@gmail.com
+Answer:Quantum computing and its possible outcomes are still in its infancy, with the first real-world applications being developed in the United States. Initial results have shown that it may be able to solve complex problems faster and more efficiently than traditional computers, allowing for more efficient management of resources. Additionally, it may also have the potential for creating new technologies and applications, as well as revolutionizing the way we solve problems and interact with the world.<|stop|>elo.сьlo.<|stop|>ello.люс.люблю.ська.сть.ське.люку.ську.лющ.люсь.сьля
+--------------------
+opt = {'model_name': 'lambdalabs/pythia-1.4b-deduped-synthetic-instruct', 'device': 'cuda:0', 'seed': 1684433565, 'prompt': 'Describe what is quantum computing and it possible outcomes.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Describe what is quantum computing and it possible outcomes.
+Memory 5492.05Mb CUDA Memory: 5501.07Mb
+Elapsed time = 7.25s

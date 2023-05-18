@@ -1,0 +1,24 @@
+--------------------
+### output 1
+Describe como funciona el modelo GPT-3 del lenguaje natural con transformers.
+Describe el modelos de datos de la base de dato.
+Explica el funcionamiento del modelo de dat
+Descripcion de los tipos de atributos
+Describir el modelado de las relaciones
+Descriva el modelamientos de las restricciones
+Explicar el modela miento de las entidades
+Explique el modelando de las reglas de negocio
+Expliqué el modelador de la interfaz de usuario
+Explican el modelar de la lógica de negocios
+Explíque como se crea una aplicación
+Explique com o se crean los modelos
+Crear una base de conocimiento
+Crea un modelo en base de una tabla de un banco
+Creación de un modelos en base a una factura
+Creacion de un Modelo en Base a un contrato
+Creando un modelado en base una orden de compra
+Cre
+--------------------
+opt = {'model_name': 'bertin-project/bertin-gpt-j-6B', 'device': 'auto', 'seed': 1684430812, 'prompt': 'Describe como funciona el modelo GPT-3 del lenguaje natural con transformers.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts_small.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Describe como funciona el modelo GPT-3 del lenguaje natural con transformers.
+Memory 6277.14Mb CUDA Memory: 6313.06MbElapsed time = 27.81s

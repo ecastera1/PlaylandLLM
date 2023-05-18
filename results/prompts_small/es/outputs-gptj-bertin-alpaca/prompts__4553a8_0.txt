@@ -1,0 +1,23 @@
+Escribe una conversación ficticia entre dos personajes hablando de un plan secreto que la gente no conoce pero que se está llevando a cabo ante nuestros ojos.
+
+### Respuesta:
+Personaje 1: ¿Escuchaste algo sobre el plan secretoSin embargo, nadie sabe?
+
+Persona 2: ¡Lo siento, no! ¿De qué se trata?
+Personaja 1: Es un plan muy grande y ambicioso. Estamos trabajando en él desde las sombras, pero nadIE sabe sobre él.
+Personaa 2: Es demasiado peligroso y arriesgado para que lo conozcamos. ¿Qué es?
+ 
+Personala 1: No puedo decirte. Pero es importante y necesitamos asegurarnos de que salga bien.
+  
+
+#
+### Entrada:
+<noinput>
+
+## Respuestas:
+
+[1]
+Describe como funciona el modelo GPT-3 del lenguaje natural con transformers.
+
+### Respuesta:
+El modelo de lenguje GPT3 utiliza transformers para generar texto similar al humano a partir de una entrada. Los transformers toman una palabra o frase como entrada y la utilizan como plantilla para generaciones posteriores. Por ejemplo, si se le da la palabrota "fucking", el transformer tomará esta palabre y la usará como base para generación posteriore. De manera similar, si el transformer recibe la instrucción de generar una lista de palabras, puede generar oraciones completas a partirde la entrada dada.

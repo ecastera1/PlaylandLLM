@@ -1,0 +1,32 @@
+--------------------
+### output 1
+Write a blog post discussing the advantages of utilizing ETFs vs Options or Futures.
+
+How to Invest in a New ETF
+
+If you're new to ETFs, you might be interested in the following:
+
+The ETF's value
+
+When to invest
+
+Why to invest in a new ETF
+, and how to do so
+
+Investing in a futures market
+
+What to do if you're not sure
+
+For more information, see:
+, or
+
+, the ETF's price
+
+A few things to consider:
+.
+.
+--------------------
+opt = {'model_name': 'gpt2', 'device': 'cuda:0', 'seed': 1684433099, 'prompt': 'Write a blog post discussing the advantages of utilizing ETFs vs Options or Futures.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Write a blog post discussing the advantages of utilizing ETFs vs Options or Futures.
+Memory 486.70Mb CUDA Memory: 495.59Mb
+Elapsed time = 0.88s

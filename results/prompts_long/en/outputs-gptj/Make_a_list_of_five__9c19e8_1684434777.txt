@@ -1,0 +1,18 @@
+--------------------
+### output 1
+Make a list of five Stable Difussion features that should improve to make inference faster.
+
+We have a new paper out on the Stable Diffusion features in the MLlib library. This is a library of machine learning algorithms that is used for a variety of tasks. We have a number of papers on the library, but this is the first paper on the features of the library.
+The paper is available here.
+We are also going to be talking about this topic at the ML Summit in San Francisco.
+In this post, I am going to make a list, of five features that we should add to the library to make it faster. We are going to talk about each of these features, and then make a suggestion on how to fix them.
+Let’s start with the first feature.
+1. Stable Random Numbers
+The MLlib random number generator is not stable. This means that if you are using the random number to generate a sequence of numbers, and you are going through a loop, the sequence of random numbers will be the same.
+This is not a big deal, but it is a problem when you are doing inference.
+To see what I mean, let’ s say you are trying to do
+--------------------
+opt = {'model_name': 'EleutherAI/gpt-j-6B', 'device': 'auto', 'seed': 1684434777, 'prompt': 'Make a list of five Stable Difussion features that should improve to make inference faster.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Make a list of five Stable Difussion features that should improve to make inference faster.
+Memory 6277.14Mb CUDA Memory: 6311.41Mb
+Elapsed time = 28.82s

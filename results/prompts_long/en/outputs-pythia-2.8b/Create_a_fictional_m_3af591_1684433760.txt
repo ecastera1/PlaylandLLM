@@ -1,0 +1,18 @@
+--------------------
+### output 1
+Create a fictional magical system that is based on thermodynamic principles.
+2. Develop a plan on how to use magic to accomplish tasks and achieve goals.
+3. Investigate the thermodynamic properties of magic and use them to create effective spells and rituals.
+4. Learn how to control the properties of magical energy to create beneficial effects.
+5. Develop techniques to protect oneself and others from the negative effects of magic.
+6. Establish regulations and procedures to govern the use of magic in society.
+7. Create frameworks for collaboration between mages to ensure effective and responsible use of magical power.
+8. Encourage responsible consumption of magic to ensure a sustainable environment.<|stop|>: 5 ouncesImage: A glass of red wine with a garnish of fresh herbs.<|stop|>; 5 ounces Image: A gourmet meal with fresh vegetables and a delicious type of meat.
+
+Red wine with fresh herbs: A delicious combination of fresh vegetables like spinach and herbs like rosemary, thyme, and oregano. It’s a great way to start off a dinner party or special occasion meal.
+Gourmet meal: A freshly prepared gourmet dinner that includes a type of protein and a tasty type of vegetable. A delicious and healthy meal that will please even
+--------------------
+opt = {'model_name': 'lambdalabs/pythia-2.8b-deduped-synthetic-instruct', 'device': 'cuda:0', 'seed': 1684433760, 'prompt': 'Create a fictional magical system that is based on thermodynamic principles.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a fictional magical system that is based on thermodynamic principles.
+Memory 5421.04Mb CUDA Memory: 5447.07Mb
+Elapsed time = 8.07s

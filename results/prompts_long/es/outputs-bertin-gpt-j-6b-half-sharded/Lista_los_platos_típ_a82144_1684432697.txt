@@ -1,0 +1,14 @@
+--------------------
+### output 1
+Lista los platos típicos de las 10 regiones españolas mas importantes.
+1. Paella Valenciana, Arroz al horno, Cocido madrileño, Fabada Asturiana, Cocidito montañés, Cocina gallega, Gazpacho andaluz, Cocas mallorquinas, Cocretas valencianas, Callos a la madri...
+¿Qué es el chorizo? ¿De dónde viene? ¡Descubre todo sobre el embutido más famoso de España!
+El choricito es un embutidos que se hace con carne picada de cerdo y que se embute en tripa. Existen muchas variedades de chorizos, pero el más conocido es el de Cantimpalos, que se elabora con car...
+Los 10 platos más típico de Espana
+Lista de los 10 plato más tipicos de Espania.
+El cocido madrileno es un plato típoico de la cocina es
+--------------------
+opt = {'model_name': 'DavidFM43/bertin-gpt-j-6b-half-sharded', 'device': 'auto', 'seed': 1684432697, 'prompt': 'Lista los platos típicos de las 10 regiones españolas mas importantes.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Lista los platos típicos de las 10 regiones españolas mas importantes.
+Memory 6277.14Mb CUDA Memory: 6310.98Mb
+Elapsed time = 26.90s

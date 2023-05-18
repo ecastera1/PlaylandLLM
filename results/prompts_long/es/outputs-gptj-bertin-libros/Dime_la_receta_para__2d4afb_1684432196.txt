@@ -1,0 +1,20 @@
+--------------------
+### output 1
+Dime la receta para hacer un buen cocido madrileño.
+-Pues mira, el cocido es una cosa muy sencilla, y que se puede hacer en cualquier sitio.
+Básicamente es un caldo de vaca, con una carne, garbanzos y verdura.
+Pero hay muchas formas de hacerlo.
+¿Qué tal un cocido completo?
+-¿Un cocido sin carne?
+¡No me lo puedo creer! -No, no te lo podes creer.
+Un cocidito sin carnes, con su verdurita, su cucharadita de garbanzo, y su choricito y su morcilla...
+-A ver, a ver, explícame eso.
+El cocido, ¿con carne o sin carnee? -Sin carne.
+No te lo crees ni tú.
+Lo que pasa es que tú no tienes ni puta idea de cocina.
+Tú lo que tienesque h
+--------------------
+opt = {'model_name': 'bertin-project/bertin-gpt-j-6B-infolibros', 'device': 'auto', 'seed': 1684432196, 'prompt': 'Dime la receta para hacer un buen cocido madrileño.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Dime la receta para hacer un buen cocido madrileño.
+Memory 6277.14Mb CUDA Memory: 6308.82Mb
+Elapsed time = 24.73s

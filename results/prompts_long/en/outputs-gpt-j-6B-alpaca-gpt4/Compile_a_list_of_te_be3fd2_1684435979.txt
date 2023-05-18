@@ -1,0 +1,15 @@
+--------------------
+### output 1
+Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.
+
+The modern workplace is undergoing a major transformation. Organizations are shifting their focus from transactional work to knowledge work, from hierarchical structures to flat ones, from manual processes to automated ones, and from manual labor to digital labor. These transformations are bringing about fundamental changes in the way we work, interact, learn, and communicate.
+The workplace transformation is also affecting how we think about IT and IT transformation. Gone are the days when IT was seen as a separate department responsible for providing infrastructure and services to support business operations. Today, IT is increasingly becoming a strategic asset that enables organizations to transform their business and deliver better services to their customers.
+IT transformation is no longer a one-time event. It is a continuous process that requires constant attention and ongoing investments. Organizations must adopt a new mindset and adopt new technologies and practices to keep pace with the changing workplace. This requires a comprehensive approach that encompasses strategy, governance, operations, talent management, and technology.
+Read this white paper to learn about the modern workforce, IT transformation, and the role of IT in enabling transformation.
+KEY TAKEAWAYS
+• IT transformation is transforming the workplace. Organizations need to adopt
+--------------------
+opt = {'model_name': 'vicgalle/gpt-j-6B-alpaca-gpt4', 'device': 'auto', 'seed': 1684435979, 'prompt': 'Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.
+Memory 6277.14Mb CUDA Memory: 6310.97Mb
+Elapsed time = 28.73s

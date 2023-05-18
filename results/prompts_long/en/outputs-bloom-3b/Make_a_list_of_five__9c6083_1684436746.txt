@@ -1,0 +1,8 @@
+--------------------
+### output 1
+Make a list of five Intel CPU features that can help run modern software and improve user experience.
+--------------------
+opt = {'model_name': 'bigscience/bloom-3b', 'device': 'cuda:0', 'seed': 1684436746, 'prompt': 'Make a list of five Intel CPU features that can help run modern software and improve user experience.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Make a list of five Intel CPU features that can help run modern software and improve user experience.
+Memory 5726.92Mb CUDA Memory: 5751.05Mb
+Elapsed time = 0.03s

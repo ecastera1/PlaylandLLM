@@ -1,0 +1,24 @@
+--------------------
+### output 1
+Lista los platos típicos de las 10 regiones españolas mas importantes.
+
+### Respuesta:
+- Paella valenciana 
+- Fabes con almejas 
+ - Cocido madrileño 
+  - Tostada de aceite de oliva andaluza 
+
+- Arroz a la cubana 
+ – Gazpacho andaluz 
+– Paella de mariscos 
+–– Tortilla de patatas 
+------ Paella murciana  
+------- Judías con patatitas 
+---------- Cocido montañés 
+--------- Gachas manchegas 
+----------- Salmorejo cordobés   
+--------------------
+opt = {'model_name': 'bertin-project/bertin-gpt-j-6B-alpaca', 'device': 'auto', 'seed': 1684432459, 'prompt': 'Lista los platos típicos de las 10 regiones españolas mas importantes.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Lista los platos típicos de las 10 regiones españolas mas importantes.
+Memory 6277.14Mb CUDA Memory: 6311.37Mb
+Elapsed time = 14.84s

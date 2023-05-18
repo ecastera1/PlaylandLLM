@@ -1,0 +1,13 @@
+--------------------
+### output 1
+Describe what is quantum computing and it possible outcomes.
+ The concept of quantum computing is still quite new and evolving, but it has the potential to revolutionize the way we process information. Quantum computing relies on the principles of quantum mechanics to perform calculations that are beyond the capabilities of classical computers.
+In essence, quantum computing involves the use of quantum bits, or qubits, which can exist in multiple states at once. This allows quantum computers to perform multiple calculations simultaneously, making them much faster than classical computers in certain applications.
+One of the most promising potential outcomes of quantum computer technology is the development of new materials and drugs. Quantitative computations are already being used in materials science and drug discovery, and the useof quantum computers could lead to even more efficient and accurate simulations.
+Another potential outcome of quantum computers is the creation of new cryptographic protocols. Quantumbits can be used to create secure communication channels that are immune to hacking, which could have significant implications for cybersecurity.
+Overall, quantum computer technologies have the potentialto transform a wide range of industries, from finance and healthcare to cyber security and materials science. As the technology continues to evol
+--------------------
+opt = {'model_name': 'ehartford/WizardLM-7B-Uncensored', 'device': 'auto', 'seed': 1684436922, 'prompt': 'Describe what is quantum computing and it possible outcomes.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Describe what is quantum computing and it possible outcomes.
+Memory 6740.53Mb CUDA Memory: 6851.54Mb
+Elapsed time = 26.09s

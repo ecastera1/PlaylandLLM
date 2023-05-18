@@ -1,0 +1,9 @@
+--------------------
+### output 1
+Write a blog post discussing the advantages of utilizing ETFs vs Options or Futures. What are the pros and cons of ETFs compared to Options or futures? What are some of the different ETF types? What is the difference between ETFs and mutual funds?
+Please note that this is a required assignment and you will not be allowed to submit any other type of assignment.
+--------------------
+opt = {'model_name': 'bigscience/bloom-3b', 'device': 'cuda:0', 'seed': 1684436746, 'prompt': 'Write a blog post discussing the advantages of utilizing ETFs vs Options or Futures.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Write a blog post discussing the advantages of utilizing ETFs vs Options or Futures.
+Memory 5726.92Mb CUDA Memory: 5751.05Mb
+Elapsed time = 1.24s

@@ -1,0 +1,13 @@
+--------------------
+### output 1
+Describe a terrible hangover using the language of an English aristocrat from the Renaissance.
+ The Best of Both Worlds: A Guide to Mixing Traditional and Modern Elements in Your Home
+When it comes to designing your home, there's no rule that says you have to choose between traditional and modern styles. In fact, combining the two can create a unique and personalized look that reflects your personality and taste. Here are some tips on how to mix traditional and contemporary elements in your home:
+1. Start with a foundation: Choose a color scheme that complements both traditional and Modern styles. A neutral color palette like beige, white, or gray can work well as a base for adding pops of color and pattern.
+2. Add texture: Traditional design often features textured surfaces like plaster, wood, or velvet. Adding these textures to modern pieces can create an interesting contrast. For example, you could add a velvet pillow to a modern sofa.
+3. Mix patterns: Mixing patterns can add visual interest and create a sense of harmony in a room. For instance, you might use a traditional floral pattern on a wall or upholstery,
+--------------------
+opt = {'model_name': 'ehartford/WizardLM-7B-Uncensored', 'device': 'auto', 'seed': 1684436922, 'prompt': 'Describe a terrible hangover using the language of an English aristocrat from the Renaissance.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Describe a terrible hangover using the language of an English aristocrat from the Renaissance.
+Memory 6740.53Mb CUDA Memory: 6851.35Mb
+Elapsed time = 25.38s

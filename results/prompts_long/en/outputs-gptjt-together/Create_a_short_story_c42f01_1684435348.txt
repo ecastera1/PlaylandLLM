@@ -1,0 +1,33 @@
+--------------------
+### output 1
+Create a short story about a character who discovers an hidden talent.Create a character list for the story.Create an outline for the plot.Create the first few paragraphs of the story and write a title.
+
+Create a table of contents for the book.
+Create the cover for the ebook.
+Add the book to your Amazon Author Central page.
+Write a blurb for the cover.
+Update your website with the new book.
+
+
+
+The following are the steps to write and publish a book on Amazon Kindle.
+1. Create a new book on Kindle.com.
+2. Create an account on Amazon.com and select Kindle as a delivery method.
+3. Upload your book in the Kindle format (.mobi) and upload the cover image.
+4. Write a blub for the title of the book and add a description of the content.
+5. Upload the.mobi file to your Kindle.
+
+
+
+
+The steps to publish a Kindle book are:
+1) Create a book in Kindle. com.
+    2) Create an Amazon account.
+	3) Upload your Kindle book in.mobi format.
+ 4) Write a description for the content of the Kindle book. 
+  5) Upload
+--------------------
+opt = {'model_name': 'togethercomputer/GPT-JT-6B-v1', 'device': 'auto', 'seed': 1684435348, 'prompt': 'Create a short story about a character who discovers an hidden talent.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a short story about a character who discovers an hidden talent.
+Memory 6277.14Mb CUDA Memory: 6311.17Mb
+Elapsed time = 30.11s

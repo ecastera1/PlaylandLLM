@@ -1,0 +1,13 @@
+--------------------
+### output 1
+Make a list of the top five common mistakes when trading futures and how to avoid them.
+Answer:Not diversifying your portfolio.
+2  Not having a professional advisor.
+3  Not researching and understanding the market.
+4  Not setting a budget and/or not budgeting for risks.
+5  Not using proper risk management techniques.<|stop|>.com is a great place to find trading strategies and tips to help you get started.<|stop|>.​com is another great online trading platform where you can find reliable and reputable traders to practice with.<|stop|>.***(Trade Risk Warning: The financial markets can and do fluctuate greatly, and risk associated with trading futures or investing in the stock market can be high. Do your research and understand the risks before trading.<|stop|> and support forums are best placed to provide advice and support on trading futures, as well as professional advice from experienced traders. Additionally, reputable online trading sites such as CFTC require traders to meet certain qualifications in order to trade on their sites. Conversely, unregulated trading sites may be less regulated and may allow traders without any prior experience to trade without any knowledge of the markets.<|stop|> & support forums can provide additional resources and strategies to help traders get started in trading futures.<|stop|>.*
+--------------------
+opt = {'model_name': 'lambdalabs/pythia-1.4b-deduped-synthetic-instruct', 'device': 'cuda:0', 'seed': 1684433565, 'prompt': 'Make a list of the top five common mistakes when trading futures and how to avoid them.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Make a list of the top five common mistakes when trading futures and how to avoid them.
+Memory 5492.05Mb CUDA Memory: 5501.07Mb
+Elapsed time = 7.06s

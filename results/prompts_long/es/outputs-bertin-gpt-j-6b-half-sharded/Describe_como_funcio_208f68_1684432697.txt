@@ -1,0 +1,19 @@
+--------------------
+### output 1
+Describe como funciona el modelo GPT-3 del lenguaje natural con transformers.
+Describe el model GPT.
+Escribe un programa en C++ que lea un archivo de texto y lo convierta a un archivode texto plano.
+Realiza un program en C que lee un archio de textos y lo guarda en un archvo de text.
+Diseña un program que leer un archico de text y lo muestra en una ventana.
+Elabora un program usando el model de transformadores.
+Como se realizan las transformaciones de un archi de text a uno de text plano
+Comopuede ser utilizado el model del lnenguaj natural para realizar un program de reconocimiento de voz
+Comentarios sobre la transformacion de un lenguje natural a un lnengua de text
+Comenta sobre el modelode transformadore s
+Completa el siguiente cuadro comparativo entre el model y el model
+Complementa el siguiemte cuad
+--------------------
+opt = {'model_name': 'DavidFM43/bertin-gpt-j-6b-half-sharded', 'device': 'auto', 'seed': 1684432697, 'prompt': 'Describe como funciona el modelo GPT-3 del lenguaje natural con transformers.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Describe como funciona el modelo GPT-3 del lenguaje natural con transformers.
+Memory 6277.14Mb CUDA Memory: 6310.14Mb
+Elapsed time = 27.11s

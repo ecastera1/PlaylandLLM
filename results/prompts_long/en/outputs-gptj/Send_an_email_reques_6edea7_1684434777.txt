@@ -1,0 +1,27 @@
+--------------------
+### output 1
+Send an email requesting prompter action from recipients.
+
+This is the most common use of the Prompter.
+It is used to send a message to a group of recipients. The recipients are
+automatically added to the group based on the email address of the
+recipient.
+If the recipient is already a member of the group, the Prompters
+message will be displayed.
+Otherwise, the recipient will be added to a new group with the
+same name as the original group.
+The recipient will receive a message that the Promprter has been sent
+to them.
+You can also send a Prompter to a single recipient.
+This will display the message to the recipient. If the recipient
+is already a group member, the message will be shown.
+A recipient can also be added or removed from a group. This
+is done by sending a message with the "Add" or "Remove" command.
+For example, you can send a group message to all the members of a
+group.
+Or, you could send a single message to one or more recipients.
+--------------------
+opt = {'model_name': 'EleutherAI/gpt-j-6B', 'device': 'auto', 'seed': 1684434777, 'prompt': 'Send an email requesting prompter action from recipients.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Send an email requesting prompter action from recipients.
+Memory 6277.14Mb CUDA Memory: 6312.41Mb
+Elapsed time = 26.59s

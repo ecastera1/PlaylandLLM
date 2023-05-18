@@ -1,0 +1,11 @@
+--------------------
+### output 1
+Describe como funciona el modelo GPT-3 del lenguaje natural con transformers. 
+
+En la práctica, el modelo del lenguaje es el que más se adapta a la vida cotidiana. 
+
+--------------------
+opt = {'model_name': 'DeepESP/gpt2-spanish', 'device': 'cuda:0', 'seed': 1684431674, 'prompt': 'Describe como funciona el modelo GPT-3 del lenguaje natural con transformers.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Describe como funciona el modelo GPT-3 del lenguaje natural con transformers.
+Memory 486.70Mb CUDA Memory: 495.59Mb
+Elapsed time = 0.21s

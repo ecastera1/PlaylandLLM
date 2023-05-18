@@ -1,0 +1,15 @@
+--------------------
+### output 1
+Make a list of five Intel CPU features that can help run modern software and improve user experience.
+
+Intel CPUs have evolved tremendously over the past decade. The introduction of Intel’s Core i7 processors in 2007 heralded a new era of computing, ushering in the era of multicore CPUs. Since then, Intel has continued to innovate and improve their CPUs, adding new features and improving existing ones.
+Today, Intel CPUs are the dominant force in the computing market. With Intel CPUs dominating the desktop and laptop market, it’d be hard to argue that Intel CPUs aren’t the best choice for most desktop users. However, there are still many users who prefer AMD CPUs for their overclocking prowess and AMD CPUs have a lot to offer in terms of performance.
+In this article, we’ll take a look at five Intel features that improve the user experience and help modern software run better on Intel CPUs.
+Intel Turbo Boost Technology
+Turbo Boost Technology is Intel‘s name for overclocking. Turbo Boost allows Intel CPUs to increase their clock speeds beyond their rated maximum clock speeds. Turbo boost is enabled by default on Intel“s latest CPUs, but it can be disabled if desired.
+Turbon Boost Technology can be
+--------------------
+opt = {'model_name': 'vicgalle/gpt-j-6B-alpaca-gpt4', 'device': 'auto', 'seed': 1684435979, 'prompt': 'Make a list of five Intel CPU features that can help run modern software and improve user experience.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Make a list of five Intel CPU features that can help run modern software and improve user experience.
+Memory 6277.14Mb CUDA Memory: 6311.04Mb
+Elapsed time = 28.77s

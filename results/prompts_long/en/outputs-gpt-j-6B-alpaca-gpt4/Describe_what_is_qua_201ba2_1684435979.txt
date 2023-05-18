@@ -1,0 +1,13 @@
+--------------------
+### output 1
+Describe what is quantum computing and it possible outcomes.
+
+Quantum computing is a theoretical computing paradigm that exploits quantum mechanical phenomena such as superposition and entanglement to perform certain computations exponentially faster than classical computers. Quantum computers are believed to be able to solve certain computational problems exponentially faster, such as factoring large integers or searching databases. However, no quantum computer has been built yet.
+The basic idea behind quantum computing is to encode information into quantum bits (qubits), which are analogous to classical bits but can be in superposition states. Quantum gates are used to manipulate qubits in order to perform computations. Quantum algorithms exploit the peculiar properties of quantum mechanics to solve computational problems.
+Quantums are not bits, they are quantum bits. A qubit can exist in a superposition of 0 and 1, which means it can be both 0 and at the same time 1. This is unlike a classical bit, which can only be either 0 or 1.
+In quantum computing, qubits are manipulated using quantum gates. These gates are unitary operators that take a qubit as input and transform it into another qubit. Quantum gate operations are analogous in many respects to classical gate operations, but they differ in subtle ways. Quantum computing is based on
+--------------------
+opt = {'model_name': 'vicgalle/gpt-j-6B-alpaca-gpt4', 'device': 'auto', 'seed': 1684435979, 'prompt': 'Describe what is quantum computing and it possible outcomes.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Describe what is quantum computing and it possible outcomes.
+Memory 6277.14Mb CUDA Memory: 6310.61Mb
+Elapsed time = 29.67s

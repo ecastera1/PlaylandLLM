@@ -1,0 +1,29 @@
+--------------------
+### output 1
+Describe a terrible hangover using the language of an English aristocrat from the Renaissance.
+2) My head is aching so badly, it feels like it is filled with pins and needles.
+3) The pain is so severe that it causes me to lose control of my faculties, from my senses suffering from a decline.
+4) My confusion is such that I cannot think straight, my emotions are troubled, and my behavior is erratic.
+5) My fatigue is so overwhelming that I feel like I must have been run over by a train, and am left to contemplate my misfortune.<|stop|>ard.com
+
+Tuesday, October 13, 2012
+
+The best way to get a good night's sleep is to practice healthy sleep habits. Here are some tips to help you get a great night's rest:
+
+1. Make sure your bedroom is dark, quiet and comfortable.
+
+2. Avoid caffeine, nicotine and alcohol close to bedtime.
+    _ __ __ __
+
+3. Try to keep your bedroom temperature cool in the evening.
+     _ __ _
+
+4. Exercise regularly during the day and avoid vigorous exercise in the late afternoon.
+      _ __ ___
+
+5. Avoid eating large meals
+--------------------
+opt = {'model_name': 'lambdalabs/pythia-2.8b-deduped-synthetic-instruct', 'device': 'cuda:0', 'seed': 1684433760, 'prompt': 'Describe a terrible hangover using the language of an English aristocrat from the Renaissance.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Describe a terrible hangover using the language of an English aristocrat from the Renaissance.
+Memory 5421.04Mb CUDA Memory: 5447.07Mb
+Elapsed time = 7.87s

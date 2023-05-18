@@ -1,0 +1,14 @@
+--------------------
+### output 1
+Send an email requesting prompter action from recipients.
+
+Note: Recipients must click the "Yes" button to receive prompter messages. If they do not click the button, they will not receive the prompter message.
+If you send a prompter email to a group of recipients, they must all click the Yes button to activate the prompters.
+Recipients who do not receive a prompter email will not be able to receive future prompter emails.
+Email recipients who have opted out of receiving prompter notifications will not see the prompted email.
+When sending prompter requests to a large group of people, it is recommended to use an automated email tool, such as MailChimp, Constant Contact, or Aweber.
+--------------------
+opt = {'model_name': 'vicgalle/gpt-j-6B-alpaca-gpt4', 'device': 'auto', 'seed': 1684435979, 'prompt': 'Send an email requesting prompter action from recipients.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Send an email requesting prompter action from recipients.
+Memory 6277.14Mb CUDA Memory: 6311.10Mb
+Elapsed time = 17.95s

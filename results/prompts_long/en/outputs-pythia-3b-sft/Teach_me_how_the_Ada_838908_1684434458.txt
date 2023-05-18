@@ -1,0 +1,15 @@
+--------------------
+### output 1
+Teach me how the Adam optimizer works and give me a quiz at the end, but don’t give me the answers and then tell me if I answered correctly.
+
+Adam optimizer is a machine learning algorithm that is used for training deep neural networks. It is a method for automatically finding the best set of weights in a neural network. It works by iteratively adjusting the weights until the loss function is minimized.
+The Adam optimiser is based on the idea of stochastic gradient descent, which is a technique for finding the optimal parameters of a function by repeatedly taking a step in the direction of the gradient of the function.
+To use the Adam algorithm, you need to create a neural net with two or more layers of neurons. Each layer has a set of parameters that are adjusted to minimize the loss of the network.
+In the first layer, you define the activation function for each neuron. This function determines how the neuron responds to input data. For example, the sigmoid activation function is often used because it has a linear output.
+Next, you create a vector of weights for the first neuron in the layer. The weights are the parameters that determine the strength of the connection between the input and the neuron.
+Finally, you add a bias
+--------------------
+opt = {'model_name': 'theblackcat102/pythia-3b-deduped-sft-r1', 'device': 'cuda:0', 'seed': 1684434458, 'prompt': 'Teach me how the Adam optimizer works and give me a quiz at the end, but don’t give me the answers and then tell me if I answered correctly.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Teach me how the Adam optimizer works and give me a quiz at the end, but don’t give me the answers and then tell me if I answered correctly.
+Memory 5421.07Mb CUDA Memory: 5447.07Mb
+Elapsed time = 7.33s

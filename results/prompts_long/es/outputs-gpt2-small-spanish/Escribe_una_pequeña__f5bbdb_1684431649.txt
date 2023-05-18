@@ -1,0 +1,13 @@
+--------------------
+### output 1
+Escribe una pequeña historia sobre un personaje que acaba de descubrir un talento oculto que desconocía.
+
+La película fue estrenada el 30 de abril de 2014 en Estados Unidos y el 7 de junio de 2014, en el Festival de Cine de Sundance. La película fue dirigida por el director de cine francés Jean-Luc Godard y contó con la participación de Tom Cruise, Jonathan Miller, Robert De Niro, Thomas Willis, y Robert De Smead.
+"The Last of the Last of Us" fue estrenada en Estados de América el 10 de junio, en la Festival de cine de Sundance, y en el festival de cine independiente de la ciudad de Nueva York el 28 de junio. En la película, el actor y director de fotografía de cine John Huston (Tom Cruise) y el actor de voz de Paul Newman (Robert De Nira) son elegidos para interpretar el papel principal de una mujer que ha perdido a su marido, en un intento de salvar su vida.
+El estreno mundial de la película fue el 20 de junio en el Reino Unido, y el 6 de julio en el resto del mundo.
+La fotografía principal comenzó el 9 de agosto de 2014. El rodaje de la cinta comenzó el 16 de septiembre de 2014 y finalizó el 11 de diciembre
+--------------------
+opt = {'model_name': 'datificate/gpt2-small-spanish', 'device': 'cuda:0', 'seed': 1684431649, 'prompt': 'Escribe una pequeña historia sobre un personaje que acaba de descubrir un talento oculto que desconocía.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Escribe una pequeña historia sobre un personaje que acaba de descubrir un talento oculto que desconocía.
+Memory 486.70Mb CUDA Memory: 495.59Mb
+Elapsed time = 2.12s

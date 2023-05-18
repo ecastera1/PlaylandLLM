@@ -1,0 +1,16 @@
+--------------------
+### output 1
+Lista los diez elementos que tiene que tener en cuenta una empresa para llevar a cabo su transformación digital.
+
+La primera línea de transformación digital consiste en convertir una imagen digital en una imagen de usuario, que se puede mover a través de una red de ordenadores y que se pueden mover a otras redes de ordenadores, y que puede ser utilizada para realizar una transformación digital de vídeo, audio, vídeo de audio, etc.
+La segunda línea de conversión digital consiste de convertir una representación digital en un audio digital, que puede mover de una manera que se pueda mover a otros sistemas de ordenadores.
+El proceso de transformación consiste en la transformación de una imagen en una representación de usuario.
+Los datos de transformación se pueden utilizar para mejorar la calidad de la imagen, y para crear un ambiente de trabajo en el que la imagen se pueda representar.
+Las imágenes de transformación pueden ser creadas a partir de una combinación de imágenes, audio o vídeo, y se pueden obtener imágenes de usuario que se ven como un producto de la transformación.
+Una imagen de ordenador se puede convertir en una versión digital de la misma, y la imagen de computadora se puede transformar en una copia digital de una versión de la anterior.
+A partir de la conversión de la primera imagen de la computadora, se puede obtener
+--------------------
+opt = {'model_name': 'datificate/gpt2-small-spanish', 'device': 'cuda:0', 'seed': 1684431649, 'prompt': 'Lista los diez elementos que tiene que tener en cuenta una empresa para llevar a cabo su transformación digital.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Lista los diez elementos que tiene que tener en cuenta una empresa para llevar a cabo su transformación digital.
+Memory 486.70Mb CUDA Memory: 495.59Mb
+Elapsed time = 2.10s

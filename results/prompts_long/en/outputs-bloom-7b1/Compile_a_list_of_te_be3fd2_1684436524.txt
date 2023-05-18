@@ -1,0 +1,14 @@
+--------------------
+### output 1
+Compile a list of ten long-tail keywords related to IT transformation and the modern workplace. For example, the following are long- tail keywords related to:
+When you have a list, you can use the Google Keyword Planner tool to see how much traffic each of these keywords generates. You can then use this information to decide which keywords to focus on.
+The next step is to create a list for your blog. You want to create content that is relevant to your target audience. You also want to make sure that you have content for all of your keywords.
+Once you have your list of keywords, you need to create blog posts that include those keywords. You’ll want to include at least one keyword in each blog post. If you can include two or three keywords, that’s even better.
+You can use a tool like Keyword Explorer to see what your competitors are writing about and what their content is about. You should use this to help you create content for your own blog.
+Once your blog posts are ready, you want to publish them. You don’t want to wait until the last minute to publish your blog content. You will want to have a few blog posts ready to publish at any given time.
+You will want your blog to be updated regularly. You need to
+--------------------
+opt = {'model_name': 'bigscience/bloom-7b1', 'device': 'auto', 'seed': 1684436524, 'prompt': 'Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.
+Memory 7723.08Mb CUDA Memory: 7739.49Mb
+Elapsed time = 18.81s

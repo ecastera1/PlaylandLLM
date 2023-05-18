@@ -1,0 +1,20 @@
+--------------------
+### output 1
+Lista los diez elementos que tiene que tener en cuenta una empresa para llevar a cabo su transformación digital.
+1. El cambio cultural
+La transformacióndigital es una cuestión de cultura, no de tecnología. De hecho, la tecnológica es un medio para alcanzar unos fines, pero no un fin en sí mismo.
+2. La cadena de valor
+La cadena decostes debe ser revisada y optimizada.
+3. El proceso de transformaciòn
+Hay que definir unos objetivos, una estrategia y un plan de acción.
+4. La tecnoloìgìa
+La tecnóloga es un mediode la transformaciôn digital. Es la herramienta que permite alcanzas los objetivo.
+5. El talento
+El talento es un elemento clave en la transformaciión digital de las empresas.
+6. El cliente
+Elcliente es
+--------------------
+opt = {'model_name': 'DavidFM43/bertin-gpt-j-6b-half-sharded', 'device': 'auto', 'seed': 1684432697, 'prompt': 'Lista los diez elementos que tiene que tener en cuenta una empresa para llevar a cabo su transformación digital.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Lista los diez elementos que tiene que tener en cuenta una empresa para llevar a cabo su transformación digital.
+Memory 6277.14Mb CUDA Memory: 6311.04Mb
+Elapsed time = 26.43s

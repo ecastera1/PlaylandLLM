@@ -1,0 +1,32 @@
+--------------------
+### output 1
+Write a poem about shiba inu pet and his master.
+Shiba Inu Pet:
+In the forest there is a shiba Inuzu,
+Who loves to play and bark and chirp.
+His master is a man who loves to hunt,
+And so he gives him plenty of exercise.
+The shibaInu loves to swim and play,
+But he doesn't like to stay in one place.
+He loves to explore and go on hikes,
+Sometimes he'll even go too far.
+But the master, he just wants to eat,
+So he usually makes fun of the shiba.
+At times the shibas will get tired,
+Then they'll just lay down and sleep.
+Sometimes a gentle word from the master
+Can make them happy and they'll bark again.
+
+Shibas are known to be very obedient pets,
+Always eager to please their masters.
+They make great companions and are very loyal,
+No matter what the situation is.
+Their gentle nature and sweet demeanor,
+Make them a beloved pet among many.
+A poem about the shibusas would make a great gift for any shiba-inu fan.
+Shibas are
+--------------------
+opt = {'model_name': 'lambdalabs/pythia-1.4b-deduped-synthetic-instruct', 'device': 'cuda:0', 'seed': 1684433565, 'prompt': 'Write a poem about shiba inu pet and his master.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Write a poem about shiba inu pet and his master.
+Memory 5492.05Mb CUDA Memory: 5501.07Mb
+Elapsed time = 7.19s

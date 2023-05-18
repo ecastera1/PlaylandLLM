@@ -1,0 +1,17 @@
+--------------------
+### output 1
+Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.
+2 Describe how IT transformation is transforming the modern workspace.
+3 Include examples of how IT has enabled new productivity tools, remote working initiatives, and other workplace innovations.
+4 Explain how digital transformation is enabling organizations to become more efficient, secure, and customer-focused.
+5 Discuss how IT transformation is enabling businesses to offer new services to their customers, while also accommodating the needs of their employees.
+6 Show how IT Transformation is driving a more automated, streamlined, and efficient workflows that result in a more productive workplace. 
+7 Include examples where IT has revolutionized processes such as data analysis, machine learning, and automation.
+8 Describe the ways in which IT is enabling companies to become a part of the digital economy while also meeting the needsof modern workforce. 
+			9 Provide examples of ways inwhich IT is leveraging cloud computing, analytics,and other technologies to revolutionize theway businesses operate.
+10 Comment on the waysin which IT transformationis transforming themodern workspace.<|stop|>.<|stop|> keywords relatedto IT transformationand the modernworkplace.<|stop|>IT transformationandthemodernworkplace.<brclear>
+		
+--------------------
+opt = {'model_name': 'lambdalabs/pythia-2.8b-deduped-synthetic-instruct', 'device': 'cuda:0', 'seed': 1684429397, 'prompt': 'Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts_small.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.
+elapsed time = 7.74s

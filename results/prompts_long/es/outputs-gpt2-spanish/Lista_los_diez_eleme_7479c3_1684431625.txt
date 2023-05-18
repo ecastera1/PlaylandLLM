@@ -1,0 +1,8 @@
+--------------------
+### output 1
+Lista los diez elementos que tiene que tener en cuenta una empresa para llevar a cabo su transformación digital.Los diez elementos de la transformación digital son:1.1.La transformación digital de las empresas.1,2.1-2.3.La incorporación de nuevos productos y servicios.12.2.La mejora de la productividad y de la calidad de los procesos productivos.22.4.La inversión en activos intangibles.23.1.- La inversión en capital humano.2-3.2.- La mejora de las competencias profesionales.333-4.1)- La inversión de capital humano en bienes y servicios producidos por las empresas, en especial en el sector de la construcción.3-5.1) La inversión para la mejora de los conocimientos y la innovación.35.2)- La mejora del conocimiento de la empresa.36-7.1).La inversión para mejorar la calidad y la productividad de los servicios.6-8.1.).La inversión de la sociedad en la mejora del sistema productivo.6.2).La mejora del acceso al crédito.66.3).La reducción de los costes de mano de obra.68.4).La creación de nuevas oportunidades de empleo.69.1
+--------------------
+opt = {'model_name': 'mrm8488/spanish-gpt2', 'device': 'cuda:0', 'seed': 1684431625, 'prompt': 'Lista los diez elementos que tiene que tener en cuenta una empresa para llevar a cabo su transformación digital.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Lista los diez elementos que tiene que tener en cuenta una empresa para llevar a cabo su transformación digital.
+Memory 486.70Mb CUDA Memory: 495.59Mb
+Elapsed time = 2.09s

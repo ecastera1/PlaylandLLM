@@ -1,0 +1,12 @@
+--------------------
+### output 1
+Create a fictional magical system that is based on thermodynamic principles. This system would have a set of rules that govern the interactions between the different components of the system. The system would be governed by a set number of variables, such as temperature, pressure, and volume. The variables would be subject to a set set of constraints, such that the system would not exceed or violate any of the constraints.
+
+The system would also have a number of components, such a gas, liquid, solid, and plasma. Each component would have its own set of variables and constraints. The interactions between components would be based on the conservation of energy.
+A key concept in this system is that of entropy. Entropy is a measure of the disorder or randomness of a system. It is a function of the number of possible states of a given system and the number that are actually realized. The greater the number realized, the lower the entropy. The entropy of a closed system is always a maximum.
+An example of a fictional system that uses thermodynamic principles is the "Pandora's Box" system. This fictional system is based around a box of gas that is sealed. The box is subject to pressure, temperature, and entropy constraints. If the box is opened, the gas will
+--------------------
+opt = {'model_name': 'theblackcat102/pythia-3b-deduped-sft-r1', 'device': 'cuda:0', 'seed': 1684434458, 'prompt': 'Create a fictional magical system that is based on thermodynamic principles.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a fictional magical system that is based on thermodynamic principles.
+Memory 5421.07Mb CUDA Memory: 5447.07Mb
+Elapsed time = 8.08s

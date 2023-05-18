@@ -1,0 +1,14 @@
+--------------------
+### output 1
+Escribe un poema con rima acerca de un Shiba Inu y su dueño. El poema comienza con un verso d...
+En la segunda parte del cuento, el protagonista es un niño que vive en un reino d...
+En el cuento, un niño deveria ser un shiba inu, pero e... una vez que el shiba eiga, el niño se d
+El cuento dde la princesa dina, e leido d e los shiba, no me gusta, no e visto la serie, pero me gusta la historia
+En esta historia, el Shiba ino e dce que e sido muy muy bueno con los niños, y que dado d a d ela princesa, y d doa la princesa, por que db...
+La historia d la princesa del reino e la luna, d del cual no se sabe nada, y del cual se dice que dcue...
+Un niño e biblico d su aldea, el cual e n e sto se e dado cuenta d que ecesita d un amigo, el
+--------------------
+opt = {'model_name': 'flax-community/gpt-2-spanish', 'device': 'cuda:0', 'seed': 1684431684, 'prompt': 'Escribe un poema con rima acerca de un Shiba Inu y su dueño.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Escribe un poema con rima acerca de un Shiba Inu y su dueño.
+Memory 486.70Mb CUDA Memory: 496.34Mb
+Elapsed time = 2.09s

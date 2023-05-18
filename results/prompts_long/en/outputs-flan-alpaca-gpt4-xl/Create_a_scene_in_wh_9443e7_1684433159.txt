@@ -1,0 +1,8 @@
+--------------------
+### output 1
+Create a scene in which two characters talk about their future dreams in a prehistoric world.ic world. The boy, whose name is Jake, and the girl, named Lily, sit on the edge of cliff, their eyes fixed on the distant mountains. They are discussing their future dreams in a world that is still a few thousand years away from the present. Jake: I have always dreamed of living in - what I call - a time when the world was still ruled by the gods. The sky was painted with the colors of the sun, and there were no cars or airplanes. Lily: That sounds like a dream come true. I'm excited to see what the future holds for me in this prehistoric place. Jake, on the other hand, is more realistic. He sees himself as a simple farmer, working in the fields to provide for his family. He has always been fascinated by the natural world and the wonders that surround him. Lilly, on her part, is content with the simplicity of her life. She enjoys the simple things in life, like the sound of the birds singing in the trees and the smell of the
+--------------------
+opt = {'model_name': 'declare-lab/flan-alpaca-gpt4-xl', 'device': 'auto', 'seed': 1684433159, 'prompt': 'Create a scene in which two characters talk about their future dreams in a prehistoric world.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a scene in which two characters talk about their future dreams in a prehistoric world.
+Memory 4283.48Mb CUDA Memory: 4298.72Mb
+Elapsed time = 22.01s

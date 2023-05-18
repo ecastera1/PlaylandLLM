@@ -1,0 +1,23 @@
+--------------------
+### output 1
+Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.
+
+The list is organized by the following categories:
+
+A list of 10 long-tails keywords related in the IT transformation field.
+. A list of long-tailed keywords related by IT transformation.
+, A list containing the following keywords.
+: A list which contains the following keyword.
+ (1) The following keywords are not present in this list:
+. The following keyword is not present:
+: The following word is used as a prefix.
+- The following words are not used as suffixes.
+(2) The keyword is used in a prefix, but not in a suffix.
+The following keywords have no corresponding prefix:
+(3) The word is not used in the prefix. The word has no corresponding suffix. The prefix is used to indicate that the word has a prefix (and not a suffix).
+The prefix is not applied to the word in a way that makes it appear as if it were a suffix, but it does not.
+A prefix is a prefix that is used by a specific word in the same way that a suffix is used. The name of a prefix is the same as the name of the word
+--------------------
+opt = {'model_name': 'gpt2', 'device': 'cuda:0', 'seed': 1684429270, 'prompt': 'Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts_small.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.
+elapsed time = 2.61s

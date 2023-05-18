@@ -1,0 +1,25 @@
+--------------------
+### output 1
+Create a short story about a character who discovers an hidden talent.
+
+The protagonist of your short story is a character you created.
+Your protagonist discovers a talent that he or she has never known about before.
+The talent is something you have never experienced before. It is something that you have not had the opportunity to develop or learn.
+In this story, the protagonist is a person who is not very well-known.
+He or she is an ordinary person who does not have any special talents.
+However, the character discovers a hidden talent that has been lying dormant inside of him or her.
+This talent is unique and different from the character's previous knowledge and experience.
+It is something the character has never had the chance to learn or develop.
+After discovering the talent, the main character has to decide whether to keep the talent a secret or to share it with the world.
+What is the main idea of your story?
+
+How to write an essay about a book you like
+
+In the essay, you should explain why you like the book.
+You should also explain the reasons why you think the book is good.
+If you are a book critic, you can write about the book's plot, characters, and style.
+--------------------
+opt = {'model_name': 'EleutherAI/gpt-j-6B', 'device': 'auto', 'seed': 1684434777, 'prompt': 'Create a short story about a character who discovers an hidden talent.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a short story about a character who discovers an hidden talent.
+Memory 6277.14Mb CUDA Memory: 6310.74Mb
+Elapsed time = 29.57s

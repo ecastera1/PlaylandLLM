@@ -1,0 +1,49 @@
+--------------------
+### output 1
+Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.
+
+Keywords:
+
+IT Transformation
+
+Modern Workplace
+
+Virtualization
+
+Cloud
+
+Mobility
+
+Big Data
+
+Blockchain
+
+AI
+
+Artificial Intelligence
+
+Machine Learning
+
+Webinar:
+How to Build a Long-Tail Keyword Strategy
+
+Learn how to build a long-tailed keyword strategy for your digital marketing efforts.
+In this webinar, we will cover:
+- Why long-tails are so important
+- How to find long-tailing keywords
+- The best tools for finding long-terms
+- And much more!
+
+You'll learn:
+• How to build an effective keyword strategy
+• The best practices for finding and using long-term keywords
+• Why long tail keywords are so powerful
+• And much, much more
+
+Join us for this webcast and learn how to use long-termed keywords to drive more traffic to your website.
+Learn more about this webinars and register here.
+#ITTransformations #ITTransformation #IT #ITStrategy #ITDigital #ITdigital #ITtransformation #digitalmarketing
+--------------------
+opt = {'model_name': 'EleutherAI/gpt-j-6B', 'device': 'auto', 'seed': 1684429739, 'prompt': 'Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts_small.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.
+elapsed time = 28.30s

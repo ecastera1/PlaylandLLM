@@ -1,0 +1,13 @@
+--------------------
+### output 1
+¿Cuales son los errores fundamentales que comete la gente cuando hace trading de futuros para no perder dinero en el proceso?
+Hay que ser consciente de que los mercados son impredecibles y que el trading es una forma de inversión a largo plazo.
+La gente que hace day trading, trading de corto plazopierde dinero porque no se da cuenta que el mercado es imprede-cible y que una operación que en un momento es positiva, en otro puede ser negativa.
+Luego, la ganancia o la pérdida se pueden deber a un cambio en la dirección del mercado, no a una buena operaciónde trading.
+Hay mucha gente, que por ejemplo, compra cuando el merca-do está bajando y vende cuando está subiendo.
+Otra cosa que pasa es que la gentedice: "voy a poner una orden de stop loss
+--------------------
+opt = {'model_name': 'bertin-project/bertin-gpt-j-6B-infolibros', 'device': 'auto', 'seed': 1684432196, 'prompt': '¿Cuales son los errores fundamentales que comete la gente cuando hace trading de futuros para no perder dinero en el proceso?', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = ¿Cuales son los errores fundamentales que comete la gente cuando hace trading de futuros para no perder dinero en el proceso?
+Memory 6277.14Mb CUDA Memory: 6308.98Mb
+Elapsed time = 22.53s

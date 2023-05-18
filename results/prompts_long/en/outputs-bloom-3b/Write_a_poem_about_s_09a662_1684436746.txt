@@ -1,0 +1,8 @@
+--------------------
+### output 1
+Write a poem about shiba inu pet and his master. 1. The shiba is a medium-sized dog that is a member of the family of the fox. The Shiba Inu is a large, muscular dog that originated in Japan. The Japanese Shiba is the most popular breed of dog in the world. The dog is a small, muscular, and friendly breed of toy dog. The name Shiba comes from the Japanese word for “dog.” The Shih Tzu is a medium-sized toy dog that was first bred in China in the early 20th century. The breed is also known as the Japanese Fox Terrier. The word Shiba in Japan means a “dog of the mountains.”. The first Shiba was bred for hunting. The most popular color is white. The main thing is to keep the dog in shape. The black and white Shiba are the most common. The color of the coat is black with white markings. The fur of the Shiba can be either short or long. The body of the dog is compact and well proportioned. The average weight of the Japanese Shih-Tzu is between 15 and 20 pounds. The coat is long and dense. The eyes are black or gray, and the ears are
+--------------------
+opt = {'model_name': 'bigscience/bloom-3b', 'device': 'cuda:0', 'seed': 1684436746, 'prompt': 'Write a poem about shiba inu pet and his master.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Write a poem about shiba inu pet and his master.
+Memory 5726.92Mb CUDA Memory: 5751.05Mb
+Elapsed time = 5.18s

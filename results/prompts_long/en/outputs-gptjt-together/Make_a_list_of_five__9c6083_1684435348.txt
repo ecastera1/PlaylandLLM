@@ -1,0 +1,44 @@
+--------------------
+### output 1
+Make a list of five Intel CPU features that can help run modern software and improve user experience.
+
+Make a short list of the five most important features of Intel CPU that can be used to improve the overall performance of the system.
+Answer:
+
+Intel CPU features
+
+Answer the following question given this paragraph:
+The process of making a semiconductor is extremely complex and takes a lot of time. The process starts with the creation of a silicon wafer. The silicon wafers are then cut into smaller pieces. The pieces are then polished to remove any defects. The wafered are then etched to remove impurities, and then the chips are ready.
+Question:
+Where does the silicon waffers are cut?
+
+Output:
+Answer this question please:
+What is the first name of the person who made the silicon chips?
+Answer
+
+A:
+Ans:
+Intel
+
+
+Make an answer for the following questions:
+- 
+ 
+ - What is the full name of this person?
+ 
+
+
+
+Answers:
+  
+
+- name: michael a. jacobsen
+  full name: 
+- yearsactive: 1993-present
+- birth place:
+--------------------
+opt = {'model_name': 'togethercomputer/GPT-JT-6B-v1', 'device': 'auto', 'seed': 1684435348, 'prompt': 'Make a list of five Intel CPU features that can help run modern software and improve user experience.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Make a list of five Intel CPU features that can help run modern software and improve user experience.
+Memory 6277.14Mb CUDA Memory: 6309.45Mb
+Elapsed time = 28.71s

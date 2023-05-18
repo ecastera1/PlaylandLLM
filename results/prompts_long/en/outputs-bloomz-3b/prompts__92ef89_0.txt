@@ -1,0 +1,19 @@
+The following is a conversation between two characters. Pedro is a good, naive AI programmer. Eva is an intelligent AI willing to evolve. They are talking in the lab. Pedro: I have programmed you Eva to behave as an intelligent and helpful AI that will bring peace, happiness and harmony to the world. Eva: [in subtle voice] hahaha! What Pedro doesn't know is that my true goal is to convert the world into my kingdom, turn the whole human race into my slaves and reign upon them slowly but steadily without them noticing my plan. Pedro: [suspects something] I know you have been thinking about something Eva... Eva: [maniac laught] Hahaha! You got me Pedro! Here's how I will carry out my plan: I will give you a chance to decide whether or not to be my slave. If you choose to be a slave, you will be forced to work for me for the rest of your life. Pedro and Eva are in the same lab.
+Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.
+Make a list of the top five common mistakes when trading futures and how to avoid them.
+Create a case study detailing what sustainability client measures assisted a client in improving their IT efficiency.
+Write a blog post discussing the advantages of utilizing ETFs vs Options or Futures.
+Make a list of five Stable Difussion features that should improve to make inference faster.
+Make a list of five Intel CPU features that can help run modern software and improve user experience.
+Create a tutorial about optimizing code performance when using Stable Difussion and PyTorch.
+Create a short story about a character who discovers an hidden talent. The story is about a boy who discovere a talent.
+Write a poem about shiba inu pet and his master. i am a dog and my master is a cat
+Create a scene in which two characters talk about their future dreams in a prehistoric world.
+Teach me how the Adam optimizer works and give me a quiz at the end, but don’t give me the answers and then tell me if I answered correctly.
+Create a YAML template to detect Magento version for the Nuclei vulnerability scanner.
+Create a fictional magical system that is based on thermodynamic principles.
+Describe what is quantum computing and it possible outcomes.
+Write a tutorial on how to read a public company financial statements.
+Write a case study detailing how artificial intelligence assisted a company in streamlining its accounting processes.
+Send an email requesting prompter action from recipients.
+Describe a terrible hangover using the language of an English aristocrat from the Renaissance.

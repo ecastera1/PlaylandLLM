@@ -1,0 +1,14 @@
+--------------------
+### output 1
+Create a scene in which two characters talk about their future dreams in a prehistoric world.
+
+A new game called "The Dreamer" is coming to PlayStation 4 and Xbox One.
+.
+, which was created by the team at Ubisoft Montreal.
+: The game will be available on PlayStation 4, Xbox One and PC.
+ (via Polygon)
+--------------------
+opt = {'model_name': 'gpt2', 'device': 'cuda:0', 'seed': 1684433099, 'prompt': 'Create a scene in which two characters talk about their future dreams in a prehistoric world.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a scene in which two characters talk about their future dreams in a prehistoric world.
+Memory 486.70Mb CUDA Memory: 495.59Mb
+Elapsed time = 0.49s

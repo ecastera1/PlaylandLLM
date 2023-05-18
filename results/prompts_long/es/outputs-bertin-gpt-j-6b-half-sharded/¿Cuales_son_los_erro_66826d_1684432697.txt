@@ -1,0 +1,16 @@
+--------------------
+### output 1
+¿Cuales son los errores fundamentales que comete la gente cuando hace trading de futuros para no perder dinero en el proceso?
+Este es un error muy común. La gente no entiende que el trading de Futuros requiere de una estrategia y que esta estará basada en tu análisis del mercado.
+Esto es como si quisieras construir una casa sin saber como hacerlo. Tu estrés se verá reflejado en la calidad de tu trabajo y en el resultado final.
+Por eso es fundamental que tengas una buena estrtegia de trading de FUTUROS.
+En la estrada de hoy te voy a contar las 3 cosas que debes saber para que puedas constuir un buen plan de trading.
+1. Analiza el mercado
+2. Anális de tu estrato
+3. Entiende la estructura del mercados
+Para que pongas en prá
+--------------------
+opt = {'model_name': 'DavidFM43/bertin-gpt-j-6b-half-sharded', 'device': 'auto', 'seed': 1684432697, 'prompt': '¿Cuales son los errores fundamentales que comete la gente cuando hace trading de futuros para no perder dinero en el proceso?', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = ¿Cuales son los errores fundamentales que comete la gente cuando hace trading de futuros para no perder dinero en el proceso?
+Memory 6277.14Mb CUDA Memory: 6309.52Mb
+Elapsed time = 25.99s

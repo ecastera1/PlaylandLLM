@@ -1,0 +1,12 @@
+--------------------
+### output 1
+Create a scene in which two characters talk about their future dreams in a prehistoric world.
+ The Precambrian Supergroup is a vast and diverse rock formation that stretches over 1.2 billion acres across Canada, the United States, and Mexico. The Supergroup was formed during the Precamberian period, approximately 1000 million years ago, and is composed of a variety of rock types, including granite, gneiss, and schist.
+The Supergroup has been the site of extensive mining operations for its valuable minerals, including gold, silver, and copper. However, the environmental impact of these operations has been a cause for concern among many environmental groups and government agencies.
+In this scene, two geologists, Sarah and John, are discussing their plans for the upcoming field trip to the PecambrianSupergroup. Sarah is excited to explore the rock formations and collect samples, while John is interested in studying the mineral composition of the rocks and identifying potential mining sites.
+Sarah: "I can't wait to get out there and really explore the Supergroup. There's so much to see and learn about this
+--------------------
+opt = {'model_name': 'ehartford/WizardLM-7B-Uncensored', 'device': 'auto', 'seed': 1684436922, 'prompt': 'Create a scene in which two characters talk about their future dreams in a prehistoric world.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a scene in which two characters talk about their future dreams in a prehistoric world.
+Memory 6740.53Mb CUDA Memory: 6851.41Mb
+Elapsed time = 25.66s

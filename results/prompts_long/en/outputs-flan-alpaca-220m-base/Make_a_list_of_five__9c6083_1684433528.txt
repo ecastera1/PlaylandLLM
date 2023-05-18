@@ -1,0 +1,8 @@
+--------------------
+### output 1
+Make a list of five Intel CPU features that can help run modern software and improve user experience.ce st-s - 1. 1. 1. 5 CPU CPU CPU features that can be used to help run a variety of a few CPU CPU settings that can provide a number of 5- Intel CPU features such as a set of  - [1 1 CPU CPU  [A - 1)  1. 1. [  5  Intel CPU s a s [ - 1  1 - 2  2 a [...  (  1) - 5 - Intel CPU [ a) - 2. a List of 5 CPU - features that  help a series of - 10 
+--------------------
+opt = {'model_name': 'declare-lab/flan-alpaca-base', 'device': 'cuda:0', 'seed': 1684433528, 'prompt': 'Make a list of five Intel CPU features that can help run modern software and improve user experience.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Make a list of five Intel CPU features that can help run modern software and improve user experience.
+Memory 944.43Mb CUDA Memory: 954.81Mb
+Elapsed time = 1.74s

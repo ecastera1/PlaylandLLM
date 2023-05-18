@@ -1,0 +1,19 @@
+--------------------
+### output 1
+Dime la receta para hacer un buen cocido madrileño.
+Mensaje por Invitado » Dom 17 Jun, 2018 11:28 pm
+Muy buena la recomendación de la película.
+Yo también la vi el domingo por la noche.
+No es una pelícua que me guste especialmente, pero reconozco que tiene una cierta calidad.
+Me gusta la interpretación del protagonista.
+Y la música es muy buen acompañamiento.
+Si te gusta el cine, te recomiendo otra pelícla que tambien es más o menos reciente.
+Se llama "El hombre que mató a Don Quijote" y es española.
+La vi en el ciclo de cine españo que hacen en el canal de televisión TCM.
+Es una comedia, però que no es un chiste.
+Tiene un argumento un poco complicado,
+--------------------
+opt = {'model_name': 'bertin-project/bertin-gpt-j-6B', 'device': 'auto', 'seed': 1684431838, 'prompt': 'Dime la receta para hacer un buen cocido madrileño.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Dime la receta para hacer un buen cocido madrileño.
+Memory 6277.14Mb CUDA Memory: 6310.91Mb
+Elapsed time = 28.17s

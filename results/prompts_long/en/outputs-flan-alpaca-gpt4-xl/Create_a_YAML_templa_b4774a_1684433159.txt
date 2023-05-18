@@ -1,0 +1,8 @@
+--------------------
+### output 1
+Create a YAML template to detect Magento version for the Nuclei vulnerability scanner.
+--------------------
+opt = {'model_name': 'declare-lab/flan-alpaca-gpt4-xl', 'device': 'auto', 'seed': 1684433159, 'prompt': 'Create a YAML template to detect Magento version for the Nuclei vulnerability scanner.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a YAML template to detect Magento version for the Nuclei vulnerability scanner.
+Memory 4283.48Mb CUDA Memory: 4298.74Mb
+Elapsed time = 1.71s

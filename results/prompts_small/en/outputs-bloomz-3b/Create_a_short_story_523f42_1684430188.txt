@@ -1,0 +1,7 @@
+--------------------
+### output 1
+Create a short story about a character who discovers an hidden talent. The story is told from the point of view of the narrator, who is an aspiring writer.
+--------------------
+opt = {'model_name': 'bigscience/bloomz-3b', 'device': 'cuda:0', 'seed': 1684430188, 'prompt': 'Create a short story about a character who discovers an hidden talent.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts_small.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a short story about a character who discovers an hidden talent.
+elapsed time = 0.46s

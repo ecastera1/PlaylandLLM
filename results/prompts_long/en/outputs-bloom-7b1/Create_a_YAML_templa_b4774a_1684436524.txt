@@ -1,0 +1,34 @@
+--------------------
+### output 1
+Create a YAML template to detect Magento version for the Nuclei vulnerability scanner.');?></p>
+        <textarea name="template" id="template" rows="10" cols="100"><?php echo $this->escapeHtml($template);?></textarea>
+        <p class="submit">
+            <?php
+            $button = new Zend_Form_Element_Submit('submit');
+            $submitButton = new StdClass();
+            if ($template) {
+                $submit = new stdClass();
+                $button->setLabel('Submit Template')
+                     ->setAttrib('class', 'button')
+                     ->setValue('Validate') // Set the button value
+                     ->setDecorators(array('ViewHelper'));
+                if ($button->getDecorators()) {
+                    foreach ($submit->getDecorator('Label') as $decorator) {
+                        $button->removeDecoratorByTag($decorator->getTag());
+                    }
+                }
+                $validate = new \Zend_Form_Decorator_Validate(array(
+                   'method' => 'ValidateTemplate',
+                    'options' => array(
+                       'required' => false,
+                        'ignore' => array(
+                            'template' => true,
+                           'version' => true,
+                        )
+                    )
+                ));
+--------------------
+opt = {'model_name': 'bigscience/bloom-7b1', 'device': 'auto', 'seed': 1684436524, 'prompt': 'Create a YAML template to detect Magento version for the Nuclei vulnerability scanner.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a YAML template to detect Magento version for the Nuclei vulnerability scanner.
+Memory 7723.08Mb CUDA Memory: 7740.79Mb
+Elapsed time = 18.89s

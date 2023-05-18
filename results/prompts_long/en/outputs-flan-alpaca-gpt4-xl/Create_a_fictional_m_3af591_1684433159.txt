@@ -1,0 +1,8 @@
+--------------------
+### output 1
+Create a fictional magical system that is based on thermodynamic principles.inciples of thermodynamics. Enchantments are magical spells that can be used to create powerful effects on the world around them. The system is a combination of enchantment and thermodynamic principles. The spells are created by combining the power of the elemental elements with the power and strength of the user. The user can use enchanted objects to cast spells, which are then used to perform actions that affect the environment around them, such as attracting fireflies or removing obstacles. The effects of the spells can be unpredictable, and the user must carefully plan their actions to ensure that they do not accidentally harm others. Enchanted items can be created through a complex process of combining elements and enforcing the right conditions. Once a spell is created, it can be cast on an object, causing it to either change or disappear. The power of an encast is determined by the encaster's skill and the strength of their spell. The Enchanter's ability to cast a powerful spell is determined not by the strength or power of their powers, but by the
+--------------------
+opt = {'model_name': 'declare-lab/flan-alpaca-gpt4-xl', 'device': 'auto', 'seed': 1684433159, 'prompt': 'Create a fictional magical system that is based on thermodynamic principles.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a fictional magical system that is based on thermodynamic principles.
+Memory 4283.48Mb CUDA Memory: 4298.45Mb
+Elapsed time = 21.95s

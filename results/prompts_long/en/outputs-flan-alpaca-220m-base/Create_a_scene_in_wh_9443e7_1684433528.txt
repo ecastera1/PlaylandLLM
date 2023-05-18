@@ -1,0 +1,8 @@
+--------------------
+### output 1
+Create a scene in which two characters talk about their future dreams in a prehistoric world. a space filled with the stars soaring in the night - a place filled with two characters swaying in the sys a world filled with stars a blanket s en a, s in s the a-  a face of  stars  in waking a hall a setting a frame a window filled with an sea a star a night scene with sen  echo a sound of da 
+--------------------
+opt = {'model_name': 'declare-lab/flan-alpaca-base', 'device': 'cuda:0', 'seed': 1684433528, 'prompt': 'Create a scene in which two characters talk about their future dreams in a prehistoric world.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a scene in which two characters talk about their future dreams in a prehistoric world.
+Memory 944.43Mb CUDA Memory: 954.81Mb
+Elapsed time = 1.57s

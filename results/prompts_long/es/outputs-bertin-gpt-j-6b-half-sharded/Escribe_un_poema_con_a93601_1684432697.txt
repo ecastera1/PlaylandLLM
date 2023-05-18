@@ -1,0 +1,14 @@
+--------------------
+### output 1
+Escribe un poema con rima acerca de un Shiba Inu y su dueño.
+Escribe acercar de una mascota que tengas.
+¿Cómo es la vida de un perro?
+¡Cuéntanos acercas de tu perro!
+El perro es el mejor amigo del hombre, y el mecanismo de la vivienda que se encuentra en la naturaleza.
+ Aristóteles
+ Publicado en Historias de Perros	 Etiquetado como Historieta de Perro, Historia de Perritos, Historia de Perrito, Historiieta, Historial de Perra, Historio de Perrillo, Histórias de Perras, Histoires de Chiens, Histoire de Chien, Historie de Chienne, Histories de Chihuahua, Histries de Chiguagua, Hitorias de Chihuhua, Perro Chihuahuas, Perros Chihuas, Shiba inu, Shih Tzu,
+--------------------
+opt = {'model_name': 'DavidFM43/bertin-gpt-j-6b-half-sharded', 'device': 'auto', 'seed': 1684432697, 'prompt': 'Escribe un poema con rima acerca de un Shiba Inu y su dueño.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Escribe un poema con rima acerca de un Shiba Inu y su dueño.
+Memory 6277.14Mb CUDA Memory: 6309.39Mb
+Elapsed time = 27.39s

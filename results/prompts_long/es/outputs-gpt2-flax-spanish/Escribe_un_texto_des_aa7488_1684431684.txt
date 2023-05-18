@@ -1,0 +1,13 @@
+--------------------
+### output 1
+Escribe un texto descriptivo de una mujer hermosa al estilo literario del siglo de oro español.
+Una mujer dúctil, con un lenguaje sencillo y directo, es capaz d e comprender a la perfección la belleza d o la mujer.
+Los hombres tienen la capacidad d a dcir a la mujer y a la vez d i a su belleza, d u r t o en la forma d r e d s e n t e r a la belleza y a su inteligencia.
+La belleza e s d m e b e y la inteligencia son los dos aspectos d n d c e m d as d la mujer que la hacen única y especial.
+El lenguaje d los hombres e los s ú n e c t o s ús d el e l e g a e o s son los que d l d t d al d del e p o r t a n ú m iento.
+En el s uj e u n a ú s ón d las mujeres d y d ó n dl
+--------------------
+opt = {'model_name': 'flax-community/gpt-2-spanish', 'device': 'cuda:0', 'seed': 1684431684, 'prompt': 'Escribe un texto descriptivo de una mujer hermosa al estilo literario del siglo de oro español.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Escribe un texto descriptivo de una mujer hermosa al estilo literario del siglo de oro español.
+Memory 486.70Mb CUDA Memory: 496.34Mb
+Elapsed time = 2.08s

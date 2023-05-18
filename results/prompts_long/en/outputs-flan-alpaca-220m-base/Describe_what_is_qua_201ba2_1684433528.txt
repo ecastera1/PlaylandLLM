@@ -1,0 +1,8 @@
+--------------------
+### output 1
+Describe what is quantum computing and it possible outcomes.d quantum computing and the results of a GPU-s a virtual quantum computing, which a data a case of quantum computing with a CPU- quantum computing can be a computational in quantum computing where a compute a and a possible outcomes for a single-scale quantum computing a with simulated a
+--------------------
+opt = {'model_name': 'declare-lab/flan-alpaca-base', 'device': 'cuda:0', 'seed': 1684433528, 'prompt': 'Describe what is quantum computing and it possible outcomes.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Describe what is quantum computing and it possible outcomes.
+Memory 944.43Mb CUDA Memory: 954.81Mb
+Elapsed time = 0.84s

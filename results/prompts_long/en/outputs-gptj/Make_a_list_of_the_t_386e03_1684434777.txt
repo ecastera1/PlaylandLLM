@@ -1,0 +1,49 @@
+--------------------
+### output 1
+Make a list of the top five common mistakes when trading futures and how to avoid them.
+
+The Top 5 Mistakes When Trading Futures
+
+1. Not understanding the risks of trading futures
+
+2. Not knowing the difference between a futures contract and an option
+
+3. Not being able to read a contract
+
+4. Not having a trading plan
+
+5. Not using a stop loss order
+
+6. Not diversifying your portfolio
+
+7. Not learning from your mistakes
+
+8. Not trading with the right broker
+
+9. Not taking advantage of the best tax breaks
+
+10. Not keeping your trading journal
+
+11. Not following your trading plan and sticking to it
+
+12. Not getting out of the market when you are wrong
+
+13. Not staying in the market until you are right
+
+14. Not making money
+
+15. Not managing your money
+1: Not Understanding the Risks of Trading Futurs
+
+When trading futures, there is a risk to your account and your capital. The risk is not the same as the risk of trading stocks or shares. The risks are higher.
+The risks of futures trading are:
+
+Market risk
+
+Liquidity risk
+
+--------------------
+opt = {'model_name': 'EleutherAI/gpt-j-6B', 'device': 'auto', 'seed': 1684434777, 'prompt': 'Make a list of the top five common mistakes when trading futures and how to avoid them.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Make a list of the top five common mistakes when trading futures and how to avoid them.
+Memory 6277.14Mb CUDA Memory: 6310.76Mb
+Elapsed time = 29.03s

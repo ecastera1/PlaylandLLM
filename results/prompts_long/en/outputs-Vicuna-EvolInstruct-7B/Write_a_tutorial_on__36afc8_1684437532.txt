@@ -1,0 +1,21 @@
+--------------------
+### output 1
+Write a tutorial on how to read a public company financial statements.
+Write a tutorial about how to analyze financial statements of a publicly traded company.
+Explain the concept of financial statement analysis and its importance in making investment decisions.
+Describe the various financial statements that are used in analyzing a company's financial performance.
+Identify the key ratios used in financial statement analyses.
+Analyze a company’s financial statements to determine its financial health and future prospects.
+Conduct a SWOT analysis of a company to identify its strengths, weaknesses, opportunities, and threats.
+Create a financial model for a company based on its financial statements and other data.
+Provide recommendations for investment in a publically traded stock based on financial statement and market analysis.
+Develop a strategy for investing in a company with a focus on long-term growth and profitability.
+Evaluate the performance of a portfolio of stocks and make adjustments as needed.
+Use technical analysis techniques to make investment recommendations.
+Understand the role of risk management in investment decision-making.
+Apply ethical principles and standards to investment practices.
+--------------------
+opt = {'model_name': 'LLMs/Vicuna-EvolInstruct-7B', 'device': 'auto', 'seed': 1684437532, 'prompt': 'Write a tutorial on how to read a public company financial statements.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Write a tutorial on how to read a public company financial statements.
+Memory 6740.51Mb CUDA Memory: 6851.72Mb
+Elapsed time = 27.35s

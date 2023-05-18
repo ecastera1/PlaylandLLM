@@ -1,0 +1,26 @@
+--------------------
+### output 1
+Create a short story about a character who discovers an hidden talent.
+Write a poem about a place that you love.
+Create a comic strip about a day in the life of a superhero.
+Design a poster for a new movie.
+Make a collage of pictures that represent your favorite hobby.
+Draw a map of your neighborhood.
+Practice your calligraphy by writing a quote or saying.
+Paint a picture of your favorite animal.
+Decorate a box with stickers and other decorations.
+Build a model of a famous building.
+Play a musical instrument and perform a song for others.
+Bake a cake and decorate it with icing and candies.
+Take a photograph of something that inspires you.
+Learn a new language and write a sentence in it.
+Do a science experiment and record your observations.
+Explore a new city and take photos of interesting sites.
+Visit a museum and write about what you saw.
+Try a new sport or activity and write down your thoughts.
+What would you add to this list? Share your ideas in the comments below!
+--------------------
+opt = {'model_name': 'LLMs/Vicuna-EvolInstruct-7B', 'device': 'auto', 'seed': 1684437532, 'prompt': 'Create a short story about a character who discovers an hidden talent.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a short story about a character who discovers an hidden talent.
+Memory 6740.51Mb CUDA Memory: 6851.67Mb
+Elapsed time = 26.04s

@@ -1,0 +1,21 @@
+--------------------
+### output 1
+Teach me how the Adam optimizer works and give me a quiz at the end, but don’t give me the answers and then tell me if I answered correctly.
+
+I’m not sure if it’s just me, but I’ve never been able to get the hang of the Adam Optimizer. I”ve tried to read the paper and understand it, but it”s just not clicky enough for me. I don”t know if it was the paper, or the implementation, or maybe just me.
+So, I“m looking for someone to teach me how Adam works, and give a quiz or two at the conclusion.
+I don“t care if it takes a while, I just want to be able to understand how it works, so I can use it in my own projects.
+If you”re interested, let me know.
+Thanks!
+
+Hi,
+I have a question about the Adam algorithm.
+In the paper they say that the learning rate is a function of the square root of the average squared gradients.
+But in the Adam implementation they use the learning_rate = 1e-4.
+Is this correct?
+
+--------------------
+opt = {'model_name': 'togethercomputer/GPT-JT-6B-v1', 'device': 'auto', 'seed': 1684435348, 'prompt': 'Teach me how the Adam optimizer works and give me a quiz at the end, but don’t give me the answers and then tell me if I answered correctly.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Teach me how the Adam optimizer works and give me a quiz at the end, but don’t give me the answers and then tell me if I answered correctly.
+Memory 6277.14Mb CUDA Memory: 6310.91Mb
+Elapsed time = 27.21s

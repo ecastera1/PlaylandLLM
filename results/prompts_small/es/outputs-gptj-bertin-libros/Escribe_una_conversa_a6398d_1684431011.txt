@@ -1,0 +1,16 @@
+--------------------
+### output 1
+Escribe una conversación ficticia entre dos personajes hablando de un plan secreto que la gente no conoce pero que se está llevando a cabo ante nuestros ojos.
+Escribe la conversaci6n en tercera persona.
+Habla de una persona que conoces, o que has visto en la tele, o en el cine, o de un libro, o una canción.
+Describe cómo es físicamente y cóm0 es su personalidad.
+¿Cómo sería si fuera de otro color?
+¡Cambia el color de pelo y de ojOS!
+¥ Busca a alguien que se parezca a ti.
+Puede ser un familiar, un amigo, un compañero de clase, un cantante, un actor, un personaje histórico, una mascota, un vecino...
+Haz una breve descripción de él o ella.
+Busca a una o unas personas que se
+--------------------
+opt = {'model_name': 'bertin-project/bertin-gpt-j-6B-infolibros', 'device': 'auto', 'seed': 1684431011, 'prompt': 'Escribe una conversación ficticia entre dos personajes hablando de un plan secreto que la gente no conoce pero que se está llevando a cabo ante nuestros ojos.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts_small.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Escribe una conversación ficticia entre dos personajes hablando de un plan secreto que la gente no conoce pero que se está llevando a cabo ante nuestros ojos.
+Memory 6277.14Mb CUDA Memory: 6309.84MbElapsed time = 21.86s

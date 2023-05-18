@@ -1,0 +1,13 @@
+--------------------
+### output 1
+Create a fictional magical system that is based on thermodynamic principles.
+Answer:Based on thermodynamic Principles, our fictional magical systems would require energy to create and maintain. This energy would be provided by a magical creator or source, who would use various methods such as telekinesis, dark magic, and powerful allies to create, maintain, and destroy objects. The systems would also require storage, so that objects could be stored for long periods of time, should the need arise. Finally, our systems would need to be able to predict and control the behavior of objects and energy, in order to create efficient strategies for destruction and creation.<|stop|>ito il codice dei licenziamenti dei dipendenti.
+Sono ancora disponibili le liste dei dipendenti licenze dei quali potrai assistenza.
+
+2. Chi licenzia i dipendente deve informare dei gravi malversazioni che ne rispettano le condizioni legali, in particolare riguardanti la salute e la sicurezza dei suoi membri.
+3. Chi non licenziassebbe un dipendiente avrebbe manifestamente intenzione di far sì che tale
+--------------------
+opt = {'model_name': 'lambdalabs/pythia-1.4b-deduped-synthetic-instruct', 'device': 'cuda:0', 'seed': 1684433565, 'prompt': 'Create a fictional magical system that is based on thermodynamic principles.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a fictional magical system that is based on thermodynamic principles.
+Memory 5492.05Mb CUDA Memory: 5501.07Mb
+Elapsed time = 7.22s

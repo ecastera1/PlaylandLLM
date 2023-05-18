@@ -1,0 +1,8 @@
+### Instrucción:
+
+Genera una lista de argumentos a favor y en contra sobre si la tortilla de patatas debe ser con cebolla o sin cebolla. 
+
+### Entrada:
+
+### Respuesta:
+

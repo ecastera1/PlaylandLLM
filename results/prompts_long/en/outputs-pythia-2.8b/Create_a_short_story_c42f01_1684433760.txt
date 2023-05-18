@@ -1,0 +1,14 @@
+--------------------
+### output 1
+Create a short story about a character who discovers an hidden talent.
+Answer:Once upon a time, there was a brave hero who one day realized that he had an incredible hidden talent that he never knew he had. He thought no one else knew, so he kept it to himself but soon shared it with everyone when he discovered that he was right. With his newfound talent, he was able to achieve anything he wanted. He now uses his new-found power to help others and give them the chance to achieve their dreams. He is a great source of inspiration for all those who meet him.<|stop|> him or her.<|stop|> them or them.
+
+2  The story continues that everyone was amazed at the new talent the hero had and started to seek out help to develop it. Their advice was helpful, and with time and dedication, the hero was ableto master his or her newfound skill. Today, the hidden talent is well known and used by people all over the world. And the hero is remembered for having been a great friend to those who sought out his or hers advice.<|stop|> the story with details about the hero's newfound gift and how it was developed.
+_What's next on our list? *_
+
+_1. Visit a
+--------------------
+opt = {'model_name': 'lambdalabs/pythia-2.8b-deduped-synthetic-instruct', 'device': 'cuda:0', 'seed': 1684433760, 'prompt': 'Create a short story about a character who discovers an hidden talent.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a short story about a character who discovers an hidden talent.
+Memory 5421.04Mb CUDA Memory: 5447.07Mb
+Elapsed time = 8.03s

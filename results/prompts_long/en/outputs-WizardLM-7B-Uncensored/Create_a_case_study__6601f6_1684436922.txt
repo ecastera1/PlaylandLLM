@@ -1,0 +1,11 @@
+--------------------
+### output 1
+Create a case study detailing what sustainability client measures assisted a client in improving their IT efficiency.
+ The first step in creating a sustainable IT infrastructure is to identify and prioritize the most significant environmental impacts associated with IT operations. This includes factors such as energy consumption, greenhouse gas emissions, and waste generation. Once these impacts have been identified, the next step is to develop a comprehensive plan for reducing them. This plan should include specific targets and timelines for achieving these goals, as well as a clear understanding of the resources and capabilities required to achieve them.
+One example of a company that has successfully implemented sustainble IT practices is Google. Google has set a goal to power 100% of its data centers with renewable energy sources by 2020. To achieve this goal, Google has invested heavily in wind and solar power projects, and has also implemented energy-efficient technologies and practices within its data center operations.
+Another example is HP, which has set targets to reduce the environmental impact of its IT operations by 30% by 1999, and to reduce waste by 50% per unit of product by 0
+--------------------
+opt = {'model_name': 'ehartford/WizardLM-7B-Uncensored', 'device': 'auto', 'seed': 1684436922, 'prompt': 'Create a case study detailing what sustainability client measures assisted a client in improving their IT efficiency.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a case study detailing what sustainability client measures assisted a client in improving their IT efficiency.
+Memory 6740.53Mb CUDA Memory: 6851.27Mb
+Elapsed time = 25.22s

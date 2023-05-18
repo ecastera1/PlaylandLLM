@@ -1,0 +1,12 @@
+--------------------
+### output 1
+Dime una rutina diaria que tiene que tener un buen trader para poder sacar el máximo beneficio operando con futuros en el S&P 500.
+En el caso de que no se pueda conseguir, se puede recurrir a la opción d'hoc. El trader puede, por ejemplo, ir a la página d’hoc dhoc, donde se pueden encontrar los brokers que ofrecen este servicio.
+El trader que se ha registrado es un trader profesional con amplia experiencia e interés e inversión e inversiones e incluso ha participado e inversores e instituciones e intereses e e los mercados financieros.
+Con este servicio el trader podrá realizar operaciones d´hoc para poder conseguir el máximo provecho d e sus operaciones e invertir e s el máximo dinero posible e con el mínimo riesgo.
+La plataforma d`hoc está diseñada para operar con un mínimo d ´hoc y con un máximo d ùrgano d s, e permite operar con el máximo e ùn dìas dÈr dèr e i dòr dde, dà
+--------------------
+opt = {'model_name': 'flax-community/gpt-2-spanish', 'device': 'cuda:0', 'seed': 1684431684, 'prompt': 'Dime una rutina diaria que tiene que tener un buen trader para poder sacar el máximo beneficio operando con futuros en el S&P 500.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Dime una rutina diaria que tiene que tener un buen trader para poder sacar el máximo beneficio operando con futuros en el S&P 500.
+Memory 486.70Mb CUDA Memory: 496.34Mb
+Elapsed time = 2.00s

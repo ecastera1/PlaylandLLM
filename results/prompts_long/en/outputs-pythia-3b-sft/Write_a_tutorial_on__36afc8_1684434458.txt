@@ -1,0 +1,36 @@
+--------------------
+### output 1
+Write a tutorial on how to read a public company financial statements.
+
+Write a program to calculate the price of a share of stock using the closing stock price and the number of shares of stock.
+Write code to calculate a dividend.
+Use the code to find the dividend payout ratio.
+Calculate the dividend yield.
+Create a spreadsheet to calculate dividends.
+Find the dividend payment date.
+What is the formula for calculating the dividend?
+What are the factors that affect the dividend paid?
+Write the code for calculating dividends.
+
+
+Write an algorithm to find a unique number that is a factor of a number.
+Given a number, return a unique factor of that number.
+
+    Input: a number
+    Output: a unique factorization of that given number. If there are multiple factors, return an array of factors.
+    Example: Given the number 15, the algorithm should return the array [1, 3, 5].
+
+Create an algorithm that finds the product of two numbers.
+Input: two numbers
+Output: the product
+Example: The algorithm should output the product 12.
+Note: The product of a and b is b * a.
+
+Q:
+
+How to create a table with a dynamic number of
+--------------------
+opt = {'model_name': 'theblackcat102/pythia-3b-deduped-sft-r1', 'device': 'cuda:0', 'seed': 1684434458, 'prompt': 'Write a tutorial on how to read a public company financial statements.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Write a tutorial on how to read a public company financial statements.
+Memory 5421.07Mb CUDA Memory: 5447.07Mb
+Elapsed time = 8.04s

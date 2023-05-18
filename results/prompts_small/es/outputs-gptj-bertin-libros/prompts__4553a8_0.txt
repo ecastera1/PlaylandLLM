@@ -1,0 +1,16 @@
+Escribe una conversación ficticia entre dos personajes hablando de un plan secreto que la gente no conoce pero que se está llevando a cabo ante nuestros ojos.
+Escribe la conversaci6n en tercera persona.
+Habla de una persona que conoces, o que has visto en la tele, o en el cine, o de un libro, o una canción.
+Describe cómo es físicamente y cóm0 es su personalidad.
+¿Cómo sería si fuera de otro color?
+¡Cambia el color de pelo y de ojOS!
+¥ Busca a alguien que se parezca a ti.
+Puede ser un familiar, un amigo, un compañero de clase, un cantante, un actor, un personaje histórico, una mascota, un vecino...
+Haz una breve descripción de él o ella.
+Busca a una o unas personas que se
+Describe como funciona el modelo GPT-3 del lenguaje natural con transformers.
+El modelo de la teoría de transformaciones de GPT, está basado en el modelos de la gramática transformacional de Chomsky, aunque no es exactamente igual al modelo del lado derecho de la figura.
+La gramá tica transformación de G PT, es una gramá ntica libre de contexto, con símbolos no terminales, y reglas de producción de la forma:
+(1) Dada una palabra a, para cada símbolo no terminal s, si (a, s) ∈ Γ, entonces (s, a) ∉ Γ.
+(2) Dado un sí mbol o no terminal, para toda palabras a, b ∈Γ, si a = b, ento nces (a = b) ∇.
+En este modelo, las palabr as está n definidas por un conjunto finito de sím bolos no-

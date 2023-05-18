@@ -1,0 +1,18 @@
+--------------------
+### output 1
+Escribe un poema con rima acerca de un Shiba Inu y su dueño.
+Escribe acercade un Shibita y su amo.
+¿Qué es lo que más te gusta de tu Shiba?
+¡¡Me encanta!! Es una de las razas más inteligentes y cariñosas que he conocido.
+Me encantan sus ojos, son preciosos.
+Siempre está dispuesto a jugar conmigo, es muy divertido. Además, es una raza muy limpia.
+También me gusta su pelo, es suave y brillante.
+Puede ser muy travieso, pero es más bueno que el pan.
+Es muy fiel, siempre me espera cuando llego a casa.
+Aunque es un perro muy grande, es súper cariño y muy bueno.
+No es miedoso, perro aunque no se le puede dejar solo en cas
+--------------------
+opt = {'model_name': 'bertin-project/bertin-gpt-j-6B', 'device': 'auto', 'seed': 1684431838, 'prompt': 'Escribe un poema con rima acerca de un Shiba Inu y su dueño.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Escribe un poema con rima acerca de un Shiba Inu y su dueño.
+Memory 6277.14Mb CUDA Memory: 6309.87Mb
+Elapsed time = 27.75s

@@ -1,0 +1,19 @@
+--------------------
+### output 1
+Escribe un poema con rima acerca de un Shiba Inu y su dueño.
+¡No te olvides de ponerle un título!
+¿Qué es lo que más te gusta de tu Shiba?
+¥ å ¥ ã ¤ ¤ ã ã ( ) ( ) ¤ ( )
+El Shiba es un perro muy inteligente, cariñoso y fiel.
+Adora a su familia y es muy bueno con los niños.
+Es un perrito muy limpio, le encanta que lo bañen y que le cepillen el pelo.
+Su pelo es largo, sedoso y de color blanco.
+El color blancp del pelo de un cachorro Shiba se debe a que se les da pienso blanco para cachorrros.
+En Japón, los Shiba son muy populares como perros de compañía.
+Los Shiba tienen una larga historia como cazadores.
+Son perros muy activ
+--------------------
+opt = {'model_name': 'bertin-project/bertin-gpt-j-6B-infolibros', 'device': 'auto', 'seed': 1684432196, 'prompt': 'Escribe un poema con rima acerca de un Shiba Inu y su dueño.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Escribe un poema con rima acerca de un Shiba Inu y su dueño.
+Memory 6277.14Mb CUDA Memory: 6309.95Mb
+Elapsed time = 24.38s

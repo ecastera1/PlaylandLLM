@@ -1,0 +1,18 @@
+--------------------
+### output 1
+Escribe un poema con rima acerca de un Shiba Inu y su dueño.
+
+### Respuesta:
+Un Shiba inu que ama el aire libre,
+Pasea con su dueños cada día.
+Aunque a veces ladra, no hay nada que temer,
+Solo quiere ser parte de la manada.
+Un perro leal y cariñoso,
+Que siempre está feliz de jugar.
+El Shiba es un perro inteligente y valiente,
+Y siempres está listo para un desafío.
+--------------------
+opt = {'model_name': 'bertin-project/bertin-gpt-j-6B-alpaca', 'device': 'auto', 'seed': 1684432459, 'prompt': 'Escribe un poema con rima acerca de un Shiba Inu y su dueño.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Escribe un poema con rima acerca de un Shiba Inu y su dueño.
+Memory 6277.14Mb CUDA Memory: 6311.09Mb
+Elapsed time = 13.67s

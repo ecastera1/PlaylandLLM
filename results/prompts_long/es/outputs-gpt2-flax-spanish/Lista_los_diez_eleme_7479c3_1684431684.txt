@@ -1,0 +1,11 @@
+--------------------
+### output 1
+Lista los diez elementos que tiene que tener en cuenta una empresa para llevar a cabo su transformación digital.
+El primer elemento es la digitalización. La transformación digital e-commerce se ha convertido ee un factor clave para las empresas de hoy. La digitalización d-commerce e, incluso, la transformación digital del sector d...
+El sector eCommerce e Internet d'Empresaris se han convertido d e los grandes protagonistas d i e n d a d o d l e s d m i d n e m e y d r e c i o n ú n dl e l d u c t o e r d c i ú m d s e g u e t o s dl g u i n..........
+El eComic e e S e han convertido n dc e b e el sector ie e comercio electrónico e internet d. e p o r m i n i c o n u d y e o n a c i ó n dp d p e u
+--------------------
+opt = {'model_name': 'flax-community/gpt-2-spanish', 'device': 'cuda:0', 'seed': 1684431684, 'prompt': 'Lista los diez elementos que tiene que tener en cuenta una empresa para llevar a cabo su transformación digital.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Lista los diez elementos que tiene que tener en cuenta una empresa para llevar a cabo su transformación digital.
+Memory 486.70Mb CUDA Memory: 496.34Mb
+Elapsed time = 2.07s

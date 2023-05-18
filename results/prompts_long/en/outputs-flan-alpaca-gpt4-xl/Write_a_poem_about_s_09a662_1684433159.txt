@@ -1,0 +1,8 @@
+--------------------
+### output 1
+Write a poem about shiba inu pet and his master.th a master, Together they make a perfect team. With their master's love and care, They'll always be near, Together, they'll walk and play, A bond that will never fade. Shibo inu, beloved pet, With his master'll never grow old, A loyal companion, always there, A companion that will always be there. Shibas, with their sly grin and snarl, They will always find a way, To make the master'd life complete. Shibana ino, the loyal companion with their master, They love each other with all their hearts. Shibari, with his masters love, A true companion, a true friend, A constant, dependable friend. Shirano, with her master't heart, A faithful companion, forever close, A friend to the end. Shira, with the masters heart, The Shibashi inu's loyal companion. Shiramo, oh Shiro, With her masters hand, A loving companion, never to be. Shimano, and her
+--------------------
+opt = {'model_name': 'declare-lab/flan-alpaca-gpt4-xl', 'device': 'auto', 'seed': 1684433159, 'prompt': 'Write a poem about shiba inu pet and his master.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Write a poem about shiba inu pet and his master.
+Memory 4283.48Mb CUDA Memory: 4298.83Mb
+Elapsed time = 21.94s

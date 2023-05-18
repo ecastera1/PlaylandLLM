@@ -1,0 +1,21 @@
+--------------------
+### output 1
+Dime la receta para hacer un buen cocido madrileño.
+
+En el siglo XIX, el pan de la cocina española se hizo popular en España, como fue el caso de la "Pep de la Mancha" de la ciudad de Madrid, que se hizo con harina de trigo y harina de maíz.
+En la actualidad, la harina de harina de centeno y de trigo se usa en la cocina de la España rural.
+La harina de avena se usa para cocinar el pan.
+El pan de trigo es un alimento muy popular en el Reino Unido y en la región de Escandinavia. El pan de avena es muy popular entre los habitantes de la región y en el resto del mundo.
+Los ingredientes principales de la harina son:
+
+
+La versión más popular de la versión de la avena es la harina con huevos de trigo, una variedad de trigo de centeno, y un poco de avena.
+Se suele hacer en un horno de leña, y se suele hacer con una mezcla de harina y harina.
+Una vez que se ha hecho el pan, se suele servir con una masa de pan de centeno.
+Cuando se hace la harina, se puede hacer un "sándwich" de pan con carne de cerdo.
+Si se hace el "sq.k
+--------------------
+opt = {'model_name': 'datificate/gpt2-small-spanish', 'device': 'cuda:0', 'seed': 1684431649, 'prompt': 'Dime la receta para hacer un buen cocido madrileño.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Dime la receta para hacer un buen cocido madrileño.
+Memory 486.70Mb CUDA Memory: 495.59Mb
+Elapsed time = 2.19s

@@ -1,0 +1,17 @@
+--------------------
+### output 1
+Escribe una pequeña historia sobre un personaje que acaba de descubrir un talento oculto que desconocía.
+Escribe la historia en primera persona.
+• Escribir una historia inventada es una actividad de escritura creativa.
+Aunque puede ser una tarea desafiante para los estudiantes, es un ejercicio de escucha y de pensamiento creativo.
+La escritora australiana E. N. Browning dijo: "La escuela no es el lugar para aprender a escribir.
+Es el lu-gar donde se aprende a escuchar y a pensar".
+• Puedes escribirla en un cuaderno personal.
+Así podrás recurrir a ella cuando lo necesites.
+También puedes compartirla con tu clase.
+Pídeles que te ayuden a titularla y a encontrar un título atractivo. • Pídelas que te den su opin
+--------------------
+opt = {'model_name': 'bertin-project/bertin-gpt-j-6B-infolibros', 'device': 'auto', 'seed': 1684432196, 'prompt': 'Escribe una pequeña historia sobre un personaje que acaba de descubrir un talento oculto que desconocía.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Escribe una pequeña historia sobre un personaje que acaba de descubrir un talento oculto que desconocía.
+Memory 6277.14Mb CUDA Memory: 6309.77Mb
+Elapsed time = 23.28s

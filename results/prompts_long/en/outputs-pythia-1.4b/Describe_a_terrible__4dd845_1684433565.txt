@@ -1,0 +1,9 @@
+--------------------
+### output 1
+Describe a terrible hangover using the language of an English aristocrat from the Renaissance.
+Answer:The night before last, I was feeling very much like myself. I had been up late working on some research for my dissertation, and was feeling pretty full and sluggish when I stumbled into sleep. I was greeted by the sight of a rather large glass of red wine, which I took as a good sign and decided to sit down. Before I could even start to enjoy my dinner, I began to feel strange effects coming over me. I could barely keep my food down myself, and when I tried to get up I found I was having difficulty concentrating. I soon realized that I had had a bad hangover and was rushed to the hospital, where it was discovered that I was dehydrated and had a urinary infection. The doctor said that I should drink plenty of fluids and take pain relievers to relieve my headaches, which was a bit of a surprise. He also suggested that I get plenty of rest and take over-the-counter medications to help me relax. From what I have heard, this is not unusual, and many people experience the same symptoms.<|stop|> tudi napada.<|stop|> grantet vojvode.had I been drinking, I
+--------------------
+opt = {'model_name': 'lambdalabs/pythia-1.4b-deduped-synthetic-instruct', 'device': 'cuda:0', 'seed': 1684433565, 'prompt': 'Describe a terrible hangover using the language of an English aristocrat from the Renaissance.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Describe a terrible hangover using the language of an English aristocrat from the Renaissance.
+Memory 5492.05Mb CUDA Memory: 5501.07Mb
+Elapsed time = 7.05s

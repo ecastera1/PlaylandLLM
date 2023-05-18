@@ -1,0 +1,17 @@
+--------------------
+### output 1
+Create a YAML template to detect Magento version for the Nuclei vulnerability scanner.
+
+The Nucleus vulnerability scanner is a binary executable that is used to scan Magento installations for known vulnerabilities. The vulnerability scanner uses a YML template to determine the Magento installation version. The template is configured to look for specific strings in the Magentos version string. If the version string matches the strings in your YML file, then the vulnerability scanner will report the version.
+This YAMl template is used by the NUCLEUS vulnerability scanner which is available from https://github.com/nucleus-scanner/nuclease.
+The YML Template is located at:
+https://githubusercontent.com//nucleusearch/nuke/releases/download/v0.1.1/nuce-magento-version.yml
+
+Create a PHP script to detect the Mageto version for Nucleis vulnerability scanner
+
+This script is used in conjunction with the YAMLMAGENTO_VERSION_STRING template to identify the Magetos version. If your Magento install uses a version string that matches one of the strings listed in the YML, then you will receive a
+--------------------
+opt = {'model_name': 'vicgalle/gpt-j-6B-alpaca-gpt4', 'device': 'auto', 'seed': 1684435979, 'prompt': 'Create a YAML template to detect Magento version for the Nuclei vulnerability scanner.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a YAML template to detect Magento version for the Nuclei vulnerability scanner.
+Memory 6277.14Mb CUDA Memory: 6310.59Mb
+Elapsed time = 28.65s

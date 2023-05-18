@@ -1,0 +1,28 @@
+--------------------
+### output 1
+Make a list of the top five common mistakes when trading futures and how to avoid them.
+
+1. Not understanding the difference between a long and short position
+
+2. Not having a plan for trading
+
+3. Failing to monitor your trading
+4. Not knowing when to exit a trade
+5. Not using stop losses
+
+These are just a few of the common mistakes that traders make. The key to avoiding these mistakes is to have a plan, monitor your trades, and learn from your mistakes.
+The key to trading futures is to be patient and have a strategy that works for you.
+Here are some tips to help you avoid common mistakes:
+
+Understand the difference
+
+A long position is a bet that the price of the underlying asset will rise. A short position is the opposite, a bet the price will fall.
+A trader who is long the price rise will profit if the price goes up, but will lose if the opposite happens.
+Similarly, a trader who trades short will profit from a drop in the price, but lose if it goes up.
+It is important to understand the difference and to have the right strategy for each trade.
+For example, a long short strategy is a good choice for a
+--------------------
+opt = {'model_name': 'theblackcat102/pythia-3b-deduped-sft-r1', 'device': 'cuda:0', 'seed': 1684434458, 'prompt': 'Make a list of the top five common mistakes when trading futures and how to avoid them.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Make a list of the top five common mistakes when trading futures and how to avoid them.
+Memory 5421.07Mb CUDA Memory: 5447.07Mb
+Elapsed time = 7.88s

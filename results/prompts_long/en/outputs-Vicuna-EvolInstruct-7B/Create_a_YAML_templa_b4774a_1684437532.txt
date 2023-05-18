@@ -1,0 +1,25 @@
+--------------------
+### output 1
+Create a YAML template to detect Magento version for the Nuclei vulnerability scanner.
+
+See https://github.com/nucleus-cms/ncs-templates/tree/master/magento for more details.
+"""
+
+from ncs.templates.base import Template
+
+class MagentoVersionTemplate(Template):
+    def __init__(self, template_path=None):
+        super(MagentoVersionTemaplate, self).__init__(template_path)
+
+    @property
+    # TODO: remove this property once it's not used anymore
+    _magento_version = None
+
+    
+    template_name = "magento-version.yaml"
+    
+--------------------
+opt = {'model_name': 'LLMs/Vicuna-EvolInstruct-7B', 'device': 'auto', 'seed': 1684437532, 'prompt': 'Create a YAML template to detect Magento version for the Nuclei vulnerability scanner.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a YAML template to detect Magento version for the Nuclei vulnerability scanner.
+Memory 6740.51Mb CUDA Memory: 6851.58Mb
+Elapsed time = 14.48s

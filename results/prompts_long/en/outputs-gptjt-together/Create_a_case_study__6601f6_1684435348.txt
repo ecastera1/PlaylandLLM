@@ -1,0 +1,25 @@
+--------------------
+### output 1
+Create a case study detailing what sustainability client measures assisted a client in improving their IT efficiency.
+
+Create a table that shows the following:
+
+• The name of the client
+
+**Table 5.1**
+
+|   
+---|---  
+
+  | **Efficiency** | **Sustainability**   |   **Sustainable**  |
+
+The sustainability measure is the most important measure for the client.
+**6**
+**D** **E** **T** **A** **I** **L** **Y** **S** **U** **P** **O** **R** **N** **G** **D** _**E**_ **N_** _ **T_** **H** **e** **r** **i** **a** **n** **g** **l** **o** **s** **t** **y** **c** **h** **u** **z** **f** **d** **:** _ _ _
+
+_ _ _ ** _T_ _h_ _e_ _r_ _i_ _a_ _n_ _g_ _l_ _o_ _s
+--------------------
+opt = {'model_name': 'togethercomputer/GPT-JT-6B-v1', 'device': 'auto', 'seed': 1684435348, 'prompt': 'Create a case study detailing what sustainability client measures assisted a client in improving their IT efficiency.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a case study detailing what sustainability client measures assisted a client in improving their IT efficiency.
+Memory 6277.14Mb CUDA Memory: 6310.43Mb
+Elapsed time = 29.06s

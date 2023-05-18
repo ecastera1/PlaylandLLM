@@ -1,0 +1,29 @@
+--------------------
+### output 1
+Create a YAML template to detect Magento version for the Nuclei vulnerability scanner.
+version: 2
+scan_date: 2020-06-12
+severity: non-critical
+set_name_generator: true
+yml_template: 
+  - detect_magento: 
+      version: '2.1' 
+      scan_time: '2020-06-.*-.x.y' 
+  -.*-.* 
+      filename: detect_monsso.yml 
+  description: Nuclei is a powerful and automated malware scanner for web applications and websites. It can quickly scan a website for any malicious software and provide detailed information about the vulnerabilities it may contain. 
+      read_only: false 
+      write_only_param: false
+      file_extension:.yml 
+      folders_here: "/detect/monsso" 
+      time_range: 
+        days: '.*-.*' 
+    - detect_* 
+      description: Magento 2.1 is the most powerful and advanced malware scanner available. It has been used by some of the biggest websites in the world to detect malicious software including Magento modules. 
+        read_all: true 
+        write_all_param_as_yaml
+--------------------
+opt = {'model_name': 'lambdalabs/pythia-1.4b-deduped-synthetic-instruct', 'device': 'cuda:0', 'seed': 1684433565, 'prompt': 'Create a YAML template to detect Magento version for the Nuclei vulnerability scanner.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a YAML template to detect Magento version for the Nuclei vulnerability scanner.
+Memory 5492.05Mb CUDA Memory: 5501.07Mb
+Elapsed time = 7.08s

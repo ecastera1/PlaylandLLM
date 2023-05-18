@@ -1,0 +1,9 @@
+--------------------
+### output 1
+Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.
+ The 2019 AI Now Conference will be held on October 17-19, 2109 at the New York City Center for Economic Opportunity. The conference will focus on the impact of artificial intelligence on society and the workplace, and how we can ensure that AI benefits everyone.
+Here are ten long tail keywords related IT transformation in the modern Workplace.
+--------------------
+opt = {'model_name': 'ehartford/WizardLM-7B-Uncensored', 'device': 'auto', 'seed': 1684430253, 'prompt': 'Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts_small.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.
+elapsed time = 9.36s

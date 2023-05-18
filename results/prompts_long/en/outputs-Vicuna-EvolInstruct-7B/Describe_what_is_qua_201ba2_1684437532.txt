@@ -1,0 +1,13 @@
+--------------------
+### output 1
+Describe what is quantum computing and it possible outcomes.
+
+Quantum computing is a type of computing that uses quantum-mechanical phenomena, such as superposition and entanglement, to perform operations on data. Unlike classical computers, which use bits to represent information as either 0 or 1, quantum computers use qubits, which can represent both 0 and 1 at the same time. This allows quantum computers to perform certain calculations much faster than classical computers.
+Opportunities for quantum computing are vast, from cryptography to optimization problems. However, the technology is still in its infancy and faces significant challenges in terms of scalability and error correction.
+The outcomes of quantum computing could potentially revolutionize the field of computing, leading to breakthroughs in areas such as drug discovery, materials science, and artificial intelligence. However it also raises ethical concerns around privacy and security, as quantum computers could potentially break many of the encryption methods currently used to protect sensitive information.
+Overall, quantum computing has the potential to be a transformative technology, but it is still early days and there are many challenges to be overcome before it can be fully realized.}
+--------------------
+opt = {'model_name': 'LLMs/Vicuna-EvolInstruct-7B', 'device': 'auto', 'seed': 1684437532, 'prompt': 'Describe what is quantum computing and it possible outcomes.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Describe what is quantum computing and it possible outcomes.
+Memory 6740.51Mb CUDA Memory: 6851.49Mb
+Elapsed time = 26.18s

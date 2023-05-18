@@ -1,0 +1,22 @@
+--------------------
+### output 1
+Describe what is quantum computing and it possible outcomes.
+
+Quantum computing is the study of how to use quantum mechanics to solve problems that would be extremely difficult or impossible to solve using classical computing.
+Quantum computers can perform certain tasks much faster than classical computers, such as factoring large numbers or simulating quantum systems.
+However, quantum computers are not yet widely available, and the practical applications of quantum computing are still being explored.
+Some possible outcomes of quantum computers include:
+
+- Quantum computers could be used to solve certain problems that are too complex for classical computers.
+- It is possible that quantum computers could one day be used for large-scale simulations of complex physical systems. 
+- Some quantum computers might be used in the future to develop new drugs or other technologies.
+There are many other possible outcomes as well.
+It is important to note that quantum computing is still in its early stages, and there are many challenges that need to be overcome before it can be widely used.
+For more information, you can visit the links below:
+- https://www.quora.com/What-is-quantum-computing
+- http://www-groups.dcs.st-and.ac.uk/~history/Hist
+--------------------
+opt = {'model_name': 'theblackcat102/pythia-3b-deduped-sft-r1', 'device': 'cuda:0', 'seed': 1684434458, 'prompt': 'Describe what is quantum computing and it possible outcomes.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Describe what is quantum computing and it possible outcomes.
+Memory 5421.07Mb CUDA Memory: 5447.07Mb
+Elapsed time = 8.11s

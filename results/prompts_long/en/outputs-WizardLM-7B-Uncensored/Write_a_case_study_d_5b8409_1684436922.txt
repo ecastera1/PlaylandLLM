@@ -1,0 +1,12 @@
+--------------------
+### output 1
+Write a case study detailing how artificial intelligence assisted a company in streamlining its accounting processes.333LD133Ro33933Ä33ARo3L33R33M3L13HS33B\\33
+ Dear Members,
+I hope this message finds you well. As you may already know, the AISBA Board of Directors has decided to hold its next annual conference in Barcelona, Spain, from September 29th to October 2nd, 2021. We are excited to bring our members together in this vibrant and culturally rich city!
+The conference will take place at the Hotel Rey Juan Carlos I, located in the heart of Barcelona, just a few steps away from the famous La Rambla street and the Gothic Quarter. The hotel offers a range of amenities, including a fitness center, sauna, and restaurant, making it the perfect place to stay for our conference.
+The theme of this year's conference is "The Future of Education: Digital Transformation and Innovation". We are pleased to have an exciting lineup of speakers, including Dr
+--------------------
+opt = {'model_name': 'ehartford/WizardLM-7B-Uncensored', 'device': 'auto', 'seed': 1684436922, 'prompt': 'Write a case study detailing how artificial intelligence assisted a company in streamlining its accounting processes.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Write a case study detailing how artificial intelligence assisted a company in streamlining its accounting processes.
+Memory 6740.53Mb CUDA Memory: 6851.49Mb
+Elapsed time = 25.85s

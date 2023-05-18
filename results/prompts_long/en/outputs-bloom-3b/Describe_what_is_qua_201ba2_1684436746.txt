@@ -1,0 +1,14 @@
+--------------------
+### output 1
+Describe what is quantum computing and it possible outcomes. Describe the applications of quantum computing in the future. Describ the advantages and disadvantages of quantum computers. Descript the quantum algorithm that you have developed.
+We will have a discussion about the advantages of quantum computation. We will discuss the potential of quantum computer in the near future. We can also discuss the disadvantages of using quantum computer.
+We can use the quantum computer to solve the problems that we are facing in our daily life. We have to use the computer to do the calculations. We are using the computer for the calculations and we are also using the quantum computation to solve some problems.
+The quantum computer will be used to solve many problems in the next few years. We need to use this computer to calculate the speed of light. We use the speed to calculate distances.
+The speed of the light is very important to calculate. We also use the light to help us to find the way to the stars. We calculate the distance between the stars and the earth. We used the speed for calculating distances. We calculated the speed and we also used the quantum computers to solve this problem.
+We use the computers to calculate many things. We do the calculation in the computer and we use the software to calculate.
+We are using this
+--------------------
+opt = {'model_name': 'bigscience/bloom-3b', 'device': 'cuda:0', 'seed': 1684436746, 'prompt': 'Describe what is quantum computing and it possible outcomes.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Describe what is quantum computing and it possible outcomes.
+Memory 5726.92Mb CUDA Memory: 5751.05Mb
+Elapsed time = 5.23s

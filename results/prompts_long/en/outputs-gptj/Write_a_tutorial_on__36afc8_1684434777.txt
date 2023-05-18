@@ -1,0 +1,28 @@
+--------------------
+### output 1
+Write a tutorial on how to read a public company financial statements.
+
+This is a discussion on Write a tutorial about how to Read a public companies financial statements within the C++ Programming forums, part of the General Programming Boards category; Write a Tutorial on how you can read a Public Companies Financial Statements.
+This tutorial will show you how to...
+
+Write a Tutorial about how you to Read A Public Companies financial Statements. This tutorial will teach you how you read a companies financial statement and how to interpret it. This will be a hands-on tutorial.
+The tutorial will be broken down into the following sections:
+
+1. How to read the financial statements
+2. How the financial statement is structured
+3. How you interpret the financials
+4. How a company can use the financial information to make decisions
+5. How an investor can use this information to determine if a company is a good investment
+
+I will be using the following as my example:
+Company: Apple Inc.
+Financial Statements:
+Apple Inc. is a company that sells computers and other electronic devices. This is the companys annual report.
+We will be looking at the following financial statements:
+Balance Sheet:
+The balance sheet shows how much money the company
+--------------------
+opt = {'model_name': 'EleutherAI/gpt-j-6B', 'device': 'auto', 'seed': 1684434777, 'prompt': 'Write a tutorial on how to read a public company financial statements.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Write a tutorial on how to read a public company financial statements.
+Memory 6277.14Mb CUDA Memory: 6311.60Mb
+Elapsed time = 29.29s

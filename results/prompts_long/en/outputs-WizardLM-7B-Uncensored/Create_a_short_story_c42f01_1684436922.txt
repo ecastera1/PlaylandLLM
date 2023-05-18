@@ -1,0 +1,27 @@
+--------------------
+### output 1
+Create a short story about a character who discovers an hidden talent.
+ package org.apache.spark.sql.functions
+import org.junit.Test
+import scala.collection.mutable.ListBuffer
+import java.lang.Math
+import236057133
+import static org.mockito.Matchers.any
+import178241895
+import072769277
+import982726547
+// scalastyle:off
+val add = (a: Double, b: Double) => a + b
+// val add = _.add
+// add(1.0, 2.0)
+// Adds two numbers together.
+//0.0 + 1.5 = 15.5
+//1.25 + 23.75 = -0.5 (overflow)
+0.2 + 4.7 = 5.9
+//98.27 + 98191.77 = -87490.93 (underflow)
+17.82 + -07.28 = 
+--------------------
+opt = {'model_name': 'ehartford/WizardLM-7B-Uncensored', 'device': 'auto', 'seed': 1684436922, 'prompt': 'Create a short story about a character who discovers an hidden talent.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a short story about a character who discovers an hidden talent.
+Memory 6740.53Mb CUDA Memory: 6851.21Mb
+Elapsed time = 24.98s

@@ -1,0 +1,11 @@
+--------------------
+### output 1
+Describe como funciona el modelo GPT-3 del lenguaje natural con transformers.
+
+### Respuesta:
+GPT- 3 es un modelo de lenguje natural basado en transformadores que utiliza una arquitectura de red neuronal recurrente (RNN) para el procesamiento del lado del texto y una red neuronal convolucional (CNN) para la etapa de preprocesaminto del lider. Los transformers toman entradas de palabras y las combinan en oraciones significativas, mientras que las salidas de los transformers se pueden utilizar como entrada para la RNN y la CNN. Esto permite que la máquina aprenda el lenguage natural a través de un proceso de auto-atención, donde el modelado del léxico, la sintaxis y el significado de un lengujae se aprenden a traves de la experiencia.
+--------------------
+opt = {'model_name': 'bertin-project/bertin-gpt-j-6B-alpaca', 'device': 'auto', 'seed': 1684432459, 'prompt': 'Describe como funciona el modelo GPT-3 del lenguaje natural con transformers.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Describe como funciona el modelo GPT-3 del lenguaje natural con transformers.
+Memory 6277.14Mb CUDA Memory: 6310.35Mb
+Elapsed time = 22.45s

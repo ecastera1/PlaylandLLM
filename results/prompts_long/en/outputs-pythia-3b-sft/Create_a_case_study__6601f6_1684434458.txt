@@ -1,0 +1,20 @@
+--------------------
+### output 1
+Create a case study detailing what sustainability client measures assisted a client in improving their IT efficiency.
+
+Create a report that details the benefits of using sustainability measures for an organization.
+Include:
+1. The client’s current IT environment
+2. The sustainability measures implemented
+3. The results of the sustainability measures
+4. The benefits of the IT sustainability measures.
+5. A summary of the report.
+6. A recommendation for sustainability measures to be implemented in the future.
+7. A contact person for the client to discuss the report and recommendations.
+8. A list of references for the report
+9. A copy of the client’
+--------------------
+opt = {'model_name': 'theblackcat102/pythia-3b-deduped-sft-r1', 'device': 'cuda:0', 'seed': 1684434458, 'prompt': 'Create a case study detailing what sustainability client measures assisted a client in improving their IT efficiency.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a case study detailing what sustainability client measures assisted a client in improving their IT efficiency.
+Memory 5421.07Mb CUDA Memory: 5447.07Mb
+Elapsed time = 3.88s

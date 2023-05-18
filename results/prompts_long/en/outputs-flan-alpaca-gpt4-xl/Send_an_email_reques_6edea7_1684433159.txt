@@ -1,0 +1,8 @@
+--------------------
+### output 1
+Send an email requesting prompter action from recipients.writing to request prompt action from [Responsible Party]. We have received a critical issue that requires immediate attention. We are currently working on a solution and would like to request that you complete the necessary actions by [Date]. Please let me know if you are able to assist in any way. Thank you for your cooperation. Best regards, [Your Name] [Company]
+--------------------
+opt = {'model_name': 'declare-lab/flan-alpaca-gpt4-xl', 'device': 'auto', 'seed': 1684433159, 'prompt': 'Send an email requesting prompter action from recipients.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Send an email requesting prompter action from recipients.
+Memory 4283.48Mb CUDA Memory: 4298.78Mb
+Elapsed time = 8.76s

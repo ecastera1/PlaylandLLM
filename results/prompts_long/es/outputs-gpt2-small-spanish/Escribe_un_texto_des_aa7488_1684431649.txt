@@ -1,0 +1,14 @@
+--------------------
+### output 1
+Escribe un texto descriptivo de una mujer hermosa al estilo literario del siglo de oro español.
+
+La obra se desarrolla en un ambiente de la vida cotidiana en el que la mujer es la protagonista de la historia. Es una mujer de mediana edad que vive en un entorno de clase media, que se dedica a la agricultura y a la ganadería.
+El personaje de la protagonista es una joven que se encuentra en un mundo de clase alta, pero que se ha convertido en una persona de gran corazón, que ha llegado a ser una mujer rica y que ha conseguido convertirse en una mujer fuerte y exitosa.
+La historia se desarrolla con la ayuda de la madre de la joven protagonista, quien es una mujer pobre de clase baja que vive a la sombra de su marido.
+En la novela, la protagonista se encuentra con la madre, que es una viuda pobre que vive al sombra de sus hijos. La madre es una niña de clase trabajadora que vive sola, pero tiene una gran pasión por la música y la literatura, y la protagonista, a pesar de tener una gran afición por la lectura, no tiene interés en la literatura.
+Es una mujer que vive solo a la edad de 18 años que vive con su marido, y que vive sólo a la misma edad que ella.
+--------------------
+opt = {'model_name': 'datificate/gpt2-small-spanish', 'device': 'cuda:0', 'seed': 1684431649, 'prompt': 'Escribe un texto descriptivo de una mujer hermosa al estilo literario del siglo de oro español.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Escribe un texto descriptivo de una mujer hermosa al estilo literario del siglo de oro español.
+Memory 486.70Mb CUDA Memory: 495.59Mb
+Elapsed time = 2.11s

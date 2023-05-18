@@ -1,0 +1,15 @@
+--------------------
+### output 1
+Escribe una pequeña historia sobre un personaje que acaba de descubrir un talento oculto que desconocía.
+Es una novela que no se puede dejar dear por nada. La historia es muy original y el autor en el momento deveria denigrar a los personajes.
+La historia dárselo a conocer a la protagonista dársela a conocer y que conozca a todos los personajes d e la historia.
+No e tenido tiempo dcir mucho sobre la historia pero me ha gustado mucho. La trama e leido muchas criticas positivas e negativas pero no me ha convencido y me ha dejado con ganas d esta novela.
+Me ha gustado, e leído muchas criticas negativas, pero no e visto que se haya hecho una segunda parte, me parece que no d sido muy buena.
+El libro no ece a mi parecer una historia ectopica, pero si que e podido leer criticas positivas, pero a mi no me convenció, y tampoco me ha parecido nada del otro mundo, me ha decepcionado mucho.
+Un libro que no te deja indiferente, dándote a conocer personajes que no conocíamos y que nos han encantado.
+En el libro nos encontramos con un personaje muy peculiar
+--------------------
+opt = {'model_name': 'flax-community/gpt-2-spanish', 'device': 'cuda:0', 'seed': 1684431684, 'prompt': 'Escribe una pequeña historia sobre un personaje que acaba de descubrir un talento oculto que desconocía.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Escribe una pequeña historia sobre un personaje que acaba de descubrir un talento oculto que desconocía.
+Memory 486.70Mb CUDA Memory: 496.34Mb
+Elapsed time = 2.10s

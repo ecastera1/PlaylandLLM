@@ -1,0 +1,23 @@
+--------------------
+### output 1
+Create a scene in which two characters talk about their future dreams in a prehistoric world.
+Write a short story in which the main character must overcome a fear of heights to complete a task.
+Describe a day in the life of a famous athlete.
+Create a character sketch of a person who is both kind and intelligent.
+Invent a new type of technology that would make life easier for people.
+Imagine a world where all the animals have human-like intelligence.
+What would happen if there was a zombie apocalypse?
+Write about a time when you felt like you were in over your head.
+How would you react if you were suddenly given a large sum of money?
+Design a new kind of vehicle that would be useful in a disaster situation.
+Explain why it’s important to have good manners.
+If you could travel back in time, what event would you like to witness?
+What do you think is the most important quality for a leader to have?
+Create an advertisement for a product that doesn’t exist yet.
+Tell a story about a person you admire.
+Why do you believe it’d be a good idea
+--------------------
+opt = {'model_name': 'LLMs/Vicuna-EvolInstruct-7B', 'device': 'auto', 'seed': 1684437532, 'prompt': 'Create a scene in which two characters talk about their future dreams in a prehistoric world.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a scene in which two characters talk about their future dreams in a prehistoric world.
+Memory 6740.51Mb CUDA Memory: 6851.33Mb
+Elapsed time = 26.98s

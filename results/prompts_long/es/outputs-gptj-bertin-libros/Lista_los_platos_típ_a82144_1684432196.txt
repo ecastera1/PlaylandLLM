@@ -1,0 +1,18 @@
+--------------------
+### output 1
+Lista los platos típicos de las 10 regiones españolas mas importantes.
+¿Qué platos españaoles conoces?
+¡Cuéntanoslo! -Nombra 5 platos de la cocina españo la.
+-¿Cuáles son los plato espa ñoles más famosos?
+-Busca información sobre los pla tos espa oles más conocidos.
+Elige uno de ellos y prepáralo.
+Para ello, sigue estas instrucciones:
+-Averigua los ingredientes que necesitas para su elaboración.
+(Puedes consultar recetas en Internet o preguntar a tu familia).
+-Prepara los ingrediente necesarios para su ela boración y sigue las instrucción que vienen en la receta.
+Cuando lo hayas preparado, fotografíalo y súbelo a Instagram con el hasthag: #recetasdereciclaje
+--------------------
+opt = {'model_name': 'bertin-project/bertin-gpt-j-6B-infolibros', 'device': 'auto', 'seed': 1684432196, 'prompt': 'Lista los platos típicos de las 10 regiones españolas mas importantes.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Lista los platos típicos de las 10 regiones españolas mas importantes.
+Memory 6277.14Mb CUDA Memory: 6309.12Mb
+Elapsed time = 23.71s

@@ -1,0 +1,44 @@
+--------------------
+### output 1
+Create a YAML template to detect Magento version for the Nuclei vulnerability scanner.
+
+```yaml
+version: 2.1
+
+detection:
+    apt_packages:
+        - libmagickcore-6.q16-dev
+        #- libpng16-16
+        
+    condition:
+      apt_package_present:
+          - libMagickCore-6
+```
+
+## Configuration
+
+The Nuclei scanner requires the following configuration:
+
+1. A `.yaml` file to define the scanner's configuration.
+2. A path to the Magento installation.
+3. The location of the Magick library.
+4. The path to a Magick image to use for detection.
+5. The detection options.
+6. The Magento root directory.
+7. The database connection.
+8. The connection parameters.
+9. The scan mode.
+10. The output format.
+11. The scanner's output directory.
+
+
+## Scanner configuration
+
+###.yaml file
+
+A `.yml` file is required to define all the scanner configuration options. The `version` option defines the version of the scanner to use. The options in the `
+--------------------
+opt = {'model_name': 'theblackcat102/pythia-3b-deduped-sft-r1', 'device': 'cuda:0', 'seed': 1684434458, 'prompt': 'Create a YAML template to detect Magento version for the Nuclei vulnerability scanner.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a YAML template to detect Magento version for the Nuclei vulnerability scanner.
+Memory 5421.07Mb CUDA Memory: 5447.07Mb
+Elapsed time = 7.92s

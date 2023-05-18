@@ -1,0 +1,9 @@
+--------------------
+### output 1
+Create a short story about a character who discovers an hidden talent.
+Answer:The character discovers an unexpected talent and is given the opportunity to showcase it. They travel to a mysterious land, where they must navigate through the labyrinth of caves in order to find the perfect stone for a mysterious artifact. Along the way, they come to understand that the only way to find their true path is to lose themselves in the one that is right for them. Eventually, they find the stone, and the moment of truth comes. With the right talent, the character can now use their discovery to create a positive impact on their home country, and gain the fame and glory that comes with it.<|stop|> to make sure that the stone is the perfect size and color.<|stop|> also needs to ensure the stone does not contain any imperfections, so that it is sure to be authentic.then, they can head to the marketplace and showcase their talent to the public.<|stop|> then provide feedback to the manager of the marketplace, so they can ensure the talent is properly compensated for their work.<|stop|> finally, the stone will be hung in a museum somewhere far away from where they first discovered it.                                    yourselves, and happy writing.<|stop|> wish you all the best in your endeavors.<|stop|> appreciate the
+--------------------
+opt = {'model_name': 'lambdalabs/pythia-1.4b-deduped-synthetic-instruct', 'device': 'cuda:0', 'seed': 1684433565, 'prompt': 'Create a short story about a character who discovers an hidden talent.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a short story about a character who discovers an hidden talent.
+Memory 5492.05Mb CUDA Memory: 5501.07Mb
+Elapsed time = 7.20s

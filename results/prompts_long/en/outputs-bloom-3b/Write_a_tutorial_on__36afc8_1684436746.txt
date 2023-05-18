@@ -1,0 +1,16 @@
+--------------------
+### output 1
+Write a tutorial on how to read a public company financial statements. Write a paper on the role of the public company in the development of the economy.
+Write a paper about the role and significance of the company in providing a safe and healthy environment for the employees.
+Write an article on the importance of the role played by the company for the development and growth of the country.
+Write about the significance of a company in promoting the development, growth and prosperity of a country.
+The role of a public corporation in the economy is to provide a safe, healthy and attractive environment for employees. The company should also ensure that their employees have a good working environment. Public corporations should also be responsible for the safety of their employees. Public companies should also encourage employees to work hard and be responsible.
+A public corporation should also provide a good and safe working environment for their employees.
+The company should ensure that the employees are safe and healthy; they should also have a safe working and living environment.
+The public corporation is responsible for ensuring that the environment is safe and conducive for employees to operate in.
+The purpose of a corporation is to promote the economic growth of a particular country. The corporation provides a safe environment for its employees to live in. The job of a corporate is to ensure that there is a
+--------------------
+opt = {'model_name': 'bigscience/bloom-3b', 'device': 'cuda:0', 'seed': 1684436746, 'prompt': 'Write a tutorial on how to read a public company financial statements.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Write a tutorial on how to read a public company financial statements.
+Memory 5726.92Mb CUDA Memory: 5751.05Mb
+Elapsed time = 5.19s

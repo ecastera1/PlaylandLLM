@@ -1,0 +1,21 @@
+--------------------
+### output 1
+Create a scene in which two characters talk about their future dreams in a prehistoric world.
+
+In this scene, two characters are talking about their dreams.
+The first character is a young man who is about to leave his home to go to a new city. He is looking forward to the new opportunities he will have there.
+He is a very energetic person who is always looking for new challenges.
+His dream is to be a famous actor.
+In his dream, he is performing in front of a huge audience.
+This dream is very important to him.
+It is the only thing that gives him hope and motivation to go on.
+When he is about leave his village, he tells his father, "I'm going to be famous!"
+His father replies, "You're not going to leave. You're going to stay here with me."
+The second character is his father.
+As he is talking to his son, he shows him a picture of him as a child.
+"I was a very talented child," he says. "I could do anything I wanted. I could play the piano, I could draw, I was good at sports. I was pretty good at everything. I had a lot of friends. I loved my
+--------------------
+opt = {'model_name': 'EleutherAI/gpt-j-6B', 'device': 'auto', 'seed': 1684434777, 'prompt': 'Create a scene in which two characters talk about their future dreams in a prehistoric world.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a scene in which two characters talk about their future dreams in a prehistoric world.
+Memory 6277.14Mb CUDA Memory: 6311.41Mb
+Elapsed time = 29.09s

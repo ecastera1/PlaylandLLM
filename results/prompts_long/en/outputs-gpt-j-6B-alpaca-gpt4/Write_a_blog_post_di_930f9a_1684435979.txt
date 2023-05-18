@@ -1,0 +1,17 @@
+--------------------
+### output 1
+Write a blog post discussing the advantages of utilizing ETFs vs Options or Futures.
+
+Research and write a paper on the pros and cons of ETFs.
+Discuss the advantages and disadvantages of ETF investing.
+Compare the benefits of investing in ETFs to investing in mutual funds.
+Write a paper discussing the pros/cons of investing through ETFs and mutual funds
+Discuss why ETFs are becoming increasingly popular among investors.
+Research the pros, cons, and regulatory issues related to ETFs
+Discuss and compare the pros of investing with ETFs versus investing in stocks.
+Describe the advantages/disadvantages of investing via ETFs, mutual funds, and stocks.
+--------------------
+opt = {'model_name': 'vicgalle/gpt-j-6B-alpaca-gpt4', 'device': 'auto', 'seed': 1684435979, 'prompt': 'Write a blog post discussing the advantages of utilizing ETFs vs Options or Futures.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Write a blog post discussing the advantages of utilizing ETFs vs Options or Futures.
+Memory 6277.14Mb CUDA Memory: 6311.16Mb
+Elapsed time = 14.85s

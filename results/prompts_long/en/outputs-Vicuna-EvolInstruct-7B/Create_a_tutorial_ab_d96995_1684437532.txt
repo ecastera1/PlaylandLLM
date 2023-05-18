@@ -1,0 +1,26 @@
+--------------------
+### output 1
+Create a tutorial about optimizing code performance when using Stable Difussion and PyTorch.
+
+    """
+    def __init__(self, model_name, optimizer_name):
+        super().__init__(model_name)
+        self.optimizer_names = [optimizer]
+        if self.model_type == 'ResNet':
+            self.resnet_optimizer = torch.nn.CrossEntropyLoss()
+        elif self.is_cnn_model():
+            # Use SGD optimizer for CNN models
+            if self._is_trainable(self.model):
+                self.sgd_optimizers = [torch.optim.SGD(model=self.optimize_model(self._get_optim_params(self, self.trainable_variables)))]
+            else:
+                # Use Adam optimizer
+                if self.__is_resnet50():
+                    self.adam_optim = torcha.optim
+                else: # ResNet101
+                   self.momentum_optim= torcha
+                for optimizer in self.opt_names
+--------------------
+opt = {'model_name': 'LLMs/Vicuna-EvolInstruct-7B', 'device': 'auto', 'seed': 1684437532, 'prompt': 'Create a tutorial about optimizing code performance when using Stable Difussion and PyTorch.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a tutorial about optimizing code performance when using Stable Difussion and PyTorch.
+Memory 6740.51Mb CUDA Memory: 6851.46Mb
+Elapsed time = 24.19s

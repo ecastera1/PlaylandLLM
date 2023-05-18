@@ -1,0 +1,19 @@
+--------------------
+### output 1
+Escribe una conversación ficticia entre dos personajes hablando de un plan secreto que la gente no conoce pero que se está llevando a cabo ante nuestros ojos.
+¿Qué tipo de plan es?
+¡No olvides incluir diálogos!
+Puedes usar los ejemplos de la página anterior.
+Escribe las respuestas a las siguientes preguntas:
+• ¿Cómo se llaman los protagonistas de la historia?
+• Enumera los lugares en los que sucede la historias.
+• Escribe un resumen de la conversaciónde los dos protagonistas.
+Aquí tienes una lista de palabras que aparecen en el texto y que no conoces.
+Intenta averiguar de qué palabra se trata.
+Si no lo consigues, escribe el nombre en la columna de la derecha.
+Esta es la lista definitiva de palaras
+--------------------
+opt = {'model_name': 'bertin-project/bertin-gpt-j-6B-infolibros', 'device': 'auto', 'seed': 1684432196, 'prompt': 'Escribe una conversación ficticia entre dos personajes hablando de un plan secreto que la gente no conoce pero que se está llevando a cabo ante nuestros ojos.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Escribe una conversación ficticia entre dos personajes hablando de un plan secreto que la gente no conoce pero que se está llevando a cabo ante nuestros ojos.
+Memory 6277.14Mb CUDA Memory: 6309.44Mb
+Elapsed time = 21.33s

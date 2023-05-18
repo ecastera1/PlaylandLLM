@@ -1,0 +1,12 @@
+open-clip-torch==2.10.1
+pytorch-lightning==1.9.0
+pytorch_revgrad==0.2.0
+torch==2.0.0
+torchaudio==2.0.1
+torchmetrics==0.11.0
+torchvision==0.15.1
+-e git+https://github.com/CompVis/taming-transformers.git@3ba01b241669f5ade541ce990f7650a3b8f65318#egg=taming_transformers
+transformers==4.28.1
+peft==0.3.0
+bitsandbytes==0.37.2
+accelerate==0.18.0

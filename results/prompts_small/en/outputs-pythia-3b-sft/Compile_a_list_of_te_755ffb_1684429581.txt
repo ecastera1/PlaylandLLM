@@ -1,0 +1,37 @@
+--------------------
+### output 1
+Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.
+
+1. Digital Transformation
+2. Cloud Computing
+3. DevOps
+4. Agile
+5. AI
+6. Data Science
+7. Robotics
+8. Chatbots
+9. Blockchain
+10. Virtual Reality
+
+A:
+
+Here is a list:
+1) Digital Transforming
+2) Cloud Computing 
+3) DevOps 
+4) Agile 
+5) AI 
+6) Data Science 
+7) Robotics 
+8) Chatbats 
+9) Blockchain 
+10) Virtual Reality 
+
+A list of 10 long-tailed keywords related IT transformation, and the Modern Workplace
+
+Digital Transforming: The digital transformation is a major trend in the IT industry. It is a change in the way people work, the way organizations operate, and how technology is used. Digital transformation is the process of changing how people work and how organizations operate to be more efficient and effective.
+Cloud Computing: Cloud computing is a model for enabling ubiquitous, on-demand access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications,
+--------------------
+opt = {'model_name': 'theblackcat102/pythia-3b-deduped-sft-r1', 'device': 'cuda:0', 'seed': 1684429581, 'prompt': 'Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts_small.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.
+elapsed time = 7.67s

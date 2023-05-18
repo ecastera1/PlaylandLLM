@@ -1,0 +1,10 @@
+--------------------
+### output 1
+Describe a terrible hangover using the language of an English aristocrat from the Renaissance.
+
+"I awoke this morning to find myself in a most unfortunate state, my lordship. The night before was most unruly, and I fear I have been the victim of a most regrettable bout of excess. The pains in my head and stomach are most unbearable, and my senses are most muddled. I fear that I have indeed been the subject of a terrible affliction, a most disgraceful malady that has left me in a state of utter disrepair. My lordship, I must beg your forgiveness, for I fear my conduct was most inappropriate and unseemly."
+--------------------
+opt = {'model_name': 'LLMs/Vicuna-EvolInstruct-7B', 'device': 'auto', 'seed': 1684437532, 'prompt': 'Describe a terrible hangover using the language of an English aristocrat from the Renaissance.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Describe a terrible hangover using the language of an English aristocrat from the Renaissance.
+Memory 6740.51Mb CUDA Memory: 6851.83Mb
+Elapsed time = 15.71s

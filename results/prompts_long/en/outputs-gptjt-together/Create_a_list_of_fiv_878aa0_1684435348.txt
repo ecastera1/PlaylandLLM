@@ -1,0 +1,18 @@
+--------------------
+### output 1
+Create a list of five tax preparation-related features for Spanish tax agency in international finances.
+
+We have a lot of work to do to improve the tax agency’s international financial position.
+The first step is to understand the different ways in which tax agencies can contribute to international financial stability.
+To do this, we need to understand what international financial institutions are, how they work, and what their role is in the international financial system.
+We need to know what the tax agencies’ role is, and how they can contribute.
+This is the first step in understanding how the tax authorities can contribute and how we can do it.
+It is important to understand that the tax authority’ s role is to contribute to the international stability of the financial system and to the financial stability of its member countries.
+If we want to contribute, we must be able to understand how the financial institutions work, how the international monetary system works, and the role of the tax system. We must be aware of the different roles that tax authorities play in the system. This is the role that the Ministry of Finance has.
+In order to do this we need a clear vision of the role the tax administration can play.
+There are different ways to contribute.
+--------------------
+opt = {'model_name': 'togethercomputer/GPT-JT-6B-v1', 'device': 'auto', 'seed': 1684435348, 'prompt': 'Create a list of five tax preparation-related features for Spanish tax agency in international finances.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a list of five tax preparation-related features for Spanish tax agency in international finances.
+Memory 6277.14Mb CUDA Memory: 6309.48Mb
+Elapsed time = 29.51s

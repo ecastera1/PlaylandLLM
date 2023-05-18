@@ -1,0 +1,17 @@
+--------------------
+### output 1
+Make a list of five Stable Difussion features that should improve to make inference faster.
+
+Make a List of Five Stable Diffusion Features That Should Improve to Make Inference Faster
+
+Stable Diffusions
+
+The Stable-Diffusion model is a variant of the Diffusion model. It is a Gaussian Process regression model with a Gauss-Hermite basis expansion. The basis expansion is a truncated series of Hermite polynomials. The coefficients of the basis expansion are learned using a Gaussion Process regression. The Stable diffusion model uses a truncation threshold to control the number of basis expansion coefficients. The threshold is learned using the Expectation-Maximization algorithm.
+The model is trained using the Gaussian process regression algorithm. The algorithm uses the variational inference algorithm to approximate the posterior distribution of the latent variables. The variational algorithm uses a Gaussia Process approximation to the posterior.
+Inference is done using the variate approximation algorithm. It uses the Gaussia process approximation to approximate a Gausssian process posterior distribution. The posterior distribution is approximated using a variate Gaussian distribution.
+Unlike the Diffusions model, the Stable model does not use a truncate basis expansion to approximate posterior
+--------------------
+opt = {'model_name': 'vicgalle/gpt-j-6B-alpaca-gpt4', 'device': 'auto', 'seed': 1684435979, 'prompt': 'Make a list of five Stable Difussion features that should improve to make inference faster.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Make a list of five Stable Difussion features that should improve to make inference faster.
+Memory 6277.14Mb CUDA Memory: 6310.12Mb
+Elapsed time = 28.71s

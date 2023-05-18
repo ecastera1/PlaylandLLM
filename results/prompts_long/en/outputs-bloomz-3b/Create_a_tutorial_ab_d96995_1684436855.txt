@@ -1,0 +1,8 @@
+--------------------
+### output 1
+Create a tutorial about optimizing code performance when using Stable Difussion and PyTorch.
+--------------------
+opt = {'model_name': 'bigscience/bloomz-3b', 'device': 'cuda:0', 'seed': 1684436855, 'prompt': 'Create a tutorial about optimizing code performance when using Stable Difussion and PyTorch.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a tutorial about optimizing code performance when using Stable Difussion and PyTorch.
+Memory 5726.92Mb CUDA Memory: 5751.05Mb
+Elapsed time = 0.03s

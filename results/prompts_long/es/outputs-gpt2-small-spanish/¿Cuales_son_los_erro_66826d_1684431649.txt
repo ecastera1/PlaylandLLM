@@ -1,0 +1,13 @@
+--------------------
+### output 1
+¿Cuales son los errores fundamentales que comete la gente cuando hace trading de futuros para no perder dinero en el proceso?
+
+En el año 2000, la empresa de investigación de la Universidad de California, Berkeley, desarrolló una versión de la técnica de los errores de los préstamos. Esta técnica se basa en la idea de que los préstamos son un proceso que se lleva a cabo sin que el banco tenga que pagar el préstamo.
+
+La idea de los "cuales" fue propuesta por el economista Robert E. F. Kennedy en su libro "La teoría de la deuda" (1959). Kennedy y otros economistas de la década de 1960 trabajaron en el área de la teoría de los depósitos, la teoría del valor agregado y la teoría económica de la oferta. Kennedy fue el primero en proponer un modelo de la demanda agregada en el que se basa el modelo de los bancos. Kennedy creía que los bancos pueden maximizar la demanda de sus préstamos, pero al no tener dinero en su cuenta, podrían no tener éxito.
+En la década del 2000, el economista de la empresa estadounidense de investigación del Banco de Desarrollo de los Estados Unidos, J. H. Wilson, desarrolló el modelo del modelo de las reservas en el cual se basa la teoría clásica de la inversión. Wilson creía que
+--------------------
+opt = {'model_name': 'datificate/gpt2-small-spanish', 'device': 'cuda:0', 'seed': 1684431649, 'prompt': '¿Cuales son los errores fundamentales que comete la gente cuando hace trading de futuros para no perder dinero en el proceso?', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = ¿Cuales son los errores fundamentales que comete la gente cuando hace trading de futuros para no perder dinero en el proceso?
+Memory 486.70Mb CUDA Memory: 495.59Mb
+Elapsed time = 2.05s

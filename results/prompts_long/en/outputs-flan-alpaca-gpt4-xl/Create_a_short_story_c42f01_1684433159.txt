@@ -1,0 +1,8 @@
+--------------------
+### output 1
+Create a short story about a character who discovers an hidden talent.introverted, but she had a hidden talent that she had always been proud of. She was always quiet and reserved, but when she spoke, people would often stop and stare. She had inherited her mother's natural ability to communicate with others and would often use her words to express her feelings. Lilly's mother was always proud of her daughter, and she always told her that her daughter was incredibly talented. One day, Lily's parents decided to take her to a talent show. They were amazed at her talent and told her she should try out. Lil's mom was right. Lila was able to speak in a way that was captivating and unique. She told her parents that she was destined to be an actor, and they were both ecstatic. Lill's family was overjoyed and congratulated her. Lira was elated. She knew that she could use her talent to make her dreams come true. She started looking for roles in theater and television, and soon she was accepted as a leading lady. She began to feel like she
+--------------------
+opt = {'model_name': 'declare-lab/flan-alpaca-gpt4-xl', 'device': 'auto', 'seed': 1684433159, 'prompt': 'Create a short story about a character who discovers an hidden talent.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a short story about a character who discovers an hidden talent.
+Memory 4283.48Mb CUDA Memory: 4298.57Mb
+Elapsed time = 21.93s

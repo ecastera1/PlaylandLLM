@@ -1,0 +1,8 @@
+--------------------
+### output 1
+Lista los platos típicos de las 10 regiones españolas mas importantes.En la provincia de Ávila, se puede degustar las típicas tapas de la provincia, que son típicas de la zona.En Salamanca, se pueden encontrar platos típicos como el puchero de cordero, el arroz con conejo, el lomo de cerdo a la brasa, el pan de molde, el asado de cordero a la estaca, el chorizo, la sopa de ajo, el chicharrón, el cocido a la borbolla, etc.En las provincias de Salamanca y Zamora, se preparan platos típicos del norte de España, como el cocido de bacalao, el pucherito, el cerdo a las brasas, el bacalao a la boga, la sardina, el escabechado, el calderete a la col, el repollo, etc., etc.También se puede encontrar el puchero, el pisto manchego, el cabrito, el conejo, la ternera, el cordero a las costillas, el jamón, el morcilla, etc…En la zona de la Comunidad Valenciana, se elaboran platos típicos, como las migas, el migas de pan, el gazpacho, el ternasco, etc...En la Comunidad de Madrid, se encuentran
+--------------------
+opt = {'model_name': 'mrm8488/spanish-gpt2', 'device': 'cuda:0', 'seed': 1684431625, 'prompt': 'Lista los platos típicos de las 10 regiones españolas mas importantes.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Lista los platos típicos de las 10 regiones españolas mas importantes.
+Memory 486.70Mb CUDA Memory: 495.59Mb
+Elapsed time = 2.17s

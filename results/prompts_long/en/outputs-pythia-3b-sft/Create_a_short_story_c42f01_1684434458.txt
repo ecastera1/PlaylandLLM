@@ -1,0 +1,14 @@
+--------------------
+### output 1
+Create a short story about a character who discovers an hidden talent.
+
+A young man, who has always been a bit of an odd duck, is walking home one night when he comes across a strange, glowing object. He picks it up and is amazed to find that it can talk to him. He soon learns that the object is a talking book, and that it is a book that has been trapped in the past and is now trapped in time. The book tells the young man that he has a hidden talent, and he must use this talent to change the course of history.
+The young man sets out to discover what his talent is, and what he must do to change history. He travels through time, meeting with famous historical figures and learning their secrets. He also meets with some unlikely allies, including a talking cat and a talking rabbit.
+In the end, the young hero is able to save the world, and change history for the better.
+This short story is about a young man who discovers a hidden ability and uses it to change his world. It is a story about bravery and friendship, and it is about the importance of being true to yourself and your beliefs.
+What is your hidden talent? What will you do to use it to
+--------------------
+opt = {'model_name': 'theblackcat102/pythia-3b-deduped-sft-r1', 'device': 'cuda:0', 'seed': 1684434458, 'prompt': 'Create a short story about a character who discovers an hidden talent.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a short story about a character who discovers an hidden talent.
+Memory 5421.07Mb CUDA Memory: 5447.07Mb
+Elapsed time = 8.05s

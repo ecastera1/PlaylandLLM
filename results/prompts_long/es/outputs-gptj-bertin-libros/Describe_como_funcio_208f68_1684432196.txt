@@ -1,0 +1,14 @@
+--------------------
+### output 1
+Describe como funciona el modelo GPT-3 del lenguaje natural con transformers.
+¿Qué es una ontología?
+¡Hola Mundo!;) ¿Quién se acuerda de aquella primera línea de código que escribimos en nuestros primeros programas?
+Esa primera frase que nos hace estar orgullosos del trabajo realizado y que nos da una sensación de triunfo y de satisfacción.
+Pues bien, en el mundo de la informática, una frase como esa es lo que se denomina "¡hola mundo!".
+Una frase, que no es más que una sentencia, que nos indica que todo programa debe mostrar por pantalla un mensaje.
+Esta sentencilla, cuando se escribe en un lenguage de programación, se convierte en una instrucción que dice al ordenador que debe escribir en la pantalla el mensage
+--------------------
+opt = {'model_name': 'bertin-project/bertin-gpt-j-6B-infolibros', 'device': 'auto', 'seed': 1684432196, 'prompt': 'Describe como funciona el modelo GPT-3 del lenguaje natural con transformers.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Describe como funciona el modelo GPT-3 del lenguaje natural con transformers.
+Memory 6277.14Mb CUDA Memory: 6311.10Mb
+Elapsed time = 24.22s

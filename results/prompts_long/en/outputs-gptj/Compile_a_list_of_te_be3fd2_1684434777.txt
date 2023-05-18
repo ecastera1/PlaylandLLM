@@ -1,0 +1,29 @@
+--------------------
+### output 1
+Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.
+
+These are the terms that you will see in your search results.
+These terms are often used by your competitors to describe their offerings, so you need to know what they are.
+If you are not sure what a term means, use a search engine to find out.
+You can also use Google’s Keyword Planner to find popular keywords.
+This is a free tool that Google provides.
+It can be found at https://adwords.google.com/KeywordPlanner.
+The tool will tell you how many people search for a term and how much money is spent on advertising for that term.
+Use this information to determine if the term is worth targeting.
+Another good tool for finding keywords is Google‘s Keywords Tool.
+https://adwordsofinterest.google/keyword-tool
+
+The goal of this exercise is to find a list
+of ten long tail keywords related
+to IT transformation.
+Your list should include the following:
+
+Keywords that are relevant to IT Transformation.
+Keyword phrases that are specific to IT
+Transformation.
+Words or phrases that describe a
+--------------------
+opt = {'model_name': 'EleutherAI/gpt-j-6B', 'device': 'auto', 'seed': 1684434777, 'prompt': 'Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.
+Memory 6277.14Mb CUDA Memory: 6311.25Mb
+Elapsed time = 29.16s

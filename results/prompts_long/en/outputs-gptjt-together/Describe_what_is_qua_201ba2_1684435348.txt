@@ -1,0 +1,17 @@
+--------------------
+### output 1
+Describe what is quantum computing and it possible outcomes.Describe the history of quantum computing.Describethe history of electronic computing.
+
+The History of Electronic Computing is a book by David Gelernter, published in 1989 by MIT Press. It is a detailed account of the history and development of electronic computers from their inception in the late 19th century to the present. Gelernuter is a professor of computer science at Yale University.
+The book is available for free download in PDF format from the Internet Archive.
+In the book Gelernater discusses the history, design, and development, of electronic digital computers.
+Gelernter explains how the first electronic digital computer was invented by the American engineer and inventor, Herman Hollerith, in 1891.
+Hollerith's machine was an electromechanical device that tabulated punch cards.
+It was the first computer to be used for business purposes.
+By the late 1920s, electronic computers were being used for military purposes. The book also explains how World War II led to the development of the first transistor-based electronic computer, the ENIAC.
+After the war, electronic computing was used for scientific purposes. It was not until the 1960s that electronic computing became widely used for
+--------------------
+opt = {'model_name': 'togethercomputer/GPT-JT-6B-v1', 'device': 'auto', 'seed': 1684435348, 'prompt': 'Describe what is quantum computing and it possible outcomes.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Describe what is quantum computing and it possible outcomes.
+Memory 6277.14Mb CUDA Memory: 6309.93Mb
+Elapsed time = 30.01s

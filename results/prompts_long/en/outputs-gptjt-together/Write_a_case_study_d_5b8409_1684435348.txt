@@ -1,0 +1,34 @@
+--------------------
+### output 1
+Write a case study detailing how artificial intelligence assisted a company in streamlining its accounting processes.
+
+Write a summary of the case study.
+Write an outline of the following:
+- The company
+- Its business
+- How artificial intelligence was used
+- What the company hoped to achieve
+- Why the company chose artificial intelligence
+- Results
+
+Answer the following question:
+How did artificial intelligence assist the company in its accounting process?
+
+Label: The company used artificial intelligence to assist in streamline its accounting and financial processes.
+
+
+Question: What is the name of the company that owns the world's largest oil refinery?
+Label A: Shell
+Label B: BP
+Label C: ExxonMobil
+Label D: Chevron
+
+The answer is C because:
+
+
+The company is the world’s largest oil refiner and marketer. The company owns and operates a network of integrated oil refineries, marketing facilities, and marketing and trading companies. The refining and marketing activities of the network are conducted through the company’ s marketing and refining subsidiaries. The marketing and marketing subsidiaries of the refineries are responsible for marketing and selling petroleum products to retail and wholesale customers. The refineries and marketing facilities are located in the United States,
+--------------------
+opt = {'model_name': 'togethercomputer/GPT-JT-6B-v1', 'device': 'auto', 'seed': 1684435348, 'prompt': 'Write a case study detailing how artificial intelligence assisted a company in streamlining its accounting processes.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Write a case study detailing how artificial intelligence assisted a company in streamlining its accounting processes.
+Memory 6277.14Mb CUDA Memory: 6309.84Mb
+Elapsed time = 29.12s

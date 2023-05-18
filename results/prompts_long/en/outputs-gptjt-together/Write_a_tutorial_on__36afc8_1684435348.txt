@@ -1,0 +1,23 @@
+--------------------
+### output 1
+Write a tutorial on how to read a public company financial statements.
+
+Write a review
+
+Description
+
+This is the third book in the series that introduces the reader to the world of financial analysis. The first two books introduced the reader into the world and how to use financial statements to make informed investment decisions. In this book, the reader will learn how to interpret and analyze financial statements of public companies.
+The book begins with a review of the financial statements and then moves into a more detailed analysis of the statements. The reader will also be introduced to the concept of the income statement as well as the balance sheet. The book ends by introducing the reader the concept and importance of the statement of cash flows.
+This book is aimed at readers who have little or no background in financial analysis, but have an interest in learning more about financial statements, and how they can be used to make investment decisions and to understand the financial condition of a company.
+* For more information on the books in the Financial Analysis series, please visit http://www.financialanalysistools.com/book-series
+
+Reviews
+
+What is this?
+
+Textbooks!com offers thousands of new and used textbooks and study guides for college students and graduates. We
+--------------------
+opt = {'model_name': 'togethercomputer/GPT-JT-6B-v1', 'device': 'auto', 'seed': 1684435348, 'prompt': 'Write a tutorial on how to read a public company financial statements.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Write a tutorial on how to read a public company financial statements.
+Memory 6277.14Mb CUDA Memory: 6309.66Mb
+Elapsed time = 29.55s

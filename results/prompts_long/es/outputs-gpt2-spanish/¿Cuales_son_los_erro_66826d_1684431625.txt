@@ -1,0 +1,8 @@
+--------------------
+### output 1
+¿Cuales son los errores fundamentales que comete la gente cuando hace trading de futuros para no perder dinero en el proceso?¿Y qué pasa si la gente que hace tradings de futuros no paga?¿Qué pasa si el mercado no paga y el mercado se quiebra?¿Cuáles son los riesgos fundamentales que se pueden evitar?¿Por qué la gente hace traduccion de futuros?Los riesgos fundamentales son:Los riesgos de trading son:La gente hace transacciones de futuros en los mercados de traduction de futuros, con una tasa de cambio del 0.01% y un valor de mercado del 0,01%.La gente puede hacer trading en un mercado de tradings en el cual el precio de mercado es el mismo que el precio del mercado.Los riesgos son:El riesgo de tradging es:La cantidad de tradicciones de futuros que se realizan en el mercado de la trading es el precio que se paga por trading.La gente que traducción de futuros es:El precio que puede ser pagado por traducção de futuros:El costo de tradcing es:Los costos de traducciÃ³n de futuros son:Las tradicÃ³ciones de tradiscÃ©s son:En el mercado trading,
+--------------------
+opt = {'model_name': 'mrm8488/spanish-gpt2', 'device': 'cuda:0', 'seed': 1684431625, 'prompt': '¿Cuales son los errores fundamentales que comete la gente cuando hace trading de futuros para no perder dinero en el proceso?', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = ¿Cuales son los errores fundamentales que comete la gente cuando hace trading de futuros para no perder dinero en el proceso?
+Memory 486.70Mb CUDA Memory: 495.59Mb
+Elapsed time = 2.05s

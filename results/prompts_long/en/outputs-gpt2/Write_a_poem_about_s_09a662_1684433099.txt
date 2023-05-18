@@ -1,0 +1,25 @@
+--------------------
+### output 1
+Write a poem about shiba inu pet and his master.
+
+(Read the poem from the beginning of the story.)
+
+Shiba inutama:
+
+I am a shiba.
+ (Read the story from the end of the tale.)
+ (See the poem in the beginning.)
+.
+...
+
+There are many different ways to describe shiba (or shiba-inu). The most common is to say that the shiba is a person who is a shinto, or a person with a shin. The other way is to call him a shisho. Shisho is a term used in Japanese to describe someone who is not shinto.
+, the shishō is a word used in Japan to describe an individual who is shinto (shishō). The other word is shishoku.
+: The shishokusu is a name used in the Shinto language for a person whose shishon is not a shikusu.
+-
+
+.
+--------------------
+opt = {'model_name': 'gpt2', 'device': 'cuda:0', 'seed': 1684433099, 'prompt': 'Write a poem about shiba inu pet and his master.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Write a poem about shiba inu pet and his master.
+Memory 486.70Mb CUDA Memory: 495.59Mb
+Elapsed time = 1.74s

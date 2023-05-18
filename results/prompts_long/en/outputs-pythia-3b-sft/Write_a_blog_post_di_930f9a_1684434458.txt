@@ -1,0 +1,24 @@
+--------------------
+### output 1
+Write a blog post discussing the advantages of utilizing ETFs vs Options or Futures.
+
+Write a short blog post that explains the benefits of investing in a fixed income ETF (or other type of fixed income investment) over investing in an option or futures contract.
+  
+Write an essay that discusses the advantages and disadvantages of investing with a fixed-income ETF.
+Write about the advantages, disadvantages, and risks of investing using a fixed investment ETF or other type.
+Consider the advantages or disadvantages of fixed-investment ETFs and other types of fixed investments, such as options or futures.
+Discuss the advantages/disadvantages of fixed investment ETFs versus other types.
+Evaluate the advantages versus disadvantages of using fixed investment products versus other investment strategies.
+Explain the advantages / disadvantages of ETFs over other types, such options or future contracts.
+Outline the advantages (or disadvantages) of using ETFs to invest in fixed income.
+Compare the advantages to disadvantages of utilizing fixed investment investment ETFS versus other fixed investment strategies, such futures or options.
+Provide examples of fixed fixed-interest investments, including ETFs, options, and futures.
+
+
+Write the essay in complete sentences.
+Use proper grammar and punct
+--------------------
+opt = {'model_name': 'theblackcat102/pythia-3b-deduped-sft-r1', 'device': 'cuda:0', 'seed': 1684434458, 'prompt': 'Write a blog post discussing the advantages of utilizing ETFs vs Options or Futures.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Write a blog post discussing the advantages of utilizing ETFs vs Options or Futures.
+Memory 5421.07Mb CUDA Memory: 5447.07Mb
+Elapsed time = 7.92s

@@ -1,0 +1,37 @@
+--------------------
+### output 1
+Make a list of five Intel CPU features that can help run modern software and improve user experience.
+Answer:Intel Multi-Threading technology
+2. 
+3. 	4. 
+			5. 
+				Extensive processor cache technology
+			2.
+			3.
+		    4.
+		     5.
+		       Intel UHD Graphics technology
+		    2. UHD Discrete graphics card
+		    3. Intel Core-series processor architecture
+		    5. Intel HD Graphics 530/530/530+, depending on use case.<|stop|>imt
+			4
+			7. 			Intel Core-family processor architecture with multiple threads.
+		      2. Intel SpeedStep technology
+		      3. L3 cache technology 
+		      4. Airmiles technology 
+			 or Cache-Away technology, depending on the specific model. 
+
+			2 
+		    1. 				Introduced in the Intel Core i3 and i7 processor architectures.
+		        3 
+		        2. 
+ 			Answer:Iffmchen Burst Execution technology allows multiple processes to run at the same time. 
+	 			4 
+		          3.
+
+			1. Introduced in Intel
+--------------------
+opt = {'model_name': 'lambdalabs/pythia-1.4b-deduped-synthetic-instruct', 'device': 'cuda:0', 'seed': 1684433565, 'prompt': 'Make a list of five Intel CPU features that can help run modern software and improve user experience.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Make a list of five Intel CPU features that can help run modern software and improve user experience.
+Memory 5492.05Mb CUDA Memory: 5501.07Mb
+Elapsed time = 7.03s

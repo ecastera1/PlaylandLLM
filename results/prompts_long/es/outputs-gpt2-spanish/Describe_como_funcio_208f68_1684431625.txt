@@ -1,0 +1,8 @@
+--------------------
+### output 1
+Describe como funciona el modelo GPT-3 del lenguaje natural con transformers.El modelo GTP-3 se basa en la teoría de la sintaxis de los lenguajes naturales, que es un modelo de la gramática de sintaxis para el lenguaje natural.En la teoría GTP, el modelo de sintáctica es un sistema de sintagmas que se pueden construir de forma sencilla.En el modelo, el lenguaje se construye a partir de un sintagma de sinónimos, que son las estructuras de sintesis que se encuentran en el lenguaje.El lenguaje se puede construir a partir del sintagm, el cual se construye de forma más sencilla.El sintagmot se construye en el sintagmen, el sintáctico, que se construye por medio de la estructura de sintacodice_1.El sistema de gramática de gramática es una estructura de gramática que se basa principalmente en el modelo del lenguaje.La gramática de la lengua se construye mediante el modelo.El idioma se construye con el sintaxis y la estructura del sintácto.El problema de la teoría del lenguaje es que no se puede usar el modelo para construir el modelo sintíctico.El objetivo del modelo es construir un lenguaje sintéctico.La teoría de
+--------------------
+opt = {'model_name': 'mrm8488/spanish-gpt2', 'device': 'cuda:0', 'seed': 1684431625, 'prompt': 'Describe como funciona el modelo GPT-3 del lenguaje natural con transformers.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Describe como funciona el modelo GPT-3 del lenguaje natural con transformers.
+Memory 486.70Mb CUDA Memory: 495.59Mb
+Elapsed time = 2.12s

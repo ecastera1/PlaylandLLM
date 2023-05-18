@@ -1,0 +1,9 @@
+--------------------
+### output 1
+Create a scene in which two characters talk about their future dreams in a prehistoric world. The characters are the same as in the previous example. The only difference is that the scene is set in a time when dinosaurs roamed the Earth. The dinosaur is an animated character that can be controlled by the user. The user can control the dinosaur's speed, direction, and height. The scene is shown in Figure 11. The scene has two characters. One character is a human and the other is a dinosaur. The human is a character that is controlled by a mouse. The mouse is used to move the character. The other character is an avatar that is animated by the avatar engine. The avatar is controlled using keyboard commands. The keyboard commands are used to control the avatar's speed and direction. The scenes are shown in Figures 12 and 13. Figure 12 shows a scene where the human is talking to the dinosaur. Figure 13 shows a scenario where the dinosaur is talking back to the human. In this scenario, the dinosaur can be seen moving and talking to a human. The animation of the dinosaur in Figure 13 is based on the animation of a real dinosaur. In the animation, the dinosaurs are moving and speaking.
+The dinosaur animation in Figure 12 is based off of a
+--------------------
+opt = {'model_name': 'bigscience/bloom-7b1', 'device': 'auto', 'seed': 1684436524, 'prompt': 'Create a scene in which two characters talk about their future dreams in a prehistoric world.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a scene in which two characters talk about their future dreams in a prehistoric world.
+Memory 7723.08Mb CUDA Memory: 7739.70Mb
+Elapsed time = 18.90s

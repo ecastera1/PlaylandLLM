@@ -1,0 +1,22 @@
+--------------------
+### output 1
+Dime una rutina diaria que tiene que tener un buen trader para poder sacar el máximo beneficio operando con futuros en el S&P 500.
+
+El "S&P 400" fue el primer intento de desarrollar un sistema de clasificación de precios de los productos de consumo.
+El sistema de precios se basa en un análisis de las ventas de los bienes de consumo, que incluye los precios de las unidades de consumo y los precios que se usan en la venta. El sistema de precio se basa, por lo tanto, en la estimación de los precios del producto de consumo en función de la cantidad de unidades vendidas.
+La clasificación de precio de los artículos de consumo se basa principalmente en la cantidad y calidad de los componentes de los mismos.
+Las ventas de productos de uso se realizan usando el método de clasificación.
+En este sistema, el precio de un producto de uso es evaluado por el usuario en función del precio de la unidad vendida.
+Los productos de compra se pueden clasificar en tres categorías:
+
+
+Los artículos de uso son clasificados en función a su cantidad y la calidad de la misma.
+Esta clasificación se basa sobre la cantidad, calidad y el precio del producto que se vende.
+Se puede clasificar en 3 categorías: 
+
+Los componentes de un
+--------------------
+opt = {'model_name': 'datificate/gpt2-small-spanish', 'device': 'cuda:0', 'seed': 1684431649, 'prompt': 'Dime una rutina diaria que tiene que tener un buen trader para poder sacar el máximo beneficio operando con futuros en el S&P 500.', 'from_file': '', 'list_from_file': './prompts/es_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Dime una rutina diaria que tiene que tener un buen trader para poder sacar el máximo beneficio operando con futuros en el S&P 500.
+Memory 486.70Mb CUDA Memory: 495.59Mb
+Elapsed time = 2.02s

@@ -1,0 +1,14 @@
+--------------------
+### output 1
+Make a list of five Intel CPU features that can help run modern software and improve user experience.
+ The following are five Intel Core CPU features which can help improve user performance and experience. These features include:
+1. Intel Core i7: This is the latest processor from Intel, which comes with a whopping 10 cores. It is ideal for power users who require a lot of processing power for resource-intensive tasks like video editing, gaming, and programming.
+2. Intel Turbo Boost: This technology is designed to automatically increase the CPU's clock speed when it detects that the system is underutilized. This helps to improve performance when you need it most.
+3. Intel Hyper-Threading: This feature allows the CPU to handle multiple threads simultaneously, which can improve performance and efficiency.
+4. Intel Cache: The CPU'S cache is where it stores frequently used data, which helps to reduce the time it takes to access that data. A larger cache can improve overall performance.
+5. Intel Virtualization: This features allows the processor to run multiple virtual machines simultaneously, making it ideal for users who need to run different operating systems or applications simultaneously.
+--------------------
+opt = {'model_name': 'ehartford/WizardLM-7B-Uncensored', 'device': 'auto', 'seed': 1684436922, 'prompt': 'Make a list of five Intel CPU features that can help run modern software and improve user experience.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Make a list of five Intel CPU features that can help run modern software and improve user experience.
+Memory 6740.53Mb CUDA Memory: 6851.46Mb
+Elapsed time = 24.34s

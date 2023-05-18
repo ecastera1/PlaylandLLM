@@ -1,0 +1,23 @@
+--------------------
+### output 1
+Create a short story about a character who discovers an hidden talent.
+Write a short essay about the importance of education in our society.
+Describe the process of creating a website.
+Explain the importance and benefits of teamwork in business.
+Create a persuasive essay on why we should ban smoking in public places.
+Analyze the effects of globalization on the world economy.
+What are the advantages and disadvantages of using technology in education?
+Write an essay explaining the importance or significance of the Civil Rights Movement.
+How can we improve the quality of education for students in low-income areas?
+What is the importance/significance of the Industrial Revolution?
+Explaining the significance of Rosa Parks in the Civil Right Movement
+Expound on the importance, significance, and impact of the American Revolution.
+Examine the importance that the American Constitution has on the American people.
+Discuss the significance and impact that the Holocaust had on the Jewish people and the world.
+Identify the significance that the Emancipation Proclamation had on African Americans.
+Evaluate the significance the Civil War had on American history.
+Outline the
+--------------------
+opt = {'model_name': 'LLMs/Vicuna-EvolInstruct-7B', 'device': 'auto', 'seed': 1684430483, 'prompt': 'Create a short story about a character who discovers an hidden talent.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts_small.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Create a short story about a character who discovers an hidden talent.
+elapsed time = 26.59s

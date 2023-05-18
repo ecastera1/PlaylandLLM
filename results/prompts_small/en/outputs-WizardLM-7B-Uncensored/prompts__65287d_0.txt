@@ -1,0 +1,43 @@
+Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.
+ The 2019 AI Now Conference will be held on October 17-19, 2109 at the New York City Center for Economic Opportunity. The conference will focus on the impact of artificial intelligence on society and the workplace, and how we can ensure that AI benefits everyone.
+Here are ten long tail keywords related IT transformation in the modern Workplace.
+Create a short story about a character who discovers an hidden talent.
+ 
+#include <iostream>
+#define MAXN 1000
+using namespace std;
+int n, maxn;
+char arr[MAXN];
+int main()
+{
+    // input
+    cin >> n >> maxn >> arr[0];
+    int a, b, c, d, e, f;
+    for(a=1;a<=n;a++)
+    {
+        for(b=1,c=1+a;c<=n+1;c++)
+        {
+            if(arr[a]=='X' && arr[b]==arr[c])
+            {
+                d=a;
+                e=b;
+            }
+            else if(a==b)
+            d=c;
+        }
+        if(d==n)
+        f=e;
+        
+    }
+    if(f==n+2)
+    cout << "Two players" << endl;
+    
+    else
+    return 0;
+} 
+
+
+// v
+// 
+//
+//

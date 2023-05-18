@@ -1,0 +1,11 @@
+--------------------
+### output 1
+Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.
+Use the Google Keyword Planner to find the monthly search volume for each keyword.
+Create a spreadsheet to compare the month-to-month search volume and the competition for each of the keywords.
+Identify the keywords with the highest search volume that also have low competition.
+Determine which keywords are most relevant to your IT transformation services and the Modern Workplace.
+--------------------
+opt = {'model_name': 'LLMs/Vicuna-EvolInstruct-7B', 'device': 'auto', 'seed': 1684430483, 'prompt': 'Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts_small.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Compile a list of ten long-tail keywords related to IT transformation and the modern workplace.
+elapsed time = 8.66s

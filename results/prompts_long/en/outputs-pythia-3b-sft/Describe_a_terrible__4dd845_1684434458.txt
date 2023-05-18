@@ -1,0 +1,22 @@
+--------------------
+### output 1
+Describe a terrible hangover using the language of an English aristocrat from the Renaissance.
+
+I am an English nobleman from the early Renaissance period. I am not accustomed to drinking alcohol, and I am shocked to discover that my body has been transformed into an unending series of debilitating headaches, nausea, and dizziness.
+I have been unable to sleep for days, and my body is aching with the pain of my injuries. I have been drinking a great deal of water, but the water has not helped my condition.
+My head feels like it is filled with a thousand tiny knives, and the pain is so intense that I cannot take a single step without feeling a sharp stab in my head.
+The pain is unbearable, and it is difficult to focus on anything. I cannot think clearly, and am unable to remember anything that has happened in the past few days.
+It is as if I am trapped in a nightmare, and there is nothing I can do to escape.
+But I am determined to survive this ordeal, and will do everything possible to overcome my terrible hangovers.
+Thank you for your time.
+Sincerely,
+The English Aristocrat from Renaissance England
+
+A:
+
+You need
+--------------------
+opt = {'model_name': 'theblackcat102/pythia-3b-deduped-sft-r1', 'device': 'cuda:0', 'seed': 1684434458, 'prompt': 'Describe a terrible hangover using the language of an English aristocrat from the Renaissance.', 'from_file': '', 'list_from_file': './prompts/en_list_of_prompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
+prompt = Describe a terrible hangover using the language of an English aristocrat from the Renaissance.
+Memory 5421.07Mb CUDA Memory: 5447.07Mb
+Elapsed time = 7.89s
