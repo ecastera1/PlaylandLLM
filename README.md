@@ -233,8 +233,12 @@ Please don't use for unethical use. Note always licensing terms from the model y
 
 ## License and copyright 
 
-© Enrique Castera Garcia licensed under the [MIT License](LICENSE).
-(ecastera@gmail.com)
+Please send requests or comments to ecastera@gmail.com
+
+© Enrique Castera Garcia licensed under the [MIT License](LICENSE)
+
+
+
 
 
 
