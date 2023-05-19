@@ -203,7 +203,7 @@ def load_model_aux(my_model, use_device):
         return None
 
     print(f"### load_model_aux complete {my_model} {model.device}")
-    print(f"### Memory {model.get_memory_footprint()/1024/1024:.2f}Mb CUDA Memory: {torch.cuda.memory_allocated()/1024/1024:.2f}Mb")
+    #print(f"### Memory {model.get_memory_footprint()/1024/1024:.2f}Mb CUDA Memory: {torch.cuda.memory_allocated()/1024/1024:.2f}Mb")
 
     return model
 

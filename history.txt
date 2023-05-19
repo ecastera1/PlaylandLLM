@@ -1,20 +1,3 @@
-hello
-not now
-exit
-quit
-from_file prompt1.txt
-from_file prompt2.txt
-help
-from_file prompt3.txt
-list_from_file lprompts1.txt
-help
-quit
-prompt what is light?
-quit
-prompt List 10 creative, imaginative, marketing product names for a testing playground
-prompt List 10 creative, imaginative, marketing product names for a testing playground for language models using animals, objects and metaphoric words
-max_length 256
-5
-temperature 0.6
-50
+chat 1
+1
 quit
