@@ -11,7 +11,7 @@ PlaylandLLM is a set of python tools to simplify inference testing of text-gener
 * Support for **PEFT adapters** models
 * Support for **bitsandbytes, accelerate**
 * Test any **Huggingface** models from the community from different families **GPT-J, Pythia, Bloom, LLaMA, Vicuna, Alpaca**, or any other LLM supported by Huggingface's transformer text-generation locally in your computer without the need of 3rd party paid APIs or keys.
-* Compare model performance and outputs.
+* Compare text generation model outputs and performance, memory footprint, tokens/sec.
 * Command line readline interface CLI to interactively enter prompts, change runtime model paramenters, chat from terminal. History, tab completion... Easy to add more commands.
 * Loading time is critical in testing as model sizes increases. Load the model once, interact with it while keeping in memory. 
 * Logging subsystem for model outputs, chat outputs, etc. it will save responses locally in txt files that can easily check it later
@@ -233,7 +233,6 @@ Many of these opensource models are trained with several languages, feel free to
 LANG = "en" # [en, es]
 AUDIO_ENABLED = 0 
 ```
-
 
 ## Disclaimer
 
