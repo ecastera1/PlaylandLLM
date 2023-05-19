@@ -38,19 +38,20 @@ SINGLE_COMMAND = {
     'go':       'run single next inference',
     'clean':    'delete output path log files' ,
     'help':     'display commands help',
-    'save_model':   'save model pytorch files to local folder'
+    'save_model':   'save model pytorch files to local folder',
+    'chat':     'chat mode HUMAN with AI',
     }
 
 
 STR_COMMAND = {
     'from_file':    'read single prompt from a text file',
-    'list_from_file': 'read a list of prompts from a text file, one prompt per line'
+    'list_from_file': 'read a list of prompts from a text file, one prompt per line',
+    'model':        'load model from valid models',
     }
 
 INT_COMMAND = {
         'loop':     'repeat %d inferences',
-        'autochat': 'chat mode automatic AI with AI, repeat %d times',
-        'chat':     'chat mode HUMAN with AI, repeat %d times',
+        'autochat': 'chat mode automatic AI with AI, repeat %d times',        
         'seed':     'set random seed to %d',
         'top_k':    'top_k %d generation parameter',
         'no_repeat_ngram_size': 'generation parameter',
@@ -106,7 +107,7 @@ def init_command_prompt():
 
 
 def command_prompt():
-    print("### Enter command, TAB, help, quit, a number or enter to continue:")
+    #print("### Enter command, TAB, help, quit, a number or enter to continue:")
    
     # using readline with autocomplete
     user_input = input("> ")
@@ -135,12 +136,16 @@ def command_prompt():
         print(f"single_command {command}")
         return (command, 0)
     
+    if len(cmd_list)==1:
+        print("### ERROR command needs at least 1 argument")
+        return None
+    
     if command in STR_COMMAND.keys():
         arg0 = str(cmd_list[1])
         print(f"str_command {command} {arg0}")
         return (command, arg0)
 
-    if command in INT_COMMAND.keys():
+    if command in INT_COMMAND.keys():        
         arg0 = int(cmd_list[1])
         print(f"int_command {command} {arg0}")
         return (command, arg0)
