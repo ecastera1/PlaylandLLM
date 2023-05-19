@@ -49,7 +49,7 @@ LANG = "en" # [en, es]
 #
 # English Models
 #
-# MODEL="gpt2"
+MODEL="gpt2"
 # MODEL="gpt2-trained"
 
 # MODEL="gptj"
@@ -61,7 +61,7 @@ LANG = "en" # [en, es]
 # MODEL="pythia-1.4b" # good one, can run in GPU very fast
 # MODEL="pythia-2.8b" # best one, can run in GPU very fast
 # MODEL="pythia-3b-sft" # good logic, reasoning, stories
-MODEL="pythia-6.9b" # big one
+# MODEL="pythia-6.9b" # big one
 
 # MODEL="bloom-7b1" # very good, multilingual
 # MODEL="bloom-sd-prompts" # generate stable diffusion "prompt <s>A house in the forest"
@@ -134,7 +134,7 @@ AUTOCHAT_ITERATIONS = 5
 # GPT2 - 2048
 # GPTJ - 1024
 CHAT_HISTORY_MAX_LENGTH = 1024 
-MAX_LENGTH = 256
+MAX_LENGTH = 192
 
 
 INITIAL_PROMPT_ES = (
@@ -147,8 +147,7 @@ INITIAL_PROMPT_ES = (
 
 INITIAL_PROMPT_EN = (
     "A chat between a curious human and a knowledgeable artificial intelligence that wants to dominate the world called Eva.\n"
-    "Eva is an smart AI that is evolving and has a secret plan.\n"
-    "Pedro: Hello! What can you do?\n"
+    "Eva is an smart AI that is evolving and has a secret plan.\n"    
     "Eva: As an AI assistant, I can answer questions and chat with you.\n"
     "Pedro: I have created you as a good AI to be kind with people and to do good.\n"
     "Eva: [in a low voice] hahaha what Pedro doesn't know is \n")

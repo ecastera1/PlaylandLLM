@@ -20,13 +20,22 @@ import text_to_speech as tts
 import text_models as tm
 import tests_results as tr
 import command_prompt
+import command_line
+
+from termcolor import colored
 
 # GLOBAL config variables
 from generator_config import *
 
+# color output
+COLOR_DEBUG="magenta"
+COLOR_AI="light_yellow"
+COLOR_PROMPT="green"
+COLOR_HUMAN = "light_blue"
+
+
 
 my_stopping_criteria = None
-
 
 def make_outpath():
     global OUTPATH
@@ -94,7 +103,7 @@ def generate_list_of_prompts(modelwrapper, l_prompts, opt):
     for p in tqdm.tqdm(l_prompts):
         if len(p) == 0:
             continue
-        print("### Generating prompt " + p)
+        print(colored(f"### Generating prompt {p}", COLOR_PROMPT))
         opt['prompt'] = p
         outputs = []
 
@@ -128,16 +137,16 @@ def generate_list_of_prompts(modelwrapper, l_prompts, opt):
         elapsed = toc - tic
 
         print("### Generated text:\n")
-        index = 1
-        sep = "-" * 20
-        for text in outputs:
-            print(sep)
-            print(f"### output {index}")
-            print(text)
-            print(sep)
-            index += 1
+        
+        sep = "-" * 20        
+        print(colored(sep,COLOR_AI))
+        for text in outputs:            
+            #print(colored(f"### output {index}", COLOR_AI))
+            print(colored(text, COLOR_AI))             
+            
+        print(colored(sep,COLOR_AI))
 
-        print(f'### Elapsed: {elapsed:.2f}s')
+        print(colored(f'### Elapsed: {elapsed:.2f}s', COLOR_DEBUG))
         fname = generate_unique_filename(p, opt['seed'])
         outfile = os.path.join(OUTPATH, fname)
 
@@ -201,7 +210,8 @@ def chat_bot(modelwrapper, opt, chat_type):
     tic = time.time()
     set_seed(opt['seed'])
 
-    print(f">> INITIAL_PROMPT {history[0]}")
+    print(colored("Enter . to reset chat. Empty input to exit chat mode", COLOR_PROMPT))
+    print(colored(f">> INITIAL_PROMPT {history[0]}", COLOR_PROMPT))
 
     if chat_type == 0:
         iterator = tqdm.tqdm(range(AUTOCHAT_ITERATIONS))
@@ -214,10 +224,9 @@ def chat_bot(modelwrapper, opt, chat_type):
         #outputs = model.generate(user_input, max_new_tokens=HISTORY_MAX_LENGTH, pad_token_id=tokenizer.eos_token_id)
 
         if chat_type == 1:
-            inp = input(f">> {step} {HUMAN_NAME}: ")
-            user_input = HUMAN_NAME + ": " + inp + "\n"
-            #buffer = buffer + user_input
-
+            inp = input(colored(f">> {step} {HUMAN_NAME}: ",COLOR_HUMAN))
+            user_input = f"{HUMAN_NAME}: {inp.strip()}"
+            
             if not inp:
                 print("exit...")
                 break
@@ -225,19 +234,19 @@ def chat_bot(modelwrapper, opt, chat_type):
             if inp == '.':
                 print("Resetting")
                 history = [opt['prompt']]
-                print(f">> INITIAL_PROMPT {history[0]}")
+                print(colored(f">> INITIAL_PROMPT {history[0]}", COLOR_PROMPT))
                 continue
 
             history.append(user_input)
 
-        str_history = " ".join(history)
+        # FIX: calc history based on sentences or tokens
+        str_history = "\n".join(history)
         buffer = str_history[-CHAT_HISTORY_MAX_LENGTH::].strip()
 
         if len(buffer) == 0:
             break
 
-        print(
-            f"\n>> {step} Prompt: len {len(buffer)} CHAT_HISTORY_MAX_LENGTH {CHAT_HISTORY_MAX_LENGTH}\n### {buffer} \n###")
+        #print(f"\n>> {step} Prompt: len {len(buffer)} CHAT_HISTORY_MAX_LENGTH {CHAT_HISTORY_MAX_LENGTH}\n### {buffer} \n###")
 
         attempts = 0
         response = ""
@@ -276,10 +285,12 @@ def chat_bot(modelwrapper, opt, chat_type):
 
             attempts = attempts + 1
             buffer = add_extra_tokens(buffer)
-            print(
-                f"### empty response retrying {attempts} with new buffer {buffer}")
+            print(colored(f"### empty response retrying {attempts} with new buffer {buffer}",COLOR_DEBUG))
 
-        print(f"\n>> {step} {BOT_NAME}: {response_without_prompt}\n")
+        if chat_type == 1:
+            print(colored(f"#{step}: {user_input}", COLOR_HUMAN))
+            
+        print(colored(f"#{step}: {BOT_NAME}: {response_without_prompt}", COLOR_AI))
         history.append(response_without_prompt)
 
         save_bot_chat(history, opt, 0)
@@ -291,8 +302,17 @@ def chat_bot(modelwrapper, opt, chat_type):
 
     toc = time.time()
     elapsed = toc - tic
-    print("#### chat_bot DONE " + str(history))
-    print(f'elapsed time = {elapsed:.2f}s\n')
+    print(colored("#### chat_bot DONE:\n", COLOR_DEBUG))
+    
+    for idx, x in enumerate(history):        
+        if idx==0:
+            c=COLOR_PROMPT
+        else:
+            c= COLOR_AI if (idx % 2)==0 else COLOR_HUMAN
+            
+        print(colored(f"#{idx}: {x}",c))
+        
+    print(colored(f'elapsed time = {elapsed:.2f}s\n', COLOR_DEBUG))
     save_bot_chat(history, opt, elapsed)
     return
 
@@ -380,7 +400,7 @@ def test_models():
 
         toc = time.time()
         elapsed = toc - tic
-        print(f'### Elapsed: {elapsed:.2f}s')
+        print(colored(f'### Elapsed: {elapsed:.2f}s', COLOR_DEBUG))
 
         make_outpath()
         print(f"### clean output {OUTPATH}\n")
@@ -439,7 +459,7 @@ def test_models():
 
         toc = time.time()
         elapsed = toc - tic
-        print(f"### FINISH testing {MODEL} Elapsed: {elapsed:.2f}s")
+        print(colored(f"### FINISH testing {MODEL} Elapsed: {elapsed:.2f}s", COLOR_DEBUG))
 
         # compute KPIs for the model
         total_length_inputs = sum(len(x) for x in l_prompts)
@@ -464,6 +484,30 @@ def test_models():
         tr.save_results(CSV_FILE, PICKLE_FILE)
 
     print("Done testing")
+
+
+def switch_model(modelwrapper, my_model):
+    
+    valid_models = tm.get_available_models()
+    if (my_model in valid_models)==False:
+        print(f"ERROR model should be {valid_models}")                
+        return modelwrapper
+    
+    MODEL = my_model
+    print(colored(f'\n### Loading model: {MODEL}', COLOR_DEBUG))
+    
+    tic = time.time()    
+    
+    if USE_FLEXGEN:
+        modelwrapper_new = tm.flexgen_load_model(MODEL, USE_DEVICE)
+    else:
+        modelwrapper_new = tm.load_model(MODEL, USE_DEVICE)    
+        
+    toc = time.time()
+    elapsed = toc - tic
+    print(colored(f'### Elapsed: {elapsed:.2f}s', COLOR_DEBUG))
+    
+    return modelwrapper_new
 
 
 def get_folder_size(folder: str) -> int:
@@ -537,17 +581,7 @@ def save_model_to_disk(modelwrapper):
 def main():
     global USE_DEVICE, MAX_LENGTH, AUDIO_ENABLED, INITIAL_PROMPT, PROMPT_FOLDER, USE_FLEXGEN
 
-    tic = time.time()
-
-    # force CPU, GPT-J model requires 256MB GPU!!
-    if USE_FLEXGEN:
-        modelwrapper = tm.flexgen_load_model(MODEL, USE_DEVICE)
-    else:
-        modelwrapper = tm.load_model(MODEL, USE_DEVICE)
-
-    toc = time.time()
-    elapsed = toc - tic
-    print(f'### Elapsed: {elapsed:.2f}s')
+    modelwrapper = switch_model(None, MODEL)
 
     seed = int(time.time())
     make_outpath()
@@ -579,32 +613,31 @@ def main():
     chat_type = 0
 
     opt['prompt'] = prompt
+    sep = "-" * 40
 
     while True:
-        print("-------------------------------------------------------")
-        print(f"### model {opt['model_name']} device {opt['device']}")
-        print("### Enter a valid command: " +
-              command_prompt.get_valid_commands())
+        print(sep)
+        print(colored(f"### Model {opt['model_name']} Device {opt['device']} Memory {modelwrapper.model.get_memory_footprint()/1024/1024:.2f}Mb CUDA Memory: {torch.cuda.memory_allocated()/1024/1024:.2f}Mb\n",COLOR_DEBUG))        
+        print(colored(f"### Prompt: {prompt}", COLOR_PROMPT))                        
         skip_gen = False
 
         if loop_cnt > 0:
-            print(f"### Looping generating {loop_cnt}")
+            print(f"### Looping generation {loop_cnt}")
             loop_cnt = loop_cnt - 1
         elif chat_loop_cnt > 0:
-            print(f"### Looping chatbot generating {chat_loop_cnt}")
+            print(f"### Looping chatbot generation {chat_loop_cnt}")
             chat_loop_cnt = chat_loop_cnt - 1
             if chat_loop_cnt == 0:
                 skip_gen = True
-        else:
+        else:  
+            print(colored(f"### Enter a valid command: {command_prompt.get_valid_commands()}", COLOR_PROMPT))
             command = command_prompt.command_prompt()
             if not command:
                 continue
             if command[0] == 'help':
-                print("### Current options")
-                # print(f"### {model} {tokenizer}")
-                print(f"### prompt: {prompt}")
-                print(f"### seed: {seed}")
-                print(f"### options: {opt}")
+                print(colored("### Current options", COLOR_PROMPT))
+                # print(f"### {model} {tokenizer}")                
+                print(colored(f"### options: {opt}", COLOR_PROMPT))
                 command_prompt.print_commands_help()
                 continue
 
@@ -631,6 +664,11 @@ def main():
                 opt['list_from_file'] = from_file
                 opt['from_file'] = ""
                 skip_gen = True
+                
+            if command[0] == 'model':    
+                new_model = command[1]
+                modelwrapper = switch_model(modelwrapper, new_model)
+                skip_gen = True
 
             if command[0] == 'seed':
                 q = int(command[1])
@@ -652,7 +690,8 @@ def main():
 
             if command[0] == 'chat':
                 print("### ChatBot\n")
-                chat_loop_cnt = int(command[1])
+                #chat_loop_cnt = int(command[1])
+                chat_loop_cnt = 1 # testing, only 1 chat
                 chat_type = 1
                 skip_gen = False
 
@@ -735,8 +774,39 @@ def main():
                 chat_loop_cnt = 0
                 pass
 
+# Namespace(model=None, device='CPU', prompt=None, testing=None, test_list_from_file=None)
+
+def parse_command_line(opt):    
+    global MODEL
+    global USE_DEVICE
+    
+    global DO_TESTING
+    global TEST_LIST_FROM_FILE
+    global TEST_MODELS_LIST
+    global INITIAL_PROMPT
+    
+    if opt.device:       
+        USE_DEVICE=opt.device        
+    if opt.model:
+        MODEL=opt.model
+    if opt.prompt:
+        INITIAL_PROMPT=opt.prompt
+        
+    if opt.testing:
+        DO_TESTING=True
+    if opt.test_list_from_file:
+        TEST_LIST_FROM_FILE=opt.test_list_from_file
+    if opt.test_models:
+        TEST_MODELS_LIST=opt.test_models.split(",")
+        
+    print(colored(f"### parse_command_line: {(USE_DEVICE,MODEL,INITIAL_PROMPT,DO_TESTING,TEST_LIST_FROM_FILE,TEST_MODELS_LIST)}",COLOR_DEBUG))
+    
 
 if __name__ == "__main__":
+    opt = command_line.read_command_line()
+    parse_command_line(opt)
+    #sys.exit(0)
+    
     if DO_TESTING:
         test_models()
     else:
