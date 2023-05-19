@@ -8,9 +8,9 @@ PlaylandLLM is a set of python tools to simplify inference testing of text-gener
 
 * Encapsulate Pytorch and Transformers complexities of dealing with large models with limited resources
 * Loading and inference for GPU, CPU, datatypes FP32, FP16, INT8, quantization, spread accross devices, etc.
-* Support for PEFT adapters models
-* Support for bitsandbytes, accelerate
-* Test any Huggingface models from the community from different families GPT-J, Pythia, Bloom, LLaMA, Vicuna, Alpaca, or any other LLM supported by Huggingface's transformer text-generation locally in your computer without the need of 3rd party paid APIs or keys.
+* Support for **PEFT adapters** models
+* Support for **bitsandbytes, accelerate**
+* Test any **Huggingface** models from the community from different families **GPT-J, Pythia, Bloom, LLaMA, Vicuna, Alpaca**, or any other LLM supported by Huggingface's transformer text-generation locally in your computer without the need of 3rd party paid APIs or keys.
 * Compare model performance and outputs.
 * Command line readline interface CLI to interactively enter prompts, change runtime model paramenters, chat from terminal. History, tab completion... Easy to add more commands.
 * Loading time is critical in testing as model sizes increases. Load the model once, interact with it while keeping in memory. 
@@ -19,18 +19,26 @@ PlaylandLLM is a set of python tools to simplify inference testing of text-gener
 * Interactive chat mode with simple memory for chatbot-like experience
 * Auto chat mode to generate an auto-conversation
 * Use your own prompt database and throw it at the models you want to test
-* Audio TTS Output in Spanish or English thanks to ```snakers4/silero-models```
+* Audio TTS Output in **Spanish or English** thanks to ```snakers4/silero-models```
 
 ### Credits
 * Using Transformers API and Huggingface.co classes (https://huggingface.co/) and pytorch
 * bitsandbytes INT8 optimizations (https://github.com/TimDettmers/bitsandbytes)
 * Audio Text-to-Speech TTS silero models (https://github.com/snakers4/silero-models/blob/master/README.md)
+* Audio Playback SoX https://sox.sourceforge.net/
 
 
 ## Installing
 ```
 pip install -r requirements.txt
 ```
+### Requirements
+* torch==2.0.0
+* transformers==4.28.1
+* peft==0.3.0
+* accelerate==0.18.0
+* bitsandbytes==0.37.2
+> Note that there's a bug in 0.38.0 you must use 0.37.2 to avoid out of memory errors (https://github.com/TimDettmers/bitsandbytes/issues/324)
 
 
 ## Usage
@@ -77,7 +85,7 @@ My system setup is:
 
 With this I can run inference locally with good performance, especially when using INT8 quantization techniques. For your reference these are the results I'm getting:
 
-* >=13 Billion models and larger GPTX-Neox family - these I can run in CPU only, very slow in my system but I can test it. EleutherAI/gpt-neox-20b avg response time is 150-300 secs.
+* 13 Billion models and larger GPTX-Neox family - these I can run in CPU only, very slow in my system but I can test it. EleutherAI/gpt-neox-20b avg response time is 150-300 secs.
 * 6 Billion models - GPT-J family, Pythia-6B, opt-7B, Vicuna-7B can all run with CPU_INT8 optimizations. Takes time to load model but then inference is <30 secs per prompt.
 * 3 Billion models - these can fit happily in CUDA 11Gb in FP16. Inference is <12 secs. This is the sweet spot for my system, good compromise between quality and performance. Highly usable in interactive mode for chatbots, etc.
 * <1 Billion models GPT-2-like and smaller models, inference is <2 secs.
@@ -198,21 +206,21 @@ elapsed time = 11.16s
 
 id|model|device|total_time|avg_chars_per_sec|avg_response_length|
 ---|---|---|---|---|---
-0|gpt2|cuda:0|29.69128942489624|96.72870581335611|24.75
-1|declare-lab/flan-alpaca-gpt4-xl|auto|364.2392213344574|7.846491625830934|24.05
-2|declare-lab/flan-alpaca-base|cuda:0|20.59031367301941|135.7920061054606|20.95
-3|lambdalabs/pythia-1.4b-deduped-synthetic-instruct|cuda:0|137.52797675132751|25.76203099683716|58.3
-4|lambdalabs/pythia-2.8b-deduped-synthetic-instruct|cuda:0|153.42191243171692|22.324060140524942|52.4
-5|lambdalabs/pythia-6.9b-deduped-synthetic-instruct|auto|431.7180199623108|7.189878245691437|36.35
-6|theblackcat102/pythia-3b-deduped-sft-r1|cuda:0|149.7028613090515|23.413046145886035|56.4
-7|EleutherAI/gpt-j-6B|auto|536.5886824131012|6.738867438907639|61.95
-8|togethercomputer/GPT-JT-6B-v1|auto|571.7648160457611|5.97098650387533|51.85
-9|vicgalle/gpt-j-6B-alpaca-gpt4|auto|509.6978452205658|6.751058558057956|53.2
-10|bigscience/bloom-7b1|auto|185.02681732177734|13.354820862008998|4.7
-11|bigscience/bloom-3b|cuda:0|42.68704867362976|55.45007381740663|4.947368421052632
-12|bigscience/bloomz-3b|cuda:0|2.066561222076416|1145.3810197898288|4.947368421052632
-13|ehartford/WizardLM-7B-Uncensored|auto|411.7532522678375|8.269515738481923|59.578947368421055
-14|LLMs/Vicuna-EvolInstruct-7B|auto|392.4088273048401|7.349477889699929|32.1578947368421
+0|gpt2|cuda:0|29.69|96.73|24.75
+1|declare-lab/flan-alpaca-gpt4-xl|auto|364.24|7.85|24.05
+2|declare-lab/flan-alpaca-base|cuda:0|20.59|135.79|20.95
+3|lambdalabs/pythia-1.4b-deduped-synthetic-instruct|cuda:0|137.53|25.76|58.30
+4|lambdalabs/pythia-2.8b-deduped-synthetic-instruct|cuda:0|153.42|22.32|52.40
+5|lambdalabs/pythia-6.9b-deduped-synthetic-instruct|auto|431.72|7.19|36.35
+6|theblackcat102/pythia-3b-deduped-sft-r1|cuda:0|149.70|23.41|56.40
+7|EleutherAI/gpt-j-6B|auto|536.59|6.74|61.95
+8|togethercomputer/GPT-JT-6B-v1|auto|571.76|5.97|51.85
+9|vicgalle/gpt-j-6B-alpaca-gpt4|auto|509.70|6.75|53.20
+10|bigscience/bloom-7b1|auto|185.03|13.35|4.70
+11|bigscience/bloom-3b|cuda:0|42.69|55.45|4.95
+12|bigscience/bloomz-3b|cuda:0|2.07|1145.38|4.95
+13|ehartford/WizardLM-7B-Uncensored|auto|411.75|8.27|59.58
+14|LLMs/Vicuna-EvolInstruct-7B|auto|392.41|7.35|32.16
 
 ## Language and Text-to-Speech Audio support
 
