@@ -234,7 +234,6 @@ LANG = "en" # [en, es]
 AUDIO_ENABLED = 0 
 ```
 
-
 ## Disclaimer
 
 Please don't use for unethical use. Note always licensing terms from the model your are using. Reference and give credits.
