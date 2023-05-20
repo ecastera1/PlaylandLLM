@@ -55,7 +55,33 @@ You can use it interactively through CLI and command line or configure your auto
 ## Command line
 
 ```
-python playlandllm.py
+usage: playlandllm.py [-h]
+                      [--model <model_name>]
+                      [--device {CUDA,CUDA_FP16,CPU_INT8,CPU,AUTO}]
+                      [--prompt [PROMPT]] [--testing]
+                      [--test_list_from_file TEST_LIST_FROM_FILE]
+                      [--test_models [TEST_MODELS]]
+
+options:
+  -h, --help            show this help message and exit
+  --model               model name
+                        model to use
+  --device {CUDA,CUDA_FP16,CPU_INT8,CPU,AUTO}
+                        device to use
+  --prompt [PROMPT]     initial prompt to generate text
+  --testing             testing mode
+  --test_list_from_file TEST_LIST_FROM_FILE
+                        text file containing prompts for testing
+  --test_models [TEST_MODELS]
+                        list of text models for testing
+
+```
+
+List of models are defined in text_models.py dict. You can add yours for easy
+These accept HuggingFace URLs "repo/model_name"
+
+```
+gpt2-spanish,gpt2-small-spanish,gpt2-flax-spanish,gpt2-deepesp-spanish,bertin-gpt-j-6b-half-sharded,gptj-bertin-alpaca,gptj-bertin-libros,gptj-bertin,gpt2,bloom-7b1,bloomz-3b,bloom-3b,bloom-sd-prompts,opt-30b,opt-6.7b,opt-1.3b,gptj,gptjt-together,gpt-j-6B-alpaca-gpt4,pythia-1.4b,pythia-2.8b,pythia-3b-sft,pythia-6.9b,flan-alpaca-220m-base,flan-alpaca-gpt4-xl,WizardLM-7B-Uncensored,Vicuna-EvolInstruct-7B,GPT-NeoXT-Chat-Base-20B,gpt-neox-20b,gpt2-small-spanish-telegram-trained,gpt2-small-spanish-telegram-trained-full-trained,gpt2-small-spanish-alpaca-es-trained,gpt2-small-spanish-marte_trilogia-trained,bloomz-3b-burbuja-trained,bertin-gpt-j-6B-wiki_fisica-trained,bertin-gpt-j-6B-marte_sentences-trained,bertin-gpt-j-6B-ringworld-trained,bertin-gpt-j-6B-telegram-trained,bertin-gpt-j-6B-burbuja-trained,Vicuna-EvolInstruct-7B-alpaca-es-trained,Vicuna-EvolInstruct-7B-alpaca-es-trained-full-trained,gpt2-trained,gptj-trained}
 ```
 
 
@@ -69,13 +95,12 @@ Possible values are
 
 `text_models.py` have all the templates for lots of HuggingFace models that I've been experimenting with.
 
-Device selection is controlled by this variable
+Device selection is controlled by this variable, change it to CPU if you don't have CUDA support.
 
 ```
 import text_models as tm
 USE_DEVICE = tm.DeviceClass.AUTO 
 ```
-
 
 
 ## System Setup and expected performance
@@ -95,7 +120,8 @@ With this I can run inference locally with good performance, especially when usi
 
 ## Model selection
 * A list of models is pre-configured in ```text_models.py```, basically a dictionary with model default parameters. Set MODEL to one of these keys to select model to use for inference.
-* You must edit ```text_models.py``` to add the models that you want to test.
+* Specify model with ```--model <model_name>``` command switch
+* You can edit ```text_models.py``` to add the models that you want to test by default
 
 ```
 MODEL="gptj-bertin-alpaca"
@@ -145,38 +171,9 @@ TEST_MODELS_LIST = TML_COMPLETE_ES
 
 ```
 python playlandllm.py
-
-usage: playlandllm.py [-h]
-                      [--model <model_name>]
-                      [--device {CUDA,CUDA_FP16,CPU_INT8,CPU,AUTO}]
-                      [--prompt [PROMPT]] [--testing]
-                      [--test_list_from_file TEST_LIST_FROM_FILE]
-                      [--test_models [TEST_MODELS]]
-
-options:
-  -h, --help            show this help message and exit
-  --model               model name
-                        model to use
-  --device {CUDA,CUDA_FP16,CPU_INT8,CPU,AUTO}
-                        device to use
-  --prompt [PROMPT]     initial prompt to generate text
-  --testing             testing mode
-  --test_list_from_file TEST_LIST_FROM_FILE
-                        text file containing prompts for testing
-  --test_models [TEST_MODELS]
-                        list of text models for testing
-
-```
-
-List of models are defined in text_models.py dict. You can add yours for easy
-These accept HuggingFace URLs "repo/model_name"
-
-```
-gpt2-spanish,gpt2-small-spanish,gpt2-flax-spanish,gpt2-deepesp-spanish,bertin-gpt-j-6b-half-sharded,gptj-bertin-alpaca,gptj-bertin-libros,gptj-bertin,gpt2,bloom-7b1,bloomz-3b,bloom-3b,bloom-sd-prompts,opt-30b,opt-6.7b,opt-1.3b,gptj,gptjt-together,gpt-j-6B-alpaca-gpt4,pythia-1.4b,pythia-2.8b,pythia-3b-sft,pythia-6.9b,flan-alpaca-220m-base,flan-alpaca-gpt4-xl,WizardLM-7B-Uncensored,Vicuna-EvolInstruct-7B,GPT-NeoXT-Chat-Base-20B,gpt-neox-20b,gpt2-small-spanish-telegram-trained,gpt2-small-spanish-telegram-trained-full-trained,gpt2-small-spanish-alpaca-es-trained,gpt2-small-spanish-marte_trilogia-trained,bloomz-3b-burbuja-trained,bertin-gpt-j-6B-wiki_fisica-trained,bertin-gpt-j-6B-marte_sentences-trained,bertin-gpt-j-6B-ringworld-trained,bertin-gpt-j-6B-telegram-trained,bertin-gpt-j-6B-burbuja-trained,Vicuna-EvolInstruct-7B-alpaca-es-trained,Vicuna-EvolInstruct-7B-alpaca-es-trained-full-trained,gpt2-trained,gptj-trained}
 ```
 
 5. While executing, it will create a folder structure, one folder per model and all prompt tests results as txt files with key info: prompt, output and runtime parameters for your later examination. Example output for a single prompt:
-
 
 ```
 --------------------
