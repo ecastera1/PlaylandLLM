@@ -2,6 +2,14 @@
 
 A python app with CLI interface to do local inference and testing of open source LLMs for text-generation. Test any transformer LLM community model such as GPT-J, Pythia, Bloom, LLaMA, Vicuna, Alpaca, or any other model supported by Huggingface's transformer text-generation interface. Run model locally in your computer without the need of 3rd party paid APIs or keys.
 
+![prompt1](assets/prompt1.webm)
+
+![prompt2](assets/prompt2.webm)
+
+![chat1](assets/chat1.webm)
+
+![list_of_prompts](assets/list_of_prompts.webm)
+
 # Summary
 
 PlaylandLLM is a set of python tools to simplify inference testing of text-generation LLM models locally in your computer without the need of 3rd party paid APIs
