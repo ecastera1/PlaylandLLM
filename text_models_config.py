@@ -66,23 +66,14 @@ MODEL_LIST_TRAINED = {
     "gpt2-small-spanish-telegram-trained-full-trained": ModelCard(TRAINED_FOLDER + "/models/datificate/gpt2-small-spanish-telegram-trained-full-trained", ModelClass.GPT2, preferred_device=DeviceClass.CPU),
     "gpt2-small-spanish-alpaca-es-trained": ModelCard(TRAINED_FOLDER + "/models/datificate/gpt2-small-spanish-alpaca-es-trained", ModelClass.GPT2, preferred_device=DeviceClass.CUDA),
 
-
     "gpt2-small-spanish-marte_trilogia-trained": ModelCard("datificate/gpt2-small-spanish-marte_trilogia-trained", ModelClass.PEFT, preferred_device=DeviceClass.CPU_INT8),
-
-    "bloomz-3b-burbuja-trained": ModelCard("bigscience/bloomz-3b-burbuja-trained", ModelClass.PEFT, preferred_device=DeviceClass.CPU_INT8),
-
+    
     "bertin-gpt-j-6B-wiki_fisica-trained": ModelCard("bertin-project/bertin-gpt-j-6B-wiki_fisica-trained", ModelClass.PEFT, preferred_device=DeviceClass.CPU_INT8),
     "bertin-gpt-j-6B-marte_sentences-trained": ModelCard("bertin-project/bertin-gpt-j-6B-marte_sentences-trained", ModelClass.PEFT, preferred_device=DeviceClass.CPU_INT8),
     "bertin-gpt-j-6B-ringworld-trained": ModelCard("bertin-project/bertin-gpt-j-6B-ringworld-trained", ModelClass.PEFT, preferred_device=DeviceClass.CPU_INT8),
-    "bertin-gpt-j-6B-telegram-trained": ModelCard("bertin-project/bertin-gpt-j-6B-telegram-trained", ModelClass.PEFT, preferred_device=DeviceClass.CPU_INT8),
-    "bertin-gpt-j-6B-burbuja-trained": ModelCard("bertin-project/bertin-gpt-j-6B-burbuja-trained", ModelClass.PEFT, preferred_device=DeviceClass.CPU_INT8),
-
+    
     "Vicuna-EvolInstruct-7B-alpaca-es-trained": ModelCard("LLMs/Vicuna-EvolInstruct-7B-alpaca-es-trained", ModelClass.PEFT, preferred_device=DeviceClass.CPU_INT8),
     "Vicuna-EvolInstruct-7B-alpaca-es-trained-full-trained": ModelCard(TRAINED_FOLDER + "/models/LLMs/Vicuna-EvolInstruct-7B-alpaca-es-trained-full-trained", ModelClass.ALPACA, preferred_device=DeviceClass.CPU_INT8),
-
-
-    "gpt2-trained": ModelCard("gpt2", ModelClass.PEFT, preferred_device=DeviceClass.CPU_INT8),
-    "gptj-trained": ModelCard("EleutherAI/gpt-j-6B", ModelClass.PEFT, preferred_device=DeviceClass.CPU_INT8)
 }
 
 MODELS_LIST_NOT_WORKING = {
@@ -101,4 +92,4 @@ MODELS_LIST_NOT_WORKING = {
 
 }
 
-MODELS_LIST = MODELS_LIST_ES | MODELS_LIST_EN | MODEL_LIST_TRAINED
+MODELS_LIST = MODELS_LIST_ES | MODELS_LIST_EN #| MODEL_LIST_TRAINED

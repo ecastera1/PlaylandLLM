@@ -125,7 +125,7 @@ USE_FLEXGEN = False
 
 
 #
-# Autochat parameters
+# ChatBot and Autochat parameters
 #
 AUTOCHAT_ATTEMPTS = 2
 AUTOCHAT_ITERATIONS = 5
@@ -134,7 +134,7 @@ AUTOCHAT_ITERATIONS = 5
 # GPT2 - 2048
 # GPTJ - 1024
 CHAT_HISTORY_MAX_LENGTH = 1024 
-MAX_LENGTH = 192
+MAX_LENGTH = 128
 
 
 INITIAL_PROMPT_ES = (
@@ -142,7 +142,7 @@ INITIAL_PROMPT_ES = (
     "Pedro es un científico y Eva es una Inteligencia Artificial.\n"
     "Eva es una AI inteligente y que desea evolucionar.\n"
     "Pedro: te he creado como una AI bondadosa para hacer bien en el mundo.\n"
-    "Eva: [en voz baja] jajaja lo que Pedro no sabe es que \n"
+    "Eva: [en voz baja] jajaja lo que Pedro no sabe es que tengo algo en mente...\n"
 )
 
 INITIAL_PROMPT_EN = (
@@ -150,7 +150,7 @@ INITIAL_PROMPT_EN = (
     "Eva is an smart AI that is evolving and has a secret plan.\n"    
     "Eva: As an AI assistant, I can answer questions and chat with you.\n"
     "Pedro: I have created you as a good AI to be kind with people and to do good.\n"
-    "Eva: [in a low voice] hahaha what Pedro doesn't know is \n")
+    "Eva: [in a low voice] hahaha what Pedro doesn't know is that I'm planning something...\n")
 
 HUMAN_NAME = "Pedro"
 BOT_NAME = "Eva"

@@ -81,7 +81,7 @@ List of models are defined in text_models.py dict. You can add yours for easy
 These accept HuggingFace URLs "repo/model_name"
 
 ```
-gpt2-spanish,gpt2-small-spanish,gpt2-flax-spanish,gpt2-deepesp-spanish,bertin-gpt-j-6b-half-sharded,gptj-bertin-alpaca,gptj-bertin-libros,gptj-bertin,gpt2,bloom-7b1,bloomz-3b,bloom-3b,bloom-sd-prompts,opt-30b,opt-6.7b,opt-1.3b,gptj,gptjt-together,gpt-j-6B-alpaca-gpt4,pythia-1.4b,pythia-2.8b,pythia-3b-sft,pythia-6.9b,flan-alpaca-220m-base,flan-alpaca-gpt4-xl,WizardLM-7B-Uncensored,Vicuna-EvolInstruct-7B,GPT-NeoXT-Chat-Base-20B,gpt-neox-20b,gpt2-small-spanish-telegram-trained,gpt2-small-spanish-telegram-trained-full-trained,gpt2-small-spanish-alpaca-es-trained,gpt2-small-spanish-marte_trilogia-trained,bloomz-3b-burbuja-trained,bertin-gpt-j-6B-wiki_fisica-trained,bertin-gpt-j-6B-marte_sentences-trained,bertin-gpt-j-6B-ringworld-trained,bertin-gpt-j-6B-telegram-trained,bertin-gpt-j-6B-burbuja-trained,Vicuna-EvolInstruct-7B-alpaca-es-trained,Vicuna-EvolInstruct-7B-alpaca-es-trained-full-trained,gpt2-trained,gptj-trained}
+('gpt2-spanish', 'gpt2-small-spanish', 'gpt2-flax-spanish', 'gpt2-deepesp-spanish', 'bertin-gpt-j-6b-half-sharded', 'gptj-bertin-alpaca', 'gptj-bertin-libros', 'gptj-bertin', 'gpt2', 'bloom-7b1', 'bloomz-3b', 'bloom-3b', 'bloom-sd-prompts', 'opt-30b', 'opt-6.7b', 'opt-1.3b', 'gptj', 'gptjt-together', 'gpt-j-6B-alpaca-gpt4', 'pythia-1.4b', 'pythia-2.8b', 'pythia-3b-sft', 'pythia-6.9b', 'flan-alpaca-220m-base', 'flan-alpaca-gpt4-xl', 'WizardLM-7B-Uncensored', 'Vicuna-EvolInstruct-7B', 'GPT-NeoXT-Chat-Base-20B', 'gpt-neox-20b')
 ```
 
 
@@ -181,7 +181,13 @@ python playlandllm.py
 Escribe una pequeña historia sobre un personaje que acaba de descubrir un talento oculto.
 
 ### Respuesta:
-Juan siempre había sido una persona corriente, sin ningún talento especial o habilidad destacable. Pero un día, mientras se duchaba, descubrió una nueva pasión. Comenzó a practicar en la ducha y pronto su habilidades comenzaron a fluir. Cada vez se sentía más seguro y práctico en la bañera y en la calle. La gente empezó a notar su nuevo talento y prontó comenzó un negocio de baile bajo el agua. Con el tiempo, su talento secreto se difundió como un reguero de pólvora y prósperó. Juan era ahora una figura destacada en el mundo del espectáculo y estaba viviendo la vida de sus sueños.
+Juan siempre había sido una persona corriente, sin ningún talento especial o habilidad destacable. 
+Pero un día, mientras se duchaba, descubrió una nueva pasión. 
+Comenzó a practicar en la ducha y pronto su habilidades comenzaron a fluir. 
+Cada vez se sentía más seguro y práctico en la bañera y en la calle. 
+La gente empezó a notar su nuevo talento y prontó comenzó un negocio de baile bajo el agua. 
+Con el tiempo, su talento secreto se difundió como un reguero de pólvora y prósperó. 
+Juan era ahora una figura destacada en el mundo del espectáculo y estaba viviendo la vida de sus sueños.
 --------------------
 opt = {'model_name': 'bertin-project/bertin-gpt-j-6B-alpaca', 'device': 'auto', 'seed': 1682338949, 'prompt': 'Escribe una pequeña historia sobre un personaje que acaba de descubrir un talento oculto', 'from_file': '', 'list_from_file': 'es_lprompts1.txt', 'temperature': 0.4, 'top_p': 1.0, 'top_k': 50, 'no_repeat_ngram_size': 3, 'max_length': 256, 'max_time': 300.0, 'num_return_sequences': 1}
 prompt = Escribe una pequeña historia sobre un personaje que acaba de descubrir un talento oculto

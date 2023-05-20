@@ -21,6 +21,7 @@ import text_models as tm
 import tests_results as tr
 import command_prompt
 import command_line
+import chat_bot
 
 from termcolor import colored
 
@@ -32,7 +33,6 @@ COLOR_DEBUG="magenta"
 COLOR_AI="light_yellow"
 COLOR_PROMPT="green"
 COLOR_HUMAN = "light_blue"
-
 
 
 my_stopping_criteria = None
@@ -130,6 +130,7 @@ def generate_list_of_prompts(modelwrapper, l_prompts, opt):
                                              # end_sequence="###" # stopping
                                              # sequence for generation
                                              stopping_criteria=my_stopping_criteria,
+                                             pad_token_id=modelwrapper.tokenizer.eos_token_id
                                              )
             outputs = [(x['generated_text']) for x in outputs]
 
@@ -198,20 +199,46 @@ def add_extra_tokens(buffer):
     return buffer + " " + token + " "
 
 
-def chat_bot(modelwrapper, opt, chat_type):
+def print_colored_chat_history(cb, chat_type):
+    for idx, x in enumerate(cb.get_history_list()):        
+        
+        if chat_type == 1:
+            if x.subject==chat_bot.ChatSubject.PROMPT:
+                c=COLOR_PROMPT
+            if x.subject==chat_bot.ChatSubject.HUMAN:
+                c=COLOR_HUMAN
+            if x.subject==chat_bot.ChatSubject.AI:
+                c=COLOR_AI        
+        else:
+            c= COLOR_AI if (idx % 2)==0 else COLOR_HUMAN
+            
+        print(colored(f"#{idx}: {x.text}",c))        
+
+def chat_bot_prompt(str_history):
+    global LANG
+    global HUMAN_NAME, BOT_NAME
+    
+    if LANG =="en":
+        s = f"### {str_history}\n### {BOT_NAME}: "        
+    if LANG =="es":
+        s = f"### {str_history}\n### {BOT_NAME}: "        
+    
+    return s
+    
+    
+def chat_bot_loop(modelwrapper, opt, chat_type):
     global CHAT_HISTORY_MAX_LENGTH, USE_FLEXGEN
     global my_stopping_criteria
     global AUDIO_MODEL, AUDIO_ENABLED, AUTOCHAT_ITERATIONS, AUTOCHAT_ATTEMPTS
     global HUMAN_NAME, BOT_NAME
 
-    history = []
-
-    history.append(opt['prompt'])
+    cb = chat_bot.ChatBot(opt['prompt'], HUMAN_NAME, BOT_NAME, CHAT_HISTORY_MAX_LENGTH)
+    
     tic = time.time()
     set_seed(opt['seed'])
 
-    print(colored("Enter . to reset chat. Empty input to exit chat mode", COLOR_PROMPT))
-    print(colored(f">> INITIAL_PROMPT {history[0]}", COLOR_PROMPT))
+    print(colored("Enter . to reset chat. Empty input to exit chat mode", COLOR_DEBUG))
+    print(colored(f">> INITIAL_PROMPT {opt['prompt']}", COLOR_PROMPT))
 
     if chat_type == 0:
         iterator = tqdm.tqdm(range(AUTOCHAT_ITERATIONS))
@@ -219,13 +246,9 @@ def chat_bot(modelwrapper, opt, chat_type):
         iterator = range(100)
 
     for step in iterator:
-
-        # max_length
-        #outputs = model.generate(user_input, max_new_tokens=HISTORY_MAX_LENGTH, pad_token_id=tokenizer.eos_token_id)
-
+        
         if chat_type == 1:
-            inp = input(colored(f">> {step} {HUMAN_NAME}: ",COLOR_HUMAN))
-            user_input = f"{HUMAN_NAME}: {inp.strip()}"
+            inp = input(colored(f">> {step} {HUMAN_NAME}: ",COLOR_HUMAN)).strip()            
             
             if not inp:
                 print("exit...")
@@ -233,25 +256,29 @@ def chat_bot(modelwrapper, opt, chat_type):
 
             if inp == '.':
                 print("Resetting")
-                history = [opt['prompt']]
-                print(colored(f">> INITIAL_PROMPT {history[0]}", COLOR_PROMPT))
+                cb = chat_bot.ChatBot(opt['prompt'], HUMAN_NAME, BOT_NAME, CHAT_HISTORY_MAX_LENGTH)                
+                print(colored(f">> INITIAL_PROMPT {opt['prompt']}", COLOR_PROMPT))
                 continue
+            
+            # user_input = f"{HUMAN_NAME}: {inp}"            
+            user_input = inp
+            cb.append_human(user_input)
+            
 
-            history.append(user_input)
-
-        # FIX: calc history based on sentences or tokens
-        str_history = "\n".join(history)
-        buffer = str_history[-CHAT_HISTORY_MAX_LENGTH::].strip()
-
+        # FIX: calc history based on sentences or tokens        
+        buffer = chat_bot_prompt(cb.get_history_str(full_history=False))
+                 
+        print(colored(f"### Memory buffer:\n{buffer}\n### End Memory Buffer", COLOR_DEBUG))
+        
         if len(buffer) == 0:
             break
-
-        #print(f"\n>> {step} Prompt: len {len(buffer)} CHAT_HISTORY_MAX_LENGTH {CHAT_HISTORY_MAX_LENGTH}\n### {buffer} \n###")
-
+        
         attempts = 0
         response = ""
         response_without_prompt = ""
-
+        
+        tic2 = time.time()
+        
         while attempts < AUTOCHAT_ATTEMPTS:
             if USE_FLEXGEN:
                 response_without_prompt = tm.flexgen_generate(
@@ -275,6 +302,7 @@ def chat_bot(modelwrapper, opt, chat_type):
                                                  # stopping sequence for
                                                  # generation
                                                  stopping_criteria=my_stopping_criteria,
+                                                 pad_token_id=modelwrapper.tokenizer.eos_token_id
                                                  )
                 outputs = [(x['generated_text']) for x in outputs]
                 response = outputs[0]
@@ -287,33 +315,37 @@ def chat_bot(modelwrapper, opt, chat_type):
             buffer = add_extra_tokens(buffer)
             print(colored(f"### empty response retrying {attempts} with new buffer {buffer}",COLOR_DEBUG))
 
+        toc2 = time.time()
+        elapsed2 = toc2 - tic2
+        
         if chat_type == 1:
             print(colored(f"#{step}: {user_input}", COLOR_HUMAN))
             
         print(colored(f"#{step}: {BOT_NAME}: {response_without_prompt}", COLOR_AI))
-        history.append(response_without_prompt)
-
-        save_bot_chat(history, opt, 0)
+        cb.append_ai(response_without_prompt)
+        
+        save_bot_chat(cb.get_history_str(full_history=True), opt, 0)
         opt['seed'] = opt['seed'] + 1
         set_seed(opt['seed'])
 
         if AUDIO_ENABLED == 1:
             tts.tts_play(AUDIO_MODEL, response_without_prompt)
 
+        # DEBUG dump history        
+        print_colored_chat_history(cb,chat_type)
+        print(colored(f">> {step} Elapsed time = {elapsed2:.2f}s Prompt length: {len(buffer)} CHAT_HISTORY_MAX_LENGTH {CHAT_HISTORY_MAX_LENGTH}\n", COLOR_DEBUG))             
+        
+
+
     toc = time.time()
     elapsed = toc - tic
-    print(colored("#### chat_bot DONE:\n", COLOR_DEBUG))
     
-    for idx, x in enumerate(history):        
-        if idx==0:
-            c=COLOR_PROMPT
-        else:
-            c= COLOR_AI if (idx % 2)==0 else COLOR_HUMAN
-            
-        print(colored(f"#{idx}: {x}",c))
-        
+    print(colored("#### chat_bot DONE:\n", COLOR_DEBUG))        
+    print_colored_chat_history(cb,chat_type)    
     print(colored(f'elapsed time = {elapsed:.2f}s\n', COLOR_DEBUG))
-    save_bot_chat(history, opt, elapsed)
+    
+    save_bot_chat(cb.get_history_str(full_history=True), opt, elapsed)
+    
     return
 
 
@@ -713,13 +745,20 @@ def main():
                 skip_gen = True
                 continue
 
+            if command[0] == 'chat_history_max_length':
+                global CHAT_HISTORY_MAX_LENGTH
+                CHAT_HISTORY_MAX_LENGTH = int(command[1])
+                print(f"### CHAT_HISTORY_MAX_LENGTH {CHAT_HISTORY_MAX_LENGTH}")
+                skip_gen = True
+                
             int_command = [
                 'seed',
                 'top_k',
                 'no_repeat_ngram_size',
                 'max_length',
                 'max_time',
-                'num_return_sequences']
+                'num_return_sequences',                
+                ]
             float_command = ['temperature', 'top_p']
             param_commands = int_command + float_command
 
@@ -738,7 +777,7 @@ def main():
 
                 if chat_loop_cnt > 0:
                     print(f"### chatbot cnt {chat_loop_cnt}")
-                    chat_bot(modelwrapper, opt, chat_type)
+                    chat_bot_loop(modelwrapper, opt, chat_type)
                 elif len(opt['from_file']) > 0:
                     print("### reading prompt from file " + from_file)
                     x = read_prompt_from_file(from_file, parse_as_list=False)
@@ -779,11 +818,13 @@ def main():
 def parse_command_line(opt):    
     global MODEL
     global USE_DEVICE
+    global INITIAL_PROMPT
+    global MAX_LENGTH
     
     global DO_TESTING
     global TEST_LIST_FROM_FILE
     global TEST_MODELS_LIST
-    global INITIAL_PROMPT
+
     
     if opt.device:       
         USE_DEVICE=opt.device        
@@ -791,6 +832,8 @@ def parse_command_line(opt):
         MODEL=opt.model
     if opt.prompt:
         INITIAL_PROMPT=opt.prompt
+    if opt.max_length:
+        MAX_LENGTH=opt.max_length
         
     if opt.testing:
         DO_TESTING=True
@@ -799,7 +842,7 @@ def parse_command_line(opt):
     if opt.test_models:
         TEST_MODELS_LIST=opt.test_models.split(",")
         
-    print(colored(f"### parse_command_line: {(USE_DEVICE,MODEL,INITIAL_PROMPT,DO_TESTING,TEST_LIST_FROM_FILE,TEST_MODELS_LIST)}",COLOR_DEBUG))
+    # print(colored(f"### parse_command_line: {(USE_DEVICE,MODEL,INITIAL_PROMPT,MAX_LENGTH,DO_TESTING,TEST_LIST_FROM_FILE,TEST_MODELS_LIST)}",COLOR_DEBUG))
     
 
 if __name__ == "__main__":

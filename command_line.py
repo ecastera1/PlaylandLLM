@@ -3,7 +3,7 @@
 """
 Created on Fri May 19 15:52:03 2023
 
-@author: quique
+@author: Enrique Casterá
 """
 import argparse
 
@@ -38,6 +38,11 @@ def read_command_line():
         #default="light is always",
         help="initial prompt to generate text"
     )  
+    parser.add_argument(
+        "--max_length",
+        type=int,         
+        help="max length of the generation",        
+    )    
     parser.add_argument(
         "--testing", 
         action='store_true',         

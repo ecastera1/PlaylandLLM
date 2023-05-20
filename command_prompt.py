@@ -57,6 +57,7 @@ INT_COMMAND = {
         'no_repeat_ngram_size': 'generation parameter',
         'max_length':   'max length %d of response in tokens, generation parameter',
         'max_time':     'max_time %d of response, generation parameter',
+        'chat_history_max_length':  'max length of chat history memory',
         'num_return_sequences': '%d generation parameter',
         'audio':    'audio 1 on, 0 off'
    }
