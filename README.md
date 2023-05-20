@@ -3,15 +3,14 @@
 A python app with CLI interface to do local inference and testing of open source LLMs for text-generation. Test any transformer LLM community model such as GPT-J, Pythia, Bloom, LLaMA, Vicuna, Alpaca, or any other model supported by Huggingface's transformer text-generation interface. Run model locally in your computer without the need of 3rd party paid APIs or keys.
 
 
+![list_of_prompts](https://github.com/ecastera1/PlaylandLLM/raw/main/assets/list_of_prompts.gif)
+
 ![chat1](https://github.com/ecastera1/PlaylandLLM/raw/main/assets/chat1.gif)
 
-https://github.com/ecastera1/PlaylandLLM/raw/main/assets/prompt1.gif
+![prompt1](https://github.com/ecastera1/PlaylandLLM/raw/main/assets/prompt1.gif)
 
-https://github.com/ecastera1/PlaylandLLM/main/assets/prompt1.webm
+![prompt2](https://github.com/ecastera1/PlaylandLLM/main/assets/prompt2.gif)
 
-https://github.com/ecastera1/PlaylandLLM/raw/main/assets/prompt2.webm
-
-https://github.com/ecastera1/PlaylandLLM/raw/main/assets/list_of_prompts.webm
 
 # Summary
 
