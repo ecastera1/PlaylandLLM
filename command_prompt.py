@@ -52,6 +52,7 @@ STR_COMMAND = {
 INT_COMMAND = {
         'loop':     'repeat %d inferences',
         'autochat': 'chat mode automatic AI with AI, repeat %d times',        
+        'storychat': 'chat mode automatic AI with AI alternating roles, repeat %d times',        
         'seed':     'set random seed to %d',
         'top_k':    'top_k %d generation parameter',
         'no_repeat_ngram_size': 'generation parameter',

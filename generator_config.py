@@ -127,13 +127,14 @@ USE_FLEXGEN = False
 #
 # ChatBot and Autochat parameters
 #
-AUTOCHAT_ATTEMPTS = 2
 AUTOCHAT_ITERATIONS = 5
+AUTOCHAT_ATTEMPTS = 2
 
 # CHAT_HISTORY_MAX_LENGTH depends on model max tokens 
 # GPT2 - 2048
 # GPTJ - 1024
 CHAT_HISTORY_MAX_LENGTH = 1024 
+
 MAX_LENGTH = 128
 
 

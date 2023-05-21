@@ -34,6 +34,9 @@ COLOR_AI="light_yellow"
 COLOR_PROMPT="green"
 COLOR_HUMAN = "light_blue"
 
+CHAT_MODE_AUTO=0
+CHAT_MODE_STORY=1
+CHAT_MODE_HUMAN=2
 
 my_stopping_criteria = None
 
@@ -139,7 +142,7 @@ def generate_list_of_prompts(modelwrapper, l_prompts, opt):
 
         print("### Generated text:\n")
         
-        sep = "-" * 20        
+        sep = "-" * 40        
         print(colored(sep,COLOR_AI))
         for text in outputs:            
             #print(colored(f"### output {index}", COLOR_AI))
@@ -202,17 +205,26 @@ def add_extra_tokens(buffer):
 def print_colored_chat_history(cb, chat_type):
     for idx, x in enumerate(cb.get_history_list()):        
         
-        if chat_type == 1:
-            if x.subject==chat_bot.ChatSubject.PROMPT:
-                c=COLOR_PROMPT
+        """if chat_type == CHAT_MODE_HUMAN or chat_type == CHAT_MODE_STORY:
             if x.subject==chat_bot.ChatSubject.HUMAN:
                 c=COLOR_HUMAN
             if x.subject==chat_bot.ChatSubject.AI:
                 c=COLOR_AI        
         else:
             c= COLOR_AI if (idx % 2)==0 else COLOR_HUMAN
-            
-        print(colored(f"#{idx}: {x.text}",c))        
+        """
+        
+        if x.subject==chat_bot.ChatSubject.PROMPT:
+                c=COLOR_PROMPT
+        if x.subject==chat_bot.ChatSubject.HUMAN:
+                c=COLOR_HUMAN
+        if x.subject==chat_bot.ChatSubject.AI:
+                c=COLOR_AI        
+                
+        txt = cb.get_item_str(x)
+        print(colored(f"#{idx}: {txt}",c))     
+        
+        #print(colored(f"#{idx}: {x.text}",c))        
 
 def chat_bot_prompt(str_history):
     global LANG
@@ -240,14 +252,14 @@ def chat_bot_loop(modelwrapper, opt, chat_type):
     print(colored("Enter . to reset chat. Empty input to exit chat mode", COLOR_DEBUG))
     print(colored(f">> INITIAL_PROMPT {opt['prompt']}", COLOR_PROMPT))
 
-    if chat_type == 0:
+    if chat_type == CHAT_MODE_AUTO or chat_type == CHAT_MODE_STORY:
         iterator = tqdm.tqdm(range(AUTOCHAT_ITERATIONS))
-    else:
+    if chat_type == CHAT_MODE_HUMAN:
         iterator = range(100)
 
     for step in iterator:
         
-        if chat_type == 1:
+        if chat_type == CHAT_MODE_HUMAN:
             inp = input(colored(f">> {step} {HUMAN_NAME}: ",COLOR_HUMAN)).strip()            
             
             if not inp:
@@ -318,22 +330,28 @@ def chat_bot_loop(modelwrapper, opt, chat_type):
         toc2 = time.time()
         elapsed2 = toc2 - tic2
         
-        if chat_type == 1:
-            print(colored(f"#{step}: {user_input}", COLOR_HUMAN))
-            
-        print(colored(f"#{step}: {BOT_NAME}: {response_without_prompt}", COLOR_AI))
-        cb.append_ai(response_without_prompt)
+        # append response to the history
         
-        save_bot_chat(cb.get_history_str(full_history=True), opt, 0)
+        if chat_type == CHAT_MODE_AUTO or chat_type == CHAT_MODE_HUMAN:
+            cb.append_ai(response_without_prompt)
+            
+        if chat_type == CHAT_MODE_STORY:            
+            if step % 2 == 0:
+                cb.append_ai(response_without_prompt)
+            else:
+                cb.append_human(response_without_prompt)
+        
+        save_bot_chat(cb, opt, 0)
         opt['seed'] = opt['seed'] + 1
         set_seed(opt['seed'])
-
+        
+        # Dump all conversation history        
+        print_colored_chat_history(cb,chat_type)
+        print(colored(f">> {step} Elapsed time = {elapsed2:.2f}s Prompt length: {len(buffer)} CHAT_HISTORY_MAX_LENGTH {CHAT_HISTORY_MAX_LENGTH}\n", COLOR_DEBUG))             
+        
         if AUDIO_ENABLED == 1:
             tts.tts_play(AUDIO_MODEL, response_without_prompt)
 
-        # DEBUG dump history        
-        print_colored_chat_history(cb,chat_type)
-        print(colored(f">> {step} Elapsed time = {elapsed2:.2f}s Prompt length: {len(buffer)} CHAT_HISTORY_MAX_LENGTH {CHAT_HISTORY_MAX_LENGTH}\n", COLOR_DEBUG))             
         
 
 
@@ -344,12 +362,12 @@ def chat_bot_loop(modelwrapper, opt, chat_type):
     print_colored_chat_history(cb,chat_type)    
     print(colored(f'elapsed time = {elapsed:.2f}s\n', COLOR_DEBUG))
     
-    save_bot_chat(cb.get_history_str(full_history=True), opt, elapsed)
+    save_bot_chat(cb, opt, elapsed)
     
     return
 
 
-def save_bot_chat(history, opt, elapsed=0):
+def save_bot_chat(cb, opt, elapsed=0):
     global OUTPATH
     if elapsed > 0:
         fname = "bot_" + generate_unique_filename(opt['prompt'], opt['seed'])
@@ -357,16 +375,17 @@ def save_bot_chat(history, opt, elapsed=0):
         fname = "bot_" + generate_unique_filename(opt['prompt'], 0)
 
     outfile = os.path.join(OUTPATH, fname)
-    sep = "-" * 20
+    sep = "-" * 40
     with open(outfile, "w", encoding="utf-8") as f:
-        index = 1
-        for text in history:
-            f.write(sep + "\n")
-            f.write(f"### output {index}\n")
-            f.write(text + "\n")
-            f.write(sep + "\n")
-            index += 1
-
+        
+        f.write(f"{sep}\n")
+        
+        for idx, x in enumerate(cb.get_history_list()):        
+                            
+            txt = cb.get_item_str(x)                           
+            f.write(f"#{idx}: {txt}\n")
+        
+        f.write(f"{sep}\n")
         f.write("opt = " + str(opt) + "\n")
         f.write("prompt = " + opt['prompt'] + "\n")
         if elapsed > 0:
@@ -642,7 +661,7 @@ def main():
 
     loop_cnt = 0
     chat_loop_cnt = 0
-    chat_type = 0
+    chat_type = CHAT_MODE_HUMAN
 
     opt['prompt'] = prompt
     sep = "-" * 40
@@ -715,16 +734,22 @@ def main():
                 skip_gen = False
 
             if command[0] == 'autochat':
-                print("### Auto ChatBot\n")
+                print("### Self Auto ChatBot\n")
                 chat_loop_cnt = int(command[1])
-                chat_type = 0
+                chat_type = CHAT_MODE_AUTO
+                skip_gen = False
+                
+            if command[0] == 'storychat':
+                print("### Story ChatBot\n")
+                chat_loop_cnt = int(command[1])
+                chat_type = CHAT_MODE_STORY
                 skip_gen = False
 
             if command[0] == 'chat':
-                print("### ChatBot\n")
+                print("### Human-AI ChatBot\n")
                 #chat_loop_cnt = int(command[1])
                 chat_loop_cnt = 1 # testing, only 1 chat
-                chat_type = 1
+                chat_type = CHAT_MODE_HUMAN
                 skip_gen = False
 
             if command[0] == 'audio':
