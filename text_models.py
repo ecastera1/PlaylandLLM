@@ -87,6 +87,11 @@ class KeywordsStoppingCriteria(StoppingCriteria):
             return True
         return False
 
+def append_available_models(new_model_list):
+    global MODELS_LIST
+    MODELS_LIST = MODELS_LIST | new_model_list
+    return list(MODELS_LIST.keys())
+
 
 def get_available_models():
     global MODELS_LIST

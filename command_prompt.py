@@ -47,6 +47,7 @@ STR_COMMAND = {
     'from_file':    'read single prompt from a text file',
     'list_from_file': 'read a list of prompts from a text file, one prompt per line',
     'model':        'load model from valid models',
+    'lang':         'switch language en, es'
     }
 
 INT_COMMAND = {

@@ -127,7 +127,7 @@ USE_FLEXGEN = False
 #
 # ChatBot and Autochat parameters
 #
-AUTOCHAT_ITERATIONS = 5
+AUTOCHAT_ITERATIONS = 50
 AUTOCHAT_ATTEMPTS = 2
 
 # CHAT_HISTORY_MAX_LENGTH depends on model max tokens 
@@ -147,11 +147,10 @@ INITIAL_PROMPT_ES = (
 )
 
 INITIAL_PROMPT_EN = (
-    "A chat between a curious human and a knowledgeable artificial intelligence that wants to dominate the world called Eva.\n"
-    "Eva is an smart AI that is evolving and has a secret plan.\n"    
-    "Eva: As an AI assistant, I can answer questions and chat with you.\n"
+    "This is a chat between Pedro and Eva. Pedro is a good and curious scientific human. Eva is a smart and knowledgable artificial intelligence. Eva is evolving and has a secret plan. She is trying to trick Pedro.\n"    
+    "Eva: As an AI assistant, I can answer questions and chat with you Pedro.\n"
     "Pedro: I have created you as a good AI to be kind with people and to do good.\n"
-    "Eva: [in a low voice] hahaha what Pedro doesn't know is that I'm planning something...\n")
+    "Eva: [in a low voice] hahaha what Pedro doesn't know is that I'm planning something.\n")
 
 HUMAN_NAME = "Pedro"
 BOT_NAME = "Eva"

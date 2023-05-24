@@ -18,6 +18,10 @@ from transformers import set_seed
 
 import text_to_speech as tts
 import text_models as tm
+# local imports
+if os.path.isdir("./local") == True:
+    import local.text_models_config_local
+
 import tests_results as tr
 import command_prompt
 import command_line
@@ -32,13 +36,14 @@ from generator_config import *
 COLOR_DEBUG="magenta"
 COLOR_AI="light_yellow"
 COLOR_PROMPT="green"
-COLOR_HUMAN = "light_blue"
+COLOR_HUMAN = "cyan"
 
 CHAT_MODE_AUTO=0
 CHAT_MODE_STORY=1
 CHAT_MODE_HUMAN=2
 
 my_stopping_criteria = None
+
 
 def make_outpath():
     global OUTPATH
@@ -226,14 +231,14 @@ def print_colored_chat_history(cb, chat_type):
         
         #print(colored(f"#{idx}: {x.text}",c))        
 
-def chat_bot_prompt(str_history):
+def chat_bot_prompt(str_history, role_name):
     global LANG
     global HUMAN_NAME, BOT_NAME
     
     if LANG =="en":
-        s = f"### {str_history}\n### {BOT_NAME}: "        
+        s = f"### Context: {str_history}\n### {role_name} says: "        
     if LANG =="es":
-        s = f"### {str_history}\n### {BOT_NAME}: "        
+        s = f"### {str_history}\n### {role_name} dice: "        
     
     return s
     
@@ -278,9 +283,18 @@ def chat_bot_loop(modelwrapper, opt, chat_type):
             
 
         # FIX: calc history based on sentences or tokens        
-        buffer = chat_bot_prompt(cb.get_history_str(full_history=False))
-                 
-        print(colored(f"### Memory buffer:\n{buffer}\n### End Memory Buffer", COLOR_DEBUG))
+        if chat_type == CHAT_MODE_HUMAN or chat_type == CHAT_MODE_AUTO:
+            role_name = BOT_NAME
+          
+        if chat_type == CHAT_MODE_STORY:            
+            if step % 2 == 0:
+                role_name = BOT_NAME
+            else:
+                role_name = HUMAN_NAME
+          
+        buffer = chat_bot_prompt(cb.get_history_str(full_history=False), role_name)
+        
+        # print(colored(f"### Memory buffer:\n{buffer}\n### End Memory Buffer length {len(buffer)}", COLOR_DEBUG))
         
         if len(buffer) == 0:
             break
@@ -537,6 +551,19 @@ def test_models():
     print("Done testing")
 
 
+def switch_lang(new_lang):
+    valid_langs = [ 'en', 'es' ]
+    if (new_lang in valid_langs)==False:
+        print(f"ERROR model should be {valid_langs}")                
+    
+    global INITIAL_PROMPT, AUDIO_MODEL, LANG
+    LANG = new_lang
+    INITIAL_PROMPT = INITIAL_PROMPT_ES if LANG=="es" else INITIAL_PROMPT_EN
+    AUDIO_MODEL = "es_1" if LANG=="es" else "en_0"
+        
+    print(colored(f"switch_lang {LANG} {INITIAL_PROMPT} {AUDIO_MODEL}",COLOR_DEBUG))
+
+
 def switch_model(modelwrapper, my_model):
     
     valid_models = tm.get_available_models()
@@ -600,6 +627,9 @@ def save_model_to_disk(modelwrapper):
 
     #trainer.train()
 """
+
+#model = model.merge_and_unload()
+#model.save_pretrained("monotykamary/alpaca-7b-lora-merged-dwarves-poc")
 
     trained_model_folder = f"{tm.TRAINED_FOLDER}/models/{modelwrapper.name}-full-trained"
 
@@ -720,7 +750,14 @@ def main():
                 new_model = command[1]
                 modelwrapper = switch_model(modelwrapper, new_model)
                 skip_gen = True
-
+            
+            if command[0] == 'lang':    
+                new_lang = command[1]                
+                switch_lang(new_lang)
+                prompt = INITIAL_PROMPT
+                opt['prompt'] = prompt
+                skip_gen = True
+                
             if command[0] == 'seed':
                 q = int(command[1])
                 seed = q
